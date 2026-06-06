@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>District Care</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+    background: #f5f5f0;
+    color: #1a1a1a;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .wrap { max-width: 480px; width: 100%; }
+  .title { font-size: 22px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 4px; }
+  .sub { font-size: 13px; color: #888; margin-bottom: 40px; }
+  .section-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #bbb;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .links { display: flex; flex-direction: column; gap: 8px; margin-bottom: 32px; }
+  a.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #e8e8e4;
+    border-radius: 8px;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #1a1a1a;
+    transition: border-color 0.12s;
+  }
+  a.card:hover { border-color: #aaa; }
+  a.card .name { font-size: 14px; font-weight: 500; }
+  a.card .desc { font-size: 12px; color: #999; margin-top: 2px; }
+  a.card .arrow { color: #ccc; font-size: 16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="title">District Care</div>
+  <div class="sub">Мобільна платформа для фіксації екологічних порушень · Шевченківський район, Львів</div>
+
+  <div class="section-label">Research</div>
+  <div class="links">
+    <a class="card" href="/research/index.html">
+      <div>
+        <div class="name">Competitive Analysis</div>
+        <div class="desc">ЕкоЗагроза, SaveEcoBot, FixMyStreet, iNaturalist та інші</div>
+      </div>
+      <span class="arrow">→</span>
+    </a>
+    <a class="card" href="/learnings/01-research-methodology.html">
+      <div>
+        <div class="name">Research Methodology</div>
+        <div class="desc">Як проводився рісерч, інструменти, підхід</div>
+      </div>
+      <span class="arrow">→</span>
+    </a>
+  </div>
+</div>
+</body>
+</html>
