@@ -334,9 +334,10 @@
   <a href="#aspirational">Міжнародні еталони</a>
   <a href="#matrix">Зведена матриця</a>
 
-  <span class="section-label">Висновки</span>
-  <a href="#patterns">3 спільні патерни</a>
-  <a href="#diffs">3 ключові відмінності</a>
+  <span class="section-label">Аналіз</span>
+  <a href="#stats">Статистика</a>
+  <a href="#hypotheses">Гіпотези</a>
+  <a href="#insights">Інсайти</a>
 
   <span class="section-label">Детальні флоу</span>
   <a href="#flow-bot">SaveEcoBot (8 кроків)</a>
@@ -505,42 +506,150 @@
     </div>
   </section>
 
+
   <hr>
 
-  <!-- PATTERNS -->
-  <section id="patterns">
-    <h2>3 спільні патерни</h2>
+  <!-- STATS -->
+  <section id="stats">
+    <h2>Статистика</h2>
+
+    <h3>Конкуренти</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Продукт</th><th>Показник</th><th>Значення</th><th>Дата</th></tr></thead>
+        <tbody>
+          <tr><td>FixMyStreet</td><td>Звітів за весь час</td><td>7,612,063</td><td>2026-06-06</td></tr>
+          <tr><td>FixMyStreet</td><td>Виправлено за весь час</td><td>2,953,167 (39%)</td><td>2026-06-06</td></tr>
+          <tr><td>FixMyStreet</td><td>Нових звітів за тиждень</td><td>27,719</td><td>2026-06-06</td></tr>
+          <tr><td>FixMyStreet</td><td>Виправлено за тиждень</td><td>20,199 (73%)</td><td>2026-06-06</td></tr>
+          <tr><td>iNaturalist</td><td>Верифікованих спостережень</td><td>250+ млн</td><td>2025</td></tr>
+          <tr><td>iNaturalist</td><td>Активних спостерігачів</td><td>~4 млн</td><td>2025</td></tr>
+          <tr><td>iNaturalist</td><td>Нових спостережень / місяць</td><td>5+ млн</td><td>2025</td></tr>
+          <tr><td>iNaturalist</td><td>Research grade</td><td>157 млн з 252 млн (63%)</td><td>2025</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Контекст: Україна та Львів</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Показник</th><th>Значення</th><th>Примітка</th></tr></thead>
+        <tbody>
+          <tr><td>Перевірок (Столичний округ, 2024)</td><td>2,582</td><td>Київський регіон, не Львів</td></tr>
+          <tr><td>Протоколів (Столичний округ, 2024)</td><td>468</td><td></td></tr>
+          <tr><td>Збитки довкіллю (Столичний округ, 2024)</td><td>338.8 млн грн</td><td></td></tr>
+          <tr><td>Екорейтинг Львівської обл.</td><td>21 / 24</td><td>Одне з останніх місць (2022)</td></tr>
+          <tr><td>Викиди (Львівська обл., 2021)</td><td>75,082 тис. тонн</td><td>−1.2% YoY</td></tr>
+          <tr><td>Топ-забруднювачів у Шевченківському р-ні</td><td>1 підприємство</td><td>З регіональної доповіді 2021</td></tr>
+        </tbody>
+      </table>
+    </div>
     <div class="callouts">
-      <div class="callout good">
-        <strong>1. Карта — єдина точка входу</strong>
-        <p>Всі продукти з картою (FixMyStreet, SeeClickFix, iNaturalist) використовують її як перший екран. Спочатку «де», потім «що». Підтверджує гіпотезу карти як серця District Care.</p>
+      <div class="callout note">
+        <strong>⚠️ Статистика Держекоінспекції — по Столичному округу (Київ)</strong>
+        <p>Дані по Шевченківському р-ні Львова потребують окремого запиту до Управління екології ЛМР. Цифра «59k виправлень/місяць» для FixMyStreet вилучена — тижневі дані дають ~80k/міс, джерело не підтверджено.</p>
       </div>
-      <div class="callout good">
-        <strong>2. Фото — підсилювач, не блокер</strong>
-        <p>Ніхто не блокує submission без фото, але всі заохочують. FixMyStreet окремий CTA з фото, iNaturalist будує весь продукт навколо нього. «Заохочуй, не примушуй» підтверджено практикою.</p>
-      </div>
-      <div class="callout good">
-        <strong>3. Публічність = соціальний тиск = результат</strong>
-        <p>FixMyStreet публікує без модерації — це запобігає дублікатам і створює тиск на ради. 59k виправлених проблем за місяць. Публічна карта мотивує одночасно і того хто фіксує, і владу.</p>
-      </div>
+    </div>
+
+    <h3>Civic tech: бенчмарки</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Показник</th><th>Значення</th></tr></thead>
+        <tbody>
+          <tr><td>Утримання користувачів Day 1</td><td>~30%</td></tr>
+          <tr><td>Утримання Day 7</td><td>~15%</td></tr>
+          <tr><td>Утримання Day 30</td><td>7–10%</td></tr>
+          <tr><td>Головний драйвер залученості в citizen science</td><td>Довіра до ініціатора (не фінансова мотивація)</td></tr>
+        </tbody>
+      </table>
     </div>
   </section>
 
-  <!-- DIFFS -->
-  <section id="diffs">
-    <h2>3 ключові відмінності</h2>
+  <hr>
+
+  <!-- HYPOTHESES -->
+  <section id="hypotheses">
+    <h2>Гіпотези</h2>
+
+    <h3>Дизайн-гіпотези — перевіряються через тестування прототипів</h3>
+    <div class="q-block">
+      <div class="q-num">H1 — Дизайн</div>
+      <div class="q-title">Фото-first entry підвищить якість звітів</div>
+      <div class="q-body">Якщо фото є першим кроком (а не необов'язковим полем в кінці), completeness rate і якість доказової бази зростуть. Референс: iNaturalist — 3 кроки, photo-first vs SaveEcoBot — 8 кроків, текст-first.</div>
+    </div>
+    <div class="q-block">
+      <div class="q-num">H2 — Дизайн</div>
+      <div class="q-title">Автогеолокація знизить drop-off на кроці «де»</div>
+      <div class="q-body">Ручне введення адреси — найбільший бар'єр у мобільному флоу. Автоматична геолокація з можливістю ручного коригування на карті скоротить кидання форми саме на цьому кроці.</div>
+    </div>
+    <div class="q-block">
+      <div class="q-num">H3 — Дизайн</div>
+      <div class="q-title">Фреймінг «Сигнал прийнято» підвищить повторне використання</div>
+      <div class="q-body">Користувач, якому після відправки показали «ти зробив внесок» замість «скарга зареєстрована», матиме вищу мотивацію повернутись. Без A/B тесту — гіпотеза.</div>
+    </div>
+    <div class="q-block">
+      <div class="q-num">H4 — Дизайн</div>
+      <div class="q-title">Категорії з візуальним прикладом знизять помилкову класифікацію</div>
+      <div class="q-body">SaveEcoBot показує фото і опис перед вибором категорії — користувач обирає усвідомленіше. Іконка або приклад до кожної категорії знизить відсоток «Інше» і помилкових тегів.</div>
+    </div>
+
+    <h3>Продуктові гіпотези — перевіряються через аналітику після запуску</h3>
+    <div class="q-block">
+      <div class="q-num">H5 — Продукт</div>
+      <div class="q-title">Без визначеного одержувача retention буде нижчим за benchmark</div>
+      <div class="q-body">Якщо після звіту нічого не відбувається — не публікується, не передається органу, немає статусу — retention після 30 днів буде нижчим за галузевий benchmark у 7–10%. Порівняй з SaveEcoBot: нульовий feedback → нульовий retention.</div>
+    </div>
+    <div class="q-block">
+      <div class="q-num">H6 — Продукт</div>
+      <div class="q-title">Вимога реального імені відсіє частину користувачів, але підвищить якість звітів</div>
+      <div class="q-body">Реєстрація з ім'ям і прізвищем підвищить психологічну відповідальність — менше спаму, детальніші описи. Але знизить конверсію реєстрації: оцінно 20–40% відмов на цьому кроці.</div>
+    </div>
+    <div class="q-block">
+      <div class="q-num">H7 — Продукт</div>
+      <div class="q-title">Публічна карта без модерації потребує flagging з дня 1</div>
+      <div class="q-body">Якщо звіти публікуються одразу (як FixMyStreet), кількість нових звітів буде вищою ніж при черзі модерації. Але без механізму flagging перші спам-звіти підірвуть довіру до карти.</div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- INSIGHTS -->
+  <section id="insights">
+    <h2>Інсайти</h2>
+
+    <h3>Що підтверджено конкурентним аналізом</h3>
+    <div class="callouts">
+      <div class="callout good">
+        <strong>Карта — єдина точка входу</strong>
+        <p>FixMyStreet, SeeClickFix, iNaturalist: перший екран — карта, не список і не форма. Спочатку «де», потім «що». Для District Care це не гіпотеза — це перевірений патерн.</p>
+      </div>
+      <div class="callout good">
+        <strong>Фото заохочують, але не примушують</strong>
+        <p>Жоден із досліджених продуктів не блокує submission без фото. FixMyStreet виносить фото в окремий CTA, iNaturalist будує навколо нього весь флоу — але обидва дають ескейп-хетч. «Заохочуй, не примушуй» підтверджено практикою.</p>
+      </div>
+      <div class="callout good">
+        <strong>Публічність працює краще ніж модерація</strong>
+        <p>FixMyStreet: 73% тижнева вирішуваність при публічній карті без модерації. Публічний звіт тисне на владу і запобігає дублікатам. Ручна модерація не масштабується — жоден з конкурентів її не використовує.</p>
+      </div>
+      <div class="callout good">
+        <strong>«Needs ID» — кращий патерн ніж «на розгляді»</strong>
+        <p>iNaturalist переформатував очікування верифікації у запрошення до спільноти. Для District Care еквівалент — «Сигнал на карті, перевіряємо» замість «Скарга зареєстрована».</p>
+      </div>
+    </div>
+
+    <h3>Ризики для District Care</h3>
     <div class="callouts">
       <div class="callout risk">
-        <strong>1. Хто одержувач звіту — визначає всю архітектуру</strong>
-        <p>FixMyStreet → рада через API. SeeClickFix → CRM міста. SaveEcoBot → нікуди структуровано. У District Care одержувач не визначений — це архітектурний ризик до початку вайрфреймінгу.</p>
+        <strong>Одержувач звіту — невизначений архітектурний ризик</strong>
+        <p>FixMyStreet → рада через API. SeeClickFix → CRM міста. SaveEcoBot → нікуди. Якщо немає домовленості з органом Шевченківського району — звіти накопичуються без результату і retention падає до нуля. Потрібно вирішити до вайрфреймінгу.</p>
+      </div>
+      <div class="callout risk">
+        <strong>Ручна модерація — операційна пастка</strong>
+        <p>Ніхто з конкурентів не перевіряє вручну: немає масштабування. Альтернативи: публікація + flagging (FixMyStreet), верифікація спільнотою (iNaturalist), передача в workflow міста (SeeClickFix).</p>
       </div>
       <div class="callout warn">
-        <strong>2. Модерація вручну не масштабується</strong>
-        <p>iNaturalist — спільнота. FixMyStreet — без модерації + flagging. SeeClickFix — workflow міста. Ніхто не перевіряє вручну. Ми плануємо саме так — операційний ризик.</p>
-      </div>
-      <div class="callout warn">
-        <strong>3. Consumer vs B2G — неминучий вибір</strong>
-        <p>Litterati і SeeClickFix виросли в B2G і закрили consumer. District Care потребує чіткої відповіді: хто платить і хто primary user.</p>
+        <strong>Consumer vs B2G — вибір, який не можна відкласти</strong>
+        <p>Litterati почав як consumer, закрив його і пішов у B2G. Обидва успішні, але в різних нішах. District Care не може сидіти між двома стільцями — хто платить і хто primary user визначить всю продуктову стратегію.</p>
       </div>
     </div>
   </section>
