@@ -1,932 +1,670 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Competitive Analysis — District Care</title>
-<style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  html { scroll-behavior: smooth; }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>District Care — Research</title>
+  <style>
+    :root {
+      --green: #1a7a4a; --green-mid: #2d9e60; --green-light: #e8f5ee;
+      --red: #c62828; --red-light: #fdecea;
+      --orange: #e65100; --orange-light: #fff3e0;
+      --blue: #1565c0; --blue-light: #e3f2fd;
+      --gray-50: #f8f9fa; --gray-100: #f1f3f4; --gray-200: #e8eaed;
+      --gray-400: #9aa0a6; --gray-600: #5f6368; --gray-900: #202124;
+      --s1: #c62828; --s2: #e65100; --s3: #f9a825; --s4: #558b2f; --s5: #1b5e20;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: var(--gray-900); background: var(--gray-50); line-height: 1.6; font-size: 14px; }
 
-  body {
-    background: #f5f5f0;
-    color: #1a1a1a;
-    font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', sans-serif;
-    font-size: 16px;
-    line-height: 1.7;
-    display: flex;
-  }
+    nav { position: sticky; top: 0; background: white; border-bottom: 1px solid var(--gray-200); z-index: 100; display: flex; align-items: center; overflow-x: auto; padding: 0 20px; scrollbar-width: none; }
+    nav::-webkit-scrollbar { display: none; }
+    nav a { display: inline-block; padding: 13px 11px; font-size: 12.5px; color: var(--gray-600); text-decoration: none; border-bottom: 2px solid transparent; white-space: nowrap; }
+    nav a:hover { color: var(--green); border-bottom-color: var(--green); }
 
-  /* NAV */
-  nav {
-    width: 220px;
-    min-width: 220px;
-    height: 100vh;
-    position: sticky;
-    top: 0;
-    overflow-y: auto;
-    background: #fff;
-    border-right: 1px solid #e8e8e4;
-    padding: 28px 0 28px;
-    display: flex;
-    flex-direction: column;
-  }
-  nav .logo {
-    padding: 0 20px 20px;
-    border-bottom: 1px solid #e8e8e4;
-    margin-bottom: 16px;
-  }
-  nav .logo h1 { font-size: 13px; font-weight: 700; color: #1a1a1a; letter-spacing: -0.01em; }
-  nav .logo p { font-size: 11px; color: #999; margin-top: 2px; }
-  nav .section-label {
-    padding: 12px 20px 4px;
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: #bbb;
-    font-weight: 600;
-  }
-  nav a {
-    display: block;
-    padding: 5px 20px;
-    color: #777;
-    text-decoration: none;
-    font-size: 13px;
-    border-left: 2px solid transparent;
-    transition: all 0.12s;
-    line-height: 1.4;
-  }
-  nav a:hover { color: #1a1a1a; }
-  nav a.active { color: #1a1a1a; border-left-color: #1a1a1a; font-weight: 500; }
+    .hero { background: white; border-bottom: 1px solid var(--gray-200); padding: 40px 24px 28px; }
+    .hero .container { max-width: 1160px; margin: 0 auto; }
+    .hero h1 { font-size: 26px; font-weight: 700; margin-bottom: 4px; }
+    .hero .sub { font-size: 13px; color: var(--gray-400); margin-bottom: 20px; }
+    .status-row { display: flex; flex-wrap: wrap; gap: 8px; }
+    .badge { display: inline-flex; align-items: center; gap: 5px; padding: 4px 10px; border-radius: 100px; font-size: 12px; font-weight: 500; }
+    .done { background: var(--green-light); color: var(--green); }
+    .todo { background: var(--gray-100); color: var(--gray-400); }
 
-  /* MAIN */
-  main {
-    flex: 1;
-    padding: 56px 64px 120px;
-    min-width: 0;
-  }
+    .container { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+    section { padding: 44px 0; }
+    section + section { border-top: 1px solid var(--gray-200); }
+    h2 { font-size: 20px; font-weight: 700; margin-bottom: 4px; }
+    .meta { font-size: 12px; color: var(--gray-400); margin-bottom: 20px; }
+    h3 { font-size: 15px; font-weight: 600; margin: 28px 0 10px; }
+    h4 { font-size: 13px; font-weight: 600; margin: 18px 0 8px; color: var(--gray-600); }
 
-  /* PAGE HEADER */
-  .page-header {
-    margin-bottom: 52px;
-    padding-bottom: 28px;
-    border-bottom: 1px solid #e8e8e4;
-  }
-  .page-header .label {
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: #999;
-    margin-bottom: 8px;
-    font-weight: 600;
-  }
-  .page-header h1 {
-    font-size: 28px;
-    font-weight: 700;
-    letter-spacing: -0.03em;
-    line-height: 1.2;
-    margin-bottom: 12px;
-  }
-  .page-header .meta {
-    font-size: 13px;
-    color: #888;
-  }
+    .tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 10px; }
+    .hard { background: var(--red-light); color: var(--red); }
+    .soft { background: var(--orange-light); color: var(--orange); }
+    .asp { background: var(--blue-light); color: var(--blue); }
+    .mot { background: var(--green-light); color: var(--green); }
 
-  /* SECTIONS */
-  section { margin-bottom: 60px; }
+    .tw { overflow-x: auto; border-radius: 8px; border: 1px solid var(--gray-200); margin: 12px 0; }
+    .tw::-webkit-scrollbar { height: 4px; }
+    .tw::-webkit-scrollbar-thumb { background: var(--gray-200); border-radius: 2px; }
+    table { width: 100%; border-collapse: collapse; background: white; }
+    thead th { background: var(--gray-50); padding: 9px 12px; text-align: left; font-size: 11.5px; font-weight: 600; color: var(--gray-600); border-bottom: 1px solid var(--gray-200); white-space: nowrap; }
+    tbody td { padding: 9px 12px; border-bottom: 1px solid var(--gray-100); vertical-align: top; font-size: 13px; color: var(--gray-600); }
+    tbody tr:last-child td { border-bottom: none; }
+    tbody tr:hover td { background: var(--gray-50); }
+    tbody td:first-child { font-weight: 600; color: var(--gray-900); white-space: nowrap; }
+    td.c { text-align: center; }
 
-  h2 {
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    letter-spacing: -0.02em;
-  }
-  h3 {
-    font-size: 14px;
-    font-weight: 600;
-    margin: 28px 0 12px;
-    color: #444;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
+    .sc { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border-radius: 6px; font-weight: 700; font-size: 13px; color: white; }
+    .sc1 { background: var(--s1); } .sc2 { background: var(--s2); } .sc3 { background: var(--s3); color: #333; } .sc4 { background: var(--s4); } .sc5 { background: var(--s5); }
+    .total { font-weight: 700; font-size: 15px; }
 
-  /* STATUS */
-  .status-row {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-bottom: 8px;
-  }
-  .status-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 14px;
-    color: #555;
-  }
-  .status-dot {
-    width: 7px; height: 7px;
-    border-radius: 50%;
-    flex-shrink: 0;
-  }
-  .status-dot.done { background: #22c55e; }
-  .status-dot.todo { background: #d1d5db; }
+    .ilist { list-style: none; margin: 10px 0; display: flex; flex-direction: column; gap: 8px; }
+    .ilist li { padding: 13px 15px; background: white; border: 1px solid var(--gray-200); border-radius: 8px; font-size: 13px; color: var(--gray-600); }
+    .ilist li strong { display: block; margin-bottom: 3px; color: var(--gray-900); font-size: 13.5px; }
+    .ilist.pat li { border-left: 3px solid var(--green); }
+    .ilist.diff li { border-left: 3px solid var(--orange); }
+    .ilist.pm li { border-left: 3px solid var(--blue); }
+    .ilist.risk li { border-left: 3px solid var(--red); }
+    .ilist.top3 li { border-left: 3px solid var(--green); }
+    .ilist.anti li { border-left: 3px solid var(--red); }
 
-  /* TIER LABEL */
-  .tier-label {
-    font-size: 11px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: #999;
-    margin-bottom: 14px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .tier-label::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: #e8e8e4;
-  }
+    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; margin: 12px 0; }
+    .card { background: white; border: 1px solid var(--gray-200); border-radius: 10px; padding: 16px; }
+    .card h4 { margin-top: 0; font-size: 13px; }
+    .card p { font-size: 13px; color: var(--gray-600); margin: 0; }
 
-  /* TABLES */
-  .table-wrap {
-    overflow-x: auto;
-    margin: 0 0 28px;
-    border: 1px solid #e8e8e4;
-    border-radius: 8px;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 13px;
-    background: #fff;
-  }
-  thead tr { background: #fafafa; }
-  th {
-    padding: 10px 14px;
-    text-align: left;
-    font-weight: 600;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: #999;
-    border-bottom: 1px solid #e8e8e4;
-    white-space: nowrap;
-  }
-  td {
-    padding: 10px 14px;
-    border-bottom: 1px solid #f0f0ec;
-    vertical-align: top;
-    color: #333;
-    line-height: 1.5;
-  }
-  tr:last-child td { border-bottom: none; }
-  td:first-child { font-weight: 500; color: #666; white-space: nowrap; }
-  .center { text-align: center; }
+    .flow { display: flex; flex-direction: column; margin: 12px 0; }
+    .fstep { display: flex; gap: 12px; padding: 10px 14px; background: white; border: 1px solid var(--gray-200); border-bottom: none; font-size: 13px; align-items: flex-start; }
+    .fstep:first-child { border-radius: 8px 8px 0 0; }
+    .fstep:last-child { border-bottom: 1px solid var(--gray-200); border-radius: 0 0 8px 8px; }
+    .fnum { flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: var(--green); color: white; font-size: 11px; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 1px; }
+    .fnum.warn { background: var(--red); }
+    .fstep strong { display: block; color: var(--gray-900); }
+    .fstep em { font-style: normal; color: var(--gray-400); font-size: 12px; }
 
-  /* CALLOUTS */
-  .callouts { display: flex; flex-direction: column; gap: 10px; margin: 16px 0 28px; }
-  .callout {
-    padding: 14px 16px;
-    border-radius: 6px;
-    font-size: 13px;
-    line-height: 1.6;
-    border: 1px solid transparent;
-  }
-  .callout strong { display: block; margin-bottom: 3px; font-size: 13px; color: #1a1a1a; }
-  .callout p { color: #666; margin: 0; }
-  .callout.note   { background: #f8f8f5; border-color: #e8e8e0; }
-  .callout.warn   { background: #fffbeb; border-color: #fde68a; }
-  .callout.risk   { background: #fff5f5; border-color: #fecaca; }
-  .callout.good   { background: #f0fdf4; border-color: #bbf7d0; }
+    .warn-box { background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: 11px 15px; font-size: 13px; margin: 10px 0; color: #5d4037; }
+    .info-box { background: var(--green-light); border: 1px solid #a5d6a7; border-radius: 8px; padding: 11px 15px; font-size: 13px; margin: 10px 0; color: #1b5e20; }
 
-  /* FLOW */
-  .flow { display: flex; flex-direction: column; gap: 0; margin: 12px 0 24px; }
-  .flow-item {
-    display: flex;
-    gap: 14px;
-    position: relative;
-  }
-  .flow-item:not(:last-child)::before {
-    content: '';
-    position: absolute;
-    left: 12px;
-    top: 26px;
-    bottom: -4px;
-    width: 1px;
-    background: #e8e8e4;
-  }
-  .flow-num {
-    width: 25px; height: 25px;
-    border-radius: 50%;
-    background: #fff;
-    border: 1px solid #e8e8e4;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 11px;
-    font-weight: 600;
-    flex-shrink: 0;
-    color: #555;
-    position: relative;
-    z-index: 1;
-  }
-  .flow-body {
-    flex: 1;
-    padding: 3px 0 16px;
-    font-size: 13px;
-    color: #333;
-  }
-  .flow-body .tag {
-    display: inline-block;
-    margin-left: 6px;
-    padding: 1px 7px;
-    background: #f0f0ec;
-    border-radius: 4px;
-    font-size: 10px;
-    color: #888;
-    vertical-align: middle;
-  }
+    .tax-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; margin: 12px 0; }
+    .tax-card { background: white; border: 1px solid var(--gray-200); border-radius: 8px; padding: 14px; }
+    .tax-card h5 { font-size: 12.5px; font-weight: 700; color: var(--green); margin-bottom: 8px; }
+    .tax-card ul { list-style: none; }
+    .tax-card ul li { font-size: 12px; color: var(--gray-600); padding: 3px 0; border-bottom: 1px solid var(--gray-100); }
+    .tax-card ul li:last-child { border-bottom: none; }
 
-  /* QUESTIONS */
-  .q-block {
-    border: 1px solid #e8e8e4;
-    border-radius: 8px;
-    background: #fff;
-    padding: 18px 20px;
-    margin-bottom: 12px;
-  }
-  .q-block .q-num { font-size: 11px; color: #999; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 5px; }
-  .q-block .q-title { font-size: 15px; font-weight: 600; margin-bottom: 8px; color: #1a1a1a; }
-  .q-block .q-body { font-size: 13px; color: #666; line-height: 1.65; }
+    .hypo { background: white; border: 1px solid var(--gray-200); border-radius: 8px; padding: 15px; margin-bottom: 9px; }
+    .hlabel { display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700; margin-bottom: 7px; font-family: monospace; }
+    .hlabel.d { background: var(--blue-light); color: var(--blue); }
+    .hlabel.p { background: var(--orange-light); color: var(--orange); }
+    .hypo p { font-size: 13px; color: var(--gray-600); margin: 0; }
 
-  /* OPEN QUESTIONS */
-  .open-list { list-style: none; }
-  .open-list li {
-    padding: 10px 0;
-    border-bottom: 1px solid #f0f0ec;
-    font-size: 14px;
-    color: #555;
-    display: flex;
-    gap: 10px;
-  }
-  .open-list li::before { content: "—"; color: #ccc; flex-shrink: 0; }
+    .stat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin: 12px 0; }
+    .stat-card { background: white; border: 1px solid var(--gray-200); border-radius: 8px; padding: 14px; text-align: center; }
+    .stat-val { font-size: 20px; font-weight: 700; color: var(--green); display: block; margin-bottom: 4px; }
+    .stat-lbl { font-size: 11px; color: var(--gray-400); }
 
-  /* GALLERY */
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 8px;
-    margin: 12px 0;
-  }
-  .gallery-item {
-    border: 1px solid #e8e8e4;
-    border-radius: 6px;
-    overflow: hidden;
-    cursor: pointer;
-    background: #fff;
-    transition: border-color 0.12s;
-  }
-  .gallery-item:hover { border-color: #aaa; }
-  .gallery-item img { width: 100%; height: 100px; object-fit: cover; object-position: top; display: block; background: #f5f5f0; }
-  .gallery-item .cap { padding: 5px 8px; font-size: 10px; color: #999; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .oq { background: white; border: 1px solid var(--gray-200); border-radius: 8px; overflow: hidden; margin-bottom: 16px; }
+    .oq-head { padding: 10px 15px; font-size: 12.5px; font-weight: 700; background: var(--gray-50); border-bottom: 1px solid var(--gray-200); color: var(--gray-900); }
+    .oq ul { list-style: none; }
+    .oq ul li { padding: 9px 15px; font-size: 13px; color: var(--gray-600); border-bottom: 1px solid var(--gray-100); }
+    .oq ul li:last-child { border-bottom: none; }
+    .done-q { text-decoration: line-through; opacity: .5; }
 
-  /* LIGHTBOX */
-  .lightbox {
-    display: none;
-    position: fixed; inset: 0;
-    background: rgba(0,0,0,0.85);
-    z-index: 100;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 12px;
-  }
-  .lightbox.open { display: flex; }
-  .lightbox img { max-width: 90vw; max-height: 85vh; object-fit: contain; border-radius: 4px; }
-  .lightbox .lb-cap { font-size: 12px; color: rgba(255,255,255,0.5); }
-  .lightbox .lb-close { position: absolute; top: 20px; right: 24px; background: none; border: none; color: rgba(255,255,255,0.6); font-size: 28px; cursor: pointer; line-height: 1; }
-  .lightbox .lb-close:hover { color: #fff; }
-
-  hr { border: none; border-top: 1px solid #e8e8e4; margin: 40px 0; }
-
-  @media (max-width: 720px) {
-    nav { display: none; }
-    main { padding: 28px 20px 80px; }
-  }
-</style>
+    .divider { height: 1px; background: var(--gray-200); margin: 24px 0; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    @media (max-width: 680px) { .two-col { grid-template-columns: 1fr; } }
+  </style>
 </head>
 <body>
 
-<nav id="sidebar">
-  <div class="logo">
-    <h1>District Care</h1>
-    <p>Research · Competitive Analysis</p>
-  </div>
-
-  <span class="section-label">Огляд</span>
-  <a href="#status">Статус</a>
-
-  <span class="section-label">Конкуренти</span>
-  <a href="#hard">Прямі (Україна)</a>
-  <a href="#soft">Той самий JTBD</a>
-  <a href="#aspirational">Міжнародні еталони</a>
-  <a href="#matrix">Зведена матриця</a>
-
-  <span class="section-label">Аналіз</span>
+<nav>
+  <a href="#competitive">Конкуренти</a>
+  <a href="#matrix">Матриця</a>
+  <a href="#motivation">Мотивація</a>
+  <a href="#flows">Флоу</a>
+  <a href="#taxonomy">Категорії</a>
   <a href="#stats">Статистика</a>
   <a href="#hypotheses">Гіпотези</a>
   <a href="#insights">Інсайти</a>
-
-  <span class="section-label">Детальні флоу</span>
-  <a href="#flow-bot">SaveEcoBot (8 кроків)</a>
-  <a href="#flow-inat">iNaturalist (3 кроки)</a>
-  <a href="#desktop">Desktop-знахідки</a>
-  <a href="#matrix2">Оновлена матриця</a>
-
-  <span class="section-label">Наступне</span>
-  <a href="#pm">Питання до PM</a>
-  <a href="#open">Відкриті питання</a>
-
-  <span class="section-label">Скріни</span>
-  <a href="#g-mobile">Mobile</a>
-  <a href="#g-desktop">Desktop</a>
-  <a href="#g-inat">Флоу iNaturalist</a>
-  <a href="#g-bot">Флоу SaveEcoBot</a>
+  <a href="#openq">Питання</a>
 </nav>
 
-<main>
-
-  <div class="page-header">
-    <div class="label">District Care · Research</div>
-    <h1>Competitive Analysis</h1>
-    <div class="meta">Desk research + mobile screenshots · 2026-06-06 · Nick Vedenin</div>
-  </div>
-
-  <!-- STATUS -->
-  <section id="status">
-    <h2>Статус рісерчу</h2>
+<!-- HERO -->
+<div class="hero">
+  <div class="container">
+    <h1>District Care — Research</h1>
+    <div class="sub">2026-06-06 — 2026-06-07 · WebFetch + Playwright + live testing · Географія: Вся Україна · Аудиторія MVP: Громадяни</div>
     <div class="status-row">
-      <div class="status-item"><span class="status-dot done"></span> Competitive analysis — завершено</div>
-      <div class="status-item"><span class="status-dot todo"></span> Типи порушень за законодавством</div>
-      <div class="status-item"><span class="status-dot todo"></span> Цикл звіту (верифікація → орган)</div>
-      <div class="status-item"><span class="status-dot todo"></span> Портрет громадянина-користувача (Фаза 2)</div>
+      <span class="badge done">✓ Competitive analysis</span>
+      <span class="badge done">✓ Категорії за законодавством</span>
+      <span class="badge done">✓ ЕкоЗагроза live flow (30 скрінів)</span>
+      <span class="badge done">✓ Аналіз мотивації</span>
+      <span class="badge todo">○ Інтерв'ю з інспекторами</span>
+      <span class="badge todo">○ Цикл звіту</span>
+      <span class="badge todo">○ Портрет громадянина</span>
     </div>
-  </section>
+  </div>
+</div>
 
-  <hr>
+<!-- COMPETITIVE -->
+<section id="competitive">
+  <div class="container">
+    <h2>Competitive Analysis</h2>
+    <div class="meta">HARD · SOFT · ASPIRATIONAL · App Store / Google Play</div>
 
-  <!-- HARD -->
-  <section id="hard">
-    <h2>Конкурентний аналіз</h2>
-    <div class="tier-label">HARD — той самий продукт, Україна</div>
-    <div class="callouts" style="margin-bottom:16px;">
-      <div class="callout note">
-        <strong>⚠️ Первісний список містив ecomap.org.ua — сайт який не існує</strong>
-        <p>Замінено на реальних конкурентів знайдених через Google Play Search.</p>
-      </div>
-    </div>
-
-    <div class="table-wrap">
+    <div class="tag hard">HARD — той самий продукт, Україна</div>
+    <div class="warn-box">⚠ Первісний список містив ecomap.org.ua — сайт не існує. Замінено реальними конкурентами з Google Play / iTunes API.</div>
+    <div class="tw">
       <table>
         <thead>
           <tr><th></th><th>ЕкоЗагроза</th><th>EcoMap (Borysenko)</th><th>SaveEcoBot</th><th>Kyiv Smart City</th><th>Дія</th></tr>
         </thead>
         <tbody>
           <tr><td>Розробник</td><td>Міндовкілля + Мінцифри</td><td>Студент (Univ. of Tartu)</td><td>SaveEco команда</td><td>Київська міська рада</td><td>Мінцифри</td></tr>
-          <tr><td>Аудиторія</td><td>Громадяни України</td><td>Громадяни</td><td>Еко-активісти, журналісти</td><td>Мешканці Києва</td><td>Всі громадяни</td></tr>
-          <tr><td>Основа продукту</td><td>Фіксація екологічних загроз</td><td>Карта порушень</td><td>Telegram-бот</td><td>Міський портал</td><td>Держпослуги</td></tr>
-          <tr><td>Механізм фіксації</td><td>Фото/відео → форма → геолокація</td><td>Карта + опис + фото</td><td>Текст у чат (8 кроків)</td><td>Не основна функція</td><td>Форми послуг</td></tr>
-          <tr><td>Кроків до відправки</td><td>~3–4</td><td>~4–5</td><td>8</td><td>—</td><td>Багато</td></tr>
-          <tr><td>Карта</td><td>Так</td><td>Так</td><td>Ні</td><td>Мінімально</td><td>Ні</td></tr>
-          <tr><td>Ідентичність</td><td>Реєстрація</td><td>Реєстрація</td><td>Анонімно (Telegram)</td><td>—</td><td>BankID</td></tr>
-          <tr><td>Після відправки</td><td>Передається до органів</td><td>Невідомо</td><td>Ніякого feedback</td><td>—</td><td>Статус послуги</td></tr>
-          <tr><td>Завантажень</td><td><strong>5,000+</strong></td><td>100+</td><td>—</td><td>—</td><td>Млн</td></tr>
-          <tr><td>Рейтинг</td><td>3.7★ (79 відгуків)</td><td>—</td><td>—</td><td>—</td><td>4.7★</td></tr>
-          <tr><td>Останнє оновлення</td><td>Лип. 2024 ✅</td><td>Лют. 2023 ⚠️</td><td>Активний ✅</td><td>Активний ✅</td><td>Активний ✅</td></tr>
+          <tr><td>Аудиторія</td><td>Громадяни з GOV ID</td><td>Громадяни</td><td>Еко-активісти, журналісти</td><td>Мешканці Києва</td><td>Всі громадяни</td></tr>
+          <tr><td>Основа</td><td>Фіксація загроз + моніторинг повітря</td><td>Карта порушень</td><td>Telegram-бот</td><td>Міський портал</td><td>Держпослуги</td></tr>
+          <tr><td>Кроків до submit</td><td><strong>7+</strong></td><td>~4–5</td><td><strong>8</strong></td><td>—</td><td>Багато</td></tr>
+          <tr><td>Карта</td><td>Є (станції, не звіти)</td><td>Є</td><td>Немає</td><td>Мінімально</td><td>Немає</td></tr>
+          <tr><td>Ідентичність</td><td>GOV ID</td><td>Реєстрація</td><td>Анонімно (Telegram)</td><td>—</td><td>BankID</td></tr>
+          <tr><td>Після submit</td><td>Номер без пояснення що далі</td><td>Невідомо</td><td>Нічого</td><td>—</td><td>Статус послуги</td></tr>
+          <tr><td>Завантажень</td><td><strong>5 000+</strong></td><td>100+</td><td>—</td><td>—</td><td>Млн</td></tr>
+          <tr><td>Рейтинг</td><td>3.7★ (79 відг.)</td><td>—</td><td>—</td><td>—</td><td>4.7★</td></tr>
+          <tr><td>Статус</td><td>Лип. 2024 ✅</td><td>Лют. 2023 ⚠</td><td>Активний ✅</td><td>Активний ✅</td><td>Активний ✅</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="cards">
+      <div class="card"><h4>ЕкоЗагроза — головний конкурент</h4><p>5k завантажень, 3.7★. GOV ID gate + профіль-гейт = 2 бар'єри до першого звіту. reCAPTCHA на формі. Карта показує станції моніторингу, а НЕ звіти. Дані не шифруються.</p></div>
+      <div class="card"><h4>EcoMap (Borysenko)</h4><p>Студентський проект з тією самою ідеєю. 100+ завантажень, покинутий лют. 2023. Чому не злетів — відкрите питання.</p></div>
+      <div class="card"><h4>SaveEcoBot → воєнні злочини</h4><p>Переорієнтувався на фіксацію екозлочинів окупантів. Telegram = нульовий бар'єр, але 8 кроків. Категорії — разом з Міндовкілля.</p></div>
+      <div class="card"><h4>Дія — еталон UX</h4><p>Внутрішній стандарт якості для UA-продукту: градієнт, великий шрифт, мінімум полів, BankID. Рівень polish = наш орієнтир.</p></div>
+    </div>
+
+    <div class="divider"></div>
+    <div class="tag soft">SOFT — той самий JTBD</div>
+    <p style="font-style:italic;color:var(--gray-400);margin-bottom:12px;font-size:13px">"Я бачу проблему — хочу швидко зафіксувати і передати далі"</p>
+    <div class="tw">
+      <table>
+        <thead><tr><th></th><th>Telegram-боти міст</th><th>Google Maps</th></tr></thead>
+        <tbody>
+          <tr><td>Механізм</td><td>Текст + фото в чат</td><td>Відмітити місце + фото + текст</td></tr>
+          <tr><td>Кроків</td><td><strong>1–2</strong></td><td>3–4</td></tr>
+          <tr><td>Після submit</td><td>Зазвичай нічого</td><td>Публічно одразу</td></tr>
+          <tr><td>Ризик для нас</td><td>Чому завантажувати нове? Наша відповідь — структуровані дані + карта + спільнота</td><td>Люди вже фіксують звалища там. Маємо дати більше: адресація до органів + зміна.</td></tr>
         </tbody>
       </table>
     </div>
 
-    <div class="callouts">
-      <div class="callout risk">
-        <strong>ЕкоЗагроза — наш головний прямий конкурент</strong>
-        <p>Офіційний держдодаток з тою самою ідеєю. 5k завантажень, рейтинг 3.7★ — люди встановлюють, але не задоволені. Сигнал: ніша існує, поточне рішення не влаштовує. <strong>Дані не шифруються</strong> — явна проблема довіри.</p>
-      </div>
-      <div class="callout note">
-        <strong>EcoMap (Borysenko) — студентський проект з тою самою ідеєю</strong>
-        <p>100+ завантажень за роки, покинутий. Питання: чому не злетів? Відсутність аудиторії, маркетингу, або продукт був поганий?</p>
-      </div>
-      <div class="callout warn">
-        <strong>SaveEcoBot переорієнтувався на воєнні злочини</strong>
-        <p>«Збираю дані про військові злочини проти довкілля». Не прямий конкурент, але бореться за ту саму аудиторію. Telegram = нульовий бар'єр входу.</p>
-      </div>
-      <div class="callout good">
-        <strong>Дія — наш еталон якості</strong>
-        <p>Мобільний UX, BankID для реального імені, мінімум полів. Внутрішній стандарт для українського продукту.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- SOFT -->
-  <section id="soft">
-    <div class="tier-label">SOFT — той самий JTBD</div>
-    <p style="font-size:13px;color:#888;margin-bottom:16px;font-style:italic;">«Я бачу проблему — хочу швидко зафіксувати і передати далі»</p>
-
-    <div class="table-wrap">
+    <div class="divider"></div>
+    <div class="tag asp">ASPIRATIONAL — міжнародні еталони</div>
+    <div class="tw">
       <table>
         <thead>
-          <tr><th></th><th>Telegram-боти міст</th><th>Google Maps</th></tr>
+          <tr><th></th><th>FixMyStreet</th><th>iNaturalist</th><th>SeeClickFix</th><th>Litterati</th><th>Eyesea</th></tr>
         </thead>
         <tbody>
-          <tr><td>Основа продукту</td><td>Чат у знайомому додатку</td><td>Карта + відгуки</td></tr>
-          <tr><td>Кроків до відправки</td><td>1–2</td><td>3–4</td></tr>
-          <tr><td>Карта</td><td>Ні</td><td>Так, центральна</td></tr>
-          <tr><td>Ідентичність</td><td>Псевдонім Telegram</td><td>Google-акаунт</td></tr>
-          <tr><td>Після відправки</td><td>Зазвичай нічого</td><td>Публікується одразу, публічно</td></tr>
+          <tr><td>Аудиторія</td><td>Мешканці UK + ради</td><td>Натуралісти, науковці</td><td>Міста + мешканці (B2G)</td><td>B2G: міста, НКО</td><td>Моряки, прибережні</td></tr>
+          <tr><td>Механізм</td><td>Пін → опис → автоматично до ради</td><td>Фото → auto-fill EXIF → "Needs ID"</td><td>Звіт → CRM → статус</td><td>Фото → датасет партнера</td><td>Фото → on-device AI → offline queue</td></tr>
+          <tr><td>Кроків</td><td>4</td><td><strong>3</strong></td><td>~4</td><td>~3</td><td><strong>~2</strong></td></tr>
+          <tr><td>Карта як core</td><td>✅</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td></tr>
+          <tr><td>Офлайн</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>✅</td></tr>
+          <tr><td>AI</td><td>❌</td><td>✅ серверна</td><td>❌</td><td>❌</td><td>✅ on-device</td></tr>
+          <tr><td>Гейміфікація</td><td>❌</td><td>Research grade</td><td>❌</td><td>❌</td><td>✅ XP · рівні</td></tr>
+          <tr><td>Статус</td><td>✅ Зрілий</td><td>✅ Зрілий</td><td>✅ B2G</td><td>✅ B2G pivot</td><td>🆕 Лют. 2026</td></tr>
         </tbody>
       </table>
     </div>
-
-    <div class="callouts">
-      <div class="callout warn">
-        <strong>Telegram — нульове тертя</strong>
-        <p>Немає нового додатку, немає реєстрації. Ключове питання: чому користувач реєструватиметься у щось нове?</p>
-      </div>
-      <div class="callout note">
-        <strong>Google Maps — де-факто інструмент фіксації</strong>
-        <p>Люди вже фотографують звалища і прикріплюють до карти. Ми маємо дати більше: структуровані дані, адресація до органів влади.</p>
-      </div>
+    <div class="cards">
+      <div class="card"><h4>Eyesea — найрелевантніший UX-референс</h4><p>Лют. 2026. On-device AI, офлайн-черга, гейміфікація. Морський фокус — не конкурент, але UX-рішення 1:1 застосовні.</p></div>
+      <div class="card"><h4>FixMyStreet — найближчий за механікою</h4><p>7,6 млн звітів, 73% тижнева вирішуваність. Доводить: видимий вплив > геймінг. Публічна карта = соціальний тиск = результат.</p></div>
+      <div class="card"><h4>iNaturalist — найкращий UX документації</h4><p>"Needs ID" замість "скарга на розгляді". Фото → auto-fill → 3 кроки. Community verification замість адмін-модерації.</p></div>
+      <div class="card"><h4>Litterati — застереження</h4><p>Починав як consumer → пішов у B2G. Тепер тільки CONTACT US. Попередження: без чіткої стратегії продукт дрейфує.</p></div>
     </div>
-  </section>
 
-  <!-- ASPIRATIONAL -->
-  <section id="aspirational">
-    <div class="tier-label">ASPIRATIONAL — міжнародні еталони</div>
-
-    <div class="table-wrap">
+    <div class="divider"></div>
+    <h3>App Store / Google Play — повний пошук</h3>
+    <div class="tw">
       <table>
-        <thead>
-          <tr><th></th><th>FixMyStreet</th><th>Litterati</th><th>iNaturalist</th><th>SeeClickFix</th><th>Eyesea</th></tr>
-        </thead>
+        <thead><tr><th>Додаток</th><th>Платформа</th><th>Завант.</th><th>Рейтинг</th><th>Група</th></tr></thead>
         <tbody>
-          <tr><td>Аудиторія</td><td>Громадяни UK + ради</td><td>B2G: міста, НКО</td><td>Натуралісти, науковці</td><td>Міста + мешканці</td><td>Будь-хто у воді/суші</td></tr>
-          <tr><td>Кроків до відправки</td><td>4</td><td>~3</td><td>3</td><td>~4</td><td>~2</td></tr>
-          <tr><td>Карта як core</td><td>Так</td><td>Ні</td><td>Так</td><td>Так</td><td>Так</td></tr>
-          <tr><td>Модерація</td><td>Публічно без модерації</td><td>B2G pipeline</td><td>Верифікація спільнотою</td><td>Workflow міста</td><td>Авто AI + спільнота</td></tr>
-          <tr><td>Після відправки</td><td>→ Рада + карта + статус</td><td>→ Датасет партнера</td><td>→ «Needs ID» → спільнота</td><td>→ CRM міста</td><td>→ Карта + партнери</td></tr>
-          <tr><td>UX якість</td><td>Medium</td><td>Medium</td><td>High</td><td>Medium</td><td>High</td></tr>
-          <tr><td>Відкритий код</td><td>Так</td><td>Ні</td><td>Ні</td><td>Ні</td><td>Ні</td></tr>
-          <tr><td>Офлайн</td><td>—</td><td>—</td><td>—</td><td>—</td><td>✅ Черга</td></tr>
-          <tr><td>AI</td><td>—</td><td>—</td><td>Класифікація</td><td>—</td><td>✅ On-device</td></tr>
-          <tr><td>Гейміфікація</td><td>—</td><td>Значки</td><td>Рівні</td><td>—</td><td>✅ Бали + ліга</td></tr>
-          <tr><td>Статус</td><td>✅ Активний</td><td>B2G ⚠️</td><td>✅ Активний</td><td>B2G ⚠️</td><td>✅ Лют. 2026</td></tr>
+          <tr><td>ЕкоЗагроза</td><td>Android + iOS</td><td>5k+ / 18 відг.</td><td>3.7★ / 4.2★</td><td><span class="tag hard" style="margin:0">HARD</span></td></tr>
+          <tr><td>EcoMap (Borysenko)</td><td>Android</td><td>100+</td><td>—</td><td><span class="tag hard" style="margin:0">HARD</span></td></tr>
+          <tr><td>Eyesea Reporting</td><td>Android + iOS</td><td>50+</td><td>0 відг.</td><td><span class="tag asp" style="margin:0">ASP</span></td></tr>
+          <tr><td>SeeClickFix</td><td>iOS</td><td>—</td><td>4.6★ / 7 887 відг.</td><td><span class="tag asp" style="margin:0">ASP</span></td></tr>
+          <tr><td>Prevent Marine Pollution</td><td>iOS</td><td>—</td><td>0</td><td><span class="tag" style="margin:0;background:var(--gray-100);color:var(--gray-400)">НІШЕВИЙ</span></td></tr>
+          <tr><td>Pollution Reporter</td><td>iOS</td><td>—</td><td>0</td><td><span class="tag" style="margin:0;background:var(--gray-100);color:var(--gray-400)">НІШЕВИЙ</span></td></tr>
+          <tr><td>EcoInspector</td><td>—</td><td>—</td><td>—</td><td><span class="tag" style="margin:0;background:var(--gray-100);color:var(--gray-400)">ВИДАЛЕНИЙ</span></td></tr>
         </tbody>
       </table>
     </div>
+    <div class="info-box">💡 Ніша майже порожня. ЕкоЗагроза є, але занедбана. Eyesea — єдиний свіжий гравець з правильними UX-патернами, але в іншій ніші (море).</div>
+  </div>
+</section>
 
-    <div class="callouts">
-      <div class="callout good">
-        <strong>FixMyStreet — найближчий аналог за механікою</strong>
-        <p>Два entry points: локація або фото. 73% тижнева вирішуваність — 20,199 виправлено за 7 днів з 27,719 нових. Публічна карта без модерації створює реальний тиск на ради.</p>
-      </div>
-      <div class="callout good">
-        <strong>iNaturalist — найкращий UX для польової документації</strong>
-        <p>3 кроки, photo-first, автозаповнення дати і локації з EXIF. «Needs ID» замість «скарга на розгляді» — елегантний фреймінг очікування.</p>
-      </div>
-      <div class="callout good">
-        <strong>Eyesea — новий технологічний еталон (лют. 2026)</strong>
-        <p>On-device AI класифікація забруднення, офлайн-черга звітів, ~2 кроки до відправки. Геймін: бали + ліги. Найближчий до нашого функціонального бачення серед ASPIRATIONAL продуктів.</p>
-      </div>
-      <div class="callout warn">
-        <strong>Litterati — попередження</strong>
-        <p>Почали як consumer app, закрили його і стали B2G. CTA тільки «CONTACT US». Для громадян продукту не існує.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- MATRIX -->
-  <section id="matrix">
+<!-- MATRIX -->
+<section id="matrix">
+  <div class="container">
     <h2>Зведена матриця</h2>
-    <div class="table-wrap">
+    <div class="meta">4 осі · 7 продуктів · 3 патерни · 3 відмінності · 3 питання до PM</div>
+    <div class="tw">
       <table>
         <thead>
-          <tr><th>Ось</th><th>ЕкоЗагроза</th><th>EcoMap (Borysenko)</th><th>SaveEcoBot</th><th>Kyiv City</th><th>Дія</th><th>FixMyStreet</th><th>Litterati</th><th>iNaturalist</th><th>SeeClickFix</th><th>Eyesea</th></tr>
+          <tr><th></th><th>ЕкоЗагроза</th><th>SaveEcoBot</th><th>Дія</th><th>FixMyStreet</th><th>iNaturalist</th><th>SeeClickFix</th><th>Eyesea</th></tr>
         </thead>
         <tbody>
-          <tr><td>Карта як core</td><td>✅</td><td>✅</td><td>—</td><td>—</td><td>—</td><td>✅</td><td>—</td><td>✅</td><td>✅</td><td>✅</td></tr>
-          <tr><td>Кроків до відправки</td><td>~3–4</td><td>~4–5</td><td>8</td><td>—</td><td>Багато</td><td>4</td><td>~3</td><td>3</td><td>~4</td><td>~2</td></tr>
-          <tr><td>Реальна ідентичність</td><td>Реєстрація</td><td>Реєстрація</td><td>—</td><td>—</td><td>✅✅</td><td>Часткова</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
-          <tr><td>Модерація</td><td>→ Органи</td><td>—</td><td>—</td><td>—</td><td>—</td><td>Без (flagging)</td><td>B2G</td><td>Спільнота</td><td>Workflow</td><td>AI + спільнота</td></tr>
-          <tr><td>UX якість</td><td>Low</td><td>Low</td><td>Low</td><td>Low</td><td>High</td><td>Medium</td><td>Medium</td><td>High</td><td>Medium</td><td>High</td></tr>
-          <tr><td>Офлайн</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>✅</td></tr>
-          <tr><td>AI</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>Класифікація</td><td>—</td><td>✅ On-device</td></tr>
-          <tr><td>Гейміфікація</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>Значки</td><td>Рівні</td><td>—</td><td>✅ Бали + ліга</td></tr>
-          <tr><td>Живий продукт</td><td>✅</td><td>⚠️ Abandon.</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>B2G</td><td>✅</td><td>B2G</td><td>✅</td></tr>
+          <tr>
+            <td>Аудиторія</td>
+            <td>Громадяни з GOV ID, активна екосвідома частина</td>
+            <td>Еко-активісти, журналісти, волонтери</td>
+            <td>Всі громадяни України</td>
+            <td>Мешканці міст UK, широка аудиторія</td>
+            <td>Натуралісти, citizen scientists</td>
+            <td>Органи міста + мешканці (B2G)</td>
+            <td>Моряки, дайвери, прибережні</td>
+          </tr>
+          <tr>
+            <td>Основа продукту</td>
+            <td>Фіксація загроз + моніторинг повітря (два різних продукти в одному)</td>
+            <td>Telegram-бот для офіційних скарг до Міндовкілля</td>
+            <td>Єдиний цифровий портал держпослуг</td>
+            <td>Civic reporting вуличних проблем → рада</td>
+            <td>Наукові спостереження природи → база даних</td>
+            <td>CRM для міських запитів (311 API)</td>
+            <td>Фіксація морського забруднення → спільнота</td>
+          </tr>
+          <tr>
+            <td>Ключовий механізм</td>
+            <td>GOV ID → профіль-гейт → фото → категорія → submit; карта ≠ звіти</td>
+            <td>8-крокова conversational flow: категорія → ЄДРПОУ → локація → підтвердження</td>
+            <td>Пошук послуги → BankID → форма → статус</td>
+            <td>Пін на карті → фото → опис → автоматично до ради</td>
+            <td>Фото → auto-fill EXIF → вид → "Needs ID" → верифікація спільнотою</td>
+            <td>Звіт → workflow міста → трекінг → виконання</td>
+            <td>Фото → on-device AI → offline queue → автосинк; XP + рівні</td>
+          </tr>
+          <tr>
+            <td>Довіра</td>
+            <td>GOV ID (держверифікація), але дані не шифруються; 3.7★</td>
+            <td>Анонімно через Telegram — нульова верифікація</td>
+            <td>BankID — найсильніша верифікація в UA</td>
+            <td>Ім'я + email без перевірки; відкритий код mySociety</td>
+            <td>Реєстрація + верифікація спільнотою (63% research grade)</td>
+            <td>Реєстрація + інституційний workflow міста</td>
+            <td>Реєстрація + privacy-first (фото не виходить з телефону)</td>
+          </tr>
         </tbody>
       </table>
     </div>
-  </section>
 
+    <div class="two-col" style="margin-top:24px">
+      <div>
+        <h3>3 спільні патерни</h3>
+        <ul class="ilist pat">
+          <li><strong>Геолокація — серце продукту</strong> Всі без винятку будують навколо "де" як першого питання. Навіть Telegram-бот питає локацію.</li>
+          <li><strong>Фото заохочується, але не блокує</strong> Жоден продукт не відмовляє в submission без фото. Примус до медіа = відмова від звіту.</li>
+          <li><strong>Після submit — тиша</strong> Майже всі залишають без feedback. Виняток: FixMyStreet і SeeClickFix. Постсабміт — найслабше місце ніші.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>3 відмінності</h3>
+        <ul class="ilist diff">
+          <li><strong>Авторизація = компроміс між friction і довірою</strong> Від анонімного (SaveEcoBot) до GOV ID (ЕкоЗагроза) до BankID (Дія). Ніхто не займає середину — email + реальне ім'я — де ми.</li>
+          <li><strong>Одержувач визначає весь продукт</strong> FixMyStreet → API до ради (вимірюваний результат). iNaturalist → наука. ЕкоЗагроза → база без чіткого наступного кроку. Де є одержувач — є retention.</li>
+          <li><strong>Публічність карти як механізм тиску</strong> FixMyStreet: одразу публічно → 73% вирішуваність. ЕкоЗагроза: після модерації + карта не про звіти. Публічність = соціальний тиск = результат.</li>
+        </ul>
+      </div>
+    </div>
 
-  <hr>
+    <h3>3 питання до PM</h3>
+    <ul class="ilist pm">
+      <li><strong>Хто одержувач — і чи є домовленість?</strong> FixMyStreet без ради — мертвий продукт. Для District Care: чи є орган в Україні який взяв зобов'язання обробляти сигнали? Якщо ні — весь retention loop зламаний.</li>
+      <li><strong>Коли звіт з'являється на карті?</strong> Одразу (FixMyStreet) → соціальний тиск, але ризик спаму. Після модерації → якість, але затримка вбиває мотивацію. Де ми стоїмо?</li>
+      <li><strong>Що відбувається після першого звіту?</strong> SaveEcoBot: нічого → retention нульовий. FixMyStreet: публічний статус. Який мінімальний feedback loop можливий в MVP без адмін-панелі?</li>
+    </ul>
+  </div>
+</section>
 
-  <!-- STATS -->
-  <section id="stats">
+<!-- MOTIVATION -->
+<section id="motivation">
+  <div class="container">
+    <h2>Поглиблений аналіз: Мотивація до фіксації</h2>
+    <div class="meta">Вимір: чому мешканці захочуть фіксувати порушення. Best-in-class з будь-якої категорії де motivation = ядро.</div>
+
+    <div class="tag mot">8 критеріїв оцінки (шкала 1–5)</div>
+    <div class="tw">
+      <table>
+        <thead><tr><th>#</th><th>Критерій</th><th>Що вимірює</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Видимий вплив</td><td>Чи бачить автор що його внесок щось змінює (звіт на карті, статус "виправлено")</td></tr>
+          <tr><td>2</td><td>Негайний feedback</td><td>Що відбувається одразу після submit (анімація, бал, карта оновилась)</td></tr>
+          <tr><td>3</td><td>Мотивуючий фреймінг</td><td>Як подається роль користувача ("ти захищаєш природу", "ти допомагаєш науці")</td></tr>
+          <tr><td>4</td><td>Соціальне підкріплення</td><td>Чи бачить що інші роблять те саме (публічна карта, лічильники, стрічка)</td></tr>
+          <tr><td>5</td><td>Персональний прогрес</td><td>Чи накопичується щось особисте (статистика, рівень, бейджі, стрік)</td></tr>
+          <tr><td>6</td><td>Бар'єр першого внеску</td><td>Наскільки легко почати (5 = тривіально, 1 = великий)</td></tr>
+          <tr><td>7</td><td>Петля повернення</td><td>Чи є механіка що тягне назад (статус змінився, нові звіти поруч)</td></tr>
+          <tr><td>8</td><td>Відчуття причетності</td><td>Чи відчуває себе частиною чогось більшого (місія, рух, спільнота)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Оцінки</h3>
+    <div class="tw">
+      <table>
+        <thead>
+          <tr><th>Критерій</th><th class="c">Waze</th><th class="c">iNaturalist</th><th class="c">Duolingo</th><th class="c">FixMyStreet</th><th class="c">Google Local&nbsp;Guides</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Видимий вплив</td><td class="c"><span class="sc sc5">5</span></td><td class="c"><span class="sc sc4">4</span></td><td class="c"><span class="sc sc2">2</span></td><td class="c"><span class="sc sc5">5</span></td><td class="c"><span class="sc sc4">4</span></td></tr>
+          <tr><td>Негайний feedback</td><td class="c"><span class="sc sc5">5</span></td><td class="c"><span class="sc sc3">3</span></td><td class="c"><span class="sc sc5">5</span></td><td class="c"><span class="sc sc2">2</span></td><td class="c"><span class="sc sc4">4</span></td></tr>
+          <tr><td>Мотивуючий фреймінг</td><td class="c"><span class="sc sc4">4</span></td><td class="c"><span class="sc sc5">5</span></td><td class="c"><span class="sc sc3">3</span></td><td class="c"><span class="sc sc4">4</span></td><td class="c"><span class="sc sc3">3</span></td></tr>
+          <tr><td>Соціальне підкріплення</td><td class="c"><span class="sc sc5">5</span></td><td class="c"><span class="sc sc4">4</span></td><td class="c"><span class="sc sc4">4</span></td><td class="c"><span class="sc sc4">4</span></td><td class="c"><span class="sc sc3">3</span></td></tr>
+          <tr><td>Персональний прогрес</td><td class="c"><span class="sc sc3">3</span></td><td class="c"><span class="sc sc4">4</span></td><td class="c"><span class="sc sc5">5</span></td><td class="c"><span class="sc sc1">1</span></td><td class="c"><span class="sc sc5">5</span></td></tr>
+          <tr><td>Бар'єр першого внеску</td><td class="c"><span class="sc sc5">5</span></td><td class="c"><span class="sc sc4">4</span></td><td class="c"><span class="sc sc5">5</span></td><td class="c"><span class="sc sc4">4</span></td><td class="c"><span class="sc sc5">5</span></td></tr>
+          <tr><td>Петля повернення</td><td class="c"><span class="sc sc5">5</span></td><td class="c"><span class="sc sc4">4</span></td><td class="c"><span class="sc sc5">5</span></td><td class="c"><span class="sc sc3">3</span></td><td class="c"><span class="sc sc4">4</span></td></tr>
+          <tr><td>Відчуття причетності</td><td class="c"><span class="sc sc4">4</span></td><td class="c"><span class="sc sc5">5</span></td><td class="c"><span class="sc sc2">2</span></td><td class="c"><span class="sc sc3">3</span></td><td class="c"><span class="sc sc2">2</span></td></tr>
+          <tr style="background:var(--gray-50)"><td><strong>Сума</strong></td><td class="c"><span class="total">36</span></td><td class="c"><span class="total">33</span></td><td class="c"><span class="total">31</span></td><td class="c"><span class="total">26</span></td><td class="c"><span class="total">30</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="cards" style="margin-top:16px">
+      <div class="card"><h4>Waze (36) — найсильніша мотивація</h4><p>Звіт на карті за секунди. 130+ млн MAU, 20+ млн map updates/міс. Мотивація — enlightened self-interest: "репортую, щоб отримати кращий маршрут назад". Бар'єр нульовий.</p></div>
+      <div class="card"><h4>iNaturalist (33) — найсильніший фреймінг</h4><p>4 млн observers, 63% Research Grade. "Needs ID" переформатовує модерацію. 68% мотивовані "contributing to science", не фінансово (Bonney et al., Cornell 2016).</p></div>
+      <div class="card"><h4>Duolingo (31) — streak-чемпіон</h4><p>Streak підвищує 7-денне утримання на 80%. Вплив на зовнішній світ = 0. Найкращий в класі особистого прогресу — але для нашого типу продукту неправильна модель.</p></div>
+      <div class="card"><h4>FixMyStreet (26) — парадокс</h4><p>Найнижча оцінка — 7,6 млн звітів і 73% тижнева вирішуваність. Нульовий персональний прогрес, але видимий вплив + outcome visibility замінює всю геймінг-механіку.</p></div>
+      <div class="card"><h4>Google Local Guides (30) — статус-рушій</h4><p>150+ млн учасників. Видалення badge знижує внески на 20% за 2 тижні — статус є первинним мотиватором, не гроші.</p></div>
+    </div>
+
+    <div class="two-col" style="margin-top:24px">
+      <div>
+        <h3>Топ-3 механізми → переносимо в MVP</h3>
+        <ul class="ilist top3">
+          <li><strong>1. Миттєва видимість на карті ← Waze</strong> Звіт на публічній карті одразу. Без цього нема відчуття впливу — і нема повернення. FixMyStreet доводить: публічна карта без геймінгу генерує мільйони звітів. Для нас це базова умова, не фіча.</li>
+          <li><strong>2. Перефреймінг постсабміт-стану ← iNaturalist</strong> "Скарга на розгляді" → "Сигнал активний — перевіряємо". Очікування переформатовано: не бюрократія, а підтвердження що тебе почули. Реалізація: success-екран + пін "🔍 Перевіряється" на карті.</li>
+          <li><strong>3. Outcome visibility ← FixMyStreet</strong> Навіть базовий статус-апдейт замикає retention loop. В MVP достатньо двох станів: "Перевіряється" і "Підтверджено". Третій — "Вирішено" — якщо буде одержувач.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>1 механізм що НЕ спрацює</h3>
+        <ul class="ilist anti">
+          <li>
+            <strong>Streak (Duolingo-модель) — не переносити</strong>
+            Streak вимагає щоденних дій. Екологічні порушення — event-driven: побачив → зафіксував. Штучна вимога "зафіксуй сьогодні щоб не зламати стрік" провокує фейкові звіти або відразу від продукту.
+            <br><br>
+            <strong>Правильний цикл:</strong> тригер (побачив) → дія (зафіксував) → feedback (сигнал активний) → повернення (статус змінився). Не звичка через примус.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FLOWS -->
+<section id="flows">
+  <div class="container">
+    <h2>Детальний аналіз флоу (живі сесії)</h2>
+
+    <h3>SaveEcoBot — 8 кроків</h3>
+    <div class="meta">Скріни: saveecobot_01_welcome → saveecobot_08_category_waste</div>
+    <div class="flow">
+      <div class="fstep"><div class="fnum">1</div><div><strong>Welcome splash</strong><em>Опис місії + кнопка START</em></div></div>
+      <div class="fstep"><div class="fnum">2</div><div><strong>Головне меню</strong><em>Якість повітря / Поскаржитись / Функції / Налаштування — quick-reply кнопки</em></div></div>
+      <div class="fstep"><div class="fnum">3</div><div><strong>Підтвердження наміру</strong><em>"Почнемо?" + "Подати скаргу"</em></div></div>
+      <div class="fstep"><div class="fnum">4</div><div><strong>Вибір категорії</strong><em>Вода / Повітря / Грунт / Відходи / Шум — keyboard grid 3+2</em></div></div>
+      <div class="fstep"><div class="fnum">5</div><div><strong>Опис + фото + уточнення підтипу</strong><em>"Тимчасове / постійне / тільки чую" — освітній підхід</em></div></div>
+      <div class="fstep"><div class="fnum">6</div><div><strong>Хто порушник?</strong><em>За назвою/ЄДРПОУ / за місцем / "Не знаю" — ескейп-хетч є</em></div></div>
+      <div class="fstep"><div class="fnum">7</div><div><strong>Локація</strong><em>Геолокація або текстова адреса — dual input</em></div></div>
+      <div class="fstep"><div class="fnum">8</div><div><strong>Підтвердження або скасування</strong><em>Review → submit</em></div></div>
+    </div>
+
+    <div class="divider"></div>
+    <h3>iNaturalist — 3 кроки</h3>
+    <div class="meta">Скріни: inaturalist_01_upload → inaturalist_11_observation_list</div>
+    <div class="flow">
+      <div class="fstep"><div class="fnum">1</div><div><strong>Фото першим</strong><em>"Drag & drop photos or sounds" — photo-first entry</em></div></div>
+      <div class="fstep"><div class="fnum">2</div><div><strong>Форма з auto-fill</strong><em>Species (пошук), Date (з EXIF), Location (з EXIF) — мінімум ручного введення</em></div></div>
+      <div class="fstep"><div class="fnum">3</div><div><strong>"Submit 1 observation"</strong><em>Persistent CTA у правому куті → "Needs ID" → на карті одразу</em></div></div>
+    </div>
+    <div class="cards">
+      <div class="card"><h4>Auto-fill з EXIF</h4><p>Дата і локація витягуються з метаданих фото. Нічого зайвого вводити.</p></div>
+      <div class="card"><h4>"Needs ID" — елегантний постсабміт</h4><p>Не "скарга на розгляді" — запрошення спільноти ідентифікувати. Публікується одразу, верифікується потім.</p></div>
+      <div class="card"><h4>Ескейп-хетч</h4><p>"Use X as placeholder" — якщо вид невідомий. Ніколи не тупик.</p></div>
+    </div>
+
+    <div class="divider"></div>
+    <h3>ЕкоЗагроза — 7+ кроків (живий тест з GOV ID)</h3>
+    <div class="meta">Скріни: ecozagroza_01_home → ecozagroza_30_events · Тест: реальний акаунт GOV ID, Микола Вєдєнін</div>
+
+    <h4>Авторизація (3 бар'єри до першого звіту)</h4>
+    <div class="flow">
+      <div class="fstep"><div class="fnum warn">!</div><div><strong>GOV ID gate</strong><em>"Недоступно — Увійдіть через GOV ID" — тільки GOV ID, немає email/пароль</em></div></div>
+      <div class="fstep"><div class="fnum warn">!</div><div><strong>Профіль-гейт</strong><em>"Увага! Заповніть всі поля кабінету для подачі заявки" — до першого звіту</em></div></div>
+      <div class="fstep"><div class="fnum warn">!</div><div><strong>Email обов'язковий, але не передається GOV ID</strong><em>Ім'я pre-filled, але dob / phone / email / стать / адреса — порожні. "Зберегти" заблоковане.</em></div></div>
+    </div>
+
+    <h4>Флоу подачі звіту</h4>
+    <div class="flow">
+      <div class="fstep"><div class="fnum">1</div><div><strong>Home → "Повідомити"</strong><em>Велика картка, єдиний primary CTA</em></div></div>
+      <div class="fstep"><div class="fnum">2</div><div><strong>Bottom sheet</strong><em>Фото/відео / Додати без фото / Скасувати</em></div></div>
+      <div class="fstep"><div class="fnum">3</div><div><strong>Форма "Екологічна загроза"</strong><em>Фото + авто-локація з координатами + "змінити"</em></div></div>
+      <div class="fstep"><div class="fnum">4</div><div><strong>"Змінити" → Google Maps picker</strong><em>Повна карта, пін, "Зберегти 📍"</em></div></div>
+      <div class="fstep"><div class="fnum warn">!</div><div><strong>Категорії + reCAPTCHA</strong><em>6 груп → підкатегорії з одиницями (м², га, тонн) — для інспекторів, не громадян. reCAPTCHA в куті.</em></div></div>
+      <div class="fstep"><div class="fnum">6</div><div><strong>"Відправити дані ↑"</strong><em>Зелена кнопка внизу</em></div></div>
+      <div class="fstep"><div class="fnum">7</div><div><strong>SUCCESS: "Дякуємо за ваш вклад у перемогу!"</strong><em>Ілюстрація солдата + номер #007446 + "На головну" — без пояснення що далі</em></div></div>
+    </div>
+
+    <div class="warn-box">⚠ <strong>Критичні проблеми:</strong> reCAPTCHA на мобілі · Карта = станції моніторингу, а НЕ звіти · Success screen не пояснює що буде з звітом · Категорії з одиницями виміру — для інспекторів, не громадян</div>
+
+    <div class="cards" style="margin-top:14px">
+      <div class="card"><h4>GOV ID = бар'єр</h4><p>Наш підхід (email + ім'я) — менше тертя, менше довіри. Виправданий компроміс для Фази 1.</p></div>
+      <div class="card"><h4>Профіль-гейт = крадіжка моменту</h4><p>Перше бажання зафіксувати — найсильніша мотивація. Заповнювати email зараз = вбиваємо imping. Альтернатива: зафіксувати → дані після.</p></div>
+      <div class="card"><h4>Карта ≠ звіти</h4><p>Показує станції моніторингу повітря. Користувач не бачить своїх звітів на карті. Архітектурна плутанина.</p></div>
+      <div class="card"><h4>Еко-бали = "поки недоступно"</h4><p>Гейміфікація запланована, але не жива. Або робити повноцінно (Eyesea-модель), або не обіцяти.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TAXONOMY -->
+<section id="taxonomy">
+  <div class="container">
+    <h2>Категорії порушень за українським законодавством</h2>
+    <div class="meta">Джерело: ЕкоЗагроза (офіційний застосунок Міндовкілля) — відображає реальну законодавчу класифікацію</div>
+    <div class="info-box">💡 Це відповідь на відкрите питання з бріфу про типи порушень. Для громадян потрібна спрощена цивільна мова — юридична відповідність закривається на беку.</div>
+    <div class="tax-grid">
+      <div class="tax-card">
+        <h5>🌫 Атмосферне повітря</h5>
+        <ul>
+          <li>Горіння нафти / нафтопродуктів / газу</li>
+          <li>Лісові пожежі та інші насадження</li>
+          <li>Загоряння інших об'єктів, відходів</li>
+          <li>Неорганізований викид речовин</li>
+        </ul>
+      </div>
+      <div class="tax-card">
+        <h5>🪨 Земельні ресурси</h5>
+        <ul>
+          <li>Засмічення земель (м²)</li>
+          <li>Забруднення ґрунтів (м²)</li>
+          <li>Самовільне зайняття ділянок (га)</li>
+          <li>Використання не за призначенням (га)</li>
+        </ul>
+      </div>
+      <div class="tax-card">
+        <h5>💧 Водні ресурси</h5>
+        <ul>
+          <li>Забруднення водних об'єктів (тонн)</li>
+          <li>Засмічення водних об'єктів (кг/кв.м)</li>
+          <li>Самовільне користування</li>
+          <li>Втрачена вода (куб.м)</li>
+          <li>Забруднення морських вод (кг)</li>
+        </ul>
+      </div>
+      <div class="tax-card">
+        <h5>🌲 Ліс, Рослинний, Тваринний</h5>
+        <ul>
+          <li>Масова вирубка дерев (га)</li>
+          <li>Знищення дерев і рослин (шт)</li>
+          <li>Пошкодження рослинного світу (га/кв.м)</li>
+          <li>Знищення тварин (особина/екз./кг/т)</li>
+          <li>Незаконне добування тварин</li>
+          <li>Незаконне добування водних біоресурсів</li>
+        </ul>
+      </div>
+      <div class="tax-card">
+        <h5>🏔 ПЗФ (природно-заповідний фонд)</h5>
+        <ul>
+          <li>Всі категорії вищезазначені</li>
+          <li>Побутове засмічення територій</li>
+          <li>Пошкодження об'єктів ПЗФ</li>
+        </ul>
+      </div>
+      <div class="tax-card">
+        <h5>⛏ Надра</h5>
+        <ul>
+          <li>Самовільно видобуті корисні копалини (куб.м/тонн/кг/г/карат)</li>
+          <li>Видобування підземних вод (куб.м)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="warn-box">⚠ Одиниці виміру (м², га, тонн) — для інспекторів що вимірюють збитки. Цивільний інтерфейс потребує іншої мови: "Стихійне звалище", "Вирубка дерев", "Скид у річку".</div>
+  </div>
+</section>
+
+<!-- STATISTICS -->
+<section id="stats">
+  <div class="container">
     <h2>Статистика</h2>
 
-    <h3>Конкуренти</h3>
-    <div class="table-wrap">
+    <h3>FixMyStreet (2026-06-06)</h3>
+    <div class="stat-grid">
+      <div class="stat-card"><span class="stat-val">7.6M</span><span class="stat-lbl">Звітів за весь час</span></div>
+      <div class="stat-card"><span class="stat-val">39%</span><span class="stat-lbl">Виправлено (lifetime)</span></div>
+      <div class="stat-card"><span class="stat-val">27 719</span><span class="stat-lbl">Нових за тиждень</span></div>
+      <div class="stat-card"><span class="stat-val">73%</span><span class="stat-lbl">Тижнева вирішуваність</span></div>
+    </div>
+
+    <h3>iNaturalist (2025)</h3>
+    <div class="stat-grid">
+      <div class="stat-card"><span class="stat-val">4M</span><span class="stat-lbl">Observers</span></div>
+      <div class="stat-card"><span class="stat-val">250M+</span><span class="stat-lbl">Спостережень</span></div>
+      <div class="stat-card"><span class="stat-val">5M+</span><span class="stat-lbl">Нових / місяць</span></div>
+      <div class="stat-card"><span class="stat-val">63%</span><span class="stat-lbl">Research Grade</span></div>
+    </div>
+
+    <h3>Civic tech бенчмарки</h3>
+    <div class="tw">
       <table>
-        <thead><tr><th>Продукт</th><th>Показник</th><th>Значення</th><th>Дата</th></tr></thead>
+        <thead><tr><th>Показник</th><th>Значення</th><th>Джерело</th></tr></thead>
         <tbody>
-          <tr><td>FixMyStreet</td><td>Звітів за весь час</td><td>7,612,063</td><td>2026-06-06</td></tr>
-          <tr><td>FixMyStreet</td><td>Виправлено за весь час</td><td>2,953,167 (39%)</td><td>2026-06-06</td></tr>
-          <tr><td>FixMyStreet</td><td>Нових звітів за тиждень</td><td>27,719</td><td>2026-06-06</td></tr>
-          <tr><td>FixMyStreet</td><td>Виправлено за тиждень</td><td>20,199 (73%)</td><td>2026-06-06</td></tr>
-          <tr><td>iNaturalist</td><td>Верифікованих спостережень</td><td>250+ млн</td><td>2025</td></tr>
-          <tr><td>iNaturalist</td><td>Активних спостерігачів</td><td>~4 млн</td><td>2025</td></tr>
-          <tr><td>iNaturalist</td><td>Нових спостережень / місяць</td><td>5+ млн</td><td>2025</td></tr>
-          <tr><td>iNaturalist</td><td>Research grade</td><td>157 млн з 252 млн (63%)</td><td>2025</td></tr>
+          <tr><td>Утримання Day 1 (мобільні)</td><td>~30%</td><td>Industry benchmark 2026</td></tr>
+          <tr><td>Утримання Day 7</td><td>~15%</td><td>Industry benchmark 2026</td></tr>
+          <tr><td>Утримання Day 30</td><td>7–10%</td><td>Industry benchmark 2026</td></tr>
+          <tr><td>Основний драйвер в citizen science</td><td>Довіра до ініціатора, не фінансова мотивація</td><td>Nature / Humanities research</td></tr>
         </tbody>
       </table>
     </div>
+  </div>
+</section>
 
-    <h3>Контекст: Україна та Львів</h3>
-    <div class="table-wrap">
-      <table>
-        <thead><tr><th>Показник</th><th>Значення</th><th>Примітка</th></tr></thead>
-        <tbody>
-          <tr><td>Перевірок (Столичний округ, 2024)</td><td>2,582</td><td>Київський регіон, не Львів</td></tr>
-          <tr><td>Протоколів (Столичний округ, 2024)</td><td>468</td><td></td></tr>
-          <tr><td>Збитки довкіллю (Столичний округ, 2024)</td><td>338.8 млн грн</td><td></td></tr>
-          <tr><td>Екорейтинг Львівської обл.</td><td>21 / 24</td><td>Одне з останніх місць (2022)</td></tr>
-          <tr><td>Викиди (Львівська обл., 2021)</td><td>75,082 тис. тонн</td><td>−1.2% YoY</td></tr>
-          <tr><td>Топ-забруднювачів у Шевченківському р-ні</td><td>1 підприємство</td><td>З регіональної доповіді 2021</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="callouts">
-      <div class="callout note">
-        <strong>⚠️ Статистика Держекоінспекції — по Столичному округу (Київ)</strong>
-        <p>Дані по Шевченківському р-ні Львова потребують окремого запиту до Управління екології ЛМР. Цифра «59k виправлень/місяць» для FixMyStreet вилучена — тижневі дані дають ~80k/міс, джерело не підтверджено.</p>
-      </div>
-    </div>
-
-    <h3>Civic tech: бенчмарки</h3>
-    <div class="table-wrap">
-      <table>
-        <thead><tr><th>Показник</th><th>Значення</th></tr></thead>
-        <tbody>
-          <tr><td>Утримання користувачів Day 1</td><td>~30%</td></tr>
-          <tr><td>Утримання Day 7</td><td>~15%</td></tr>
-          <tr><td>Утримання Day 30</td><td>7–10%</td></tr>
-          <tr><td>Головний драйвер залученості в citizen science</td><td>Довіра до ініціатора (не фінансова мотивація)</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <hr>
-
-  <!-- HYPOTHESES -->
-  <section id="hypotheses">
+<!-- HYPOTHESES -->
+<section id="hypotheses">
+  <div class="container">
     <h2>Гіпотези</h2>
 
-    <h3>Дизайн-гіпотези — перевіряються через тестування прототипів</h3>
-    <div class="q-block">
-      <div class="q-num">H1 — Дизайн</div>
-      <div class="q-title">Фото-first entry підвищить якість звітів</div>
-      <div class="q-body">Якщо фото є першим кроком (а не необов'язковим полем в кінці), completeness rate і якість доказової бази зростуть. Референс: iNaturalist — 3 кроки, photo-first vs SaveEcoBot — 8 кроків, текст-first.</div>
+    <h3>Дизайн-гіпотези <span style="font-size:12px;color:var(--gray-400);font-weight:400">(через тестування і прототипи)</span></h3>
+    <div class="hypo">
+      <div class="hlabel d">H1 — DESIGN</div>
+      <p><strong>Фото-first entry підвищить якість звітів.</strong> Якщо фото є першим кроком — completeness rate і якість доказової бази зростуть. Референс: iNaturalist (3 кроки, photo-first) vs SaveEcoBot (8 кроків, текст-first).</p>
     </div>
-    <div class="q-block">
-      <div class="q-num">H2 — Дизайн</div>
-      <div class="q-title">Автогеолокація знизить drop-off на кроці «де»</div>
-      <div class="q-body">Ручне введення адреси — найбільший бар'єр у мобільному флоу. Автоматична геолокація з можливістю ручного коригування на карті скоротить кидання форми саме на цьому кроці.</div>
+    <div class="hypo">
+      <div class="hlabel d">H2 — DESIGN</div>
+      <p><strong>Автогеолокація знизить drop-off на кроці "де".</strong> Ручне введення адреси — найбільший бар'єр. Автоматична геолокація + ручне коригування скоротять кидання форми.</p>
     </div>
-    <div class="q-block">
-      <div class="q-num">H3 — Дизайн</div>
-      <div class="q-title">Фреймінг «Сигнал прийнято» підвищить повторне використання</div>
-      <div class="q-body">Користувач, якому після відправки показали «ти зробив внесок» замість «скарга зареєстрована», матиме вищу мотивацію повернутись. Без A/B тесту — гіпотеза.</div>
+    <div class="hypo">
+      <div class="hlabel d">H3 — DESIGN</div>
+      <p><strong>Фреймінг "Сигнал прийнято" підвищить повторне використання.</strong> "Ти зробив внесок" (не "скарга зареєстрована") дасть вищу мотивацію повернутися.</p>
     </div>
-    <div class="q-block">
-      <div class="q-num">H4 — Дизайн</div>
-      <div class="q-title">Категорії з візуальним прикладом знизять помилкову класифікацію</div>
-      <div class="q-body">SaveEcoBot показує фото і опис перед вибором категорії — користувач обирає усвідомленіше. Іконка або приклад до кожної категорії знизить відсоток «Інше» і помилкових тегів.</div>
+    <div class="hypo">
+      <div class="hlabel d">H4 — DESIGN</div>
+      <p><strong>Категорії з візуальним прикладом знизять помилкову класифікацію.</strong> Іконка або приклад до кожної категорії → менше вибору "Інше" і помилкових сабмітів.</p>
     </div>
 
-    <h3>Продуктові гіпотези — перевіряються через аналітику після запуску</h3>
-    <div class="q-block">
-      <div class="q-num">H5 — Продукт</div>
-      <div class="q-title">Без визначеного одержувача retention буде нижчим за benchmark</div>
-      <div class="q-body">Якщо після звіту нічого не відбувається — не публікується, не передається органу, немає статусу — retention після 30 днів буде нижчим за галузевий benchmark у 7–10%. Порівняй з SaveEcoBot: нульовий feedback → нульовий retention.</div>
+    <h3 style="margin-top:24px">Продуктові гіпотези <span style="font-size:12px;color:var(--gray-400);font-weight:400">(через аналітику після запуску)</span></h3>
+    <div class="hypo">
+      <div class="hlabel p">H5 — PRODUCT</div>
+      <p><strong>Без визначеного одержувача retention буде нижчим за benchmark.</strong> Якщо після submit нічого не відбувається — Day 30 нижче 7–10%. SaveEcoBot: нульовий feedback → нульовий retention.</p>
     </div>
-    <div class="q-block">
-      <div class="q-num">H6 — Продукт</div>
-      <div class="q-title">Вимога реального імені відсіє частину користувачів, але підвищить якість звітів</div>
-      <div class="q-body">Реєстрація з ім'ям і прізвищем підвищить психологічну відповідальність — менше спаму, детальніші описи. Але знизить конверсію реєстрації: оцінно 20–40% відмов на цьому кроці.</div>
+    <div class="hypo">
+      <div class="hlabel p">H6 — PRODUCT</div>
+      <p><strong>Вимога реального імені відсіє частину, але підвищить якість.</strong> Оцінно 20–40% відмов при реєстрації, але менше спаму і точніші описи.</p>
     </div>
-    <div class="q-block">
-      <div class="q-num">H7 — Продукт</div>
-      <div class="q-title">Публічна карта без модерації потребує flagging з дня 1</div>
-      <div class="q-body">Якщо звіти публікуються одразу (як FixMyStreet), кількість нових звітів буде вищою ніж при черзі модерації. Але без механізму flagging перші спам-звіти підірвуть довіру до карти.</div>
+    <div class="hypo">
+      <div class="hlabel p">H7 — PRODUCT</div>
+      <p><strong>Публічна карта без модерації збільшить звіти, але потребує flagging з дня 1.</strong> Без механізму flagging перші спам-звіти підірвуть довіру до карти.</p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <hr>
-
-  <!-- INSIGHTS -->
-  <section id="insights">
-    <h2>Інсайти</h2>
-
-    <h3>Що підтверджено конкурентним аналізом</h3>
-    <div class="callouts">
-      <div class="callout good">
-        <strong>Карта — єдина точка входу</strong>
-        <p>FixMyStreet, SeeClickFix, iNaturalist: перший екран — карта, не список і не форма. Спочатку «де», потім «що». Для District Care це не гіпотеза — це перевірений патерн.</p>
+<!-- INSIGHTS -->
+<section id="insights">
+  <div class="container">
+    <h2>Інсайти та ризики</h2>
+    <div class="two-col">
+      <div>
+        <h3>Підтверджено аналізом</h3>
+        <ul class="ilist pat">
+          <li><strong>Карта — єдина точка входу</strong> FixMyStreet, SeeClickFix, iNaturalist: перший екран — карта. Спочатку "де", потім "що". Перевірений патерн.</li>
+          <li><strong>Фото заохочують, але не примушують</strong> Жоден з досліджених продуктів не блокує submission без фото. Ескейп-хетч обов'язковий.</li>
+          <li><strong>Публічність > модерація</strong> FixMyStreet: 73% вирішуваність при публічній карті без модерації. Публічний звіт тисне на владу. Ручна модерація не масштабується.</li>
+          <li><strong>"Needs ID" — кращий постсабміт</strong> Переформатував очікування верифікації у запрошення спільноти. Для нас: "Сигнал на карті, перевіряємо".</li>
+        </ul>
       </div>
-      <div class="callout good">
-        <strong>Фото заохочують, але не примушують</strong>
-        <p>Жоден із досліджених продуктів не блокує submission без фото. FixMyStreet виносить фото в окремий CTA, iNaturalist будує навколо нього весь флоу — але обидва дають ескейп-хетч. «Заохочуй, не примушуй» підтверджено практикою.</p>
-      </div>
-      <div class="callout good">
-        <strong>Публічність працює краще ніж модерація</strong>
-        <p>FixMyStreet: 73% тижнева вирішуваність при публічній карті без модерації. Публічний звіт тисне на владу і запобігає дублікатам. Ручна модерація не масштабується — жоден з конкурентів її не використовує.</p>
-      </div>
-      <div class="callout good">
-        <strong>«Needs ID» — кращий патерн ніж «на розгляді»</strong>
-        <p>iNaturalist переформатував очікування верифікації у запрошення до спільноти. Для District Care еквівалент — «Сигнал на карті, перевіряємо» замість «Скарга зареєстрована».</p>
+      <div>
+        <h3>Ризики</h3>
+        <ul class="ilist risk">
+          <li><strong>Одержувач звіту — невизначений архітектурний ризик</strong> SaveEcoBot → нікуди. Без домовленості з органом — звіти накопичуються без результату. Вирішити до вайрфреймінгу.</li>
+          <li><strong>Ручна модерація — операційна пастка</strong> Ніхто з конкурентів не перевіряє вручну. Альтернативи: публічність + flagging, верифікація спільнотою, передача в workflow органу.</li>
+          <li><strong>Consumer vs B2G — вибір не можна відкласти</strong> Litterati починав як consumer → пішов у B2G. SeeClickFix — одразу B2G. Хто платить і хто primary user визначить всю стратегію.</li>
+        </ul>
       </div>
     </div>
+  </div>
+</section>
 
-    <h3>Ризики для District Care</h3>
-    <div class="callouts">
-      <div class="callout risk">
-        <strong>Одержувач звіту — невизначений архітектурний ризик</strong>
-        <p>FixMyStreet → рада через API. SeeClickFix → CRM міста. SaveEcoBot → нікуди. Якщо немає домовленості з органом Шевченківського району — звіти накопичуються без результату і retention падає до нуля. Потрібно вирішити до вайрфреймінгу.</p>
-      </div>
-      <div class="callout risk">
-        <strong>Ручна модерація — операційна пастка</strong>
-        <p>Ніхто з конкурентів не перевіряє вручну: немає масштабування. Альтернативи: публікація + flagging (FixMyStreet), верифікація спільнотою (iNaturalist), передача в workflow міста (SeeClickFix).</p>
-      </div>
-      <div class="callout warn">
-        <strong>Consumer vs B2G — вибір, який не можна відкласти</strong>
-        <p>Litterati почав як consumer, закрив його і пішов у B2G. Обидва успішні, але в різних нішах. District Care не може сидіти між двома стільцями — хто платить і хто primary user визначить всю продуктову стратегію.</p>
-      </div>
-    </div>
-  </section>
-
-  <hr>
-
-  <!-- FLOW BOT -->
-  <section id="flow-bot">
-    <h2>Детальні флоу</h2>
-    <h3>SaveEcoBot — 8 кроків</h3>
-
-    <div class="flow">
-      <div class="flow-item"><div class="flow-num">1</div><div class="flow-body">Welcome: опис місії + кнопка START <span class="tag">Onboarding splash</span></div></div>
-      <div class="flow-item"><div class="flow-num">2</div><div class="flow-body">Головне меню: Якість повітря / Поскаржитись / Інші функції <span class="tag">Quick-reply</span></div></div>
-      <div class="flow-item"><div class="flow-num">3</div><div class="flow-body">«Тепер ти можеш подати скаргу... Почнемо?» <span class="tag">Підтвердження наміру</span></div></div>
-      <div class="flow-item"><div class="flow-num">4</div><div class="flow-body">Вибір категорії: <strong>Вода / Повітря / Грунт / Відходи / Шум</strong> <span class="tag">Grid</span></div></div>
-      <div class="flow-item"><div class="flow-num">5</div><div class="flow-body">Опис категорії + фото + уточнення підтипу <span class="tag">Educate → clarify</span></div></div>
-      <div class="flow-item"><div class="flow-num">6</div><div class="flow-body">Хто порушник? Пошук за ЄДРПОУ / місцем / «Не знаю» <span class="tag">Ескейп-хетч ✓</span></div></div>
-      <div class="flow-item"><div class="flow-num">7</div><div class="flow-body">Локація: геолокація або текстова адреса <span class="tag">Dual input</span></div></div>
-      <div class="flow-item"><div class="flow-num">8</div><div class="flow-body">Підтвердження або скасування <span class="tag">Review → submit</span></div></div>
-    </div>
-
-    <div class="callouts">
-      <div class="callout good">
-        <strong>Категорії погоджені з Міністерством захисту довкілля</strong>
-        <p>Вода / Повітря / Грунт / Відходи / Шум — готовий список для District Care.</p>
-      </div>
-      <div class="callout warn">
-        <strong>8 кроків — багато, навіть у Telegram</strong>
-        <p>Conversational UI приховує кількість, але не скорочує. Запит ЄДРПОУ порушника — бар'єр для рядового користувача.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- FLOW INAT -->
-  <section id="flow-inat">
-    <h3>iNaturalist — 3 кроки</h3>
-
-    <div class="flow">
-      <div class="flow-item"><div class="flow-num">1</div><div class="flow-body"><strong>Фото першим:</strong> Drag & drop або Choose files <span class="tag">Photo-first entry</span></div></div>
-      <div class="flow-item"><div class="flow-num">2</div><div class="flow-body">Форма: Species, Date (auto з EXIF), Location (auto з EXIF), Notes <span class="tag">Auto-fill</span></div></div>
-      <div class="flow-item"><div class="flow-num">3</div><div class="flow-body">«Submit 1 observation» — кнопка завжди видима у правому верхньому куті <span class="tag">Persistent CTA</span></div></div>
-    </div>
-
-    <div class="callouts">
-      <div class="callout good">
-        <strong>«Needs ID» — елегантний постсабміт-статус</strong>
-        <p>Публікується одразу на карті, але з міткою «чекає верифікації». Запрошення спільноти допомогти, а не «скарга на розгляді».</p>
-      </div>
-      <div class="callout good">
-        <strong>Авто-заповнення з EXIF</strong>
-        <p>Дата і локація витягуються з фото. Користувач не вводить нічого зайвого.</p>
-      </div>
-      <div class="callout note">
-        <strong>«Use X as a placeholder»</strong>
-        <p>Якщо категорія невідома — ескейп-хетч. Флоу ніколи не заходить у тупик.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- DESKTOP -->
-  <section id="desktop">
-    <h3>Desktop-знахідки</h3>
-    <div class="callouts">
-      <div class="callout good">
-        <strong>FixMyStreet — два паралельних entry points</strong>
-        <p>Пошук локації (зліва) і drag & drop фото (справа). Dashboard: 7,612,063 звітів, 2,953,167 виправлено. 73% тижнева вирішуваність — публічна карта без модерації справді тисне на ради.</p>
-      </div>
-      <div class="callout note">
-        <strong>SeeClickFix — архітектура ролей з першого екрану</strong>
-        <p>«Resident Sign In» / «Administrator Sign In» — два окремих треки в хедері. Референс для розділення inspector / citizen без плутанини.</p>
-      </div>
-      <div class="callout warn">
-        <strong>Litterati — жодного consumer CTA</strong>
-        <p>Тільки «CONTACT US». B2G pivot підтверджений. Для громадян продукту не існує.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- MATRIX 2 -->
-  <section id="matrix2">
-    <h3>Порівняння флоу</h3>
-    <div class="table-wrap">
-      <table>
-        <thead>
-          <tr><th>Ось</th><th>SaveEcoBot</th><th>iNaturalist</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Кроків до відправки</td><td>8 (conversational, приховано)</td><td>3 (photo-first, очевидно)</td></tr>
-          <tr><td>Перший екран</td><td>Текст + кнопка</td><td>Фото</td></tr>
-          <tr><td>Автозаповнення</td><td>—</td><td>Дата + локація з EXIF</td></tr>
-          <tr><td>Ескейп-хетч</td><td>«Не знаю забруднювача»</td><td>«Use X as placeholder»</td></tr>
-          <tr><td>Постсабміт-статус</td><td>Збережено / скасовано</td><td>«Needs ID» → спільнота</td></tr>
-          <tr><td>Категорії</td><td>5 (офіційна класифікація)</td><td>Таксономія (550k видів)</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <hr>
-
-  <!-- PM -->
-  <section id="pm">
-    <h2>Питання до PM</h2>
-
-    <div class="q-block">
-      <div class="q-num">Питання 1</div>
-      <div class="q-title">Хто отримує звіт — і що з ним робить?</div>
-      <div class="q-body">FixMyStreet вирішив через API до рад. SeeClickFix — через платну ліцензію. Якщо домовленості з органом Шевченківського району немає — звіти накопичуються і нікуди не передаються. Це руйнує мотивацію фіксувати.</div>
-    </div>
-
-    <div class="q-block">
-      <div class="q-num">Питання 2</div>
-      <div class="q-title">Стратегія щодо дублікатів?</div>
-      <div class="q-body">Якщо 10 людей фіксують одне звалище — 10 пінів чи 1? FixMyStreet: публічна стрічка (бачиш — не дублюєш). iNaturalist: community flagging. Якщо модерація вручну — навантаження зростає з кожним юзером.</div>
-    </div>
-
-    <div class="q-block">
-      <div class="q-num">Питання 3</div>
-      <div class="q-title">Що бачить користувач після першого звіту — і чому повертається?</div>
-      <div class="q-body">iNaturalist: «research grade» + спільнота. FixMyStreet: статус виправлення. SaveEcoBot: нічого — retention нульовий. Фреймінг «сигнал» сильний при відправці, але якщо карта не змінюється і звіт зникає без feedback — retention вбито на старті.</div>
-    </div>
-  </section>
-
-  <!-- OPEN -->
-  <section id="open">
+<!-- OPEN QUESTIONS -->
+<section id="openq">
+  <div class="container">
     <h2>Відкриті питання</h2>
-    <ul class="open-list">
-      <li>Які категорії фіксують інспектори за українським законодавством?</li>
-      <li>Цикл звіту: верифікація → який орган → які статуси?</li>
-      <li>Громадяни (Фаза 2): вік, мотивація, бар'єри. Чи готові реєструватись з реальним іменем?</li>
-      <li>Формат і протокол передачі даних до держорганів?</li>
-    </ul>
-  </section>
-
-  <hr>
-
-  <!-- GALLERY MOBILE -->
-  <section id="g-mobile">
-    <h2>Скріни</h2>
-    <h3>Mobile</h3>
-    <div class="gallery">
-      <div class="gallery-item" onclick="lb('screens/ecozagroza_store.png','ЕкоЗагроза — Google Play')"><img src="screens/ecozagroza_store.png"><div class="cap">ЕкоЗагроза — store</div></div>
-      <div class="gallery-item" onclick="lb('screens/ecozagroza_store_desc.png','ЕкоЗагроза — опис')"><img src="screens/ecozagroza_store_desc.png"><div class="cap">ЕкоЗагроза — опис</div></div>
-      <div class="gallery-item" onclick="lb('screens/ecomap_borysenko_store.png','EcoMap Borysenko — Google Play')"><img src="screens/ecomap_borysenko_store.png"><div class="cap">EcoMap Borysenko — store</div></div>
-      <div class="gallery-item" onclick="lb('screens/ecomap_borysenko_store_desc.png','EcoMap Borysenko — опис')"><img src="screens/ecomap_borysenko_store_desc.png"><div class="cap">EcoMap Borysenko — опис</div></div>
-      <div class="gallery-item" onclick="lb('screens/saveecobot.png','SaveEcoBot — Telegram preview')"><img src="screens/saveecobot.png"><div class="cap">SaveEcoBot</div></div>
-      <div class="gallery-item" onclick="lb('screens/diia_home.png','Дія — homepage')"><img src="screens/diia_home.png"><div class="cap">Дія — home</div></div>
-      <div class="gallery-item" onclick="lb('screens/kyivcity_home.png','Kyiv Smart City')"><img src="screens/kyivcity_home.png"><div class="cap">Kyiv Smart City</div></div>
-      <div class="gallery-item" onclick="lb('screens/fixmystreet_home.png','FixMyStreet — homepage')"><img src="screens/fixmystreet_home.png"><div class="cap">FixMyStreet — home</div></div>
-      <div class="gallery-item" onclick="lb('screens/fixmystreet_report.png','FixMyStreet — map pin')"><img src="screens/fixmystreet_report.png"><div class="cap">FixMyStreet — map</div></div>
-      <div class="gallery-item" onclick="lb('screens/litterati_home.png','Litterati — B2G')"><img src="screens/litterati_home.png"><div class="cap">Litterati</div></div>
-      <div class="gallery-item" onclick="lb('screens/inaturalist_home.png','iNaturalist — homepage')"><img src="screens/inaturalist_home.png"><div class="cap">iNaturalist — home</div></div>
-      <div class="gallery-item" onclick="lb('screens/inaturalist_home_mobile.png','iNaturalist — mobile')"><img src="screens/inaturalist_home_mobile.png"><div class="cap">iNaturalist — mobile</div></div>
-      <div class="gallery-item" onclick="lb('screens/inaturalist_explore_mobile.png','iNaturalist — explore')"><img src="screens/inaturalist_explore_mobile.png"><div class="cap">iNaturalist — explore</div></div>
-      <div class="gallery-item" onclick="lb('screens/seeclickfix_home.png','SeeClickFix')"><img src="screens/seeclickfix_home.png"><div class="cap">SeeClickFix</div></div>
-      <div class="gallery-item" onclick="lb('screens/eyesea_playstore.png','Eyesea — Google Play')"><img src="screens/eyesea_playstore.png"><div class="cap">Eyesea — store</div></div>
-      <div class="gallery-item" onclick="lb('screens/eyesea_website.png','Eyesea — website')"><img src="screens/eyesea_website.png"><div class="cap">Eyesea — website</div></div>
-      <div class="gallery-item" onclick="lb('screens/eyesea_tech.png','Eyesea — технологія')"><img src="screens/eyesea_tech.png"><div class="cap">Eyesea — tech</div></div>
+    <div class="oq">
+      <div class="oq-head">Фаза 1 — MVP (громадяни) — пріоритет</div>
+      <ul>
+        <li>Громадяни: вік, мотивація, бар'єри — що заважає фіксувати зараз?</li>
+        <li>Категорії для громадян: спрощена цивільна мова (≠ юридична таксономія ЕкоЗагрози)</li>
+        <li>Цикл звіту: хто верифікує, куди передається? Без відповіді retention зламаний.</li>
+      </ul>
     </div>
-  </section>
-
-  <section id="g-desktop">
-    <h3>Desktop</h3>
-    <div class="gallery">
-      <div class="gallery-item" onclick="lb('screens/dt_fixmystreet_home.png','FixMyStreet desktop — home')"><img src="screens/dt_fixmystreet_home.png"><div class="cap">FixMyStreet — home</div></div>
-      <div class="gallery-item" onclick="lb('screens/dt_fixmystreet_reports.png','FixMyStreet — dashboard')"><img src="screens/dt_fixmystreet_reports.png"><div class="cap">FixMyStreet — dashboard</div></div>
-      <div class="gallery-item" onclick="lb('screens/dt_fixmystreet_report.png','FixMyStreet — report form')"><img src="screens/dt_fixmystreet_report.png"><div class="cap">FixMyStreet — form</div></div>
-      <div class="gallery-item" onclick="lb('screens/dt_seeclickfix_home.png','SeeClickFix desktop')"><img src="screens/dt_seeclickfix_home.png"><div class="cap">SeeClickFix</div></div>
-      <div class="gallery-item" onclick="lb('screens/dt_litterati.png','Litterati desktop')"><img src="screens/dt_litterati.png"><div class="cap">Litterati</div></div>
-      <div class="gallery-item" onclick="lb('screens/dt_diia.png','Дія desktop')"><img src="screens/dt_diia.png"><div class="cap">Дія</div></div>
-      <div class="gallery-item" onclick="lb('screens/dt_inaturalist_home.png','iNaturalist desktop — home')"><img src="screens/dt_inaturalist_home.png"><div class="cap">iNaturalist — home</div></div>
-      <div class="gallery-item" onclick="lb('screens/dt_inaturalist_explore.png','iNaturalist — explore')"><img src="screens/dt_inaturalist_explore.png"><div class="cap">iNaturalist — explore</div></div>
-      <div class="gallery-item" onclick="lb('screens/dt_inaturalist_map.png','iNaturalist — map')"><img src="screens/dt_inaturalist_map.png"><div class="cap">iNaturalist — map</div></div>
-      <div class="gallery-item" onclick="lb('screens/dt_kyivcity.png','Kyiv Smart City desktop')"><img src="screens/dt_kyivcity.png"><div class="cap">Kyiv Smart City</div></div>
-      <div class="gallery-item" onclick="lb('screens/dt_saveecobot.png','SaveEcoBot desktop')"><img src="screens/dt_saveecobot.png"><div class="cap">SaveEcoBot</div></div>
+    <div class="oq">
+      <div class="oq-head">Фаза 2 — Інспектори (відкладено)</div>
+      <ul>
+        <li>Інспектори: хто вони (штатні vs волонтерські), як зараз фіксують, які болі?</li>
+        <li>Інтеграції: формат і протокол передачі даних до держорганів?</li>
+      </ul>
     </div>
-  </section>
-
-  <section id="g-inat">
-    <h3>Флоу iNaturalist</h3>
-    <div class="gallery">
-      <div class="gallery-item" onclick="lb('screens/inaturalist_01_upload.png','01 — Upload')"><img src="screens/inaturalist_01_upload.png"><div class="cap">01 — upload</div></div>
-      <div class="gallery-item" onclick="lb('screens/inaturalist_02_form.png','02 — Form')"><img src="screens/inaturalist_02_form.png"><div class="cap">02 — form</div></div>
-      <div class="gallery-item" onclick="lb('screens/inaturalist_03_fields.png','03 — Fields')"><img src="screens/inaturalist_03_fields.png"><div class="cap">03 — fields</div></div>
-      <div class="gallery-item" onclick="lb('screens/inaturalist_04_species_search.png','04 — Species search')"><img src="screens/inaturalist_04_species_search.png"><div class="cap">04 — species search</div></div>
-      <div class="gallery-item" onclick="lb('screens/inaturalist_05_trash_search.png','05 — Trash search')"><img src="screens/inaturalist_05_trash_search.png"><div class="cap">05 — trash search</div></div>
-      <div class="gallery-item" onclick="lb('screens/inaturalist_06_location_map.png','06 — Location map')"><img src="screens/inaturalist_06_location_map.png"><div class="cap">06 — location map</div></div>
-      <div class="gallery-item" onclick="lb('screens/inaturalist_07_location_pin.png','07 — Location pin')"><img src="screens/inaturalist_07_location_pin.png"><div class="cap">07 — location pin</div></div>
-      <div class="gallery-item" onclick="lb('screens/inaturalist_08_card_preview.png','08 — Card preview')"><img src="screens/inaturalist_08_card_preview.png"><div class="cap">08 — card preview</div></div>
-      <div class="gallery-item" onclick="lb('screens/inaturalist_09_submitting.png','09 — Submitting')"><img src="screens/inaturalist_09_submitting.png"><div class="cap">09 — submitting</div></div>
-      <div class="gallery-item" onclick="lb('screens/inaturalist_10_needs_id.png','10 — Needs ID')"><img src="screens/inaturalist_10_needs_id.png"><div class="cap">10 — needs ID</div></div>
-      <div class="gallery-item" onclick="lb('screens/inaturalist_11_observation_list.png','11 — Observation list')"><img src="screens/inaturalist_11_observation_list.png"><div class="cap">11 — list</div></div>
+    <div class="oq">
+      <div class="oq-head">Закрито ✓</div>
+      <ul>
+        <li class="done-q">Типи порушень за законодавством → таксономія ЕкоЗагрози (Міндовкілля)</li>
+        <li class="done-q">Аналоги в Україні та світі → competitive analysis завершено</li>
+      </ul>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="g-bot">
-    <h3>Флоу SaveEcoBot</h3>
-    <div class="gallery">
-      <div class="gallery-item" onclick="lb('screens/saveecobot_01_welcome.png','01 — Welcome')"><img src="screens/saveecobot_01_welcome.png"><div class="cap">01 — welcome</div></div>
-      <div class="gallery-item" onclick="lb('screens/saveecobot_02_main_menu.png','02 — Main menu')"><img src="screens/saveecobot_02_main_menu.png"><div class="cap">02 — menu</div></div>
-      <div class="gallery-item" onclick="lb('screens/saveecobot_03_start_complaint.png','03 — Start')"><img src="screens/saveecobot_03_start_complaint.png"><div class="cap">03 — start</div></div>
-      <div class="gallery-item" onclick="lb('screens/saveecobot_04_categories.png','04 — Categories')"><img src="screens/saveecobot_04_categories.png"><div class="cap">04 — categories</div></div>
-      <div class="gallery-item" onclick="lb('screens/saveecobot_05_category_noise.png','05 — Noise')"><img src="screens/saveecobot_05_category_noise.png"><div class="cap">05 — noise</div></div>
-      <div class="gallery-item" onclick="lb('screens/saveecobot_06_polluter_search.png','06 — Polluter search')"><img src="screens/saveecobot_06_polluter_search.png"><div class="cap">06 — polluter</div></div>
-      <div class="gallery-item" onclick="lb('screens/saveecobot_07_location.png','07 — Location')"><img src="screens/saveecobot_07_location.png"><div class="cap">07 — location</div></div>
-      <div class="gallery-item" onclick="lb('screens/saveecobot_08_category_waste.png','08 — Waste')"><img src="screens/saveecobot_08_category_waste.png"><div class="cap">08 — waste</div></div>
-    </div>
-  </section>
-
-</main>
-
-<div class="lightbox" id="lightbox" onclick="closelb(event)">
-  <button class="lb-close" onclick="closelb()">×</button>
-  <img id="lb-img" src="" alt="">
-  <div class="lb-cap" id="lb-cap"></div>
+<div style="background:white;border-top:1px solid var(--gray-200);padding:18px 24px;text-align:center;font-size:12px;color:var(--gray-400)">
+  District Care Research · 2026-06-07 · Аудиторія MVP: Громадяни України · Фаза 1
 </div>
 
-<script>
-  function lb(src, cap) {
-    document.getElementById('lb-img').src = src;
-    document.getElementById('lb-cap').textContent = cap;
-    document.getElementById('lightbox').classList.add('open');
-    document.body.style.overflow = 'hidden';
-  }
-  function closelb(e) {
-    if (!e || e.target === document.getElementById('lightbox') || e.target.classList.contains('lb-close')) {
-      document.getElementById('lightbox').classList.remove('open');
-      document.body.style.overflow = '';
-    }
-  }
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') closelb(); });
-
-  const sections = document.querySelectorAll('section[id]');
-  const links = document.querySelectorAll('nav a');
-  new IntersectionObserver(entries => {
-    entries.forEach(e => {
-      if (e.isIntersecting) {
-        links.forEach(a => a.classList.remove('active'));
-        const a = document.querySelector(`nav a[href="#${e.target.id}"]`);
-        if (a) a.classList.add('active');
-      }
-    });
-  }, { rootMargin: '-20% 0px -70% 0px' }).observe && sections.forEach(s =>
-    new IntersectionObserver(entries => {
-      entries.forEach(e => {
-        if (e.isIntersecting) {
-          links.forEach(a => a.classList.remove('active'));
-          const a = document.querySelector(`nav a[href="#${e.target.id}"]`);
-          if (a) a.classList.add('active');
-        }
-      });
-    }, { rootMargin: '-20% 0px -70% 0px' }).observe(s)
-  );
-</script>
 </body>
 </html>
