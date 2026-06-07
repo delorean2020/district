@@ -115,6 +115,20 @@
     .divider { height: 1px; background: var(--gray-200); margin: 24px 0; }
     .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
     @media (max-width: 680px) { .two-col { grid-template-columns: 1fr; } }
+
+    /* LIGHTBOX */
+    #lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.85); z-index: 1000; align-items: center; justify-content: center; }
+    #lightbox.open { display: flex; }
+    #lightbox img { max-width: 82vw; max-height: 88vh; border-radius: 8px; box-shadow: 0 8px 40px rgba(0,0,0,.6); object-fit: contain; }
+    #lightbox-close { position: fixed; top: 20px; right: 24px; color: white; font-size: 28px; cursor: pointer; line-height: 1; opacity: .7; }
+    #lightbox-close:hover { opacity: 1; }
+    .lb-arrow { position: fixed; top: 50%; transform: translateY(-50%); color: white; font-size: 36px; cursor: pointer; opacity: .6; padding: 16px; user-select: none; }
+    .lb-arrow:hover { opacity: 1; }
+    #lb-prev { left: 12px; }
+    #lb-next { right: 12px; }
+    #lb-counter { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); color: white; font-size: 12px; opacity: .6; }
+    #screens figure { cursor: zoom-in; }
+    #screens figure img:hover { opacity: .85; transition: opacity .15s; }
   </style>
 </head>
 <body>
@@ -129,6 +143,7 @@
   <a href="#hypotheses">Гіпотези</a>
   <a href="#insights">Інсайти</a>
   <a href="#openq">Питання</a>
+  <a href="#screens">Скріни</a>
 </nav>
 
 <!-- HERO -->
@@ -662,9 +677,154 @@
   </div>
 </section>
 
+<section id="screens">
+  <div class="container">
+    <h2>Скріншоти</h2>
+
+    <h3>ЕкоЗагроза — live flow (30 скрінів)</h3>
+    <div class="meta">Авторизація, форма звіту, категорії, карта, успіх</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin:12px 0">
+      <div style="display:contents">
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_01_home.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">01 Home</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_02_auth_gate.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">02 Auth gate</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_03_profile_warning.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">03 Profile warning</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_04_profile_empty.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">04 Profile empty</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_05_profile_email_error.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">05 Email error</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_06_profile_bottom.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">06 Profile bottom</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_07_cabinet.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">07 Cabinet</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_08_add_info_sheet.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">08 Add info</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_09_form_photo_location.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">09 Form</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_10_category_list.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">10 Categories</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_11_form_bottom_submit.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">11 Submit</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_12_map_location_edit.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">12 Map edit</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_13_cat_air.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">13 Cat: повітря</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_14_cat_land.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">14 Cat: земля</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_15_cat_water.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">15 Cat: вода</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_16_cat_forest.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">16 Cat: ліс</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_17_cat_pzf_1.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">17 Cat: ПЗФ 1</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_18_cat_pzf_2.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">18 Cat: ПЗФ 2</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_19_cat_nadra_submit.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">19 Надра submit</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_20_cat_nadra_subs.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">20 Надра subs</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_21_cat_selected.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">21 Cat selected</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_22_success.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">22 Success</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_23_home_full.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">23 Home full</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_24_dashboard.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">24 Dashboard</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_25_map_ukraine.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">25 Map Ukraine</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_26_map_lviv.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">26 Map Lviv</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_27_station_card.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">27 Station card</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_28_station_chart.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">28 Station chart</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_29_station_indicators.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">29 Indicators</figcaption></figure>
+        <figure style="margin:0"><img src="/research/screens/ecozagroza_30_events.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">30 Events</figcaption></figure>
+      </div>
+    </div>
+
+    <h3>iNaturalist — flow (11 скрінів)</h3>
+    <div class="meta">Upload → форма → submit → Needs ID</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin:12px 0">
+      <figure style="margin:0"><img src="/research/screens/inaturalist_01_upload.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">01 Upload</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/inaturalist_02_form.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">02 Form</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/inaturalist_03_fields.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">03 Fields</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/inaturalist_04_species_search.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">04 Species search</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/inaturalist_05_trash_search.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">05 Trash search</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/inaturalist_06_location_map.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">06 Location map</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/inaturalist_07_location_pin.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">07 Location pin</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/inaturalist_08_card_preview.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">08 Card preview</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/inaturalist_09_submitting.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">09 Submitting</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/inaturalist_10_needs_id.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">10 Needs ID</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/inaturalist_11_observation_list.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">11 Observation list</figcaption></figure>
+    </div>
+
+    <h3>SaveEcoBot — flow (8 скрінів)</h3>
+    <div class="meta">Welcome → категорія → локація → підтвердження</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin:12px 0">
+      <figure style="margin:0"><img src="/research/screens/saveecobot_01_welcome.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">01 Welcome</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/saveecobot_02_main_menu.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">02 Main menu</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/saveecobot_03_start_complaint.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">03 Start</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/saveecobot_04_categories.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">04 Categories</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/saveecobot_05_category_noise.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">05 Noise</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/saveecobot_06_polluter_search.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">06 Polluter</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/saveecobot_07_location.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">07 Location</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/saveecobot_08_category_waste.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">08 Waste</figcaption></figure>
+    </div>
+
+    <h3>Десктоп</h3>
+    <div class="meta">FixMyStreet, iNaturalist, Litterati, SeeClickFix, Дія, Kyiv City</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px;margin:12px 0">
+      <figure style="margin:0"><img src="/research/screens/dt_fixmystreet_home.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">FixMyStreet — home</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/dt_fixmystreet_report.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">FixMyStreet — report</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/dt_fixmystreet_reports.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">FixMyStreet — reports</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/dt_inaturalist_home.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">iNaturalist — home</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/dt_inaturalist_explore.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">iNaturalist — explore</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/dt_inaturalist_map.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">iNaturalist — map</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/dt_litterati.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Litterati</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/dt_seeclickfix_home.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">SeeClickFix</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/dt_diia.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Дія</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/dt_kyivcity.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Kyiv City</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/dt_saveecobot.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">SaveEcoBot</figcaption></figure>
+    </div>
+
+    <h3>App Store / Google Play</h3>
+    <div class="meta">Сторінки продуктів у сторах</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin:12px 0">
+      <figure style="margin:0"><img src="/research/screens/appstore_ecozagroza.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">ЕкоЗагроза — App Store</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/ecozagroza_store.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">ЕкоЗагроза — Play Store</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/ecozagroza_store_desc.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">ЕкоЗагроза — опис</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/appstore_ecomap.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">EcoMap — App Store</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/ecomap_borysenko_store.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">EcoMap Borysenko</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_playstore.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Eyesea — Play Store</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_website.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Eyesea — website</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/gplay_eco_ua.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Eco UA — Play</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/gplay_ecomap.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">EcoMap — Play</figcaption></figure>
+    </div>
+
+  </div>
+</section>
+
 <div style="background:white;border-top:1px solid var(--gray-200);padding:18px 24px;text-align:center;font-size:12px;color:var(--gray-400)">
   District Care Research · 2026-06-07 · Аудиторія MVP: Громадяни України · Фаза 1
 </div>
 
+<div id="lightbox">
+  <span id="lightbox-close">✕</span>
+  <span class="lb-arrow" id="lb-prev">‹</span>
+  <img id="lightbox-img" src="" alt="">
+  <span class="lb-arrow" id="lb-next">›</span>
+  <span id="lb-counter"></span>
+</div>
+
+<script>
+  const lb = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lightbox-img');
+  const counter = document.getElementById('lb-counter');
+  let imgs = [];
+  let current = 0;
+
+  function show(i) {
+    current = (i + imgs.length) % imgs.length;
+    lbImg.src = imgs[current].src;
+    counter.textContent = (current + 1) + ' / ' + imgs.length;
+  }
+
+  function open(i) {
+    imgs = Array.from(document.querySelectorAll('#screens figure img'));
+    show(i);
+    lb.classList.add('open');
+  }
+
+  document.querySelectorAll('#screens figure img').forEach((img, i) => {
+    img.addEventListener('click', () => open(i));
+  });
+
+  document.getElementById('lb-prev').addEventListener('click', e => { e.stopPropagation(); show(current - 1); });
+  document.getElementById('lb-next').addEventListener('click', e => { e.stopPropagation(); show(current + 1); });
+  document.getElementById('lightbox-close').addEventListener('click', () => lb.classList.remove('open'));
+  lb.addEventListener('click', e => { if (e.target === lb) lb.classList.remove('open'); });
+  document.addEventListener('keydown', e => {
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') lb.classList.remove('open');
+    if (e.key === 'ArrowRight') show(current + 1);
+    if (e.key === 'ArrowLeft') show(current - 1);
+  });
+</script>
 </body>
 </html>

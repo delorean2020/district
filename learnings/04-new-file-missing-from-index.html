@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ретроспектива #04 — Новий файл не з'явився в index.html</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f0f2f5; color: #1a1a2e; min-height: 100vh; }
+    header { background: #1a1a2e; color: white; padding: 24px 32px; display: flex; align-items: center; gap: 16px; }
+    .tag { background: #2ecc71; color: white; font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 4px 10px; border-radius: 20px; }
+    header h1 { font-size: 18px; font-weight: 600; }
+    header span { font-size: 13px; color: #888; margin-left: auto; }
+    .container { max-width: 820px; margin: 0 auto; padding: 32px 16px 64px; }
+    .chat { display: flex; flex-direction: column; gap: 8px; margin-bottom: 48px; }
+    .msg { display: flex; flex-direction: column; max-width: 72%; }
+    .msg.user { align-self: flex-end; align-items: flex-end; }
+    .msg.ai { align-self: flex-start; align-items: flex-start; }
+    .msg-label { font-size: 11px; font-weight: 600; letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 4px; color: #888; }
+    .msg.user .msg-label { color: #27ae60; }
+    .msg.ai .msg-label { color: #2980b9; }
+    .bubble { padding: 12px 16px; border-radius: 18px; font-size: 14px; line-height: 1.6; }
+    .msg.user .bubble { background: #1a1a2e; color: #fff; border-bottom-right-radius: 4px; }
+    .msg.ai .bubble { background: #fff; color: #1a1a2e; border-bottom-left-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+    .bubble b { font-weight: 700; }
+    .day-divider { text-align: center; font-size: 12px; color: #aaa; margin: 24px 0 16px; position: relative; }
+    .day-divider::before, .day-divider::after { content: ''; position: absolute; top: 50%; width: 38%; height: 1px; background: #ddd; }
+    .day-divider::before { left: 0; }
+    .day-divider::after { right: 0; }
+    .conclusion { background: #fff; border-radius: 16px; padding: 32px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); }
+    .conclusion h2 { font-size: 20px; font-weight: 700; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 2px solid #f0f2f5; }
+    .section { margin-bottom: 28px; }
+    .section-label { font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: #888; margin-bottom: 10px; }
+    .original-prompt { background: #f8f9fa; border-left: 3px solid #1a1a2e; padding: 14px 16px; border-radius: 0 8px 8px 0; font-size: 14px; line-height: 1.6; color: #333; font-style: italic; }
+    .problem-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .problem-list li { display: flex; gap: 12px; align-items: flex-start; font-size: 14px; line-height: 1.5; }
+    .problem-list li .icon { width: 24px; height: 24px; border-radius: 50%; background: #fff0f0; color: #e74c3c; font-size: 13px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; }
+    .improved-list { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+    .improved-list li { background: #f8fff8; border: 1px solid #d4edda; border-radius: 10px; padding: 14px 16px; font-size: 14px; line-height: 1.5; }
+    .improved-list li strong { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; color: #27ae60; margin-bottom: 4px; }
+    .improved-list li code { display: block; background: #fff; border: 1px solid #e0e0e0; border-radius: 6px; padding: 8px 12px; font-family: 'SF Mono', 'Fira Code', monospace; font-size: 13px; color: #333; margin-top: 8px; }
+    .note { margin-top: 20px; background: #fffbf0; border: 1px solid #fdeeba; border-radius: 10px; padding: 14px 16px; font-size: 13px; line-height: 1.6; color: #856404; }
+    .context-block { background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #1a1a2e; border-radius: 10px; padding: 20px 24px; margin-bottom: 40px; font-size: 14px; line-height: 1.7; color: #333; }
+    .context-block .context-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #999; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <span class="tag">Ретроспектива #04</span>
+  <h1>Новий файл не з'явився в index.html</h1>
+  <span>District Care · 2026-06-07</span>
+</header>
+
+<div class="container">
+
+  <div class="context-block">
+    <div class="context-label">Контекст ретроспективи</div>
+    Я попросив додати ретроспективу #02. Claude створив файл і закомітив — але не додав його до index.html. Проблема виявилась тільки коли я відкрив localhost:3000 і не побачив нового запису в списку. Claude прочитав попередню ретроспективу щоб зрозуміти формат, але не прочитав index.html щоб зрозуміти що там є список який теж треба оновити.
+  </div>
+
+  <div class="chat">
+
+    <div class="day-divider">Початок діалогу</div>
+
+    <div class="msg user">
+      <div class="msg-label">Ти</div>
+      <div class="bubble">
+        я не бачу цього в списку ретроспектив тут http://localhost:3000/
+      </div>
+    </div>
+
+    <div class="msg ai">
+      <div class="msg-label">Claude</div>
+      <div class="bubble">
+        Бачу — другої ретроспективи немає, і ще sub застарів ("Шевченківський район, Львів"). Виправляю обидва.
+      </div>
+    </div>
+
+    <div class="msg user">
+      <div class="msg-label">Ти</div>
+      <div class="bubble">
+        скажи, ми зараз зробили багато ручних змін, тобто я тебе попросив щоб ти додав ретроспективу, а ти прочитав саме html який був попередній і потім створив новий файл, але не додав його до списку на index — як цього можна вберегтись?
+      </div>
+    </div>
+
+    <div class="msg ai">
+      <div class="msg-label">Claude</div>
+      <div class="bubble">
+        Чесно — це знову моя відповідальність, не твоя.<br><br>
+        Я прочитав <b>01-phantom-competitor.html</b> щоб зрозуміти формат, але не прочитав <b>index.html</b>. Якби прочитав — одразу б побачив що там є список, і додав би новий запис в той самий крок.<br><br>
+        Правило яке я маю застосовувати за замовчуванням: перед створенням будь-якого файлу в проекті — перевірити чи є десь index або список де він має з'явитись, і оновити його в тому ж коміті.
+      </div>
+    </div>
+
+  </div>
+
+  <div class="conclusion">
+    <h2>Висновок</h2>
+
+    <div class="section">
+      <div class="section-label">Початковий запит</div>
+      <div class="original-prompt">
+        "потрібно в ретроспективу додати нову знахідку... Формат ретроспективи має бути такий як в нас вже є відносно іншої проблеми"
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-label">В чому була проблема</div>
+      <ul class="problem-list">
+        <li>
+          <span class="icon">✕</span>
+          <span><b>index.html не прочитаний перед створенням файлу.</b> Claude прочитав попередню ретроспективу щоб зрозуміти формат — але не прочитав index.html. Тому не побачив що там є список який теж потребує оновлення.</span>
+        </li>
+        <li>
+          <span class="icon">✕</span>
+          <span><b>Задача "додати ретроспективу" інтерпретована вузько.</b> Створити файл — так. Але "додати" означає щоб він був доступний користувачу, а це вимагає і оновлення навігації.</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Як вирішили системно</div>
+      <ul class="improved-list">
+        <li>
+          <strong>Читати index.html перед створенням будь-якого нового файлу</strong>
+          index.html — єдина точка навігації. Оновлення index є частиною тієї ж задачі що й створення файлу, не окремим кроком.
+          <code>CLAUDE.md → Правила роботи з файлами → index.html</code>
+        </li>
+      </ul>
+    </div>
+
+    <div class="note">
+      Користувач не повинен перевіряти чи з'явився файл у навігації — це частина роботи Claude. "Додати файл" = створити + зробити доступним.
+    </div>
+
+  </div>
+
+</div>
+</body>
+</html>
