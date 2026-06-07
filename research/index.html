@@ -83,6 +83,9 @@
     .fnum.warn { background: var(--red); }
     .fstep strong { display: block; color: var(--gray-900); }
     .fstep em { font-style: normal; color: var(--gray-400); font-size: 12px; }
+    .fstep > div:nth-child(2) { flex: 1; }
+    .fthumb { width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid var(--gray-200); cursor: zoom-in; flex-shrink: 0; align-self: center; transition: opacity .15s; }
+    .fthumb:hover { opacity: .8; }
 
     .warn-box { background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: 11px 15px; font-size: 13px; margin: 10px 0; color: #5d4037; }
     .info-box { background: var(--green-light); border: 1px solid #a5d6a7; border-radius: 8px; padding: 11px 15px; font-size: 13px; margin: 10px 0; color: #1b5e20; }
@@ -175,7 +178,7 @@
     <div class="tw">
       <table>
         <thead>
-          <tr><th></th><th>ЕкоЗагроза</th><th>EcoMap (Borysenko)</th><th>SaveEcoBot</th><th>Kyiv Smart City</th><th>Дія</th></tr>
+          <tr><th></th><th><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a></th><th><a href="https://play.google.com/store/apps/details?id=ee.ut.ecomap" target="_blank">EcoMap</a> (Borysenko)</th><th><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a></th><th><a href="https://kyiv.city" target="_blank">Kyiv Smart City</a></th><th><a href="https://diia.gov.ua" target="_blank">Дія</a></th></tr>
         </thead>
         <tbody>
           <tr><td>Розробник</td><td>Міндовкілля + Мінцифри</td><td>Студент (Univ. of Tartu)</td><td>SaveEco команда</td><td>Київська міська рада</td><td>Мінцифри</td></tr>
@@ -192,9 +195,9 @@
       </table>
     </div>
     <div class="cards">
-      <div class="card"><h4>ЕкоЗагроза — головний конкурент</h4><p>5k завантажень, 3.7★. GOV ID gate + профіль-гейт = 2 бар'єри до першого звіту. reCAPTCHA на формі. Карта показує станції моніторингу, а НЕ звіти. Дані не шифруються.</p></div>
-      <div class="card"><h4>EcoMap (Borysenko)</h4><p>Студентський проект з тією самою ідеєю. 100+ завантажень, покинутий лют. 2023. Чому не злетів — відкрите питання.</p></div>
-      <div class="card"><h4>SaveEcoBot → воєнні злочини</h4><p>Переорієнтувався на фіксацію екозлочинів окупантів. Telegram = нульовий бар'єр, але 8 кроків. Категорії — разом з Міндовкілля.</p></div>
+      <div class="card"><h4><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a> — головний конкурент</h4><p>5k завантажень, 3.7★. GOV ID gate + профіль-гейт = 2 бар'єри до першого звіту. reCAPTCHA на формі. Карта показує станції моніторингу, а НЕ звіти. Дані не шифруються.</p></div>
+      <div class="card"><h4><a href="https://play.google.com/store/apps/details?id=ee.ut.ecomap" target="_blank">EcoMap</a> (Borysenko)</h4><p>Студентський проект з тією самою ідеєю. 100+ завантажень, покинутий лют. 2023. Чому не злетів — відкрите питання.</p></div>
+      <div class="card"><h4><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a> → воєнні злочини</h4><p>Переорієнтувався на фіксацію екозлочинів окупантів. Telegram = нульовий бар'єр, але 8 кроків. Категорії — разом з Міндовкілля.</p></div>
       <div class="card"><h4>Дія — еталон UX</h4><p>Внутрішній стандарт якості для UA-продукту: градієнт, великий шрифт, мінімум полів, BankID. Рівень polish = наш орієнтир.</p></div>
     </div>
 
@@ -218,7 +221,7 @@
     <div class="tw">
       <table>
         <thead>
-          <tr><th></th><th>FixMyStreet</th><th>iNaturalist</th><th>SeeClickFix</th><th>Litterati</th><th>Eyesea</th></tr>
+          <tr><th></th><th><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a></th><th><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a></th><th><a href="https://seeclickfix.com" target="_blank">SeeClickFix</a></th><th><a href="https://www.litterati.org" target="_blank">Litterati</a></th><th><a href="https://www.eyesea.org" target="_blank">Eyesea</a></th></tr>
         </thead>
         <tbody>
           <tr><td>Аудиторія</td><td>Мешканці UK + ради</td><td>Натуралісти, науковці</td><td>Міста + мешканці (B2G)</td><td>B2G: міста, НКО</td><td>Моряки, прибережні</td></tr>
@@ -233,10 +236,10 @@
       </table>
     </div>
     <div class="cards">
-      <div class="card"><h4>Eyesea — найрелевантніший UX-референс</h4><p>Лют. 2026. On-device AI, офлайн-черга, гейміфікація. Морський фокус — не конкурент, але UX-рішення 1:1 застосовні.</p></div>
+      <div class="card"><h4><a href="https://www.eyesea.org" target="_blank">Eyesea</a> — найрелевантніший UX-референс</h4><p>Лют. 2026. On-device AI, офлайн-черга, гейміфікація. Морський фокус — не конкурент, але UX-рішення 1:1 застосовні.</p></div>
       <div class="card"><h4>FixMyStreet — найближчий за механікою</h4><p>7,6 млн звітів, 73% тижнева вирішуваність (<a href="https://www.fixmystreet.com/reports" target="_blank">fixmystreet.com/reports</a>). Доводить: видимий вплив > геймінг. Публічна карта = соціальний тиск = результат.</p></div>
-      <div class="card"><h4>iNaturalist — найкращий UX документації</h4><p>"Needs ID" замість "скарга на розгляді". Фото → auto-fill → 3 кроки. Community verification замість адмін-модерації.</p></div>
-      <div class="card"><h4>Litterati — застереження</h4><p>Починав як consumer → пішов у B2G. Тепер тільки CONTACT US. Попередження: без чіткої стратегії продукт дрейфує.</p></div>
+      <div class="card"><h4><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a> — найкращий UX документації</h4><p>"Needs ID" замість "скарга на розгляді". Фото → auto-fill → 3 кроки. Community verification замість адмін-модерації.</p></div>
+      <div class="card"><h4><a href="https://www.litterati.org" target="_blank">Litterati</a> — застереження</h4><p>Починав як consumer → пішов у B2G. Тепер тільки CONTACT US. Попередження: без чіткої стратегії продукт дрейфує.</p></div>
     </div>
 
     <div class="divider"></div>
@@ -245,10 +248,10 @@
       <table>
         <thead><tr><th>Додаток</th><th>Платформа</th><th>Завант.</th><th>Рейтинг</th><th>Група</th></tr></thead>
         <tbody>
-          <tr><td>ЕкоЗагроза</td><td>Android + iOS</td><td>5k+ / 18 відг.</td><td>3.7★ / 4.2★</td><td><span class="tag hard" style="margin:0">HARD</span></td></tr>
-          <tr><td>EcoMap (Borysenko)</td><td>Android</td><td>100+</td><td>—</td><td><span class="tag hard" style="margin:0">HARD</span></td></tr>
-          <tr><td>Eyesea Reporting</td><td>Android + iOS</td><td>50+</td><td>0 відг.</td><td><span class="tag asp" style="margin:0">ASP</span></td></tr>
-          <tr><td>SeeClickFix</td><td>iOS</td><td>—</td><td>4.6★ / 7 887 відг.</td><td><span class="tag asp" style="margin:0">ASP</span></td></tr>
+          <tr><td><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a></td><td>Android + iOS</td><td>5k+ / 18 відг.</td><td>3.7★ / 4.2★</td><td><span class="tag hard" style="margin:0">HARD</span></td></tr>
+          <tr><td><a href="https://play.google.com/store/apps/details?id=ee.ut.ecomap" target="_blank">EcoMap (Borysenko)</a></td><td>Android</td><td>100+</td><td>—</td><td><span class="tag hard" style="margin:0">HARD</span></td></tr>
+          <tr><td><a href="https://play.google.com/store/apps/details?id=com.mariussuteu.eyesea.eyeseareporting" target="_blank">Eyesea Reporting</a></td><td>Android + iOS</td><td>50+</td><td>0 відг.</td><td><span class="tag asp" style="margin:0">ASP</span></td></tr>
+          <tr><td><a href="https://seeclickfix.com" target="_blank">SeeClickFix</a></td><td>iOS</td><td>—</td><td>4.6★ / 7 887 відг.</td><td><span class="tag asp" style="margin:0">ASP</span></td></tr>
           <tr><td>Prevent Marine Pollution</td><td>iOS</td><td>—</td><td>0</td><td><span class="tag" style="margin:0;background:var(--gray-100);color:var(--gray-400)">НІШЕВИЙ</span></td></tr>
           <tr><td>Pollution Reporter</td><td>iOS</td><td>—</td><td>0</td><td><span class="tag" style="margin:0;background:var(--gray-100);color:var(--gray-400)">НІШЕВИЙ</span></td></tr>
           <tr><td>EcoInspector</td><td>—</td><td>—</td><td>—</td><td><span class="tag" style="margin:0;background:var(--gray-100);color:var(--gray-400)">ВИДАЛЕНИЙ</span></td></tr>
@@ -267,7 +270,7 @@
     <div class="tw">
       <table>
         <thead>
-          <tr><th></th><th>ЕкоЗагроза</th><th>SaveEcoBot</th><th>Дія</th><th>FixMyStreet</th><th>iNaturalist</th><th>SeeClickFix</th><th>Eyesea</th></tr>
+          <tr><th></th><th><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a></th><th><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a></th><th><a href="https://diia.gov.ua" target="_blank">Дія</a></th><th><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a></th><th><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a></th><th><a href="https://seeclickfix.com" target="_blank">SeeClickFix</a></th><th><a href="https://www.eyesea.org" target="_blank">Eyesea</a></th></tr>
         </thead>
         <tbody>
           <tr>
@@ -369,7 +372,7 @@
     <div class="tw">
       <table>
         <thead>
-          <tr><th>Критерій</th><th class="c">Waze</th><th class="c">iNaturalist</th><th class="c">Duolingo</th><th class="c">FixMyStreet</th><th class="c">Google Local&nbsp;Guides</th></tr>
+          <tr><th>Критерій</th><th class="c">Waze</th><th class="c"><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a></th><th class="c">Duolingo</th><th class="c"><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a></th><th class="c">Google Local&nbsp;Guides</th></tr>
         </thead>
         <tbody>
           <tr><td>Видимий вплив</td><td class="c"><span class="sc sc5">5</span></td><td class="c"><span class="sc sc4">4</span></td><td class="c"><span class="sc sc2">2</span></td><td class="c"><span class="sc sc5">5</span></td><td class="c"><span class="sc sc4">4</span></td></tr>
@@ -422,26 +425,26 @@
   <div class="container">
     <h2>Детальний аналіз флоу (живі сесії)</h2>
 
-    <h3>SaveEcoBot — 8 кроків</h3>
+    <h3><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a> — 8 кроків</h3>
     <div class="meta">Скріни: saveecobot_01_welcome → saveecobot_08_category_waste</div>
     <div class="flow">
-      <div class="fstep"><div class="fnum">1</div><div><strong>Welcome splash</strong><em>Опис місії + кнопка START</em></div></div>
-      <div class="fstep"><div class="fnum">2</div><div><strong>Головне меню</strong><em>Якість повітря / Поскаржитись / Функції / Налаштування — quick-reply кнопки</em></div></div>
-      <div class="fstep"><div class="fnum">3</div><div><strong>Підтвердження наміру</strong><em>"Почнемо?" + "Подати скаргу"</em></div></div>
-      <div class="fstep"><div class="fnum">4</div><div><strong>Вибір категорії</strong><em>Вода / Повітря / Грунт / Відходи / Шум — keyboard grid 3+2</em></div></div>
-      <div class="fstep"><div class="fnum">5</div><div><strong>Опис + фото + уточнення підтипу</strong><em>"Тимчасове / постійне / тільки чую" — освітній підхід</em></div></div>
-      <div class="fstep"><div class="fnum">6</div><div><strong>Хто порушник?</strong><em>За назвою/ЄДРПОУ / за місцем / "Не знаю" — ескейп-хетч є</em></div></div>
-      <div class="fstep"><div class="fnum">7</div><div><strong>Локація</strong><em>Геолокація або текстова адреса — dual input</em></div></div>
-      <div class="fstep"><div class="fnum">8</div><div><strong>Підтвердження або скасування</strong><em>Review → submit</em></div></div>
+      <div class="fstep"><div class="fnum">1</div><div><strong>Welcome splash</strong><em>Опис місії + кнопка START</em></div><img class="fthumb" src="/research/screens/saveecobot_01_welcome.png" alt="01 Welcome" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">2</div><div><strong>Головне меню</strong><em>Якість повітря / Поскаржитись / Функції / Налаштування — quick-reply кнопки</em></div><img class="fthumb" src="/research/screens/saveecobot_02_main_menu.png" alt="02 Main menu" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">3</div><div><strong>Підтвердження наміру</strong><em>"Почнемо?" + "Подати скаргу"</em></div><img class="fthumb" src="/research/screens/saveecobot_03_start_complaint.png" alt="03 Start" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">4</div><div><strong>Вибір категорії</strong><em>Вода / Повітря / Грунт / Відходи / Шум — keyboard grid 3+2</em></div><img class="fthumb" src="/research/screens/saveecobot_04_categories.png" alt="04 Categories" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">5</div><div><strong>Опис + фото + уточнення підтипу</strong><em>"Тимчасове / постійне / тільки чую" — освітній підхід</em></div><img class="fthumb" src="/research/screens/saveecobot_05_category_noise.png" alt="05 Category noise" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">6</div><div><strong>Хто порушник?</strong><em>За назвою/ЄДРПОУ / за місцем / "Не знаю" — ескейп-хетч є</em></div><img class="fthumb" src="/research/screens/saveecobot_06_polluter_search.png" alt="06 Polluter" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">7</div><div><strong>Локація</strong><em>Геолокація або текстова адреса — dual input</em></div><img class="fthumb" src="/research/screens/saveecobot_07_location.png" alt="07 Location" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">8</div><div><strong>Підтвердження або скасування</strong><em>Review → submit</em></div><img class="fthumb" src="/research/screens/saveecobot_08_category_waste.png" alt="08 Waste" loading="lazy"></div>
     </div>
 
     <div class="divider"></div>
-    <h3>iNaturalist — 3 кроки</h3>
+    <h3><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a> — 3 кроки</h3>
     <div class="meta">Скріни: inaturalist_01_upload → inaturalist_11_observation_list</div>
     <div class="flow">
-      <div class="fstep"><div class="fnum">1</div><div><strong>Фото першим</strong><em>"Drag & drop photos or sounds" — photo-first entry</em></div></div>
-      <div class="fstep"><div class="fnum">2</div><div><strong>Форма з auto-fill</strong><em>Species (пошук), Date (з EXIF), Location (з EXIF) — мінімум ручного введення</em></div></div>
-      <div class="fstep"><div class="fnum">3</div><div><strong>"Submit 1 observation"</strong><em>Persistent CTA у правому куті → "Needs ID" → на карті одразу</em></div></div>
+      <div class="fstep"><div class="fnum">1</div><div><strong>Фото першим</strong><em>"Drag & drop photos or sounds" — photo-first entry</em></div><img class="fthumb" src="/research/screens/inaturalist_01_upload.png" alt="01 Upload" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">2</div><div><strong>Форма з auto-fill</strong><em>Species (пошук), Date (з EXIF), Location (з EXIF) — мінімум ручного введення</em></div><img class="fthumb" src="/research/screens/inaturalist_02_form.png" alt="02 Form" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">3</div><div><strong>"Submit 1 observation"</strong><em>Persistent CTA у правому куті → "Needs ID" → на карті одразу</em></div><img class="fthumb" src="/research/screens/inaturalist_08_card_preview.png" alt="08 Card preview" loading="lazy"></div>
     </div>
     <div class="cards">
       <div class="card"><h4>Auto-fill з EXIF</h4><p>Дата і локація витягуються з метаданих фото. Нічого зайвого вводити.</p></div>
@@ -450,25 +453,25 @@
     </div>
 
     <div class="divider"></div>
-    <h3>ЕкоЗагроза — 7+ кроків (живий тест з GOV ID)</h3>
+    <h3><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a> — 7+ кроків (живий тест з GOV ID)</h3>
     <div class="meta">Скріни: ecozagroza_01_home → ecozagroza_30_events · Тест: реальний акаунт GOV ID, Микола Вєдєнін</div>
 
     <h4>Авторизація (3 бар'єри до першого звіту)</h4>
     <div class="flow">
-      <div class="fstep"><div class="fnum warn">!</div><div><strong>GOV ID gate</strong><em>"Недоступно — Увійдіть через GOV ID" — тільки GOV ID, немає email/пароль</em></div></div>
-      <div class="fstep"><div class="fnum warn">!</div><div><strong>Профіль-гейт</strong><em>"Увага! Заповніть всі поля кабінету для подачі заявки" — до першого звіту</em></div></div>
-      <div class="fstep"><div class="fnum warn">!</div><div><strong>Email обов'язковий, але не передається GOV ID</strong><em>Ім'я pre-filled, але dob / phone / email / стать / адреса — порожні. "Зберегти" заблоковане.</em></div></div>
+      <div class="fstep"><div class="fnum warn">!</div><div><strong>GOV ID gate</strong><em>"Недоступно — Увійдіть через GOV ID" — тільки GOV ID, немає email/пароль</em></div><img class="fthumb" src="/research/screens/ecozagroza_02_auth_gate.png" alt="02 Auth gate" loading="lazy"></div>
+      <div class="fstep"><div class="fnum warn">!</div><div><strong>Профіль-гейт</strong><em>"Увага! Заповніть всі поля кабінету для подачі заявки" — до першого звіту</em></div><img class="fthumb" src="/research/screens/ecozagroza_03_profile_warning.png" alt="03 Profile warning" loading="lazy"></div>
+      <div class="fstep"><div class="fnum warn">!</div><div><strong>Email обов'язковий, але не передається GOV ID</strong><em>Ім'я pre-filled, але dob / phone / email / стать / адреса — порожні. "Зберегти" заблоковане.</em></div><img class="fthumb" src="/research/screens/ecozagroza_04_profile_empty.png" alt="04 Profile empty" loading="lazy"></div>
     </div>
 
     <h4>Флоу подачі звіту</h4>
     <div class="flow">
-      <div class="fstep"><div class="fnum">1</div><div><strong>Home → "Повідомити"</strong><em>Велика картка, єдиний primary CTA</em></div></div>
-      <div class="fstep"><div class="fnum">2</div><div><strong>Bottom sheet</strong><em>Фото/відео / Додати без фото / Скасувати</em></div></div>
-      <div class="fstep"><div class="fnum">3</div><div><strong>Форма "Екологічна загроза"</strong><em>Фото + авто-локація з координатами + "змінити"</em></div></div>
-      <div class="fstep"><div class="fnum">4</div><div><strong>"Змінити" → Google Maps picker</strong><em>Повна карта, пін, "Зберегти 📍"</em></div></div>
-      <div class="fstep"><div class="fnum warn">!</div><div><strong>Категорії + reCAPTCHA</strong><em>6 груп → підкатегорії з одиницями (м², га, тонн) — для інспекторів, не громадян. reCAPTCHA в куті.</em></div></div>
-      <div class="fstep"><div class="fnum">6</div><div><strong>"Відправити дані ↑"</strong><em>Зелена кнопка внизу</em></div></div>
-      <div class="fstep"><div class="fnum">7</div><div><strong>SUCCESS: "Дякуємо за ваш вклад у перемогу!"</strong><em>Ілюстрація солдата + номер #007446 + "На головну" — без пояснення що далі</em></div></div>
+      <div class="fstep"><div class="fnum">1</div><div><strong>Home → "Повідомити"</strong><em>Велика картка, єдиний primary CTA</em></div><img class="fthumb" src="/research/screens/ecozagroza_01_home.png" alt="01 Home" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">2</div><div><strong>Bottom sheet</strong><em>Фото/відео / Додати без фото / Скасувати</em></div><img class="fthumb" src="/research/screens/ecozagroza_08_add_info_sheet.png" alt="08 Add info" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">3</div><div><strong>Форма "Екологічна загроза"</strong><em>Фото + авто-локація з координатами + "змінити"</em></div><img class="fthumb" src="/research/screens/ecozagroza_09_form_photo_location.png" alt="09 Form" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">4</div><div><strong>"Змінити" → Google Maps picker</strong><em>Повна карта, пін, "Зберегти 📍"</em></div><img class="fthumb" src="/research/screens/ecozagroza_12_map_location_edit.png" alt="12 Map edit" loading="lazy"></div>
+      <div class="fstep"><div class="fnum warn">!</div><div><strong>Категорії + reCAPTCHA</strong><em>6 груп → підкатегорії з одиницями (м², га, тонн) — для інспекторів, не громадян. reCAPTCHA в куті.</em></div><img class="fthumb" src="/research/screens/ecozagroza_10_category_list.png" alt="10 Categories" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">6</div><div><strong>"Відправити дані ↑"</strong><em>Зелена кнопка внизу</em></div><img class="fthumb" src="/research/screens/ecozagroza_11_form_bottom_submit.png" alt="11 Submit" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">7</div><div><strong>SUCCESS: "Дякуємо за ваш вклад у перемогу!"</strong><em>Ілюстрація солдата + номер #007446 + "На головну" — без пояснення що далі</em></div><img class="fthumb" src="/research/screens/ecozagroza_22_success.png" alt="22 Success" loading="lazy"></div>
     </div>
 
     <div class="warn-box">⚠ <strong>Критичні проблеми:</strong> reCAPTCHA на мобілі · Карта = станції моніторингу, а НЕ звіти · Success screen не пояснює що буде з звітом · Категорії з одиницями виміру — для інспекторів, не громадян</div>
@@ -790,7 +793,7 @@
   <div class="container">
     <h2>Скріншоти</h2>
 
-    <h3>ЕкоЗагроза — live flow (30 скрінів)</h3>
+    <h3><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a> — live flow (30 скрінів)</h3>
     <div class="meta">Авторизація, форма звіту, категорії, карта, успіх</div>
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin:12px 0">
       <div style="display:contents">
@@ -827,7 +830,7 @@
       </div>
     </div>
 
-    <h3>iNaturalist — flow (11 скрінів)</h3>
+    <h3><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a> — flow (11 скрінів)</h3>
     <div class="meta">Upload → форма → submit → Needs ID</div>
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin:12px 0">
       <figure style="margin:0"><img src="/research/screens/inaturalist_01_upload.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">01 Upload</figcaption></figure>
@@ -843,7 +846,7 @@
       <figure style="margin:0"><img src="/research/screens/inaturalist_11_observation_list.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">11 Observation list</figcaption></figure>
     </div>
 
-    <h3>SaveEcoBot — flow (8 скрінів)</h3>
+    <h3><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a> — flow (8 скрінів)</h3>
     <div class="meta">Welcome → категорія → локація → підтвердження</div>
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin:12px 0">
       <figure style="margin:0"><img src="/research/screens/saveecobot_01_welcome.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">01 Welcome</figcaption></figure>
@@ -921,6 +924,15 @@
 
   document.querySelectorAll('#screens figure img').forEach((img, i) => {
     img.addEventListener('click', () => open(i));
+  });
+
+  document.querySelectorAll('.fthumb').forEach(img => {
+    img.addEventListener('click', () => {
+      lbImg.src = img.src;
+      counter.textContent = img.alt || '';
+      imgs = [];
+      lb.classList.add('open');
+    });
   });
 
   document.getElementById('lb-prev').addEventListener('click', e => { e.stopPropagation(); show(current - 1); });
