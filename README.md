@@ -41,7 +41,7 @@ district/
 
 - [Бриф продукту](./CLAUDE.md) — повна специфікація, аудиторія, scope MVP, відкриті питання
 - [Research](./research/research.md) — поточний стан дослідження (raw)
-- [Research HTML](./research/index.html) — візуалізація: конкуренти, матриця, мотивація, флоу
+- [Research HTML](./research/index.html) — візуалізація: конкуренти, матриця, мотивація, флоу, UX-патерни
 
 ---
 
