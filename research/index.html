@@ -167,7 +167,7 @@
 
 <nav>
   <a href="/">← Головна</a>
-  <a href="#competitors" class="active">Конкуренти</a>
+  <a href="#competitors" class="active">Конкуренти (прямі та непрямі)</a>
   <a href="#benchmark">Бенчмарк</a>
   <a href="#patterns">Патерни</a>
   <a href="#synthesis">Висновки</a>
@@ -185,10 +185,10 @@
 <section id="competitors">
   <div class="container">
     <div class="level-label">Рівень 01</div>
-    <h2>Конкуренти</h2>
+    <h2>Конкуренти <span style="font-size:14px;font-weight:400;color:var(--gray-400)">(прямі та непрямі)</span></h2>
     <div class="level-desc">Матриця за осями + 3 спільні патерни ринку, 3 відмінності.</div>
 
-    <h3>Матриця за осями</h3>
+    <h3>Прямі конкуренти (Україна)</h3>
     <div class="tw">
       <table>
         <thead>
@@ -196,33 +196,57 @@
             <th></th>
             <th><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a></th>
             <th><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a></th>
-            <th><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a></th>
-            <th><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a></th>
             <th><strong>District Care</strong></th>
           </tr>
         </thead>
         <tbody>
-          <tr><td>Кроків до відправки</td><td>7+</td><td>8</td><td>4</td><td>3</td><td><strong>2–3</strong></td></tr>
-          <tr><td>Карта як core</td><td>❌ моніторинг повітря</td><td>❌</td><td>✅</td><td>✅</td><td>✅</td></tr>
-          <tr><td>Ідентичність</td><td>GOV ID</td><td>Анонімно</td><td>Email</td><td>Реєстрація</td><td><strong>Email + реальне ім'я</strong></td></tr>
-          <tr><td>Після відправки</td><td>Номер без пояснень</td><td>Тиша</td><td>Публічно + статус</td><td>"Needs ID"</td><td><strong>"Сигнал активний"</strong></td></tr>
-          <tr><td>Одержувач звіту</td><td>Міндовкілля (непрозоро)</td><td>Непрозоро</td><td>Рада через API</td><td>Наука</td><td><em>TBD — відкрите питання</em></td></tr>
+          <tr><td>Тип</td><td><span class="tag hard" style="margin:0;font-size:10px">HARD</span></td><td><span class="tag hard" style="margin:0;font-size:10px">HARD</span></td><td>Ціль</td></tr>
+          <tr><td>Кроків до відправки</td><td>7+</td><td>8</td><td><strong>2–3</strong></td></tr>
+          <tr><td>Карта як core</td><td>❌ моніторинг повітря</td><td>❌</td><td>✅</td></tr>
+          <tr><td>Ідентичність</td><td>GOV ID</td><td>Анонімно</td><td><strong>Email + реальне ім'я</strong></td></tr>
+          <tr><td>Після відправки</td><td>Номер без пояснень</td><td>Тиша</td><td><strong>"Сигнал активний"</strong></td></tr>
+          <tr><td>Одержувач звіту</td><td>Міндовкілля (непрозоро)</td><td>Непрозоро</td><td><em>TBD — відкрите питання</em></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Міжнародні еталони (ASPIRATIONAL)</h3>
+    <div class="tw">
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a></th>
+            <th><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a></th>
+            <th><a href="https://seeclickfix.com" target="_blank">SeeClickFix</a></th>
+            <th><a href="https://www.eyesea.org" target="_blank">Eyesea</a></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Фокус</td><td>Civic infra, UK+global</td><td>Природничі спостереження</td><td>Civic reporting, USA</td><td>Морське забруднення</td></tr>
+          <tr><td>Кроків до відправки</td><td>4 (веб)</td><td>3</td><td>3–4</td><td>4 (iOS)</td></tr>
+          <tr><td>Карта як core</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+          <tr><td>Ідентичність</td><td>Email</td><td>Реєстрація</td><td>Email</td><td>Email (Volunteer/Seafarer)</td></tr>
+          <tr><td>Після відправки</td><td>Публічно + статус</td><td>"Needs ID"</td><td>CRM-трекінг</td><td>Credits + публічна картка</td></tr>
+          <tr><td>Одержувач звіту</td><td>Рада через API</td><td>Наукова спільнота</td><td>Міська влада (311)</td><td>Дані / NGO (нечітко)</td></tr>
+          <tr><td>Масштаб</td><td>7.6M звітів · 73% фікс/тиждень</td><td>250M+ спостережень</td><td>4.6★ / 7 887 відг.</td><td>50+ завантажень (2026)</td></tr>
+          <tr><td>Ключовий патерн</td><td>Автороутинг до ради</td><td>Photo-first + AI ID</td><td>CRM + accountability</td><td>Credits + Recover flow</td></tr>
         </tbody>
       </table>
     </div>
 
     <h3>3 спільні патерни ринку</h3>
     <ul class="ilist pat">
-      <li><strong>Геолокація — серце продукту.</strong> Всі продукти будують навколо "де" як першого питання. Карта або координати присутні на кожному флоу — навіть Telegram-бот питає локацію.</li>
-      <li><strong>Фото заохочується, але не блокує.</strong> Жоден продукт не відмовляє в submission без фото. FixMyStreet, iNaturalist, ЕкоЗагроза — всі дають ескейп-хетч. Примус до медіа = відмова від звіту.</li>
-      <li><strong>Після submit — тиша.</strong> Майже всі залишають користувача без feedback. Виняток — FixMyStreet (публічний статус) і SeeClickFix (CRM-трекінг). Постсабміт — найслабше місце ніші.</li>
+      <li><strong>Геолокація — серце продукту.</strong> Всі продукти будують навколо "де" як першого питання. Карта або координати присутні на кожному флоу. Виняток: <a href="https://apps.apple.com/us/app/litterati/id978788776" target="_blank">Litterati</a> — геолокація фонова (EXIF/GPS), карти у продукті немає взагалі.</li>
+      <li><strong>Фото заохочується, але не блокує.</strong> Жоден продукт не відмовляє в submission без фото. FixMyStreet, iNaturalist, ЕкоЗагроза, Eyesea — всі дають ескейп-хетч. Litterati: фото є головним входом, але tagging — добровільний. Примус до медіа = відмова від звіту.</li>
+      <li><strong>Після submit — тиша.</strong> Більшість залишають без feedback. Виняток: FixMyStreet (публічний статус), SeeClickFix (CRM), Eyesea (Credits + картка). Litterati: після upload — AI аналіз і tagging prompt, але без публічного підтвердження куди пішли дані. Постсабміт — найслабше місце ніші.</li>
     </ul>
 
     <h3>3 ключові відмінності</h3>
     <ul class="ilist diff">
-      <li><strong>Авторизація = компроміс між friction і довірою.</strong> SaveEcoBot — анонімно (0 friction, 0 довіри). ЕкоЗагроза — GOV ID (висока довіра, великий бар'єр). Ніхто не займає середину (email + реальне ім'я) — там ми.</li>
-      <li><strong>Одержувач звіту визначає весь продукт.</strong> Там де є чіткий одержувач (FixMyStreet → рада, iNaturalist → наука) — є retention. Там де немає — retention нульовий.</li>
-      <li><strong>Публічність карти як механізм тиску.</strong> FixMyStreet: публічний звіт одразу → соціальний тиск → <a href="https://www.fixmystreet.com/reports" target="_blank">73% тижнева вирішуваність</a>. ЕкоЗагроза: після модерації, і карта не про звіти.</li>
+      <li><strong>Авторизація = компроміс між friction і довірою.</strong> SaveEcoBot — анонімно (0 friction, 0 довіри). ЕкоЗагроза — GOV ID (висока довіра, великий бар'єр). FixMyStreet, SeeClickFix, Eyesea — email посередині. <a href="https://apps.apple.com/us/app/litterati/id978788776" target="_blank">Litterati</a>: upload без реєстрації → реєстрація після першого фото (найменший бар'єр входу). Ніхто не займає email + реальне ім'я — там ми.</li>
+      <li><strong>Одержувач звіту визначає весь продукт.</strong> Там де є чіткий одержувач (FixMyStreet → рада, iNaturalist → наука, SeeClickFix → місто) — є retention. Там де немає (SaveEcoBot, ЕкоЗагроза, Eyesea, Litterati) — retention тримається лише на гейміфікації або нульовий.</li>
+      <li><strong>Публічність карти як механізм тиску.</strong> Продукти з публікацією одразу (FixMyStreet, iNaturalist, Eyesea) мають кращі метрики. ЕкоЗагроза — єдиний з ручною інституційною модерацією: звіти не потрапляють на публічну карту → <a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">3.7★ при 5k завантажень</a>. Litterati: карти немає взагалі → дані закриті в датасеті партнера. SeeClickFix — гібрид: автоматичний keyword/image фільтр + платна moderations team.</li>
     </ul>
   </div>
 </section>
@@ -232,9 +256,9 @@
   <div class="container">
     <div class="level-label">Рівень 02</div>
     <h2>Бенчмарк</h2>
-    <div class="level-desc">Топ-3 механізми для MVP з обґрунтуванням + 1, що не спрацює.</div>
+    <div class="level-desc">Топ-4 механізми для MVP з обґрунтуванням + 1, що не спрацює.</div>
 
-    <h3>Топ-3 механізми</h3>
+    <h3>Топ-4 механізми</h3>
 
     <div class="bench-card top">
       <div class="source">← FixMyStreet · 7.6M звітів · 73% тижнева вирішуваність</div>
@@ -254,12 +278,19 @@
       <p>Навіть найпростіший статус-апдейт замикає retention loop. В MVP достатньо двох станів на карті: "Перевіряється" → "Підтверджено". Людина повертається перевірити — і бачить результат.</p>
     </div>
 
+    <div class="bench-card top">
+      <div class="source">← Eyesea · Credits на кнопці Submit</div>
+      <h4>4. Видима цінність ДО submit</h4>
+      <p>Credits на кнопці ростуть при виборі кожної категорії: "+45 Credits" → "+58 Credits". Людина бачить що її звіт має вагу ще у процесі заповнення — до натискання кнопки. Принципово інший момент feedback ніж у механізмів 1–3. Для нас: не обов'язково credits — але якийсь сигнал цінності всередині форми, до submit.</p>
+    </div>
+
     <h3>1 що не спрацює</h3>
 
     <div class="bench-card anti">
       <div class="source">← Duolingo · streak модель</div>
       <h4>Streak — не переносити</h4>
       <p>Streak працює для продуктів з щоденною звичкою (мова, фітнес). Екологічні порушення — event-driven: бачиш → фіксуєш. Вимагати "зафіксуй щось сьогодні" — або провокує фейкові звіти, або відштовхує. Правильний цикл: <strong>тригер → дія → feedback → повернення</strong>.</p>
+      <p style="margin-top:8px;font-size:12px;color:var(--gray-400)">Credits Eyesea — не streak. Це per-action винагорода без примусу до регулярності. Саме тому вона спрацьовує там де streak провалюється.</p>
     </div>
   </div>
 </section>
@@ -311,8 +342,17 @@
       <li><strong>Карта = серце продукту</strong> — принцип #5 з Product Brief. Якщо перший екран не карта, продукт суперечить своїй ідеї.</li>
       <li><strong>FixMyStreet підтвердив масштаб</strong> — <a href="https://www.fixmystreet.com/reports" target="_blank">7.6M звітів, 73% тижнева вирішуваність</a>. Map-first не гіпотеза, це перевірений патерн civic tech.</li>
       <li><strong>iNaturalist показав photo-first</strong> — 3 кроки і автозаповнення. Але у нашому контексті фото = доказ, не ціль. Тому: спонукати, не примушувати.</li>
+      <li><strong>Eyesea підтвердив photo-first</strong> — camera відкривається першою, до будь-якої форми. Photo-first = патерн обох найкращих civic-репортинг продуктів.</li>
+      <li><strong><a href="https://apps.apple.com/us/app/litterati/id978788776" target="_blank">Litterati</a> підтвердив photo-first + знімає бар'єр реєстрації</strong> — upload без реєстрації, AI аналіз одразу. Але відсутність карти підкреслює нашу відмінність: для District Care карта = core, а не бекенд.</li>
       <li><strong>ЕкоЗагроза показала пастку</strong> — stepper з 4+ обов'язковими кроками відчувається як держсервіс. Саме від цього ми відходимо.</li>
       <li><strong>2 обов'язкових кроки</strong> (локація + категорія). Решта — опційні, але UX заохочує.</li>
+    </ul>
+
+    <h3>Zero-friction resolution ← Eyesea</h3>
+    <ul class="why-list">
+      <li><strong>"Already cleaned up?" тогл</strong> — вбудований у форму репорту. Якщо людина бачить місце вже після прибирання, вона може відразу закрити проблему — без окремого флоу.</li>
+      <li><strong>Чому це важливо для нас</strong> — FixMyStreet вимагає окремого update step для зміни статусу. Eyesea вирішує це в момент фіксації. Для civic-репортингу закрити проблему так само важливо як її відкрити — але більшість продуктів це ігнорують.</li>
+      <li><strong>MVP-висновок</strong> — варто розглянути аналог: при відправці звіту запитати "Це порушення вже усунуто?" як опційний тогл. Зменшує кількість "мертвих" відкритих звітів.</li>
     </ul>
   </div>
 </section>
@@ -357,7 +397,19 @@
     <div class="hypo-block">
       <div class="hypo-row"><span class="hypo-label hl-if">Якщо</span><span class="hypo-text">модерація вручну без альтернативи</span></div>
       <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">продукт не масштабується</span></div>
-      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">жоден конкурент не використовує ручну модерацію: FixMyStreet — публікація одразу + flagging; iNaturalist — верифікація спільнотою</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">ЕкоЗагроза — єдиний з ручною інституційною модерацією: звіти не з'являються на публічній карті → <a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">3.7★ при 5k завантажень</a>. Решта: FixMyStreet — одразу + <a href="https://fixmystreet.org/running/admin_manual/" target="_blank">reactive flagging</a>; iNaturalist — одразу + crowd-верифікація; Eyesea — одразу (AUP: "no obligation to moderate"); SeeClickFix — автофільтр + платна moderations team</span></div>
+    </div>
+
+    <div class="hypo-block">
+      <div class="hypo-row"><span class="hypo-label hl-if">Якщо</span><span class="hypo-text">цінність звіту видна ДО submit (прогрес, вага, credits)</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">drop-off на останньому кроці знизиться</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">Eyesea: Credits на кнопці Submit ростуть при виборі категорій (+45 → +58) — зворотній зв'язок до натискання, не після</span></div>
+    </div>
+
+    <div class="hypo-block">
+      <div class="hypo-row"><span class="hypo-label hl-if">Якщо</span><span class="hypo-text">механізм "вирішено" вбудований у основний флоу (не окремий крок)</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">відсоток закритих звітів зросте</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">Eyesea: "Already cleaned up?" тогл у формі репорту vs FixMyStreet: окремий update step — Eyesea знижує бар'єр закрити проблему до нуля</span></div>
     </div>
 
   </div>
@@ -380,19 +432,19 @@
     <div class="tw">
       <table>
         <thead>
-          <tr><th></th><th><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a></th><th><a href="https://play.google.com/store/apps/details?id=ee.ut.ecomap" target="_blank">EcoMap</a> (Borysenko)</th><th><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a></th><th><a href="https://kyiv.city" target="_blank">Kyiv Smart City</a></th><th><a href="https://diia.gov.ua" target="_blank">Дія</a></th></tr>
+          <tr><th></th><th><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a></th><th><a href="https://play.google.com/store/apps/details?id=ee.ut.ecomap" target="_blank">EcoMap</a> (Borysenko)</th><th><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a></th><th><a href="https://kyiv.city" target="_blank">Kyiv Smart City</a></th></tr>
         </thead>
         <tbody>
-          <tr><td>Розробник</td><td>Міндовкілля + Мінцифри</td><td>Студент (Univ. of Tartu)</td><td>SaveEco команда</td><td>Київська міська рада</td><td>Мінцифри</td></tr>
-          <tr><td>Аудиторія</td><td>Громадяни з GOV ID</td><td>Громадяни</td><td>Еко-активісти, журналісти</td><td>Мешканці Києва</td><td>Всі громадяни</td></tr>
-          <tr><td>Основа</td><td>Фіксація загроз + моніторинг повітря</td><td>Карта порушень</td><td>Telegram-бот</td><td>Міський портал</td><td>Держпослуги</td></tr>
-          <tr><td>Кроків до submit</td><td><strong>7+</strong></td><td>~4–5</td><td><strong>8</strong></td><td>—</td><td>Багато</td></tr>
-          <tr><td>Карта</td><td>Є (станції, не звіти)</td><td>Є</td><td>Немає</td><td>Мінімально</td><td>Немає</td></tr>
-          <tr><td>Ідентичність</td><td>GOV ID</td><td>Реєстрація</td><td>Анонімно (Telegram)</td><td>—</td><td>BankID</td></tr>
-          <tr><td>Після submit</td><td>Номер без пояснення</td><td>Невідомо</td><td>Нічого</td><td>—</td><td>Статус послуги</td></tr>
-          <tr><td>Завантажень</td><td><strong>5 000+</strong></td><td>100+</td><td>—</td><td>—</td><td>Млн</td></tr>
-          <tr><td>Рейтинг</td><td>3.7★ (79 відг.)</td><td>—</td><td>—</td><td>—</td><td>4.7★</td></tr>
-          <tr><td>Статус</td><td>Лип. 2024 ✅</td><td>Лют. 2023 ⚠</td><td>Активний ✅</td><td>Активний ✅</td><td>Активний ✅</td></tr>
+          <tr><td>Розробник</td><td>Міндовкілля + Мінцифри</td><td>Студент (Univ. of Tartu)</td><td>SaveEco команда</td><td>Київська міська рада</td></tr>
+          <tr><td>Аудиторія</td><td>Громадяни з GOV ID</td><td>Громадяни</td><td>Еко-активісти, журналісти</td><td>Мешканці Києва</td></tr>
+          <tr><td>Основа</td><td>Фіксація загроз + моніторинг повітря</td><td>Карта порушень</td><td>Telegram-бот</td><td>Міський портал</td></tr>
+          <tr><td>Кроків до submit</td><td><strong>7+</strong></td><td>~4–5</td><td><strong>8</strong></td><td>—</td></tr>
+          <tr><td>Карта</td><td>Є (станції, не звіти)</td><td>Є</td><td>Немає</td><td>Мінімально</td></tr>
+          <tr><td>Ідентичність</td><td>GOV ID</td><td>Реєстрація</td><td>Анонімно (Telegram)</td><td>—</td></tr>
+          <tr><td>Після submit</td><td>Номер без пояснення</td><td>Невідомо</td><td>Нічого</td><td>—</td></tr>
+          <tr><td>Завантажень</td><td><strong>5 000+</strong></td><td>100+</td><td>—</td><td>—</td></tr>
+          <tr><td>Рейтинг</td><td>3.7★ (79 відг.)</td><td>—</td><td>—</td><td>—</td></tr>
+          <tr><td>Статус</td><td>Лип. 2024 ✅</td><td>Лют. 2023 ⚠</td><td>Активний ✅</td><td>Активний ✅</td></tr>
         </tbody>
       </table>
     </div>
@@ -400,7 +452,6 @@
       <div class="card"><h4><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a> — головний конкурент</h4><p>5k завантажень, 3.7★. GOV ID gate + профіль-гейт = 2 бар'єри. reCAPTCHA на формі. Карта показує станції, а НЕ звіти.</p></div>
       <div class="card"><h4><a href="https://play.google.com/store/apps/details?id=ee.ut.ecomap" target="_blank">EcoMap</a> (Borysenko)</h4><p>Студентський проект з тією самою ідеєю. 100+ завантажень, покинутий лют. 2023.</p></div>
       <div class="card"><h4><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a> → воєнні злочини</h4><p>Переорієнтувався на фіксацію екозлочинів. Telegram = нульовий бар'єр, але 8 кроків.</p></div>
-      <div class="card"><h4><a href="https://diia.gov.ua" target="_blank">Дія</a> — еталон UX</h4><p>Внутрішній стандарт: градієнт, великий шрифт, мінімум полів, BankID. Рівень polish = наш орієнтир.</p></div>
     </div>
 
     <div class="divider"></div>
@@ -427,12 +478,12 @@
         </thead>
         <tbody>
           <tr><td>Аудиторія</td><td>Мешканці UK + ради</td><td>Натуралісти, науковці</td><td>Міста + мешканці (B2G)</td><td>B2G: міста, НКО</td><td>Моряки, прибережні</td></tr>
-          <tr><td>Механізм</td><td>Пін → опис → автоматично до ради</td><td>Фото → auto-fill EXIF → "Needs ID"</td><td>Звіт → CRM → статус</td><td>Фото → датасет партнера</td><td>Фото → on-device AI → offline queue</td></tr>
-          <tr><td>Кроків</td><td>4</td><td><strong>3</strong></td><td>~4</td><td>~3</td><td><strong>~2</strong></td></tr>
-          <tr><td>Карта як core</td><td>✅</td><td>✅</td><td>✅</td><td>❌</td><td>✅</td></tr>
+          <tr><td>Механізм</td><td>Пін → опис → автоматично до ради</td><td>Фото → auto-fill EXIF → "Needs ID"</td><td>Звіт → CRM → статус</td><td>Upload без реєстрації → AI tagging (LitterAI) → датасет партнера</td><td>Фото → on-device AI → offline queue</td></tr>
+          <tr><td>Кроків</td><td>4</td><td><strong>3</strong></td><td>~4</td><td><strong>~2</strong> (без реєстрації)</td><td><strong>~2</strong></td></tr>
+          <tr><td>Карта як core</td><td>✅</td><td>✅</td><td>✅</td><td>❌ (тільки в Challenges)</td><td>✅</td></tr>
           <tr><td>Офлайн</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>✅</td></tr>
-          <tr><td>AI</td><td>❌</td><td>✅ серверна</td><td>❌</td><td>❌</td><td>✅ on-device</td></tr>
-          <tr><td>Гейміфікація</td><td>❌</td><td>Research grade</td><td>❌</td><td>❌</td><td>✅ XP · рівні</td></tr>
+          <tr><td>AI</td><td>❌</td><td>✅ серверна</td><td>❌</td><td>✅ LitterAI (Category / Object / Material / Brand)</td><td>✅ on-device</td></tr>
+          <tr><td>Гейміфікація</td><td>❌</td><td>Research grade</td><td>❌</td><td>✅ Challenges + Leaderboard (Members / Countries)</td><td>✅ XP · рівні</td></tr>
           <tr><td>Статус</td><td>✅ Зрілий</td><td>✅ Зрілий</td><td>✅ B2G</td><td>✅ B2G pivot</td><td>🆕 Лют. 2026</td></tr>
         </tbody>
       </table>
@@ -441,7 +492,7 @@
       <div class="card"><h4><a href="https://www.eyesea.org" target="_blank">Eyesea</a> — найрелевантніший UX-референс</h4><p>Лют. 2026. On-device AI, офлайн-черга, гейміфікація. UX-рішення 1:1 застосовні.</p></div>
       <div class="card"><h4><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a> — найближчий за механікою</h4><p>7,6 млн звітів, <a href="https://www.fixmystreet.com/reports" target="_blank">73% тижнева вирішуваність</a>. Видимий вплив > геймінг. Публічна карта = соціальний тиск = результат.</p></div>
       <div class="card"><h4><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a> — найкращий UX документації</h4><p>"Needs ID" замість "скарга на розгляді". Фото → auto-fill → 3 кроки. Community verification замість адмін-модерації.</p></div>
-      <div class="card"><h4><a href="https://www.litterati.org" target="_blank">Litterati</a> — застереження</h4><p>Починав як consumer → пішов у B2G. Тепер тільки CONTACT US. Попередження: без стратегії продукт дрейфує.</p></div>
+      <div class="card"><h4><a href="https://apps.apple.com/us/app/litterati/id978788776" target="_blank">Litterati</a> — upload-first + AI + Challenges</h4><p>Upload без реєстрації → AI (LitterAI: Category/Object/Material/Brand) → 24.3M pickups. Challenges з географічним радіусом і датами. B2G pivot: преміум тільки через код. Немає карти — дані закриті в датасеті партнера.</p></div>
     </div>
 
     <div class="divider"></div>
@@ -469,12 +520,12 @@
     <div class="tw">
       <table>
         <thead>
-          <tr><th></th><th><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a></th><th><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a></th><th><a href="https://diia.gov.ua" target="_blank">Дія</a></th><th><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a></th><th><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a></th><th><a href="https://seeclickfix.com" target="_blank">SeeClickFix</a></th><th><a href="https://www.eyesea.org" target="_blank">Eyesea</a></th></tr>
+          <tr><th></th><th><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a></th><th><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a></th><th><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a></th><th><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a></th><th><a href="https://seeclickfix.com" target="_blank">SeeClickFix</a></th><th><a href="https://www.eyesea.org" target="_blank">Eyesea</a></th></tr>
         </thead>
         <tbody>
           <tr><td>Аудиторія</td><td>Громадяни з GOV ID</td><td>Еко-активісти, журналісти</td><td>Всі громадяни України</td><td>Мешканці міст UK</td><td>Натуралісти, citizen scientists</td><td>Органи міста + мешканці</td><td>Моряки, дайвери</td></tr>
-          <tr><td>Ключовий механізм</td><td>GOV ID → профіль-гейт → форма → submit; карта ≠ звіти</td><td>8-крокова conversational flow</td><td>Пошук послуги → BankID → форма</td><td>Пін на карті → фото → до ради</td><td>Фото → auto-fill EXIF → "Needs ID"</td><td>Звіт → workflow → трекінг</td><td>Фото → on-device AI → offline queue</td></tr>
-          <tr><td>Довіра</td><td>GOV ID, 3.7★</td><td>Анонімно — нульова верифікація</td><td>BankID — найсильніша в UA</td><td>Email, відкритий код</td><td>Реєстрація + 63% Research Grade</td><td>Реєстрація + workflow міста</td><td>Реєстрація + privacy-first</td></tr>
+          <tr><td>Ключовий механізм</td><td>GOV ID → профіль-гейт → форма → submit; карта ≠ звіти</td><td>8-крокова conversational flow</td><td>Пін на карті → фото → до ради</td><td>Фото → auto-fill EXIF → "Needs ID"</td><td>Звіт → workflow → трекінг</td><td>Фото → on-device AI → offline queue</td></tr>
+          <tr><td>Довіра</td><td>GOV ID, 3.7★</td><td>Анонімно — нульова верифікація</td><td>Email, відкритий код</td><td>Реєстрація + 63% Research Grade</td><td>Реєстрація + workflow міста</td><td>Реєстрація + privacy-first</td></tr>
         </tbody>
       </table>
     </div>
@@ -491,9 +542,9 @@
       <div>
         <h3>3 відмінності</h3>
         <ul class="ilist diff">
-          <li><strong>Авторизація = friction vs довіра</strong> Від анонімного до GOV ID до BankID. Ніхто не займає середину (email + ім'я) — де ми.</li>
+          <li><strong>Авторизація = friction vs довіра</strong> SaveEcoBot — анонімно. ЕкоЗагроза — GOV ID. Ніхто не займає середину (email + ім'я) — де ми.</li>
           <li><strong>Одержувач визначає продукт</strong> Де є чіткий одержувач — є retention. Де немає — нульовий.</li>
-          <li><strong>Публічність = механізм тиску</strong> FixMyStreet: одразу публічно → 73% вирішуваність. ЕкоЗагроза: після модерації → нуль.</li>
+          <li><strong>Публічність = механізм тиску</strong> FixMyStreet, iNaturalist, Eyesea: публікація одразу → масштаб. ЕкоЗагроза: ручна інституційна модерація → звіти не на карті → 3.7★. SeeClickFix: гібрид (автофільтр + moderations team).</li>
         </ul>
       </div>
     </div>
@@ -639,6 +690,97 @@
     <div class="warn-box">⚠ <strong>Критичні проблеми:</strong> reCAPTCHA на мобілі · Карта = станції моніторингу, НЕ звіти · Success screen не пояснює що буде з звітом · Категорії для інспекторів, не громадян</div>
 
     <div class="divider"></div>
+    <h3><a href="https://apps.apple.com/us/app/litterati/id978788776" target="_blank">Litterati</a> — живий тест, iOS (67 скрінів)</h3>
+    <div style="font-size:12px;color:var(--gray-400);margin-bottom:12px">litterati_01_splash → litterati_67_activity_delete_mode · реальний акаунт Nick</div>
+
+    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Онбординг (без реєстрації)</h4>
+    <div class="flow">
+      <div class="fstep"><div class="fnum">S</div><div><strong>Splash</strong><em>"Welcome to Litterati" · GET STARTED · Terms / Privacy</em></div><img class="fthumb" src="/research/screens/litterati_01_splash.png" alt="Splash" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">1</div><div><strong>Goal picker</strong><em>"What is your goal?" — 6 варіантів: Inspire Cleanups / Improve Data Quality / Join a Cleanup / Track My Impact / Change Policy / Not Sure</em></div><img class="fthumb" src="/research/screens/litterati_02_onboarding_goal.png" alt="Goal" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">2</div><div><strong>Impact Your World</strong><em>Глобальна карта pickups + "Stories of Impact"</em></div><img class="fthumb" src="/research/screens/litterati_03_onboarding_impact_world.png" alt="Impact world" loading="lazy"></div>
+      <div class="fstep"><div class="fnum warn">!</div><div><strong>Stories error</strong><em>"Error: Invalid Token" — broken state під час онбордингу</em></div><img class="fthumb" src="/research/screens/litterati_04_onboarding_stories_error.png" alt="Error" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">3</div><div><strong>Push-permission (pre-prompt)</strong><em>"Let us tell you about important things in the app"</em></div><img class="fthumb" src="/research/screens/litterati_05_onboarding_notifications_prompt.png" alt="Push pre-prompt" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">3</div><div><strong>Push iOS dialog</strong><em>iOS system notification permission</em></div><img class="fthumb" src="/research/screens/litterati_06_onboarding_notifications_ios.png" alt="Push iOS" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">4</div><div><strong>Photo tutorial</strong><em>"Start with a photo" · AI demo: Category/Object/Material/Brand</em></div><img class="fthumb" src="/research/screens/litterati_07_onboarding_photo_tutorial.png" alt="Photo tutorial" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">4</div><div><strong>AI demo</strong><em>"Turn litter… into data!" · Red Bull can → Category: energydrink · Object: can · Material: aluminium · Brand: redbull</em></div><img class="fthumb" src="/research/screens/litterati_13_camera_tutorial_ai.png" alt="AI demo" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">5</div><div><strong>Camera permission (pre-prompt)</strong><em>"Activate your camera"</em></div><img class="fthumb" src="/research/screens/litterati_14_onboarding_camera_permission.png" alt="Camera pre" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">5</div><div><strong>Camera iOS dialog</strong><em>iOS system camera permission</em></div><img class="fthumb" src="/research/screens/litterati_15_onboarding_camera_ios.png" alt="Camera iOS" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">6</div><div><strong>Location iOS</strong><em>"Add location data to your litter sessions" · Allow Once / Allow While Using / Don't Allow</em></div><img class="fthumb" src="/research/screens/litterati_16_onboarding_location_ios.png" alt="Location" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">7</div><div><strong>Good photo guide</strong><em>"What is a good photo?" — 3 критерії + 3 приклади</em></div><img class="fthumb" src="/research/screens/litterati_17_onboarding_good_photo.png" alt="Good photo" loading="lazy"></div>
+    </div>
+
+    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Флоу першого tagging (без реєстрації)</h4>
+    <div class="flow">
+      <div class="fstep"><div class="fnum">1</div><div><strong>Viewfinder</strong><em>Square frame · upload з галереї · "Begin uploading photos" tooltip</em></div><img class="fthumb" src="/research/screens/litterati_18_camera_viewfinder.png" alt="Viewfinder" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">2</div><div><strong>Analyzing</strong><em>"Analyzing Litter 1/1" — AI обробляє фото</em></div><img class="fthumb" src="/research/screens/litterati_19_activity_analyzing.png" alt="Analyzing" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">3</div><div><strong>"Your 1st Upload Is Done!"</strong><em>Пропонує реєстрацію: "Later / Now" — upload-first без примусу</em></div><img class="fthumb" src="/research/screens/litterati_20_upload_done_register_prompt.png" alt="Upload done" loading="lazy"></div>
+    </div>
+
+    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Реєстрація (після першого upload)</h4>
+    <div class="flow">
+      <div class="fstep"><div class="fnum">R</div><div><strong>Display name</strong><em>"What is your public display name?" — мінімум 2 символи</em></div><img class="fthumb" src="/research/screens/litterati_21_reg_display_name_empty.png" alt="Display name empty" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">R</div><div><strong>Display name заповнено</strong><em>Активна кнопка NEXT</em></div><img class="fthumb" src="/research/screens/litterati_22_reg_display_name_filled.png" alt="Display name filled" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">R</div><div><strong>Username</strong><em>Only letters/numbers/hyphens · зелена галочка при valid</em></div><img class="fthumb" src="/research/screens/litterati_23_reg_username.png" alt="Username" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">R</div><div><strong>Login details</strong><em>Email + password · "I wish to receive email communication"</em></div><img class="fthumb" src="/research/screens/litterati_24_reg_login_details.png" alt="Login details" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">R</div><div><strong>Profile image (Optional)</strong><em>iOS Save Password prompt</em></div><img class="fthumb" src="/research/screens/litterati_25_reg_profile_image.png" alt="Profile image" loading="lazy"></div>
+    </div>
+
+    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Tagging flow (після реєстрації)</h4>
+    <div class="flow">
+      <div class="fstep"><div class="fnum">1</div><div><strong>Activity: нетегований</strong><em>Фото з іконкою тегу — ще не оброблено</em></div><img class="fthumb" src="/research/screens/litterati_31_activity_photo_untagged.png" alt="Untagged" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">2</div><div><strong>Tag form (порожня)</strong><em>Search Tags · "Powered by LitterAI" · SUGGESTED (немає) · APPLIED</em></div><img class="fthumb" src="/research/screens/litterati_32_tag_form_empty.png" alt="Tag form" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">3</div><div><strong>Пошук "trash"</strong><em>Результати: ackyourtrash / trashbag / trashselfie</em></div><img class="fthumb" src="/research/screens/litterati_33_tag_search_trash.png" alt="Tag search" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">4</div><div><strong>Тег додано</strong><em>"trashbag" → APPLIED TAGS (1)</em></div><img class="fthumb" src="/research/screens/litterati_34_tag_applied.png" alt="Tag applied" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">5</div><div><strong>Activity: тегований</strong><em>Маленька іконка tag внизу фото</em></div><img class="fthumb" src="/research/screens/litterati_35_activity_tagged.png" alt="Tagged" loading="lazy"></div>
+    </div>
+
+    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Impact tab</h4>
+    <div class="flow">
+      <div class="fstep"><div class="fnum">I</div><div><strong>Impact (global)</strong><em>"Total Global Litter Pickup: 24 276 987" · Monthly graph</em></div><img class="fthumb" src="/research/screens/litterati_08_impact_tab.png" alt="Impact global" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">I</div><div><strong>My Activity</strong><em>"My Impact Stats: 0" · Stories of Impact</em></div><img class="fthumb" src="/research/screens/litterati_09_impact_my_activity.png" alt="My activity" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">I</div><div><strong>Stories of Impact</strong><em>"Litter Data Helps SF Win Court Case" · реальні кейси</em></div><img class="fthumb" src="/research/screens/litterati_10_impact_stories.png" alt="Stories" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">I</div><div><strong>After login</strong><em>Impact tab із реальними даними профілю</em></div><img class="fthumb" src="/research/screens/litterati_26_impact_loggedin.png" alt="Impact loggedin" loading="lazy"></div>
+    </div>
+
+    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Challenges</h4>
+    <div class="flow">
+      <div class="fstep"><div class="fnum">C</div><div><strong>Participating (empty)</strong><em>Participating / Created · "JOIN A CHALLENGE WITH A CODE"</em></div><img class="fthumb" src="/research/screens/litterati_37_challenges_participating_empty.png" alt="Challenges empty" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">C</div><div><strong>Browse</strong><em>Featured + Nearby + Saved Challenges</em></div><img class="fthumb" src="/research/screens/litterati_40_challenges_browse.png" alt="Browse" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">C</div><div><strong>Nearby (Lviv)</strong><em>Геолокація "LVIV, UKRAINE" · картки з відстанню в km</em></div><img class="fthumb" src="/research/screens/litterati_41_challenges_nearby.png" alt="Nearby" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">C</div><div><strong>Create: тип</strong><em>"Start a Challenge" / "Connect to a Featured Challenge"</em></div><img class="fthumb" src="/research/screens/litterati_43_challenge_create_type.png" alt="Create type" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">C</div><div><strong>Customization</strong><em>Назва + Theme (3 кольори) + preview картки</em></div><img class="fthumb" src="/research/screens/litterati_45_challenge_create_customize_filled.png" alt="Customize" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">C</div><div><strong>Details</strong><em>Mission Statement + Litter Goal (pieces)</em></div><img class="fthumb" src="/research/screens/litterati_46_challenge_create_details.png" alt="Details" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">C</div><div><strong>Radius picker</strong><em>0.1 → 9.6 km slider на карті</em></div><img class="fthumb" src="/research/screens/litterati_47_challenge_create_map_radius_small.png" alt="Radius small" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">C</div><div><strong>Radius 9.6 km</strong><em>Великий радіус — "Khorvatska Street"</em></div><img class="fthumb" src="/research/screens/litterati_48_challenge_create_map_radius_large.png" alt="Radius large" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">C</div><div><strong>Calendar picker</strong><em>From/To date picker</em></div><img class="fthumb" src="/research/screens/litterati_51_challenge_create_calendar_selected.png" alt="Calendar" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">C</div><div><strong>Preview</strong><em>Карта + goal + LAUNCH CHALLENGE</em></div><img class="fthumb" src="/research/screens/litterati_53_challenge_preview_top.png" alt="Preview" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">C</div><div><strong>"Your Challenge Is Live!"</strong><em>6-значний code · Share icon · CREATE CUSTOM SHARE CODE</em></div><img class="fthumb" src="/research/screens/litterati_55_challenge_live_notification.png" alt="Live" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">C</div><div><strong>Challenge detail</strong><em>Map + edit + PARTICIPATING button</em></div><img class="fthumb" src="/research/screens/litterati_58_challenge_detail.png" alt="Detail" loading="lazy"></div>
+    </div>
+
+    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Leaderboard</h4>
+    <div class="flow">
+      <div class="fstep"><div class="fnum">L</div><div><strong>24h · Members</strong><em>Nick (You) #25 · 1 Piece · Top: sioufi Andrew Awad 568 Pieces</em></div><img class="fthumb" src="/research/screens/litterati_59_leaderboard_24h.png" alt="24h" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">L</div><div><strong>30d · Members</strong><em>Nick #131 · Dennis Patterson #33 · 495 Pieces</em></div><img class="fthumb" src="/research/screens/litterati_61_leaderboard_30d.png" alt="30d" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">L</div><div><strong>30d · Countries</strong><em>Lebanon #1 · 35 714 Pieces · Netherlands #2 · USA #3</em></div><img class="fthumb" src="/research/screens/litterati_62_leaderboard_countries.png" alt="Countries" loading="lazy"></div>
+    </div>
+
+    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Профіль і налаштування</h4>
+    <div class="flow">
+      <div class="fstep"><div class="fnum">P</div><div><strong>Profile</strong><em>Nick · @nick1988 · "Litterati Member Since JUNE, 2026" · Edit Profile · Upgrade Account</em></div><img class="fthumb" src="/research/screens/litterati_27_profile.png" alt="Profile" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">P</div><div><strong>Settings</strong><em>LitterAI Suggestions (on) · Upload only via Wi-Fi · Maximum Location Accuracy · App Version 4.2.2</em></div><img class="fthumb" src="/research/screens/litterati_29_settings.png" alt="Settings" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">P</div><div><strong>Upgrade (B2G gate)</strong><em>"Enter or paste code to upgrade account" — закритий для звичайних користувачів</em></div><img class="fthumb" src="/research/screens/litterati_30_upgrade_code.png" alt="Upgrade" loading="lazy"></div>
+    </div>
+
+    <div class="cards">
+      <div class="card"><h4>Upload-first без реєстрації</h4><p>Фото → AI аналіз → "Your 1st Upload Is Done!" → лише потім "Register Now". Найнижчий бар'єр входу серед усіх продуктів ніші.</p></div>
+      <div class="card"><h4>LitterAI: Category / Object / Material / Brand</h4><p>Автоматично з фото. Пошук тегів з саджестами. Але AI suggestions часто порожні — людина мусить шукати самостійно.</p></div>
+      <div class="card"><h4>Challenge system з географічним радіусом</h4><p>Організації і муніципалітети створюють cleanup-події: назва → тема → мета → радіус (0.1–9.6 km) → дата → код запрошення. Реальний результат (pieces picked up), не абстрактні бали.</p></div>
+      <div class="card"><h4>Leaderboard: Members + Countries</h4><p>Last 24h / 30 days. Змагальність між спільнотами (Lebanon #1 · 35 714 Pieces) ефективніша ніж між індивідуалами. Goal picker на старті персоналізує досвід.</p></div>
+    </div>
+    <div class="warn-box">⚠ <strong>Тертя і обмеження:</strong> Немає карти як основного екрану — карта тільки в Challenges. Tagging не інтуїтивний — AI suggestions часто відсутні. B2G pivot: Challenges і Upgrade тільки через код. "Stories of Impact" — Error: Invalid Token під час онбордингу.</div>
+
+    <div class="divider"></div>
     <h3><a href="https://www.eyesea.org" target="_blank">Eyesea</a> — живий тест, iOS (51 скрін)</h3>
     <div style="font-size:12px;color:var(--gray-400);margin-bottom:12px">eyesea_20_splash → eyesea_51_feed_world_4 · реальний акаунт Mykola Viedienin</div>
 
@@ -648,22 +790,31 @@
       <div class="fstep"><div class="fnum">L</div><div><strong>Login</strong><em>Email + Password · "Don't have an account? Sign Up"</em></div><img class="fthumb" src="/research/screens/eyesea_21_login.png" alt="Login" loading="lazy"></div>
       <div class="fstep"><div class="fnum">R</div><div><strong>"Tell us about you"</strong><em><strong>Volunteer / Seafarer toggle</strong> · Full Name · Country · Organization · 2 GDPR чекбокси</em></div><img class="fthumb" src="/research/screens/eyesea_22_signup_volunteer.png" alt="Signup" loading="lazy"></div>
       <div class="fstep"><div class="fnum warn">!</div><div><strong>Seafarer: організація обов'язкова</strong><em>Organization required + Vessel (optional) — інша форма для морського контексту</em></div><img class="fthumb" src="/research/screens/eyesea_23_signup_seafarer.png" alt="Seafarer" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">R</div><div><strong>Ім'я заповнено</strong><em>Full Name введено — форма готова до продовження</em></div><img class="fthumb" src="/research/screens/eyesea_24_signup_name_filled.png" alt="Name filled" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">R</div><div><strong>Country picker</strong><em>Список країн — autocomplete scroll</em></div><img class="fthumb" src="/research/screens/eyesea_25_signup_country_picker.png" alt="Country" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">R</div><div><strong>Organization picker</strong><em>Список організацій — вибір або "Add new"</em></div><img class="fthumb" src="/research/screens/eyesea_26_signup_org_picker.png" alt="Org" loading="lazy"></div>
     </div>
     <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">5 onboarding-слайдів з дозволами</h4>
     <div class="flow">
-      <div class="fstep"><div class="fnum">1</div><div><strong>Camera</strong><em>"Capture the Evidence" → iOS system dialog</em></div><img class="fthumb" src="/research/screens/eyesea_28_onboarding_camera_permission.png" alt="Camera perm" loading="lazy"></div>
-      <div class="fstep"><div class="fnum">2</div><div><strong>Location</strong><em>"Pinpoint the Pollution" → iOS location dialog</em></div><img class="fthumb" src="/research/screens/eyesea_29_onboarding_location_permission.png" alt="Location perm" loading="lazy"></div>
-      <div class="fstep"><div class="fnum">3</div><div><strong>Photo Gallery</strong><em>"Upload from History" → Enable Photo Access</em></div><img class="fthumb" src="/research/screens/eyesea_32_onboarding_photo_granted.png" alt="Photo perm" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">1</div><div><strong>Camera slide</strong><em>"Capture the Evidence"</em></div><img class="fthumb" src="/research/screens/eyesea_27_onboarding_camera.png" alt="Camera slide" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">1</div><div><strong>Camera permission</strong><em>iOS system dialog → дозвіл до камери</em></div><img class="fthumb" src="/research/screens/eyesea_28_onboarding_camera_permission.png" alt="Camera perm" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">2</div><div><strong>Location slide</strong><em>"Pinpoint the Pollution"</em></div><img class="fthumb" src="/research/screens/eyesea_30_onboarding_location.png" alt="Location slide" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">2</div><div><strong>Location permission</strong><em>iOS location dialog</em></div><img class="fthumb" src="/research/screens/eyesea_29_onboarding_location_permission.png" alt="Location perm" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">3</div><div><strong>Photo Gallery (не надано)</strong><em>"Upload from History" — до надання дозволу</em></div><img class="fthumb" src="/research/screens/eyesea_31_onboarding_photo_ungrant.png" alt="Photo ungrant" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">3</div><div><strong>Photo Gallery (надано)</strong><em>Enable Photo Access → granted</em></div><img class="fthumb" src="/research/screens/eyesea_32_onboarding_photo_granted.png" alt="Photo perm" loading="lazy"></div>
       <div class="fstep"><div class="fnum">4</div><div><strong>Notifications</strong><em>"Stay in the Loop" → Enable Notifications</em></div><img class="fthumb" src="/research/screens/eyesea_33_onboarding_notifications.png" alt="Notifications" loading="lazy"></div>
       <div class="fstep"><div class="fnum">5</div><div><strong>Get Started</strong><em>Terms + Privacy → єдина кнопка входу в застосунок</em></div><img class="fthumb" src="/research/screens/eyesea_34_onboarding_get_started.png" alt="Get Started" loading="lazy"></div>
     </div>
 
     <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Флоу подачі звіту</h4>
     <div class="flow">
+      <div class="fstep"><div class="fnum">0</div><div><strong>Запрошення до фото</strong><em>Онбординг-підказка "Upload from History" перед першим репортом</em></div><img class="fthumb" src="/research/screens/eyesea_01_onboarding_photo.png" alt="Onboarding photo" loading="lazy"></div>
       <div class="fstep"><div class="fnum">1</div><div><strong>Камера або галерея</strong><em>Photo-first entry</em></div><img class="fthumb" src="/research/screens/eyesea_02_camera.png" alt="Camera" loading="lazy"></div>
-      <div class="fstep"><div class="fnum">2</div><div><strong>9 категорій + Credits на кнопці</strong><em>Nature/Low авто · "Already cleaned up?" тогл · <strong>+45→+58 Credits</strong> при виборі</em></div><img class="fthumb" src="/research/screens/eyesea_04_form_selected.png" alt="Form" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">2</div><div><strong>Форма: 9 категорій (порожня)</strong><em>+45 Credits · "Already cleaned up?" тогл · Nature/Low авто</em></div><img class="fthumb" src="/research/screens/eyesea_03_form_empty.png" alt="Form empty" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">2</div><div><strong>Форма: категорії вибрано</strong><em><strong>+58 Credits</strong> — зростає при виборі Plastic/Metal/Cardboard</em></div><img class="fthumb" src="/research/screens/eyesea_04_form_selected.png" alt="Form selected" loading="lazy"></div>
       <div class="fstep"><div class="fnum">3</div><div><strong>Adjust Location</strong><em>Mapbox drag pin · координати · Confirm Location</em></div><img class="fthumb" src="/research/screens/eyesea_05_location_adjust.png" alt="Location" loading="lazy"></div>
-      <div class="fstep"><div class="fnum">4</div><div><strong>Submit → 2 тости</strong><em>"Report submitted!" → "Report synced! +58 credits" (offline-first)</em></div><img class="fthumb" src="/research/screens/eyesea_06_submit_success.png" alt="Submit" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">4</div><div><strong>Submit toast 1</strong><em>"Report submitted successfully!" — офлайн-підтвердження</em></div><img class="fthumb" src="/research/screens/eyesea_06_submit_success.png" alt="Submit" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">4</div><div><strong>Submit toast 2</strong><em>"Report synced! +58 credits" — серверне підтвердження</em></div><img class="fthumb" src="/research/screens/eyesea_07_sync_credits.png" alt="Sync" loading="lazy"></div>
     </div>
 
     <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Пост-сабміт: картка і Recover flow</h4>
@@ -671,6 +822,48 @@
       <div class="fstep"><div class="fnum">✓</div><div><strong>Report card: Active</strong><em>Категорія · місце · час · вага ~165g · Low · "Mark as Recovered" CTA</em></div><img class="fthumb" src="/research/screens/eyesea_08_report_card_active.png" alt="Active" loading="lazy"></div>
       <div class="fstep"><div class="fnum">✓</div><div><strong>Mark as Recovered?</strong><em>"The original reporter will be notified" — Cancel / Confirm</em></div><img class="fthumb" src="/research/screens/eyesea_09_mark_recovered_dialog.png" alt="Dialog" loading="lazy"></div>
       <div class="fstep"><div class="fnum">✓</div><div><strong>Recovered</strong><em>Статус змінено · зелений пін на карті</em></div><img class="fthumb" src="/research/screens/eyesea_10_report_card_recovered.png" alt="Recovered" loading="lazy"></div>
+    </div>
+
+    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Explore / карта</h4>
+    <div class="flow">
+      <div class="fstep"><div class="fnum">E</div><div><strong>Explore: порожня карта</strong><em>Lviv — немає репортів поблизу</em></div><img class="fthumb" src="/research/screens/eyesea_35_explore_map_empty.png" alt="Explore empty" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">E</div><div><strong>Explore: world view</strong><em>Глобальна карта з кластерами репортів</em></div><img class="fthumb" src="/research/screens/eyesea_36_explore_map_world.png" alt="Explore world" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">E</div><div><strong>Search</strong><em>Пошук міста: Lviv → автосаджест</em></div><img class="fthumb" src="/research/screens/eyesea_19_search.png" alt="Search" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">E</div><div><strong>Data layers</strong><em>Hotspots · Oil · MPA · MARPOL</em></div><img class="fthumb" src="/research/screens/eyesea_37_explore_map_layers.png" alt="Layers" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">E</div><div><strong>Filter bar</strong><em>Reports · Status · Time — горизонтальна панель</em></div><img class="fthumb" src="/research/screens/eyesea_38_explore_map_filters.png" alt="Filters" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">E</div><div><strong>Filter: Reports</strong><em>All / My Reports</em></div><img class="fthumb" src="/research/screens/eyesea_39_explore_filter_reports.png" alt="Filter reports" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">E</div><div><strong>Filter: Status</strong><em>Active / Recovered</em></div><img class="fthumb" src="/research/screens/eyesea_40_explore_filter_status.png" alt="Filter status" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">E</div><div><strong>Filter: Time</strong><em>24h / 3d / 7d / 15d / 30d</em></div><img class="fthumb" src="/research/screens/eyesea_41_explore_filter_time.png" alt="Filter time" loading="lazy"></div>
+    </div>
+
+    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Community Feed</h4>
+    <div class="flow">
+      <div class="fstep"><div class="fnum">F</div><div><strong>Feed: At Sea</strong><em>Plastic reports · статуси Active/Recovered</em></div><img class="fthumb" src="/research/screens/eyesea_11_feed_atsea.png" alt="Feed at sea" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">F</div><div><strong>Feed: Nearby</strong><em>Порожньо — немає репортів поруч</em></div><img class="fthumb" src="/research/screens/eyesea_12_feed_nearby.png" alt="Feed nearby" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">F</div><div><strong>Feed: World (1)</strong><em>Глобальна стрічка репортів</em></div><img class="fthumb" src="/research/screens/eyesea_48_feed_world_1.png" alt="Feed world 1" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">F</div><div><strong>Feed: World (2)</strong><em>Продовження стрічки</em></div><img class="fthumb" src="/research/screens/eyesea_49_feed_world_2.png" alt="Feed world 2" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">F</div><div><strong>Feed: World (3)</strong><em>Продовження стрічки</em></div><img class="fthumb" src="/research/screens/eyesea_50_feed_world_3.png" alt="Feed world 3" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">F</div><div><strong>Feed: World (4)</strong><em>Продовження стрічки</em></div><img class="fthumb" src="/research/screens/eyesea_51_feed_world_4.png" alt="Feed world 4" loading="lazy"></div>
+    </div>
+
+    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Leaderboard і Awards</h4>
+    <div class="flow">
+      <div class="fstep"><div class="fnum">L</div><div><strong>Leaderboard: Users</strong><em>#24 Mykola: 0 Credits · #1 Lisbon: 584 репорти, 30 063 Credits</em></div><img class="fthumb" src="/research/screens/eyesea_13_leaderboard_users.png" alt="Leaderboard users" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">L</div><div><strong>Leaderboard: Orgs</strong><em>B2B гравці — організації окремо</em></div><img class="fthumb" src="/research/screens/eyesea_14_leaderboard_orgs.png" alt="Leaderboard orgs" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">L</div><div><strong>Leaderboard: Ships (порожній)</strong><em>"No rankings yet" — нова механіка</em></div><img class="fthumb" src="/research/screens/eyesea_15_leaderboard_ships_empty.png" alt="Leaderboard ships" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">A</div><div><strong>Awards: Ships podium (порожній)</strong><em>Podium є, але winners ще немає</em></div><img class="fthumb" src="/research/screens/eyesea_16_awards_ships_empty.png" alt="Awards ships" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">A</div><div><strong>Awards: Orgs podium</strong><em>Top 3 організацій</em></div><img class="fthumb" src="/research/screens/eyesea_17_awards_orgs.png" alt="Awards orgs" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">A</div><div><strong>Awards: Users podium</strong><em>Top 3 користувачів</em></div><img class="fthumb" src="/research/screens/eyesea_18_awards_users.png" alt="Awards users" loading="lazy"></div>
+    </div>
+
+    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Профіль і Notifications</h4>
+    <div class="flow">
+      <div class="fstep"><div class="fnum">P</div><div><strong>Notifications (порожні)</strong><em>Empty state — "No notifications yet"</em></div><img class="fthumb" src="/research/screens/eyesea_42_notifications_empty.png" alt="Notifications" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">P</div><div><strong>Profile: Overview</strong><em>Rank · Reports · Thanks · Recoveries · progression bar</em></div><img class="fthumb" src="/research/screens/eyesea_43_profile_overview.png" alt="Profile" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">P</div><div><strong>Profile: My Reports</strong><em>Список власних репортів</em></div><img class="fthumb" src="/research/screens/eyesea_44_profile_my_reports.png" alt="My reports" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">P</div><div><strong>Settings (top)</strong><em>Theme · Language · Expert Mode (AI bounding boxes)</em></div><img class="fthumb" src="/research/screens/eyesea_45_profile_settings_top.png" alt="Settings top" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">P</div><div><strong>Settings (bottom)</strong><em>Log Out · v1.0.0</em></div><img class="fthumb" src="/research/screens/eyesea_46_profile_settings_bottom.png" alt="Settings bottom" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">P</div><div><strong>Events / Cleanups</strong><em>"No upcoming events · Check back later"</em></div><img class="fthumb" src="/research/screens/eyesea_47_events_empty.png" alt="Events" loading="lazy"></div>
     </div>
 
     <div class="cards">
@@ -821,7 +1014,7 @@
         <h3>Ризики</h3>
         <ul class="ilist risk">
           <li><strong>Одержувач звіту — невизначений архітектурний ризик</strong> Без домовленості з органом — звіти накопичуються без результату. Вирішити до вайрфреймінгу.</li>
-          <li><strong>Ручна модерація — операційна пастка</strong> Ніхто з конкурентів не перевіряє вручну. Альтернативи: публічність + flagging, верифікація спільнотою.</li>
+          <li><strong>Ручна модерація — операційна пастка</strong> ЕкоЗагроза — єдиний хто перевіряє вручну, і має найгірші метрики. Альтернативи: публікація одразу + reactive flagging (FixMyStreet), crowd-верифікація (iNaturalist), автофільтр + платна команда (SeeClickFix), без зобов'язань (Eyesea).</li>
           <li><strong>Consumer vs B2G — вибір не можна відкласти</strong> Litterati → B2G. SeeClickFix — одразу B2G. Хто платить і хто primary user визначить всю стратегію.</li>
         </ul>
       </div>
@@ -918,31 +1111,132 @@
       <figure style="margin:0"><img src="/research/screens/dt_inaturalist_01_home.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">iNaturalist — home</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/dt_seeclickfix_01_home.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">SeeClickFix — home</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/dt_litterati_01_home.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Litterati — home</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/dt_diia_01_home.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Дія — home</figcaption></figure>
+    </div>
+
+    <h3>Litterati — живий тест iOS (67 скрінів)</h3>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin:12px 0">
+      <figure style="margin:0"><img src="/research/screens/litterati_01_splash.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">01 Splash</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_02_onboarding_goal.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">02 Goal picker</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_03_onboarding_impact_world.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">03 Impact World</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_04_onboarding_stories_error.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">04 Stories error</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_05_onboarding_notifications_prompt.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">05 Push pre-prompt</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_06_onboarding_notifications_ios.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">06 Push iOS</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_07_onboarding_photo_tutorial.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">07 Photo tutorial</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_08_impact_tab.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">08 Impact tab</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_09_impact_my_activity.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">09 My Activity</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_10_impact_stories.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">10 Stories of Impact</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_11_impact_stories_list.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">11 Stories list</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_12_activity_empty.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">12 Activity empty</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_13_camera_tutorial_ai.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">13 AI demo</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_14_onboarding_camera_permission.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">14 Camera pre-prompt</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_15_onboarding_camera_ios.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">15 Camera iOS</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_16_onboarding_location_ios.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">16 Location iOS</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_17_onboarding_good_photo.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">17 Good photo guide</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_18_camera_viewfinder.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">18 Viewfinder</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_19_activity_analyzing.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">19 Analyzing</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_20_upload_done_register_prompt.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">20 Upload done + register</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_21_reg_display_name_empty.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">21 Reg: display name</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_22_reg_display_name_filled.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">22 Reg: name filled</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_23_reg_username.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">23 Reg: username</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_24_reg_login_details.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">24 Reg: login details</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_25_reg_profile_image.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">25 Reg: profile image</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_26_impact_loggedin.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">26 Impact (logged in)</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_27_profile.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">27 Profile</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_28_profile_bottom.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">28 Profile bottom</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_29_settings.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">29 Settings</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_30_upgrade_code.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">30 Upgrade (B2G gate)</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_31_activity_photo_untagged.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">31 Activity: untagged</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_32_tag_form_empty.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">32 Tag form empty</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_33_tag_search_trash.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">33 Tag search</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_34_tag_applied.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">34 Tag applied</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_35_activity_tagged.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">35 Activity: tagged</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_36_tag_form_with_tag.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">36 Tag form with tag</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_37_challenges_participating_empty.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">37 Challenges empty</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_38_challenges_join_code.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">38 Join with code</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_39_challenges_created_empty.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">39 Created empty</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_40_challenges_browse.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">40 Browse challenges</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_41_challenges_nearby.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">41 Nearby (Lviv)</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_42_challenges_nearby_2.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">42 Nearby 2</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_43_challenge_create_type.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">43 Create: type</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_44_challenge_create_customize_empty.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">44 Customize empty</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_45_challenge_create_customize_filled.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">45 Customize filled</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_46_challenge_create_details.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">46 Details</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_47_challenge_create_map_radius_small.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">47 Radius small</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_48_challenge_create_map_radius_large.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">48 Radius large</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_49_challenge_create_location.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">49 Location confirm</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_50_challenge_create_calendar_empty.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">50 Calendar empty</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_51_challenge_create_calendar_selected.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">51 Calendar selected</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_52_challenge_create_duration.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">52 Duration confirm</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_53_challenge_preview_top.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">53 Preview top</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_54_challenge_preview_bottom.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">54 Preview bottom</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_55_challenge_live_notification.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">55 Challenge live!</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_56_challenges_created_active.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">56 Created/Active</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_57_challenge_card_preview.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">57 Card preview</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_58_challenge_detail.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">58 Challenge detail</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_59_leaderboard_24h.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">59 Leaderboard 24h</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_60_leaderboard_24h_bottom.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">60 Leaderboard 24h bottom</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_61_leaderboard_30d.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">61 Leaderboard 30d</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_62_leaderboard_countries.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">62 Leaderboard Countries</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_63_tasks_researcher_promo.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">63 Tasks: researcher promo</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_64_tasks_researcher_page1.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">64 Researcher page 1</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_65_tasks_researcher_page2.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">65 Researcher page 2</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_66_tasks_researcher_page3.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">66 Researcher page 3</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/litterati_67_activity_delete_mode.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">67 Activity: delete mode</figcaption></figure>
     </div>
 
     <h3>Eyesea — живий тест iOS (51 скрін)</h3>
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin:12px 0">
-      <figure style="margin:0"><img src="/research/screens/eyesea_20_splash.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Splash</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_21_login.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Login</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_22_signup_volunteer.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Sign Up: Volunteer</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_23_signup_seafarer.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Sign Up: Seafarer</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_28_onboarding_camera_permission.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Onboarding: Camera</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_29_onboarding_location_permission.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Onboarding: Location</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_33_onboarding_notifications.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Onboarding: Notifications</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_35_explore_map_empty.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Explore: карта Львова</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_37_explore_map_layers.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Map layers</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_38_explore_map_filters.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Map filters</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_03_form_empty.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Форма: категорії</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_04_form_selected.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Форма: +58 Credits</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_05_location_adjust.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Location: drag pin</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_06_submit_success.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Submit success</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_08_report_card_active.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Картка: Active</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_10_report_card_recovered.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Картка: Recovered</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_13_leaderboard_users.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Leaderboard: Users</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_18_awards_users.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Awards: podium</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_43_profile_overview.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Profile: Overview</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_46_profile_settings_bottom.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Settings: Expert Mode</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_01_onboarding_photo.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">01 Onboarding photo</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_02_camera.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">02 Camera</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_03_form_empty.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">03 Форма: +45 Credits</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_04_form_selected.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">04 Форма: +58 Credits</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_05_location_adjust.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">05 Location drag pin</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_06_submit_success.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">06 Submit toast 1</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_07_sync_credits.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">07 Sync +58 credits</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_08_report_card_active.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">08 Картка Active</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_09_mark_recovered_dialog.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">09 Mark as Recovered?</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_10_report_card_recovered.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">10 Картка Recovered</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_11_feed_atsea.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">11 Feed At Sea</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_12_feed_nearby.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">12 Feed Nearby</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_13_leaderboard_users.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">13 Leaderboard Users</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_14_leaderboard_orgs.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">14 Leaderboard Orgs</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_15_leaderboard_ships_empty.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">15 Leaderboard Ships</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_16_awards_ships_empty.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">16 Awards Ships</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_17_awards_orgs.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">17 Awards Orgs</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_18_awards_users.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">18 Awards Users</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_19_search.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">19 Search</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_20_splash.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">20 Splash</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_21_login.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">21 Login</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_22_signup_volunteer.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">22 Sign Up Volunteer</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_23_signup_seafarer.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">23 Sign Up Seafarer</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_24_signup_name_filled.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">24 Name filled</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_25_signup_country_picker.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">25 Country picker</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_26_signup_org_picker.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">26 Org picker</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_27_onboarding_camera.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">27 Onboarding: Camera</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_28_onboarding_camera_permission.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">28 Camera permission</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_29_onboarding_location_permission.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">29 Location permission</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_30_onboarding_location.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">30 Onboarding: Location</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_31_onboarding_photo_ungrant.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">31 Photo (не надано)</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_32_onboarding_photo_granted.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">32 Photo (надано)</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_33_onboarding_notifications.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">33 Notifications</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_34_onboarding_get_started.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">34 Get Started</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_35_explore_map_empty.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">35 Explore: Lviv</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_36_explore_map_world.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">36 Explore: World</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_37_explore_map_layers.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">37 Map layers</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_38_explore_map_filters.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">38 Map filters</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_39_explore_filter_reports.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">39 Filter: Reports</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_40_explore_filter_status.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">40 Filter: Status</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_41_explore_filter_time.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">41 Filter: Time</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_42_notifications_empty.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">42 Notifications</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_43_profile_overview.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">43 Profile Overview</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_44_profile_my_reports.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">44 My Reports</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_45_profile_settings_top.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">45 Settings top</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_46_profile_settings_bottom.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">46 Settings bottom</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_47_events_empty.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">47 Events</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_48_feed_world_1.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">48 Feed World 1</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_49_feed_world_2.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">49 Feed World 2</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_50_feed_world_3.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">50 Feed World 3</figcaption></figure>
+      <figure style="margin:0"><img src="/research/screens/eyesea_51_feed_world_4.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">51 Feed World 4</figcaption></figure>
     </div>
 
     <h3>App Store / Google Play</h3>
