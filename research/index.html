@@ -104,6 +104,12 @@
     .card p { font-size: 13px; color: var(--gray-600); margin: 0; }
 
     .flow { display: flex; flex-direction: column; margin: 12px 0; }
+    details.flow-section { margin: 18px 0 8px; }
+    details.flow-section summary { font-size: 13px; font-weight: 600; color: var(--gray-600); cursor: pointer; user-select: none; list-style: none; display: flex; align-items: center; gap: 6px; }
+    details.flow-section summary::-webkit-details-marker { display: none; }
+    details.flow-section summary::before { content: '▶'; font-size: 9px; color: var(--gray-400); transition: transform 0.15s; flex-shrink: 0; }
+    details.flow-section[open] summary::before { transform: rotate(90deg); }
+    details.flow-section summary:hover { color: var(--gray-900); }
     .fstep { display: flex; gap: 12px; padding: 10px 14px; background: white; border: 1px solid var(--gray-200); border-bottom: none; font-size: 13px; align-items: flex-start; }
     .fstep:first-child { border-radius: 8px 8px 0 0; }
     .fstep:last-child { border-bottom: 1px solid var(--gray-200); border-radius: 0 0 8px 8px; }
@@ -670,13 +676,14 @@
       <div class="fstep"><div class="fnum">4</div><div><strong>Особисті дані → Submit</strong><em>Email pre-filled · "Show name publicly" ✓ default · Phone optional</em></div><img class="fthumb" src="/research/screens/fms_08_step4_user.png" alt="User" loading="lazy"></div>
     </div>
 
-    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Публічний репорт після подачі</h4>
+    <details class="flow-section"><summary>Публічний репорт після подачі</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum">✓</div><div><strong>Статус + авторство</strong><em>"Reported via mobile in Graffiti by Name at HH:MM" · статус Fixed або відкритий</em></div><img class="fthumb" src="/research/screens/fms_13_report_graffiti.png" alt="Report" loading="lazy"></div>
       <div class="fstep"><div class="fnum">✓</div><div><strong>Автороутинг підтверджено</strong><em>"Sent to Royal Borough of Greenwich less than a minute later"</em></div><img class="fthumb" src="/research/screens/fms_13_report_graffiti.png" alt="Routing" loading="lazy"></div>
       <div class="fstep"><div class="fnum">✓</div><div><strong>Публічні оновлення</strong><em>Будь-хто: фото + текст + "This problem has been fixed" checkbox</em></div><img class="fthumb" src="/research/screens/fms_13_report_graffiti.png" alt="Update" loading="lazy"></div>
       <div class="fstep"><div class="fnum">✓</div><div><strong>Timeline статусів</strong><em>"State changed to: In progress" → "State changed to: Fixed" — ким і коли</em></div><img class="fthumb" src="/research/screens/fms_10_report_page.png" alt="Timeline" loading="lazy"></div>
     </div>
+    </details>
 
     <div class="cards">
       <div class="card"><h4>Автороутинг — core mechanic</h4><p>Ради підключені заздалегідь. Звіт потрапляє до відповідального автоматично, без дій від користувача. &lt;1 хвилини.</p></div>
@@ -689,14 +696,15 @@
     <h3><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a> — 7+ кроків (живий тест)</h3>
     <div style="font-size:12px;color:var(--gray-400);margin-bottom:12px">ecozagroza_01_home → ecozagroza_30_events · реальний акаунт GOV ID</div>
 
-    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Авторизація (3 бар'єри до першого звіту)</h4>
+    <details class="flow-section"><summary>Авторизація (3 бар'єри до першого звіту)</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum warn">!</div><div><strong>GOV ID gate</strong><em>"Недоступно — Увійдіть через GOV ID" — тільки GOV ID, немає email/пароль</em></div><img class="fthumb" src="/research/screens/ecozagroza_02_auth_gate.png" alt="02 Auth gate" loading="lazy"></div>
       <div class="fstep"><div class="fnum warn">!</div><div><strong>Профіль-гейт</strong><em>"Увага! Заповніть всі поля кабінету" — до першого звіту</em></div><img class="fthumb" src="/research/screens/ecozagroza_03_profile_warning.png" alt="03 Profile" loading="lazy"></div>
       <div class="fstep"><div class="fnum warn">!</div><div><strong>Email обов'язковий, але не передається GOV ID</strong><em>"Зберегти" заблоковане без email</em></div><img class="fthumb" src="/research/screens/ecozagroza_04_profile_empty.png" alt="04 Empty" loading="lazy"></div>
     </div>
+    </details>
 
-    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Флоу подачі звіту</h4>
+    <details class="flow-section"><summary>Флоу подачі звіту</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum">1</div><div><strong>Home → "Повідомити"</strong><em>Велика картка, єдиний primary CTA</em></div><img class="fthumb" src="/research/screens/ecozagroza_01_home.png" alt="01 Home" loading="lazy"></div>
       <div class="fstep"><div class="fnum">2</div><div><strong>Bottom sheet</strong><em>Фото/відео / Додати без фото / Скасувати</em></div><img class="fthumb" src="/research/screens/ecozagroza_08_add_info_sheet.png" alt="08 Sheet" loading="lazy"></div>
@@ -706,13 +714,14 @@
       <div class="fstep"><div class="fnum">6</div><div><strong>"Відправити дані ↑"</strong><em>Зелена кнопка внизу</em></div><img class="fthumb" src="/research/screens/ecozagroza_11_form_bottom_submit.png" alt="11 Submit" loading="lazy"></div>
       <div class="fstep"><div class="fnum">7</div><div><strong>SUCCESS: "Дякуємо за ваш вклад у перемогу!"</strong><em>Ілюстрація солдата + номер #007446 — без пояснення що далі</em></div><img class="fthumb" src="/research/screens/ecozagroza_22_success.png" alt="22 Success" loading="lazy"></div>
     </div>
+    </details>
     <div class="warn-box">⚠ <strong>Критичні проблеми:</strong> reCAPTCHA на мобілі · Карта = станції моніторингу, НЕ звіти · Success screen не пояснює що буде з звітом · Категорії для інспекторів, не громадян</div>
 
     <div class="divider"></div>
     <h3><a href="https://apps.apple.com/us/app/litterati/id978788776" target="_blank">Litterati</a> — живий тест, iOS (67 скрінів)</h3>
     <div style="font-size:12px;color:var(--gray-400);margin-bottom:12px">litterati_01_splash → litterati_67_activity_delete_mode · реальний акаунт Nick</div>
 
-    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Онбординг (без реєстрації)</h4>
+    <details class="flow-section"><summary>Онбординг (без реєстрації)</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum">S</div><div><strong>Splash</strong><em>"Welcome to Litterati" · GET STARTED · Terms / Privacy</em></div><img class="fthumb" src="/research/screens/litterati_01_splash.png" alt="Splash" loading="lazy"></div>
       <div class="fstep"><div class="fnum">1</div><div><strong>Goal picker</strong><em>"What is your goal?" — 6 варіантів: Inspire Cleanups / Improve Data Quality / Join a Cleanup / Track My Impact / Change Policy / Not Sure</em></div><img class="fthumb" src="/research/screens/litterati_02_onboarding_goal.png" alt="Goal" loading="lazy"></div>
@@ -727,15 +736,17 @@
       <div class="fstep"><div class="fnum">6</div><div><strong>Location iOS</strong><em>"Add location data to your litter sessions" · Allow Once / Allow While Using / Don't Allow</em></div><img class="fthumb" src="/research/screens/litterati_16_onboarding_location_ios.png" alt="Location" loading="lazy"></div>
       <div class="fstep"><div class="fnum">7</div><div><strong>Good photo guide</strong><em>"What is a good photo?" — 3 критерії + 3 приклади</em></div><img class="fthumb" src="/research/screens/litterati_17_onboarding_good_photo.png" alt="Good photo" loading="lazy"></div>
     </div>
+    </details>
 
-    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Флоу першого tagging (без реєстрації)</h4>
+    <details class="flow-section"><summary>Флоу першого tagging (без реєстрації)</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum">1</div><div><strong>Viewfinder</strong><em>Square frame · upload з галереї · "Begin uploading photos" tooltip</em></div><img class="fthumb" src="/research/screens/litterati_18_camera_viewfinder.png" alt="Viewfinder" loading="lazy"></div>
       <div class="fstep"><div class="fnum">2</div><div><strong>Analyzing</strong><em>"Analyzing Litter 1/1" — AI обробляє фото</em></div><img class="fthumb" src="/research/screens/litterati_19_activity_analyzing.png" alt="Analyzing" loading="lazy"></div>
       <div class="fstep"><div class="fnum">3</div><div><strong>"Your 1st Upload Is Done!"</strong><em>Пропонує реєстрацію: "Later / Now" — upload-first без примусу</em></div><img class="fthumb" src="/research/screens/litterati_20_upload_done_register_prompt.png" alt="Upload done" loading="lazy"></div>
     </div>
+    </details>
 
-    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Реєстрація (після першого upload)</h4>
+    <details class="flow-section"><summary>Реєстрація (після першого upload)</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum">R</div><div><strong>Display name</strong><em>"What is your public display name?" — мінімум 2 символи</em></div><img class="fthumb" src="/research/screens/litterati_21_reg_display_name_empty.png" alt="Display name empty" loading="lazy"></div>
       <div class="fstep"><div class="fnum">R</div><div><strong>Display name заповнено</strong><em>Активна кнопка NEXT</em></div><img class="fthumb" src="/research/screens/litterati_22_reg_display_name_filled.png" alt="Display name filled" loading="lazy"></div>
@@ -743,8 +754,9 @@
       <div class="fstep"><div class="fnum">R</div><div><strong>Login details</strong><em>Email + password · "I wish to receive email communication"</em></div><img class="fthumb" src="/research/screens/litterati_24_reg_login_details.png" alt="Login details" loading="lazy"></div>
       <div class="fstep"><div class="fnum">R</div><div><strong>Profile image (Optional)</strong><em>iOS Save Password prompt</em></div><img class="fthumb" src="/research/screens/litterati_25_reg_profile_image.png" alt="Profile image" loading="lazy"></div>
     </div>
+    </details>
 
-    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Tagging flow (після реєстрації)</h4>
+    <details class="flow-section"><summary>Tagging flow (після реєстрації)</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum">1</div><div><strong>Activity: нетегований</strong><em>Фото з іконкою тегу — ще не оброблено</em></div><img class="fthumb" src="/research/screens/litterati_31_activity_photo_untagged.png" alt="Untagged" loading="lazy"></div>
       <div class="fstep"><div class="fnum">2</div><div><strong>Tag form (порожня)</strong><em>Search Tags · "Powered by LitterAI" · SUGGESTED (немає) · APPLIED</em></div><img class="fthumb" src="/research/screens/litterati_32_tag_form_empty.png" alt="Tag form" loading="lazy"></div>
@@ -752,16 +764,18 @@
       <div class="fstep"><div class="fnum">4</div><div><strong>Тег додано</strong><em>"trashbag" → APPLIED TAGS (1)</em></div><img class="fthumb" src="/research/screens/litterati_34_tag_applied.png" alt="Tag applied" loading="lazy"></div>
       <div class="fstep"><div class="fnum">5</div><div><strong>Activity: тегований</strong><em>Маленька іконка tag внизу фото</em></div><img class="fthumb" src="/research/screens/litterati_35_activity_tagged.png" alt="Tagged" loading="lazy"></div>
     </div>
+    </details>
 
-    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Impact tab</h4>
+    <details class="flow-section"><summary>Impact tab</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum">I</div><div><strong>Impact (global)</strong><em>"Total Global Litter Pickup: 24 276 987" · Monthly graph</em></div><img class="fthumb" src="/research/screens/litterati_08_impact_tab.png" alt="Impact global" loading="lazy"></div>
       <div class="fstep"><div class="fnum">I</div><div><strong>My Activity</strong><em>"My Impact Stats: 0" · Stories of Impact</em></div><img class="fthumb" src="/research/screens/litterati_09_impact_my_activity.png" alt="My activity" loading="lazy"></div>
       <div class="fstep"><div class="fnum">I</div><div><strong>Stories of Impact</strong><em>"Litter Data Helps SF Win Court Case" · реальні кейси</em></div><img class="fthumb" src="/research/screens/litterati_10_impact_stories.png" alt="Stories" loading="lazy"></div>
       <div class="fstep"><div class="fnum">I</div><div><strong>After login</strong><em>Impact tab із реальними даними профілю</em></div><img class="fthumb" src="/research/screens/litterati_26_impact_loggedin.png" alt="Impact loggedin" loading="lazy"></div>
     </div>
+    </details>
 
-    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Challenges</h4>
+    <details class="flow-section"><summary>Challenges</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum">C</div><div><strong>Participating (empty)</strong><em>Participating / Created · "JOIN A CHALLENGE WITH A CODE"</em></div><img class="fthumb" src="/research/screens/litterati_37_challenges_participating_empty.png" alt="Challenges empty" loading="lazy"></div>
       <div class="fstep"><div class="fnum">C</div><div><strong>Browse</strong><em>Featured + Nearby + Saved Challenges</em></div><img class="fthumb" src="/research/screens/litterati_40_challenges_browse.png" alt="Browse" loading="lazy"></div>
@@ -776,20 +790,23 @@
       <div class="fstep"><div class="fnum">C</div><div><strong>"Your Challenge Is Live!"</strong><em>6-значний code · Share icon · CREATE CUSTOM SHARE CODE</em></div><img class="fthumb" src="/research/screens/litterati_55_challenge_live_notification.png" alt="Live" loading="lazy"></div>
       <div class="fstep"><div class="fnum">C</div><div><strong>Challenge detail</strong><em>Map + edit + PARTICIPATING button</em></div><img class="fthumb" src="/research/screens/litterati_58_challenge_detail.png" alt="Detail" loading="lazy"></div>
     </div>
+    </details>
 
-    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Leaderboard</h4>
+    <details class="flow-section"><summary>Leaderboard</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum">L</div><div><strong>24h · Members</strong><em>Nick (You) #25 · 1 Piece · Top: sioufi Andrew Awad 568 Pieces</em></div><img class="fthumb" src="/research/screens/litterati_59_leaderboard_24h.png" alt="24h" loading="lazy"></div>
       <div class="fstep"><div class="fnum">L</div><div><strong>30d · Members</strong><em>Nick #131 · Dennis Patterson #33 · 495 Pieces</em></div><img class="fthumb" src="/research/screens/litterati_61_leaderboard_30d.png" alt="30d" loading="lazy"></div>
       <div class="fstep"><div class="fnum">L</div><div><strong>30d · Countries</strong><em>Lebanon #1 · 35 714 Pieces · Netherlands #2 · USA #3</em></div><img class="fthumb" src="/research/screens/litterati_62_leaderboard_countries.png" alt="Countries" loading="lazy"></div>
     </div>
+    </details>
 
-    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Профіль і налаштування</h4>
+    <details class="flow-section"><summary>Профіль і налаштування</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum">P</div><div><strong>Profile</strong><em>Nick · @nick1988 · "Litterati Member Since JUNE, 2026" · Edit Profile · Upgrade Account</em></div><img class="fthumb" src="/research/screens/litterati_27_profile.png" alt="Profile" loading="lazy"></div>
       <div class="fstep"><div class="fnum">P</div><div><strong>Settings</strong><em>LitterAI Suggestions (on) · Upload only via Wi-Fi · Maximum Location Accuracy · App Version 4.2.2</em></div><img class="fthumb" src="/research/screens/litterati_29_settings.png" alt="Settings" loading="lazy"></div>
       <div class="fstep"><div class="fnum">P</div><div><strong>Upgrade (B2G gate)</strong><em>"Enter or paste code to upgrade account" — закритий для звичайних користувачів</em></div><img class="fthumb" src="/research/screens/litterati_30_upgrade_code.png" alt="Upgrade" loading="lazy"></div>
     </div>
+    </details>
 
     <div class="cards">
       <div class="card"><h4>Upload-first без реєстрації</h4><p>Фото → AI аналіз → "Your 1st Upload Is Done!" → лише потім "Register Now". Найнижчий бар'єр входу серед усіх продуктів ніші.</p></div>
@@ -803,7 +820,7 @@
     <h3><a href="https://www.eyesea.org" target="_blank">Eyesea</a> — живий тест, iOS (51 скрін)</h3>
     <div style="font-size:12px;color:var(--gray-400);margin-bottom:12px">eyesea_20_splash → eyesea_51_feed_world_4 · реальний акаунт Mykola Viedienin</div>
 
-    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Онбординг і реєстрація</h4>
+    <details class="flow-section"><summary>Онбординг і реєстрація</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum">S</div><div><strong>Splash</strong><em>"Empowering communities · Protecting our oceans" — Tap to continue</em></div><img class="fthumb" src="/research/screens/eyesea_20_splash.png" alt="Splash" loading="lazy"></div>
       <div class="fstep"><div class="fnum">L</div><div><strong>Login</strong><em>Email + Password · "Don't have an account? Sign Up"</em></div><img class="fthumb" src="/research/screens/eyesea_21_login.png" alt="Login" loading="lazy"></div>
@@ -813,7 +830,8 @@
       <div class="fstep"><div class="fnum">R</div><div><strong>Country picker</strong><em>Список країн — autocomplete scroll</em></div><img class="fthumb" src="/research/screens/eyesea_25_signup_country_picker.png" alt="Country" loading="lazy"></div>
       <div class="fstep"><div class="fnum">R</div><div><strong>Organization picker</strong><em>Список організацій — вибір або "Add new"</em></div><img class="fthumb" src="/research/screens/eyesea_26_signup_org_picker.png" alt="Org" loading="lazy"></div>
     </div>
-    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">5 onboarding-слайдів з дозволами</h4>
+    </details>
+    <details class="flow-section"><summary>5 onboarding-слайдів з дозволами</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum">1</div><div><strong>Camera slide</strong><em>"Capture the Evidence"</em></div><img class="fthumb" src="/research/screens/eyesea_27_onboarding_camera.png" alt="Camera slide" loading="lazy"></div>
       <div class="fstep"><div class="fnum">1</div><div><strong>Camera permission</strong><em>iOS system dialog → дозвіл до камери</em></div><img class="fthumb" src="/research/screens/eyesea_28_onboarding_camera_permission.png" alt="Camera perm" loading="lazy"></div>
@@ -824,8 +842,9 @@
       <div class="fstep"><div class="fnum">4</div><div><strong>Notifications</strong><em>"Stay in the Loop" → Enable Notifications</em></div><img class="fthumb" src="/research/screens/eyesea_33_onboarding_notifications.png" alt="Notifications" loading="lazy"></div>
       <div class="fstep"><div class="fnum">5</div><div><strong>Get Started</strong><em>Terms + Privacy → єдина кнопка входу в застосунок</em></div><img class="fthumb" src="/research/screens/eyesea_34_onboarding_get_started.png" alt="Get Started" loading="lazy"></div>
     </div>
+    </details>
 
-    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Флоу подачі звіту</h4>
+    <details class="flow-section"><summary>Флоу подачі звіту</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum">0</div><div><strong>Запрошення до фото</strong><em>Онбординг-підказка "Upload from History" перед першим репортом</em></div><img class="fthumb" src="/research/screens/eyesea_01_onboarding_photo.png" alt="Onboarding photo" loading="lazy"></div>
       <div class="fstep"><div class="fnum">1</div><div><strong>Камера або галерея</strong><em>Photo-first entry</em></div><img class="fthumb" src="/research/screens/eyesea_02_camera.png" alt="Camera" loading="lazy"></div>
@@ -835,15 +854,17 @@
       <div class="fstep"><div class="fnum">4</div><div><strong>Submit toast 1</strong><em>"Report submitted successfully!" — офлайн-підтвердження</em></div><img class="fthumb" src="/research/screens/eyesea_06_submit_success.png" alt="Submit" loading="lazy"></div>
       <div class="fstep"><div class="fnum">4</div><div><strong>Submit toast 2</strong><em>"Report synced! +58 credits" — серверне підтвердження</em></div><img class="fthumb" src="/research/screens/eyesea_07_sync_credits.png" alt="Sync" loading="lazy"></div>
     </div>
+    </details>
 
-    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Пост-сабміт: картка і Recover flow</h4>
+    <details class="flow-section"><summary>Пост-сабміт: картка і Recover flow</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum">✓</div><div><strong>Report card: Active</strong><em>Категорія · місце · час · вага ~165g · Low · "Mark as Recovered" CTA</em></div><img class="fthumb" src="/research/screens/eyesea_08_report_card_active.png" alt="Active" loading="lazy"></div>
       <div class="fstep"><div class="fnum">✓</div><div><strong>Mark as Recovered?</strong><em>"The original reporter will be notified" — Cancel / Confirm</em></div><img class="fthumb" src="/research/screens/eyesea_09_mark_recovered_dialog.png" alt="Dialog" loading="lazy"></div>
       <div class="fstep"><div class="fnum">✓</div><div><strong>Recovered</strong><em>Статус змінено · зелений пін на карті</em></div><img class="fthumb" src="/research/screens/eyesea_10_report_card_recovered.png" alt="Recovered" loading="lazy"></div>
     </div>
+    </details>
 
-    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Explore / карта</h4>
+    <details class="flow-section"><summary>Explore / карта</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum">E</div><div><strong>Explore: порожня карта</strong><em>Lviv — немає репортів поблизу</em></div><img class="fthumb" src="/research/screens/eyesea_35_explore_map_empty.png" alt="Explore empty" loading="lazy"></div>
       <div class="fstep"><div class="fnum">E</div><div><strong>Explore: world view</strong><em>Глобальна карта з кластерами репортів</em></div><img class="fthumb" src="/research/screens/eyesea_36_explore_map_world.png" alt="Explore world" loading="lazy"></div>
@@ -854,8 +875,9 @@
       <div class="fstep"><div class="fnum">E</div><div><strong>Filter: Status</strong><em>Active / Recovered</em></div><img class="fthumb" src="/research/screens/eyesea_40_explore_filter_status.png" alt="Filter status" loading="lazy"></div>
       <div class="fstep"><div class="fnum">E</div><div><strong>Filter: Time</strong><em>24h / 3d / 7d / 15d / 30d</em></div><img class="fthumb" src="/research/screens/eyesea_41_explore_filter_time.png" alt="Filter time" loading="lazy"></div>
     </div>
+    </details>
 
-    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Community Feed</h4>
+    <details class="flow-section"><summary>Community Feed</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum">F</div><div><strong>Feed: At Sea</strong><em>Plastic reports · статуси Active/Recovered</em></div><img class="fthumb" src="/research/screens/eyesea_11_feed_atsea.png" alt="Feed at sea" loading="lazy"></div>
       <div class="fstep"><div class="fnum">F</div><div><strong>Feed: Nearby</strong><em>Порожньо — немає репортів поруч</em></div><img class="fthumb" src="/research/screens/eyesea_12_feed_nearby.png" alt="Feed nearby" loading="lazy"></div>
@@ -864,8 +886,9 @@
       <div class="fstep"><div class="fnum">F</div><div><strong>Feed: World (3)</strong><em>Продовження стрічки</em></div><img class="fthumb" src="/research/screens/eyesea_50_feed_world_3.png" alt="Feed world 3" loading="lazy"></div>
       <div class="fstep"><div class="fnum">F</div><div><strong>Feed: World (4)</strong><em>Продовження стрічки</em></div><img class="fthumb" src="/research/screens/eyesea_51_feed_world_4.png" alt="Feed world 4" loading="lazy"></div>
     </div>
+    </details>
 
-    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Leaderboard і Awards</h4>
+    <details class="flow-section"><summary>Leaderboard і Awards</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum">L</div><div><strong>Leaderboard: Users</strong><em>#24 Mykola: 0 Credits · #1 Lisbon: 584 репорти, 30 063 Credits</em></div><img class="fthumb" src="/research/screens/eyesea_13_leaderboard_users.png" alt="Leaderboard users" loading="lazy"></div>
       <div class="fstep"><div class="fnum">L</div><div><strong>Leaderboard: Orgs</strong><em>B2B гравці — організації окремо</em></div><img class="fthumb" src="/research/screens/eyesea_14_leaderboard_orgs.png" alt="Leaderboard orgs" loading="lazy"></div>
@@ -874,8 +897,9 @@
       <div class="fstep"><div class="fnum">A</div><div><strong>Awards: Orgs podium</strong><em>Top 3 організацій</em></div><img class="fthumb" src="/research/screens/eyesea_17_awards_orgs.png" alt="Awards orgs" loading="lazy"></div>
       <div class="fstep"><div class="fnum">A</div><div><strong>Awards: Users podium</strong><em>Top 3 користувачів</em></div><img class="fthumb" src="/research/screens/eyesea_18_awards_users.png" alt="Awards users" loading="lazy"></div>
     </div>
+    </details>
 
-    <h4 style="font-size:13px;font-weight:600;margin:18px 0 8px;color:var(--gray-600)">Профіль і Notifications</h4>
+    <details class="flow-section"><summary>Профіль і Notifications</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum">P</div><div><strong>Notifications (порожні)</strong><em>Empty state — "No notifications yet"</em></div><img class="fthumb" src="/research/screens/eyesea_42_notifications_empty.png" alt="Notifications" loading="lazy"></div>
       <div class="fstep"><div class="fnum">P</div><div><strong>Profile: Overview</strong><em>Rank · Reports · Thanks · Recoveries · progression bar</em></div><img class="fthumb" src="/research/screens/eyesea_43_profile_overview.png" alt="Profile" loading="lazy"></div>
@@ -884,6 +908,7 @@
       <div class="fstep"><div class="fnum">P</div><div><strong>Settings (bottom)</strong><em>Log Out · v1.0.0</em></div><img class="fthumb" src="/research/screens/eyesea_46_profile_settings_bottom.png" alt="Settings bottom" loading="lazy"></div>
       <div class="fstep"><div class="fnum">P</div><div><strong>Events / Cleanups</strong><em>"No upcoming events · Check back later"</em></div><img class="fthumb" src="/research/screens/eyesea_47_events_empty.png" alt="Events" loading="lazy"></div>
     </div>
+    </details>
 
     <div class="cards">
       <div class="card"><h4>Credits instant feedback</h4><p>Кількість credits видна на кнопці Submit і зростає при виборі кожної категорії. Instant reward без необхідності завершити подачу.</p></div>
