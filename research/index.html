@@ -198,7 +198,7 @@
   <div class="container">
     <div class="level-label">Рівень 01</div>
     <h2>Конкуренти <span style="font-size:14px;font-weight:400;color:var(--gray-400)">(прямі та непрямі)</span></h2>
-    <div class="level-desc">Матриця за осями + 3 спільні патерни ринку, 3 відмінності.</div>
+    <div class="level-desc">Порівняли конкурентів за ключовими осями. Знайшли 3 спільні патерни ринку і 3 відмінності.</div>
 
     <h3>Прямі конкуренти (Україна)</h3>
     <div class="cards">
@@ -241,8 +241,8 @@
 
     <h3>3 ключові відмінності</h3>
     <ul class="ilist diff">
-      <li><strong>Авторизація = компроміс між friction і довірою.</strong> SaveEcoBot — анонімно (0 friction, 0 довіри). ЕкоЗагроза — GOV ID (висока довіра, великий бар'єр). FixMyStreet, SeeClickFix, Eyesea — email посередині. <a href="https://apps.apple.com/us/app/litterati/id978788776" target="_blank">Litterati</a>: upload без реєстрації → реєстрація після першого фото (найменший бар'єр входу). Ніхто не займає email + реальне ім'я — там ми.</li>
-      <li><strong>Одержувач звіту визначає весь продукт.</strong> Там де є чіткий одержувач (FixMyStreet → рада, iNaturalist → наука, SeeClickFix → місто) — є retention. Там де немає (SaveEcoBot, ЕкоЗагроза, Eyesea, Litterati) — retention тримається лише на гейміфікації або нульовий.</li>
+      <li><strong>Кожен продукт вибирає де стояти між зручністю входу і довірою до даних.</strong> SaveEcoBot не вимагає нічого — і довіряти таким даним важко. ЕкоЗагроза вимагає GOV ID — і мало хто доходить. FixMyStreet, SeeClickFix, Eyesea зупинились на email. <a href="https://apps.apple.com/us/app/litterati/id978788776" target="_blank">Litterati</a> дає завантажити фото без реєстрації і просить акаунт тільки після першого upload. Ніхто не займає місце email + реальне ім'я — там ми.</li>
+      <li><strong>Одержувач звіту визначає весь продукт.</strong> Де є чіткий одержувач — FixMyStreet передає раді, iNaturalist науковцям, SeeClickFix місту — люди повертаються. Де одержувача немає (SaveEcoBot, ЕкоЗагроза, Eyesea, Litterati) — повернення тримається лише на гейміфікації або відсутнє взагалі.</li>
       <li><strong>Публічність карти як механізм тиску.</strong> Продукти з публікацією одразу (FixMyStreet, iNaturalist, Eyesea) мають кращі метрики. ЕкоЗагроза — єдиний з ручною інституційною модерацією: звіти не потрапляють на публічну карту → <a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">3.7★ при 5k завантажень</a>. Litterati: карти немає взагалі → дані закриті в датасеті партнера. SeeClickFix — гібрид: автоматичний keyword/image фільтр + платна moderations team.</li>
     </ul>
   </div>
@@ -265,14 +265,14 @@
 
     <div class="bench-card top">
       <div class="source">← iNaturalist · "Needs ID" патерн</div>
-      <h4>2. Перефреймінг постсабміт-стану</h4>
-      <p>Замість "скарга на розгляді" → "Сигнал активний — перевіряємо". Семантика змінює очікування: не бюрократична черга, а підтвердження що тебе почули. MVP-реалізація: анімований success-екран + пін зі статусом "🔍 Перевіряється".</p>
+      <h4>2. Що написати на екрані після відправки</h4>
+      <p>Замість "скарга на розгляді" — "Сигнал активний — перевіряємо". Різниця в одному слові, але людина відчуває що зробила внесок, а не подала прохання. В MVP це виглядає як анімований екран підтвердження і пін на карті зі статусом "🔍 Перевіряється".</p>
     </div>
 
     <div class="bench-card top">
       <div class="source">← FixMyStreet · статуси виконання</div>
-      <h4>3. Outcome visibility</h4>
-      <p>Навіть найпростіший статус-апдейт замикає retention loop. В MVP достатньо двох станів на карті: "Перевіряється" → "Підтверджено". Людина повертається перевірити — і бачить результат.</p>
+      <h4>3. Людина повертається коли бачить що зі звітом щось відбулось</h4>
+      <p>Навіть найпростіший статус-апдейт замикає петлю повернення. В MVP достатньо двох станів на карті: "Перевіряється" і "Підтверджено". Людина повертається перевірити — і бачить результат.</p>
     </div>
 
     <div class="bench-card top">
@@ -287,7 +287,7 @@
       <div class="source">← Duolingo · streak модель</div>
       <h4>Streak — не переносити</h4>
       <p>Streak працює для продуктів з щоденною звичкою (мова, фітнес). Екологічні порушення — event-driven: бачиш → фіксуєш. Вимагати "зафіксуй щось сьогодні" — або провокує фейкові звіти, або відштовхує. Правильний цикл: <strong>тригер → дія → feedback → повернення</strong>.</p>
-      <p style="margin-top:8px;font-size:12px;color:var(--gray-400)">Credits Eyesea — не streak. Це per-action винагорода без примусу до регулярності. Саме тому вона спрацьовує там де streak провалюється.</p>
+      <p style="margin-top:8px;font-size:12px;color:var(--gray-400)">Credits у Eyesea — не streak. Це нагорода за кожну конкретну дію без вимоги повертатись щодня. Саме тому вона спрацьовує там де streak провалюється.</p>
     </div>
   </div>
 </section>
@@ -336,16 +336,16 @@
 
     <h3>Чому цей патерн</h3>
     <ul class="why-list">
-      <li><strong>Карта = серце продукту</strong> — принцип #5 з Product Brief. Якщо перший екран не карта, продукт суперечить своїй ідеї.</li>
+      <li><strong>Карта — серце продукту</strong> — принцип #5 з Product Brief. Якщо перший екран не карта, продукт суперечить своїй ідеї.</li>
       <li><strong>FixMyStreet підтвердив масштаб</strong> — <a href="https://www.fixmystreet.com/reports" target="_blank">7.6M звітів, 73% тижнева вирішуваність</a>. Map-first не гіпотеза, це перевірений патерн civic tech.</li>
-      <li><strong>iNaturalist показав photo-first</strong> — 3 кроки і автозаповнення. Але у нашому контексті фото = доказ, не ціль. Тому: спонукати, не примушувати.</li>
-      <li><strong>Eyesea підтвердив photo-first</strong> — camera відкривається першою, до будь-якої форми. Photo-first = патерн обох найкращих civic-репортинг продуктів.</li>
+      <li><strong>iNaturalist показав photo-first</strong> — 3 кроки і автозаповнення. Але у нашому контексті фото — це доказ, не ціль. Тому: спонукати, не примушувати.</li>
+      <li><strong>Eyesea підтвердив photo-first</strong> — камера відкривається першою, до будь-якої форми. Обидва найкращі civic-репортинг продукти починають з фото.</li>
       <li><strong><a href="https://apps.apple.com/us/app/litterati/id978788776" target="_blank">Litterati</a> підтвердив photo-first + знімає бар'єр реєстрації</strong> — upload без реєстрації, AI аналіз одразу. Але відсутність карти підкреслює нашу відмінність: для District Care карта = core, а не бекенд.</li>
       <li><strong>ЕкоЗагроза показала пастку</strong> — stepper з 4+ обов'язковими кроками відчувається як держсервіс. Саме від цього ми відходимо.</li>
       <li><strong>2 обов'язкових кроки</strong> (локація + категорія). Решта — опційні, але UX заохочує.</li>
     </ul>
 
-    <h3>Zero-friction resolution ← Eyesea</h3>
+    <h3>Закрити порушення одним дотиком ← Eyesea</h3>
     <ul class="why-list">
       <li><strong>"Already cleaned up?" тогл</strong> — вбудований у форму репорту. Якщо людина бачить місце вже після прибирання, вона може відразу закрити проблему — без окремого флоу.</li>
       <li><strong>Чому це важливо для нас</strong> — FixMyStreet вимагає окремого update step для зміни статусу. Eyesea вирішує це в момент фіксації. Для civic-репортингу закрити проблему так само важливо як її відкрити — але більшість продуктів це ігнорують.</li>
@@ -363,68 +363,68 @@
 
     <div class="hypo-block">
       <div class="hypo-row"><span class="hypo-label hl-if">Якщо</span><span class="hypo-text">фото — перший контент-крок (а не поле в кінці форми)</span></div>
-      <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">completeness rate і якість доказів зростуть</span></div>
-      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">iNaturalist: photo-first → 3 кроки vs SaveEcoBot: текст-first → 8 кроків. Litterati підтверджує зворотне: photo-per-item = головна причина відтоку (47 лайків: "The thought of photographing and tagging each one is simply not going to happen"). Один звіт = одна дія = правильна ставка.</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">більше людей дійдуть до кінця форми і додадуть фото як доказ</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">iNaturalist ставить фото першим — і закриває весь флоу за 3 кроки. SaveEcoBot починає з тексту — виходить 8 кроків. Litterati підтверджує зворотне: коли треба фотографувати кожен предмет окремо, більшість кидає одразу (47 лайків: "The thought of photographing and tagging each one is simply not going to happen"). Один звіт — одна дія: це правильна ставка.</span></div>
     </div>
 
     <div class="hypo-block">
       <div class="hypo-row"><span class="hypo-label hl-if">Якщо</span><span class="hypo-text">автогеолокація з можливістю ручного коригування</span></div>
-      <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">drop-off на кроці "де" знизиться</span></div>
-      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">ЕкоЗагроза: ручна адреса = бар'єр (підтверджено відгуками); SeeClickFix: ~15% відгуків — GPS підставляє неправильне місто; FixMyStreet: офлайн-чернетка зберігає домашню адресу замість місця порушення — репортери дізнаються помилку лише вдома</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">менше людей кинуть форму на кроці "де сталось"</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">В ЕкоЗагрозі ручне введення адреси — явний бар'єр (підтверджено відгуками). У SeeClickFix ~15% відгуків скаржаться що GPS підставляє неправильне місто. У FixMyStreet офлайн-чернетка запам'ятовує домашню адресу замість місця порушення — репортери дізнаються про помилку лише вдома.</span></div>
     </div>
 
     <div class="hypo-block">
       <div class="hypo-row"><span class="hypo-label hl-if">Якщо</span><span class="hypo-text">звіт не з'являється на публічній карті одразу</span></div>
       <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">мотивація фіксувати повторно падає до нуля</span></div>
-      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">ЕкоЗагроза: карта не про звіти → 3.7★; SaveEcoBot: тиша після submit → нульовий retention; Litterati: "Can't see anyone else's picks, just my own" — відсутність публічної карти спільноти = найчастіший запит (11 лайків × 2 відгуки) — без видимості колективного вкладу немає відчуття руху</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">ЕкоЗагроза показує на карті станції моніторингу, а не звіти від людей — і це одна з причин її 3.7★. SaveEcoBot не дає жодного сигналу після відправки — люди звітують один раз і зникають. У Litterati відсутність спільної карти — найчастіший запит (11 лайків × 2 відгуки: "Can't see anyone else's picks, just my own") — без видимості колективного вкладу немає відчуття що щось рухається.</span></div>
     </div>
 
     <div class="hypo-block">
       <div class="hypo-row"><span class="hypo-label hl-if">Якщо</span><span class="hypo-text">немає визначеного одержувача звіту до запуску</span></div>
-      <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">retention зламаний з першого дня</span></div>
-      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">FixMyStreet: ради відмовляються від інтеграції ("local council emails you back: don't use this app"); SeeClickFix: ~35% негативних відгуків — влада закриває тикети без дії, прізвисько "See Click Ignore"; SaveEcoBot: "кудись" передається → нульовий retention</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">люди звітують один раз — і більше не повертаються</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">У FixMyStreet окремі ради відмовляються від інтеграції ("local council emails you back: don't use this app"). SeeClickFix закриває тикети без реальної дії — ~35% негативних відгуків і прізвисько "See Click Ignore". У SaveEcoBot звіт іде "кудись" без пояснень — людина не розуміє що сталось і більше не звітує.</span></div>
     </div>
 
     <div class="hypo-block">
       <div class="hypo-row"><span class="hypo-label hl-if">Якщо</span><span class="hypo-text">категорії містять одиниці виміру (м², тонн, га)</span></div>
       <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">звичайний мешканець не зможе обрати правильну категорію</span></div>
-      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">ЕкоЗагроза: таксономія для інспекторів → відгуки просять "спалювання сміття, підпали" (★5 відгук); SeeClickFix: "Where is the 'other' category?" — кілька відгуків; правило: завжди мати "Інше / не знаю" — краще неточний звіт ніж жоден</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">ЕкоЗагроза використовує юридичну таксономію, написану для інспекторів, — мешканці у відгуках просять базові категорії кшталт "спалювання сміття, підпали", яких просто немає (★5 відгук). У SeeClickFix кілька відгуків з тим самим: "Where is the 'other' category?". Завжди мати "Інше / не знаю" — краще неточний звіт, ніж жоден.</span></div>
     </div>
 
     <div class="hypo-block">
       <div class="hypo-row"><span class="hypo-label hl-if">Якщо</span><span class="hypo-text">модерація вручну без альтернативи</span></div>
       <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">продукт не масштабується</span></div>
-      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">ЕкоЗагроза — ручна gate-модерація → звіти не на карті → <a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">3.7★</a>. Але і зворотній провал: SeeClickFix — автозакриття без контролю якості = ~35% негативних відгуків ("See Click Ignore"). iNaturalist: core-аудиторія негативно ставиться до AI-верифікації (1★ після новини про GenAI грант) — людська модерація = сигнал довіри. Правильна позиція: людська верифікація + публікація одразу зі статусом "Перевіряється" (<a href="https://fixmystreet.org/running/admin_manual/" target="_blank">FixMyStreet reactive flagging</a> або iNaturalist "Needs ID")</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">ЕкоЗагроза тримає всі звіти на ручній перевірці до публікації — карта залишається порожньою, і це головна скарга у <a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">3.7★</a>. SeeClickFix іде в протилежний бік і автоматично закриває тикети без реальної дії — звідси ~35% негативних відгуків і прізвисько "See Click Ignore". iNaturalist показує що людська модерація — це сигнал довіри для спільноти: аудиторія відреагувала 1★ навіть на новину про можливий GenAI-грант. Правильна позиція: публікувати одразу зі статусом "Перевіряється" і верифікувати постфактум — як <a href="https://fixmystreet.org/running/admin_manual/" target="_blank">FixMyStreet reactive flagging</a> або iNaturalist "Needs ID".</span></div>
     </div>
 
     <div class="hypo-block">
       <div class="hypo-row"><span class="hypo-label hl-if">Якщо</span><span class="hypo-text">цінність звіту видна ДО submit (прогрес, вага, credits)</span></div>
-      <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">drop-off на останньому кроці знизиться</span></div>
-      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">Eyesea: Credits на кнопці Submit ростуть при виборі категорій (+45 → +58) — зворотній зв'язок до натискання, не після</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">менше людей кинуть форму перед самою відправкою</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">Eyesea показує кількість Credits прямо на кнопці Submit, і вона росте поки заповнюєш поля (+45 → +58) — людина бачить "вагу" свого звіту ще до відправки, а не після.</span></div>
     </div>
 
     <div class="hypo-block">
       <div class="hypo-row"><span class="hypo-label hl-if">Якщо</span><span class="hypo-text">механізм "вирішено" вбудований у основний флоу (не окремий крок)</span></div>
       <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">відсоток закритих звітів зросте</span></div>
-      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">Eyesea "Already cleaned up?" тогл = нульовий friction; FixMyStreet "Provide an update" = окремий флоу → більшість не повертаються; SeeClickFix: найбільш проголосований відгук (53 лайки) — "Why isn't there a way to edit a post after you submit it?" — помилка у звіті без виходу = відтік</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">Eyesea вбудовує тогл "Already cleaned up?" прямо в картку звіту — закрити порушення можна одним дотиком. FixMyStreet виносить оновлення статусу в окремий флоу — більшість репортерів туди просто не доходять. У SeeClickFix найбільш проголосований відгук (53 лайки): "Why isn't there a way to edit a post after you submit it?" — помилка у звіті без можливості виправити веде до відтоку.</span></div>
     </div>
 
     <div class="hypo-block">
       <div class="hypo-row"><span class="hypo-label hl-if">Якщо</span><span class="hypo-text">завантаження фото ненадійне або зависає</span></div>
       <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">користувачі перестають звітувати — не шукають обхідний шлях</span></div>
-      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">FixMyStreet ~22% відгуків; SeeClickFix ~20% відгуків; Litterati ~38% негативних відгуків — у всіх один патерн: збій фото = миттєвий 1★ і відтік без спроби виправити. Фото = основний доказ → збій завантаження = збій всього продукту.</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">FixMyStreet ~22% відгуків, SeeClickFix ~20%, Litterati ~38% негативних — у всіх один патерн: коли фото не завантажується, людина ставить 1★ і іде, не шукаючи обхідного шляху. Фото — це серце звіту, тому технічний збій на завантаженні рівнозначний зламу всього продукту.</span></div>
     </div>
 
     <div class="hypo-block">
       <div class="hypo-row"><span class="hypo-label hl-if">Якщо</span><span class="hypo-text">немає можливості редагувати або видалити звіт після подачі</span></div>
-      <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">помилка у звіті = публічний ганьба без виходу → 1★ і відтік</span></div>
-      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">SeeClickFix: найбільш проголосований відгук (53 лайки) — "Why isn't there a way to edit a post after you submit it?"; FixMyStreet: той самий запит роками невиконаний. Edit/Delete — не "nice to have", обов'язкова функція v1.</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">помилковий звіт висить публічно без можливості виправити — людина іде і не повертається</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">У SeeClickFix найбільш проголосований відгук (53 лайки): "Why isn't there a way to edit a post after you submit it?". У FixMyStreet той самий запит роками залишається невиконаним. Edit/Delete — не "nice to have", а обов'язкова функція першої версії.</span></div>
     </div>
 
     <div class="hypo-block">
       <div class="hypo-row"><span class="hypo-label hl-if">Якщо</span><span class="hypo-text">email-підтвердження при кожній подачі звіту (не тільки при реєстрації)</span></div>
       <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">активні репортери кидають після перших кількох звітів</span></div>
-      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">FixMyStreet: email-верифікація при кожному submit = єдина найчастіше цитована причина відмови; 16-лайків відгук: "I have to wait for an email to arrive to confirm. This is an annoying extra step". Постійна сесія + push-підтвердження = базовий мінімум.</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">У FixMyStreet email-верифікація при кожному submit — єдина найчастіше цитована причина відмови; 16-лайків відгук: "I have to wait for an email to arrive to confirm. This is an annoying extra step". Постійна авторизована сесія з push-підтвердженням замість email — це мінімум, без якого активні репортери відпадуть.</span></div>
     </div>
 
   </div>
@@ -578,7 +578,7 @@
 <section id="motivation">
   <div class="container">
     <h2>Поглиблений аналіз: Мотивація до фіксації</h2>
-    <div style="font-size:12px;color:var(--gray-400);margin-bottom:20px">Best-in-class продукти де motivation = ядро · 8 критеріїв · шкала 1–5</div>
+    <div style="font-size:12px;color:var(--gray-400);margin-bottom:20px">Порівняли 5 продуктів де люди повертаються самі — без нагадувань. 8 критеріїв, шкала 1–5.</div>
 
     <div class="tw">
       <table>
@@ -603,22 +603,22 @@
       <div class="card"><h4>Waze (36) — найсильніша мотивація</h4><p>Звіт на карті за секунди. Мотивація — enlightened self-interest. Бар'єр нульовий.</p></div>
       <div class="card"><h4><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a> (33) — найкращий фреймінг</h4><p><a href="https://www.inaturalist.org/stats" target="_blank">4 млн observers, 63% Research Grade</a>. "Needs ID" переформатовує модерацію. <em>68% мотивовані "contributing to science" — гіпотеза.</em></p></div>
       <div class="card"><h4>Duolingo (31) — streak-чемпіон</h4><p><em>Streak підвищує 7-денне утримання — гіпотеза.</em> Але вплив на зовнішній світ = 0. Неправильна модель для нас.</p></div>
-      <div class="card"><h4><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a> (26) — парадокс</h4><p>Найнижча оцінка — <a href="https://www.fixmystreet.com/reports" target="_blank">7,6 млн звітів і 73% тижнева вирішуваність</a>. Видимий вплив + outcome visibility замінює геймінг.</p></div>
+      <div class="card"><h4><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a> (26) — парадокс</h4><p>Найнижча оцінка — <a href="https://www.fixmystreet.com/reports" target="_blank">7,6 млн звітів і 73% тижнева вирішуваність</a>. Видимий вплив і прозорий результат замінюють гейміфікацію.</p></div>
     </div>
 
     <div class="two-col" style="margin-top:24px">
       <div>
-        <h3>Топ-3 механізми → переносимо в MVP</h3>
+        <h3>Топ-3 механізми, які беремо в MVP</h3>
         <ul class="ilist top3">
-          <li><strong>1. Миттєва видимість на карті ← Waze</strong> Звіт на публічній карті одразу. Без цього нема відчуття впливу — і нема повернення.</li>
-          <li><strong>2. Перефреймінг постсабміт ← iNaturalist</strong> "Скарга на розгляді" → "Сигнал активний — перевіряємо". Реалізація: success-екран + пін "🔍 Перевіряється".</li>
-          <li><strong>3. Outcome visibility ← FixMyStreet</strong> Навіть базовий статус замикає retention loop. В MVP: "Перевіряється" і "Підтверджено".</li>
+          <li><strong>1. Миттєва видимість на карті ← Waze</strong> Звіт з'являється на публічній карті одразу. Без цього людина не відчуває впливу і не повертається.</li>
+          <li><strong>2. Що написати після відправки ← iNaturalist</strong> Замість "Скарга на розгляді" — "Сигнал активний — перевіряємо". Реалізація: success-екран і пін "🔍 Перевіряється".</li>
+          <li><strong>3. Людина бачить що зі звітом сталось ← FixMyStreet</strong> Навіть базовий статус замикає петлю повернення. В MVP достатньо двох станів: "Перевіряється" і "Підтверджено".</li>
         </ul>
       </div>
       <div>
         <h3>1 механізм що НЕ спрацює</h3>
         <ul class="ilist anti">
-          <li><strong>Streak (Duolingo-модель) — не переносити</strong> Екологічні порушення — event-driven: побачив → зафіксував. Вимога "зафіксуй сьогодні" провокує фейкові звіти або відразу.<br><br><strong>Правильний цикл:</strong> тригер → дія → feedback → повернення.</li>
+          <li><strong>Streak (Duolingo-модель) — не переносити</strong> Екологічні порушення — це реакція на подію: побачив — зафіксував. Вимога "зафіксуй щось сьогодні" провокує фейкові звіти або відштовхує одразу.<br><br><strong>Правильний цикл:</strong> побачив — зафіксував — отримав відгук — повернувся.</li>
         </ul>
       </div>
     </div>
@@ -1019,13 +1019,13 @@
     <h2>Гіпотези</h2>
 
     <h3>Дизайн-гіпотези <span style="font-size:12px;color:var(--gray-400);font-weight:400">(через тестування і прототипи)</span></h3>
-    <div class="hypo"><div class="hlabel d">H1 — DESIGN</div><p><strong>Фото-first entry підвищить якість звітів.</strong> Якщо фото є першим кроком — completeness rate і якість доказової бази зростуть. Референс: iNaturalist (3 кроки) vs SaveEcoBot (8 кроків).</p></div>
+    <div class="hypo"><div class="hlabel d">H1 — DESIGN</div><p><strong>Фото-first entry підвищить якість звітів.</strong> Якщо фото є першим кроком — більше людей дійдуть до кінця форми і додадуть фото як доказ. Референс: iNaturalist (3 кроки) vs SaveEcoBot (8 кроків).</p></div>
     <div class="hypo"><div class="hlabel d">H2 — DESIGN</div><p><strong>Автогеолокація знизить drop-off на кроці "де".</strong> Ручне введення адреси — найбільший бар'єр. Автоматична геолокація + ручне коригування скоротять кидання форми.</p></div>
     <div class="hypo"><div class="hlabel d">H3 — DESIGN</div><p><strong>Фреймінг "Сигнал прийнято" підвищить повторне використання.</strong> "Ти зробив внесок" дасть вищу мотивацію повернутися ніж "скарга зареєстрована".</p></div>
     <div class="hypo"><div class="hlabel d">H4 — DESIGN</div><p><strong>Категорії з візуальним прикладом знизять помилкову класифікацію.</strong> Іконка або приклад → менше вибору "Інше".</p></div>
 
     <h3 style="margin-top:24px">Продуктові гіпотези <span style="font-size:12px;color:var(--gray-400);font-weight:400">(через аналітику після запуску)</span></h3>
-    <div class="hypo"><div class="hlabel p">H5 — PRODUCT</div><p><strong>Без визначеного одержувача retention буде нижчим за benchmark.</strong> Якщо після submit нічого не відбувається — Day 30 нижче 7–10%. SaveEcoBot: нульовий feedback → нульовий retention.</p></div>
+    <div class="hypo"><div class="hlabel p">H5 — PRODUCT</div><p><strong>Без визначеного одержувача люди звітують один раз і зникають.</strong> Якщо після відправки нічого не відбувається — утримання на 30-й день падає нижче 7–10%. SaveEcoBot: жодного відгуку після відправки — жодного повернення.</p></div>
     <div class="hypo"><div class="hlabel p">H6 — PRODUCT</div><p><strong>Вимога реального імені відсіє частину, але підвищить якість.</strong> Оцінно 20–40% відмов при реєстрації, але менше спаму і точніші описи.</p></div>
     <div class="hypo"><div class="hlabel p">H7 — PRODUCT</div><p><strong>Публічна карта без модерації збільшить звіти, але потребує flagging з дня 1.</strong> Без flagging перші спам-звіти підірвуть довіру до карти.</p></div>
   </div>
@@ -1041,7 +1041,7 @@
         <ul class="ilist pat">
           <li><strong>Карта — єдина точка входу</strong> FixMyStreet, SeeClickFix, iNaturalist: перший екран — карта. Спочатку "де", потім "що".</li>
           <li><strong>Фото заохочують, але не примушують</strong> Жоден з досліджених продуктів не блокує submission без фото.</li>
-          <li><strong>Публічність > модерація</strong> FixMyStreet: 73% вирішуваність при публічній карті. Ручна модерація не масштабується.</li>
+          <li><strong>Публічність важливіша за модерацію</strong> FixMyStreet показує 73% вирішуваність при публічній карті. Ручна модерація до публікації не масштабується.</li>
           <li><strong>"Needs ID" — кращий постсабміт</strong> Переформатував очікування верифікації у запрошення спільноти.</li>
         </ul>
       </div>
@@ -1050,7 +1050,7 @@
         <ul class="ilist risk">
           <li><strong>Одержувач звіту — невизначений архітектурний ризик</strong> Без домовленості з органом — звіти накопичуються без результату. Вирішити до вайрфреймінгу.</li>
           <li><strong>Ручна модерація — операційна пастка</strong> ЕкоЗагроза — єдиний хто перевіряє вручну, і має найгірші метрики. Альтернативи: публікація одразу + reactive flagging (FixMyStreet), crowd-верифікація (iNaturalist), автофільтр + платна команда (SeeClickFix), без зобов'язань (Eyesea).</li>
-          <li><strong>Consumer vs B2G — вибір не можна відкласти</strong> Litterati → B2G. SeeClickFix — одразу B2G. Хто платить і хто primary user визначить всю стратегію.</li>
+          <li><strong>Consumer vs B2G — вибір не можна відкласти</strong> Litterati в результаті перейшов у B2G. SeeClickFix будував B2G з першого дня. Хто платить і хто основний користувач — це визначить всю стратегію.</li>
         </ul>
       </div>
     </div>
@@ -1066,7 +1066,7 @@
       <ul>
         <li>Громадяни: вік, мотивація, бар'єри — що заважає фіксувати зараз?</li>
         <li>Категорії для громадян: спрощена цивільна мова (≠ юридична таксономія)</li>
-        <li>Цикл звіту: хто верифікує, куди передається? Без відповіді retention зламаний.</li>
+        <li>Цикл звіту: хто верифікує, куди передається? Без відповіді на це люди звітують один раз і не повертаються.</li>
       </ul>
     </div>
     <div class="oq">
