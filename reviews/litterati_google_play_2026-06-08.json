@@ -1,0 +1,1282 @@
+{
+  "store": "google_play",
+  "found": true,
+  "appId": "org.litterati.android",
+  "appName": "Litterati - The Global Team Cl",
+  "rating": 3.46,
+  "dateRange": null,
+  "reviews": [
+    {
+      "userName": "K S",
+      "score": 4,
+      "text": "Abandoned? This used to be a great app, but for the last few months none of my pictures are loading and neither is the leaderboard. I have the latest update. Also seems like the organization's been a little quiet lately? 1/26: App bugs? 1) unable to view long impact number. Does not scroll. 2) Links in help section are dead ends? If abandoned, thanks for fighting the good fight! Please let us know.",
+      "date": "2026-01-05T19:25:27.323Z",
+      "version": "4.1.11",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Jess",
+      "score": 2,
+      "text": "Easy to use and gets the job done, but the app has been breaking a lot. The \"Show Untagged\" screen no longer works and still includes tagged images that flash in and out. The count of untagged images has always been wrong as well and got stuck at 200 for me, even with all litter tagged. The \"LitterAI\" has never made any suggestions or done anything at all. Tagging a piece of litter always scrolls back to the top, making it a pain to do. All of the FAQ pages lead nowhere either. Needs improvement",
+      "date": "2025-10-06T06:30:28.719Z",
+      "version": "4.1.11",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Simon Hartman",
+      "score": 5,
+      "text": "Love this app! Nice and simple yet easy to obsess over... turn your OCD towards something productive as well as being out and about!",
+      "date": "2025-08-08T06:12:36.960Z",
+      "version": "4.1.11",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Nothin Here",
+      "score": 1,
+      "text": "Good goal, trash design",
+      "date": "2025-05-03T07:55:04.421Z",
+      "version": "4.1.11",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "D K",
+      "score": 5,
+      "text": "I am in!",
+      "date": "2025-04-29T19:09:31.772Z",
+      "version": "4.1.11",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "eduardoj40 (eduardoj40)",
+      "score": 1,
+      "text": "Since March 2, 2024, the app stopped taking uploads of pictures from my Android mobile phone. Even after the update from March 8 and May 3, 2024. It's Jan 17, 2025 and this app does not work.",
+      "date": "2025-01-17T21:15:13.496Z",
+      "version": "4.1.11",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "maryam",
+      "score": 3,
+      "text": "Good",
+      "date": "2024-04-19T04:51:18.735Z",
+      "version": "4.1.10",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Amy “Aimes” Koller Allison Spears",
+      "score": 1,
+      "text": "Never worked unistalled",
+      "date": "2023-09-27T07:14:59.998Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "PJ B",
+      "score": 1,
+      "text": "App does not work when claiming an account. Clicking the blue-ish circular icon (profile) takes me back to the original page to Get Started, wiping out the challenge I joined from earlier steps. Reported the issue and support does not respond.",
+      "date": "2023-07-31T12:58:14.393Z",
+      "version": "4.1.7",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Alina Slutsky",
+      "score": 3,
+      "text": "I am having trouble finding where I can setup my profile on Android phone",
+      "date": "2023-07-26T18:18:37.909Z",
+      "version": "4.1.7",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Snackies2000",
+      "score": 2,
+      "text": "Unless I'm stupid it lost all my progress and won't even actually make me an account so what every time I get sent back to the home login screen everything I did was for nothing? So lame. I'll just pick up trash without wasting my time then",
+      "date": "2023-05-01T15:21:12.708Z",
+      "version": "4.1.7",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Jen",
+      "score": 1,
+      "text": "There's no option to create an account, there's no help button, and I can't log in because I don't have an account. I tried doing Facebook login and nothing happens. Every button on the \"What is your goal?\" screen leads to the same thing. I really can't do anything with this app.",
+      "date": "2023-04-23T12:11:53.120Z",
+      "version": "4.1.7",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Enter name",
+      "score": 1,
+      "text": "Worst app ever!!!!!!!!!!!!!!!!",
+      "date": "2023-04-19T20:32:55.205Z",
+      "version": "4.1.7",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Whisper Everton",
+      "score": 1,
+      "text": "Erased all of the photos and impact I did when I clicked on the bubble in the top left hand corner. Won't let me login either. Now everytime I go to the homepage everything I did is gone.",
+      "date": "2023-04-10T16:20:48.166Z",
+      "version": "4.1.7",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Zayn",
+      "score": 5,
+      "text": "Thank you for this",
+      "date": "2023-01-19T08:58:22.784Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Albert Wang",
+      "score": 1,
+      "text": "Can't login. Created an account and tried to sign in. Nothing happens after I tap login.",
+      "date": "2022-11-28T07:15:27.170Z",
+      "version": "4.1.5",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Marvelous Jester",
+      "score": 2,
+      "text": "don't know what to think. picked up a lot of trash, mostly red bull cans, tagged a lot of m afterwards, which worked fine, but somehow the data disappeared (didn't clear storage or cache or something), I don't have an account yet. Should clearly state nothing is stored with no account, unless I'm missing something.",
+      "date": "2022-11-26T11:14:10.481Z",
+      "version": "4.1.7",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Edgar Guerrero",
+      "score": 2,
+      "text": "Gay. Very gay",
+      "date": "2022-07-29T02:03:07.465Z",
+      "version": "4.1.7",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Jackie",
+      "score": 1,
+      "text": "It decided to crash and stop working for me today. Very frustrating.",
+      "date": "2022-06-14T15:30:48.225Z",
+      "version": "4.1.5",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Wilder Meade",
+      "score": 1,
+      "text": "This app won't let you \"claim your profile\". It just wants your email for spam. Wouldn't let me use the actual app?",
+      "date": "2022-05-07T03:11:18.540Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "melissa hensley",
+      "score": 2,
+      "text": "Having issues tagging items and general navigation.",
+      "date": "2022-04-23T20:24:24.154Z",
+      "version": "4.1.5",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Matt Testa",
+      "score": 1,
+      "text": "This app makes me want to add my entire phone to the trash bag I am filling. It is not intuitive. I took a photo on my camera app outside of litterati and tried to upload it later but could not figure out how. It was 25 degrees while I was plogging so there was no chance I was going to stop to take off my glove and photograph every dumb soda can. I tried to add details later from my home and couldn't change the location to where I was plogging. Spend more time picking up, less time on a dumb app",
+      "date": "2022-01-15T21:45:27.455Z",
+      "version": "4.1.4",
+      "thumbsUp": 15
+    },
+    {
+      "userName": "Chin Mei Wong",
+      "score": 1,
+      "text": "I am disappointed with the app. Downloaded three times to find the app's camera is blank. Can't take a picture at all. Why?",
+      "date": "2021-11-16T23:21:10.549Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Amanda W",
+      "score": 3,
+      "text": "Tagging is very tedious. It would be great if I could see a list of my frequently used tags instead of typing them in every time. When you've got hundreds to tag it's very time consuming. Also I keep getting the error \"oops, we couldn't process your request in time\". No idea what it actually means.",
+      "date": "2021-10-03T07:02:56.614Z",
+      "version": "4.1.2",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Daniël K420",
+      "score": 5,
+      "text": "not bad",
+      "date": "2021-09-21T15:17:34.891Z",
+      "version": "4.1.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Lars Ltspp",
+      "score": 5,
+      "text": "Does a good job in tracking global garbage in the wild.",
+      "date": "2021-07-10T04:17:55.792Z",
+      "version": "3.12.4",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Wade Williams",
+      "score": 1,
+      "text": "Update: this app still leaves me bitterly disappointed. I have updated and switched phones and still have no success with this app. Go use Pirika. This app just sucks... It will totally test your patience. Every update makes the app slower and more frustrating to use. I try to do the right thing and be patient, but after this update I am searching for a new app to upload litter to. Just ridiculous that this app started out easy to use and now it is impossible to upload pictures.",
+      "date": "2021-05-30T02:18:33.786Z",
+      "version": "3.12.4",
+      "thumbsUp": 12
+    },
+    {
+      "userName": "Erlend Lien",
+      "score": 2,
+      "text": "The app should have a feature where instead of tagging individual pieces of litter, you could tag how many bags you filled. It is simply too tedious and time consuming to tag each individual piece when a usual pickup makes up hundreds of individual pieces. I would rate the app five stars if this feature or a similar feature was added.",
+      "date": "2021-05-11T22:44:51.463Z",
+      "version": "3.12.3",
+      "thumbsUp": 7
+    },
+    {
+      "userName": "Pamela Anderson",
+      "score": 5,
+      "text": "I absolutely love this idea in order to help clean up our world!!!!! I am so excited to get started and participate!!!!!!",
+      "date": "2021-05-01T21:42:47.739Z",
+      "version": "3.12.0",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Bruce Hooker",
+      "score": 2,
+      "text": "Kind of a cool concept, but just not practical for me. My typical litter walk is about hour long and I pick up between 200 & 400 pieces of litter in that time (sometimes more). The thought of photographing and tagging each one of those pieces is simply not going to happen especially when I make 3 to 5 litter walks per week. Instead of taking photos of litter,it would be better to create a collaborative app that allows citizens in an area to sign up for routes that they would responsible for.",
+      "date": "2021-04-01T02:04:54.957Z",
+      "version": "3.11.1",
+      "thumbsUp": 47
+    },
+    {
+      "userName": "X S",
+      "score": 4,
+      "text": "Great and fast support. 1️⃣ Dark Mode, please? 2️⃣ Rotate images. This not only can change the world, I think it has to. 🗺️ ➡️ Share to social media. 📍 Map view to see impact by zone. 👥 Also if verified users wanted to share their live location could then make people know they are in the same direction. 🚁 More advanced would be to train a Drone to detect litter. 💲It could be monetized with ECO businesses ads.",
+      "date": "2021-01-24T13:25:28.605Z",
+      "version": "3.10.0",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Dennis G D",
+      "score": 3,
+      "text": "Burns up battery FAST. If you are not using it, turn it off! Running in the background will kill your battery in minutes!",
+      "date": "2020-12-31T11:14:32.506Z",
+      "version": "3.9.2",
+      "thumbsUp": 11
+    },
+    {
+      "userName": "Abdullah Hussein",
+      "score": 5,
+      "text": "Good day to every body",
+      "date": "2020-12-23T04:29:42.654Z",
+      "version": "3.9.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Åsvang (sigche)",
+      "score": 3,
+      "text": "My second challenge I had created, expired. I wanted to create a new challenge and it will not let me.",
+      "date": "2020-11-23T09:29:43.115Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Michael Angelo Marucot",
+      "score": 5,
+      "text": "Excellent idea of involving people in a mission of cleaning the planet 😁",
+      "date": "2020-11-10T06:36:16.682Z",
+      "version": "3.8.0",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Pepeijndhoven",
+      "score": 4,
+      "text": "Works fine doesn't crash. But can't find the pictures in my photo app, only in litterati, please store photos in a album to please",
+      "date": "2020-10-06T06:39:25.667Z",
+      "version": "3.7.1",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Alyssa",
+      "score": 1,
+      "text": "No open data sharing Why cant i see the litter being picked up at my community? The app developers clearly do not have the environment as their priority but rather looking to hoard data to sell. People, you can pick up litter without this useless app",
+      "date": "2020-09-18T13:45:15.230Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Dushyanth Chowdary",
+      "score": 3,
+      "text": "Concept is good, but the app is not responsive; defeats the purpose",
+      "date": "2020-09-10T15:46:03.141Z",
+      "version": "3.6.0",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Masoud Saedi",
+      "score": 5,
+      "text": "Thank you for your amazing application guys. I just have some problems with multi tagging process. When I select some photos to tag all of them, suddenly it kicked me out to previous step (profile page). Also, in tagging process, when I'm scrolling down to find similar photos, it comes up to first photos.",
+      "date": "2020-08-27T19:57:52.192Z",
+      "version": "3.6.0",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Mary",
+      "score": 5,
+      "text": "Works great. Very motivating and fun and should definitely be rated higher. Goodbye litter! ✌️",
+      "date": "2020-08-19T13:55:28.960Z",
+      "version": "3.6.0",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Ashton Lucas",
+      "score": 4,
+      "text": "Will have to retry this app now it's been fixed",
+      "date": "2020-08-10T07:40:44.444Z",
+      "version": "3.5.0",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Claudia Schipp",
+      "score": 4,
+      "text": "I love the concept and I'm excited to see the use of this app expand. I've just started exploring the app and have a few questions/suggestions: 1) Can I disable sounds in app? I don't want to hear the camera shutter noise, although others may find it useful. 2) Can you access the Litterati map data in app, or only in the browser? Would be nice to be able to see which areas nearby had clean ups by other users. 3) Is there an option to manually adjust GPS coordinates? Some of mine are inaccurate",
+      "date": "2020-07-24T04:04:28.970Z",
+      "version": "3.5.0",
+      "thumbsUp": 23
+    },
+    {
+      "userName": "Rob Jackson",
+      "score": 5,
+      "text": "Amazing concept. Littering is my #1 pet peeve! Although it's a bit cumbersome to photograph every piece of trash you pick up and the tagging could be improved, I'm giving this app 5-stars for inspiration. I've only been using it for a few days but will be tracking its progress. Would love to get more involved!",
+      "date": "2020-06-30T20:50:10.240Z",
+      "version": "3.4.2",
+      "thumbsUp": 13
+    },
+    {
+      "userName": "Charles F.",
+      "score": 4,
+      "text": "App is wonderful, simple, and the support team was very friendly and straightforward and helped resolve my issue quickly.",
+      "date": "2020-06-10T11:40:00.191Z",
+      "version": "3.4.1",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Juliet Lyon",
+      "score": 1,
+      "text": "I'm only able to get an old version so not able to compete with friends who are on vr 3.4.0 Build 330",
+      "date": "2020-05-09T12:01:15.220Z",
+      "version": "2.5.0",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Awesome!!!",
+      "date": "2020-04-22T13:39:15.602Z",
+      "version": "3.3.0",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "This app is such a fun way to make an impact in the world and help out by cleaning up the areas that you already enjoy! This app turns such an important good act into a fun game with challenges and leaderboards, etc. And the team behind it are constantly working on it and making it even better. You can see not just your impact but global impact, see trends, and overall do good in this world. It's the app you didn't know you needed.",
+      "date": "2020-04-14T23:08:18.453Z",
+      "version": "3.3.0",
+      "thumbsUp": 11
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Simple app that is gamifying trash pick up to help make the world a better place!",
+      "date": "2020-04-14T18:58:39.920Z",
+      "version": "3.3.0",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Best app for litter pickers & community activists. If you've ever wanted stats or data on the litter you pick up or a way to easily enroll others you join your community clean up efforts, Litterati is the best way I've found to do it Theyve made some huge upgrades so far in 2020 & am excited for future developments to make it even more effective",
+      "date": "2020-04-14T18:02:32.699Z",
+      "version": "3.3.0",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "The challenges and geo tracking are great - helps to motivate me to keep making an impact on my neighborhood. Keep up the good work Litterati Team!",
+      "date": "2020-04-14T17:38:05.221Z",
+      "version": "3.3.0",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Love this app!",
+      "date": "2020-04-12T22:43:16.368Z",
+      "version": "3.2.0",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Clean the planet, one piece of litter at a time",
+      "date": "2020-04-02T23:29:26.765Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "More stars if the map was able to be time-date filtered.",
+      "date": "2020-03-16T09:43:03.793Z",
+      "version": "3.2.0",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Wel done",
+      "date": "2020-03-02T11:47:35.441Z",
+      "version": "3.2.0",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Great app!",
+      "date": "2020-01-28T11:00:48.984Z",
+      "version": "3.0.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Great feel good app...my go to app when I need to do something good",
+      "date": "2020-01-08T22:25:30.870Z",
+      "version": "1.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "I was so very excited to download the app and start using it. it worked the first time when I logged in using Facebook but then after that it wouldnt let me login.. I tried multiple times and even tried redownloading the app.. still nothing so sadly I have to give it one star",
+      "date": "2019-12-23T08:51:41.890Z",
+      "version": "3.0.7",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "pretty nice ig",
+      "date": "2019-12-01T00:29:59.500Z",
+      "version": "3.0.7",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "You can not add to or edit the challenge after you create first one",
+      "date": "2019-10-31T00:23:37.337Z",
+      "version": "3.0.5",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Why not sharing the data? \"What you put in is what you get out\" policy is just other words for; im collecting valuable data that you all put in and getting rich of it. Not very social or helping the world. Pitty as this app has huge potential. Now im switched to an alternative as I can't take local actions with this one. Pitty you sell it as social but wont share the data. Therefore I score it only 1 star. Sharing is caring",
+      "date": "2019-10-12T12:11:59.696Z",
+      "version": "3.0.4",
+      "thumbsUp": 15
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "Uninstalled the app after reading the privacy policy. The app wants access to your device information, including your mobile number. Also by agreeing you give it full content access to the whole device including social media friends list and other non-public information. I love the idea and I see why data about location and the pictures are needed, but I would like the app to have more limited access to private information.",
+      "date": "2019-10-09T21:05:54.442Z",
+      "version": null,
+      "thumbsUp": 12
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "5 Star for Litterati. Awesome App Jeff + Team. Keep the updates coming. We need to be able to share our groups on WhatsApp please. Litterati Helping to SHIFT BEHAVIOR + MINDSET around plastic + Gamifying Trashtagging + making it cool, while empowering CleanUP Warriors through Collective effort locally, Nationally + connecting us Globally. #GlobalGoals #Trashtag #Cleanerseas #CircularEconomy #TreatAtTheSource #RiverMithi #WildforLife #StopFeedingOurRivers #Water #Plastic #FridaysForFuture",
+      "date": "2019-10-02T15:10:44.541Z",
+      "version": "2.5.0",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Location is fixed. App works well now. Will do full review once I've played with it a bit. Thanks!",
+      "date": "2019-10-01T23:10:19.838Z",
+      "version": "3.0.3",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Getting people to collect litter is all good and well, but what are you doing with the data? Why isn't the collected data open data? If the collected data isn't open, how is it going to have an actual impact on changing policys and laws (for instance deposit refund systems) and getting the polluting brands and producers to take responsibility for their products? Doesn't closed data just protect the polluters? And restricting science? Sharing open data and citizen science is the way to having an actual impact. Uninstalling your app. I'll use OpenLitterMap instead. Same idea (collecting and documenting litter) but better, since the collected data is open data. For people here wishing that you could see on the maps what other people have collected and logged - use OpenLitterMap instead, there you can see everything on the map!",
+      "date": "2019-09-25T19:58:01.376Z",
+      "version": "3.0.3",
+      "thumbsUp": 19
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Good app. It's fun to see all the litter you've collected. Very motivational :) Would love to see a message board of some kind for challenges",
+      "date": "2019-09-22T16:10:22.530Z",
+      "version": "3.0.0",
+      "thumbsUp": 10
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Best litter data tracker, best for changing the world and inspiring others",
+      "date": "2019-09-21T19:07:34.419Z",
+      "version": "3.0.0",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "Update lost my club and many of my tags. Not good.",
+      "date": "2019-09-18T08:48:23.635Z",
+      "version": "3.0.0",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "My map is empty map.I don't see any spots",
+      "date": "2019-09-07T20:55:50.704Z",
+      "version": "2.5.0",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "would love to do it. hard to figure out. but hopefully worth it",
+      "date": "2019-07-29T22:56:42.168Z",
+      "version": "2.5.0",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "so you cant see anyone elses picks, just your own? thats not what it seemed like on the ted talk? i live in a city and it would be a great way to impact local littering but not if its just \"me\", isnt the whole point to have a community of people tagging picks so we can all see where the litter is coming from? ive been looking at previous comments and a lot of them seen to have the same opinion that its a great concept but failing because of the app. such a shame 😒",
+      "date": "2019-06-09T07:29:42.280Z",
+      "version": "2.5.0",
+      "thumbsUp": 11
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "I like the purpose, and like to share it with my friends, but I'm based on Mexico. can you guys make a spanish version?",
+      "date": "2019-06-01T17:10:51.561Z",
+      "version": "2.5.0",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "help clean the planey",
+      "date": "2019-05-29T15:03:20.332Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Very nice initiative, but I wish the maps were less restricted. I would love an option to see what has been picked up in my area and not just by me! It's also a shame there's no map option in the clubs, that would make the group effort so much more visible.",
+      "date": "2019-05-08T12:45:37.564Z",
+      "version": "2.5.0",
+      "thumbsUp": 11
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "its makes such a good impact I love helping the world",
+      "date": "2019-04-24T19:37:03.753Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "what a great idea",
+      "date": "2019-04-23T19:13:48.503Z",
+      "version": "1.1.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Overall enjoy the app concept, but on my Android it's very lagged, and makes my camera constantly click as if it's taking pics while the app is open even when not using the camera feature. It's very distracting and makes a little hesitant to use the app. The camera feature in the app itself is also difficult to use because of the lag, so I have to upload pics instead. Will continue to use, but I'm impatient and likely will forgot to upload pics if the app is being too slow.",
+      "date": "2019-04-19T19:22:13.650Z",
+      "version": "2.5.0",
+      "thumbsUp": 14
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Good app, i would like to be able to email a report",
+      "date": "2019-04-18T12:19:41.209Z",
+      "version": "2.5.0",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "App keeps crashing every time I open it. I gave up. Great idea but app needs improvement. The data isn't open so you can't see what other people have posted.",
+      "date": "2019-04-11T08:16:29.730Z",
+      "version": null,
+      "thumbsUp": 6
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "This app could make a huge difference",
+      "date": "2019-03-31T06:24:26.393Z",
+      "version": "2.3.1",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Does the basics great concept. Map is limited to your own picks so very little group interaction is possible. I recommend disabling wifi or data roaming when out collecting and disable tagging, then it works quickly collecting pics. Go online when you get back home and let it upload. Then after uploading do the tagging.",
+      "date": "2019-03-29T19:04:48.987Z",
+      "version": "2.3.1",
+      "thumbsUp": 7
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "good idea but you can't see any other photos on the map that other people have taken",
+      "date": "2019-03-28T05:06:30.554Z",
+      "version": "2.3.1",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Didn't work on Samsung Galaxy8+ :( Bummed bcuz this would be great for Maui!",
+      "date": "2019-03-16T10:10:34.217Z",
+      "version": null,
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Genious initiative! Thanks for life on the planet",
+      "date": "2019-03-16T08:13:31.920Z",
+      "version": "2.3.1",
+      "thumbsUp": 7
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Installed it, but I've no idea how to use it On the phone the \"map\" just shows an empty map, never shows any spots where anything has been logged, on the web interface it shows numbers, eg, \"2\" and \"7\" at the end of a park near home, but you can't click on them and see any details. The \"gallery\" on the phone never shows anything, just stays black. nope, just tried it for a few more hours. simply does not work. #uninstalled",
+      "date": "2019-03-14T09:53:26.196Z",
+      "version": "2.3.1",
+      "thumbsUp": 23
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "New app camera will not work on some Android phones. Can upload images from  file. Some clever new features. But would welcome in app photos back. Do we  need to see all of our previous picks?  Feb 19 - Still camera part of app not working on Samsung J3, can upload 1 image at a time from phone gallery, but keeps crashing, the frustration is preventing me using the app, and I really would like to achieve my target of 1000 items of litter this year, and have the opportunity to pick litter without pre-planning the hour or so to upload images.",
+      "date": "2019-02-18T17:29:30.842Z",
+      "version": "2.3.1",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "I have tried logging in through the facebook link and it keeps taking me back to the log in screen. When I try to set up an account using my email I can't presumably because it's the same email address I use for facebook.",
+      "date": "2018-12-29T14:28:33.860Z",
+      "version": "2.2.3",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "I emailed the support team back in April and never received an answer. I've been using the app for a few months when the facebook login feature crashed and I cannot log in anymore. The idea is good, but some features could be improved.",
+      "date": "2018-12-28T11:52:20.682Z",
+      "version": "2.2.3",
+      "thumbsUp": 7
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Sucks",
+      "date": "2018-10-15T15:57:30.183Z",
+      "version": "2.2.3",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "One can start from here.. to a clean environment..",
+      "date": "2018-09-23T11:01:25.244Z",
+      "version": "2.2.3",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "It was awesome app",
+      "date": "2018-08-22T05:16:55.517Z",
+      "version": "2.2.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Basically citizen science for litter. Great concept.",
+      "date": "2018-08-13T18:34:22.560Z",
+      "version": "1.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "Last used it in Feb I believe. Took pics of trash items I was finding in \nthe woods on the property but app was tagging them in wrong location & no \noption to input the location of our property we were really on. I can't use \napp anymore. I had never created any password that I can recall. App wants \nme to sign in or sign up. What happened to my info & pics?! It's pointless \nto send an email to them on here as they'll never respond. If you run into \na problem & app won't work, you may as well just delete the app as they \nnever respond back. When there's support for this app again, maybe I'll \ncome back. Leaving your Fb page too! BYE!",
+      "date": "2018-08-04T01:53:37.770Z",
+      "version": "2.1.0",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Makes little to no sense.",
+      "date": "2018-07-25T00:49:15.800Z",
+      "version": "2.1.7",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Club and members leaderboard? User experience is bad, back button exites \nthe app without a warning. Desperate initial loading time",
+      "date": "2018-07-21T04:31:17.878Z",
+      "version": "2.1.7",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "This app has the potential to be awesome but suffers from really bad \ninterface and user experience. The 2 biggest issues = Pressing the back \nbutton exits the app with no warning and no social aspect (e.g. seeing a \npictures feed from other people).",
+      "date": "2018-07-18T06:10:45.909Z",
+      "version": "2.1.7",
+      "thumbsUp": 7
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Tech support fixed my issues. This is a great app.",
+      "date": "2018-07-17T12:47:38.714Z",
+      "version": "2.1.7",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Great idea",
+      "date": "2018-07-11T12:57:53.403Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "There is no social aspect. Download Pirika instead to see what everyone \naround the world is doing",
+      "date": "2018-07-01T23:33:29.506Z",
+      "version": "2.1.7",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "I used the app as an older version ages ago and really love it but when I \nredownloaded it today I couldn't log in with Facebook. I tried signing in \nwith email but it tells me my credentials are wrong and I can't create an \naccount because one with my email already exists. Help plz.",
+      "date": "2018-06-06T06:19:46.813Z",
+      "version": "2.1.5",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Outstanding initiative",
+      "date": "2018-06-02T12:36:47.809Z",
+      "version": "2.1.5",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "I like it, I can't find anything else close to it but I'd love to see stuff \non a map! I feel like it used to but that feature went away or I can't find \nit now.",
+      "date": "2018-06-01T23:43:39.687Z",
+      "version": "2.1.5",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Not my type",
+      "date": "2018-05-14T21:02:00.365Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "This is great. I know it shows our global impact... but I wish there were \nalso \"levels\" that we could work out way towards, so that it felt more like \na game.",
+      "date": "2018-05-13T02:01:36.239Z",
+      "version": "2.1.2",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Libby Schaff personally recommended this app to me, but sadly the app did \nnot work even after a few reinstallment. The photo upload did not work even \nthough I have manually enabled the permission to access photos and camera \nfor the Litterati app. I'll be happy to run beta test with future \ndevelopments when some changes made.",
+      "date": "2018-05-09T04:17:07.249Z",
+      "version": "2.1.0",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "I find the new automatic uploading of photos annoying as I do not have \nunlimited data. Before the update I could choose when to update the photos, \nsuch as when wifi is available. Now I have to take all rubbish collected \nhome to my wifi, take photo and upload, making the location point defunct.",
+      "date": "2018-05-07T00:09:16.590Z",
+      "version": "2.1.0",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "I downloaded it once before but didn't use. Downloaded to use today first \nopened it was a black screen same time the second time I tried I closed it \nand then it showed the litterati name doesn't work frozen screen please help",
+      "date": "2018-05-05T18:59:01.589Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "I love love love this app but the new update won't allow ANY of my pictures \nto upload. Pls fix :(",
+      "date": "2018-05-03T17:37:09.190Z",
+      "version": "2.1.0",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "I hate this app",
+      "date": "2018-04-22T22:33:36.448Z",
+      "version": "2.1.0",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "It's getting there, but still has a long way to go. Back button needs to \nactually do what it's supposed to do (go back), instead of just closing the \napp from almost any screen. Auto-uploading is nice, but there has to be a \nway to turn it off. You also can't see the whole image for a club once \nyou're in it, which makes certain images look really bad.",
+      "date": "2018-04-20T01:48:03.178Z",
+      "version": "2.1.0",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Why no flash in camera? Can't collect litter in the dark..",
+      "date": "2018-04-18T21:57:00.869Z",
+      "version": "1.1.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "I love it my school's recycling program told us about it and I had to download it !!",
+      "date": "2018-02-09T00:18:51.778Z",
+      "version": "1.1.1",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "I like the idea behind this app.  I can see potential for updates, like maps linking all users photos.  the ability for the app to count the litter collected using the photos. when I submit a photo it counts as one piece of litter, but my photo is of all the items I collected on my hike.  Also the option to upload photos rather than use the in-app camera would be helpful.",
+      "date": "2018-01-27T19:13:37.802Z",
+      "version": "1.1.1",
+      "thumbsUp": 11
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "The app is really cool, but I would like to see in a map what my friends picked",
+      "date": "2018-01-03T22:39:03.364Z",
+      "version": "1.1",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "I like the concept but I think there are a few options missing in the app. That would be nice if we could see maps with dots referring to each piece collected by everyone. Would also be nice if we could access a list of every piece by location or hashtag. This tool could then be used by anyone to analyze what is going on and suggest solutions to their local organizations.",
+      "date": "2018-01-01T22:04:58.728Z",
+      "version": "1.1.1",
+      "thumbsUp": 20
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Great concept just needs better programming design, viewing other member profile, adding gallery pic option in taken a pic, share posting on social media sites and for the kids that's are involved add a achievement section for accomplishments. As well as connecting with other members in your community to maybe even clean the streets together. Really the options for this app are endless!",
+      "date": "2017-12-06T06:41:29.620Z",
+      "version": "1.1",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "App won't load in areas without network connectivity.",
+      "date": "2017-12-03T20:40:10.701Z",
+      "version": "1.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "I really like the idea and concept. However the app is very basic. I took an image on a walk without the app and only discovered after you need to take pics with the app as there is no upload from gallery function. I also can't see where I am adding the picture from or add hash tags.    I tried to submit feedback via the link on the app but it just tried to share the app to my social media outlets.   I think I will continue to pick up litter as normal and if I want I can just share via my own social media so people can cruelly see the difference I'm making. Bit disappointed.",
+      "date": "2017-10-26T05:44:27.934Z",
+      "version": "1.1",
+      "thumbsUp": 12
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "I'm hoping it helps our litter problem.",
+      "date": "2017-10-21T12:56:44.306Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "it would be cool to see other users' photos in the feed, without them this app is a little bit boring",
+      "date": "2017-09-25T15:29:16.190Z",
+      "version": "1.1",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "This is a great initiative. I like being part of something that motivates me to clean up my surroundings. I have integrated it into two of my university courses. Is there a way to search by hashtag rather than just location on the map? We would like to be able to determine which class is picking up more trash easily.",
+      "date": "2017-09-20T07:37:51.750Z",
+      "version": "1.1",
+      "thumbsUp": 9
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "We should be able to upload our pictures from our phones gallery. I took pictures on my phone without knowing I had to take pictures on the app!",
+      "date": "2017-09-17T00:17:00.204Z",
+      "version": "1.1",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "I want to see the map!",
+      "date": "2017-09-13T23:36:51.965Z",
+      "version": "1.1",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Couldn't upload a pic from mt gallery & couldn't get feedback to work so I could send feedback about uploading from your photo gallery. Deleted app.",
+      "date": "2017-09-10T12:07:01.980Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Discovered this via the TED talk and really love the concept.  Just a few notes about ease of use  Maybe it's just my device, but on luanch I'm having to log in again everytime (typing my email adress)   In terms if tagging it would be really nice to add a double tap space bar for a new tag instead of going into the extended keyboard to save time.   The ability to zoom into pictures to identify brands would be nice.",
+      "date": "2017-09-03T12:51:20.337Z",
+      "version": "1.1",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "BRILLIANT... My husband and I have incorporated Litterrati into our nightly dog walks.... He's taking all the pictures/credit so far... But that's fine... Cleaning up the streets... LOVE IT- GREAT IDEA 😍😘😘",
+      "date": "2017-08-16T03:34:47.840Z",
+      "version": "1.1",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Would rate 5 stars if I could move the app to SD card so I can have more apps and other misc files on phone storage",
+      "date": "2017-08-15T10:44:28.356Z",
+      "version": "1.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Seems it has a little buggy; Uploaded 3 pieces and it says it says I've done 5. On other topics... Would be nice if it had some level of image recognition to speed up tagging. Would be nice if you could gave multiple pictures at the same time, e.g. picking up cigarette butts. Would be nice if the app either provided the map data or at very least linked you to the website.",
+      "date": "2017-07-25T21:45:07.355Z",
+      "version": "1.1",
+      "thumbsUp": 9
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "I love to keep the world clean",
+      "date": "2017-06-23T17:16:00.642Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "interesting idea",
+      "date": "2017-06-19T19:24:16.113Z",
+      "version": "1.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "I think it would be great if you could invite your friends to add the app too!",
+      "date": "2017-06-15T13:46:57.370Z",
+      "version": "1.1",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "i love this app but i wish if the results of the virtual landfill is open for everyone to see",
+      "date": "2017-06-12T16:21:33.828Z",
+      "version": "1.1",
+      "thumbsUp": 8
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "I love the idea of this app and I want to suggest the creators to include a camera widget so it's easier and faster to capture the picture",
+      "date": "2017-06-10T22:46:35.350Z",
+      "version": "1.1",
+      "thumbsUp": 10
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Great idea, would be even cooler if I could visualize the map within the app :)",
+      "date": "2017-06-05T19:14:43.769Z",
+      "version": "1.1",
+      "thumbsUp": 9
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "I've been picking up rubbish for two years now, but with this app i now have data to analyse, can identify hot spots, catergorize the trash, and visually display the problem to others. Awesome!",
+      "date": "2017-05-24T15:53:11.454Z",
+      "version": "1.0",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Awesome campaign.  Finally on Android. How do I see other people's pictures...?",
+      "date": "2017-05-21T16:46:47.976Z",
+      "version": "1.0",
+      "thumbsUp": 7
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Go Green #SA GO GREEN",
+      "date": "2017-05-18T13:40:33.420Z",
+      "version": null,
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Very good idea",
+      "date": "2017-05-08T11:25:36.785Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Great idea. Saw it after hearing TED talk. Was the first one in Qatar to load litter photos and remove",
+      "date": "2017-04-28T15:10:58.302Z",
+      "version": "0.1",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "I'm encountering problems with the app. I can't see in the app the pics uploaded, the screen remains black.",
+      "date": "2017-04-27T10:05:45.860Z",
+      "version": "0.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "My photos don't show up on the map.",
+      "date": "2017-04-26T21:55:46.221Z",
+      "version": "0.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "This app is absolutely amazing",
+      "date": "2017-04-26T06:59:17.988Z",
+      "version": "0.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Can't focus the camera when taking pictures.",
+      "date": "2017-04-24T15:52:52.354Z",
+      "version": "0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Where is a interactive map that shows where litter has been picked up?",
+      "date": "2017-04-23T16:09:19.376Z",
+      "version": "0.1",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Great to see the android version out. A few omissions I can see are no interactive map and no Google signin",
+      "date": "2017-04-23T11:50:04.198Z",
+      "version": "0.1",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Had been waiting long for its release Good to see it",
+      "date": "2017-04-23T11:15:05.606Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "I've been waiting for this app since I saw the TED talk. Awesome idea!",
+      "date": "2017-04-22T17:27:09.397Z",
+      "version": "0.1",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Finally available for Android. Loved the idea ever since I watched the TED talk and now I , as a person who simply despises people who intentionally litter  the streets, might be able to help with my litter-pick-up data.",
+      "date": "2017-04-22T12:20:37.961Z",
+      "version": "0.1",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Awesome",
+      "date": "2017-04-21T22:44:35.820Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Great! Ever since I saw that TED talk, i've been waiting for the android version to come out!",
+      "date": "2017-04-21T20:12:50.914Z",
+      "version": null,
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "App will not let me set up an account via email. It says I have a credentials error with no further explanation",
+      "date": "2017-04-21T18:57:18.211Z",
+      "version": "0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Ive been waiting for this app to come to android for awhile now. Saw this on Shark Tank and fell in love with it instantly. Thank you all so very much for finally delivering this to us.",
+      "date": "2017-04-21T18:34:55.685Z",
+      "version": null,
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Very Much appreciate your delivering this app for Android. Thank You!  As a litter picker-upper since childhood I feel a great pleasure returning to places I've visited and cleaned. Your goal in Litterati's creation will go far in creating a cleaned up environment..Thanks Again!  bob brown.melbourne.fl",
+      "date": "2017-04-21T18:07:21.800Z",
+      "version": "0.1",
+      "thumbsUp": 9
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Way to go... This is just a beginning... The innovative new gen digital landfill...! 👍👍👍",
+      "date": "2017-04-21T17:22:25.722Z",
+      "version": "0.1",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "I really wanted this app after seeing the TED Talk about it. Already know it's gonna be great.",
+      "date": "2017-04-21T16:57:13.518Z",
+      "version": "0.1",
+      "thumbsUp": 11
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Finally...",
+      "date": "2017-04-21T16:20:14.245Z",
+      "version": null,
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Really waited long for this awesome app (Finally!!)... There are some things on my mind though- 1. Google account sign up/login 2. A way to look at other people's pics etc. and the data from it (is it public?) Feel free to correct me🙂",
+      "date": "2017-04-21T15:34:00.604Z",
+      "version": "0.1",
+      "thumbsUp": 18
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Love the movement",
+      "date": "2017-04-21T15:14:56.555Z",
+      "version": null,
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "I am so happy this app has joined the android  community!",
+      "date": "2017-04-21T15:12:05.214Z",
+      "version": null,
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "WAITED SO LONG FOR THIS! :)",
+      "date": "2017-04-21T14:49:04.740Z",
+      "version": null,
+      "thumbsUp": 5
+    }
+  ]
+}

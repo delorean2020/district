@@ -1,0 +1,814 @@
+{
+  "store": "App Store",
+  "found": true,
+  "appId": 297456545,
+  "appName": "FixMyStreet",
+  "rating": 2.88496,
+  "reviews": [
+    {
+      "userName": "NeonZinc",
+      "score": 4,
+      "text": "Every time I send a report to Birmingham City Council about street nameplates it gets sent to their street lighting department who tell me it’s not their problem.",
+      "version": "3.0.0",
+      "title": "Incorrect Category"
+    },
+    {
+      "userName": "Ulaidh go bragh",
+      "score": 3,
+      "text": "You should be able to login on the app and not have to validate every report.\n\nGreat idea though, holding councils accountable and where you can see other people reporting.",
+      "version": "3.0.0",
+      "title": "Good app but improvement needed"
+    },
+    {
+      "userName": "RR_Edinburgh33",
+      "score": 2,
+      "text": "Used to love this app. Now it doesn’t even load. iPhone 13, latest OS release",
+      "version": "3.0.0",
+      "title": "App doesn’t load"
+    },
+    {
+      "userName": "crailman",
+      "score": 2,
+      "text": "Have been using this for years. When I see what I have reported most of the text covers the page, only small section of map showing and cannot minimise text. Since Gloucestershire Highways adopted Fixmystreet as their reporting medium they have been appalling at fixing issues but it gets us off their backs. This has made Fixmystreet just another can to kick down the unfixed road. This is not a partnership but just abuse of a well meaning project.",
+      "version": "3.0.0",
+      "title": "Report section stays covering most of map"
+    },
+    {
+      "userName": "Lolza22",
+      "score": 1,
+      "text": "App has way too many bugs on it. Keeps zooming in every time I’m trying to log something and then the report disappears when you’ve done it. Very dated and virtually impossible to navigate. I have now deleted it as it is unusable.",
+      "version": "3.0.0",
+      "title": "App has become practically unusable"
+    },
+    {
+      "userName": "P Jaimes",
+      "score": 1,
+      "text": "I have been using the app multiple times per week. It’s a great way to improve the communication with the council.\n\nI am however very disappointed that I have to login, enter my password and validate the report via email for every report submission. I don’t understand why we don’t allow the user session to be persisted. \n\nComparing to the previous app used by the council to receive such report, it gives me the impression that this platform increases the hurdle to submit a report with the sole purpose of reducing the number of reports that the council have to fix.\n\nI would love to see an update of the submission flow with the specific goals of reducing the number of clicks required by the user to submit their report meeting the council requirement.",
+      "version": "3.0.0",
+      "title": "User account not persisted"
+    },
+    {
+      "userName": "d_v_b",
+      "score": 2,
+      "text": "A good idea but badly executed.   I find the app impossible to use to view existing reports on the map.  \nThe filters appear randomly, switch themselves off & tapping to view a report mostly doesn’t work.  \n\nAs of April 2025 it’s not been updated for 2 years.  😕",
+      "version": "3.0.0",
+      "title": "Difficult to use."
+    },
+    {
+      "userName": "Mav-R-Ick",
+      "score": 2,
+      "text": "Really thought this app was a saviour and it worked for a while, but has a major problem.\n\nHalf of my reports do not retain the location info when using the app.\n\nI have just spent the best part of an hour on my regular walk stopping to report pot holes.  I am offline obviously, but I always hit update my location to get the correct geolocation of the pot hole, then take a few photos, give it a title and then Hit Save Draft.\n\nWhen I get home back online, when I go to upload my reports I see that the draft reports have all got my home location down on the map!!  What is the flipping point of that, which has just wiped out the entire efforts of reporting.\n\nWhy doesn’t the app save the geolocation when you save the report as a draft?  Not rocket science is it?\n\nDon’t know if I will bother wasting any more time with it until the devs look at this flaw, as it’s basically useless as it is.",
+      "version": "3.0.0",
+      "title": "Frustrating waste of Time"
+    },
+    {
+      "userName": "Coofus",
+      "score": 2,
+      "text": "1. The most recent update includes hundreds if new categories. But you can only report things that are broken, not things that could be improved, eg changing the phasing on traffic lights, or reporting road signs are incorrect and so on. \n2. Also, you search for a place to show the map, then hit ‘Report a problem’ and then you have to enter the map location again and re-load the map. Why not just allow it straight from the map?\n3. Because the map isn’t accurate it’s missing lots of urban paths, so it’s i possible to report paths which are heavily used.\n4. Also, why doesn’t it ask you to login first, or even automatically, before you submit a report.\n5. Can’t submit reports for paths because I am asked to report it on something called one.network\n6. Why is there no Back button when submitting a report?\n7. Why can’t it remember recent searches?\n\nSo, great (fantastic) idea but just not implemented that well. Puts you off reporting, which is probably in councils’ interest. Seems to have got worse over the years, not sure why.",
+      "version": "3.0.0",
+      "title": "Great idea but not really well implemented"
+    },
+    {
+      "userName": "R8299!?&95",
+      "score": 4,
+      "text": "Great app easy to use apart from you have to sign in every time you use it",
+      "version": "3.0.0",
+      "title": "It’s good"
+    },
+    {
+      "userName": "cozycosy",
+      "score": 3,
+      "text": "App submitted a picture to the wrong council. It seems like a basic problem.\nAlso, it’s hard to scroll through other reports. A shame as I switched to this app because I found a rival app Love Clean Streets kept crashing.",
+      "version": "3.0.0",
+      "title": "App is clunky"
+    },
+    {
+      "userName": "Saucy Wee Tart",
+      "score": 3,
+      "text": "Brilliant idea but the app is riddled with bugs and the UX/UI design of the app could be vastly improved.",
+      "version": "3.0.0",
+      "title": "A bit clunky but otherwise not bad."
+    },
+    {
+      "userName": "iw542",
+      "score": 3,
+      "text": "Makes life easier but I get signed out frequently",
+      "version": "3.0.0",
+      "title": "Makes life easier but I get signed out frequently"
+    },
+    {
+      "userName": "Skinny FullBack",
+      "score": 1,
+      "text": "App often freezes, far too many questions just to report fly-tipping. The fact you have to confirm every time you report is ridiculous, very inefficient, seems to have built with the idea of putting people off reporting. Previous app used my LA, (Lovecleanstreets) was better and quicker to use",
+      "version": "3.0.0",
+      "title": "Really slow, puts you off reporting fly-tipping"
+    },
+    {
+      "userName": "Giddibiker",
+      "score": 5,
+      "text": "I’ve used this a few times now and it is great.  Easy to use when you see an issue that needs reporting to the local Council.  I like how you can pin the location of the issue on the in app map.  It gives you updates when the Council resolve or close the reports.  You can see what else has been reported in your area.",
+      "version": "3.0.0",
+      "title": "Easy reporting of fly tipping, pot holes, blocked drains etc"
+    },
+    {
+      "userName": "Onehellofapissedofffrenchy",
+      "score": 2,
+      "text": "Whilst it does eventually report the problem, the process is very long. None of the personal data are stored. This doesn’t encourage me to use the app",
+      "version": "3.0.0",
+      "title": "Very cumbersome"
+    },
+    {
+      "userName": "Gav1580",
+      "score": 2,
+      "text": "This app isn’t really an app - it’s just their website. Doesn’t even remember who you are when you open it.",
+      "version": "3.0.0",
+      "title": "Have to log in every time I use the app"
+    },
+    {
+      "userName": "Tomcatuk",
+      "score": 1,
+      "text": "There is no way to report a problem again without going through the whole process again to report.\nA pothole that was reported in June and given 6-8 weeks to fix is still there and it’s November!!\nBring up my original report and you cannot resend it or add a comment you have to do\nIt all again… annoying….",
+      "version": "3.0.0",
+      "title": "Needs work…"
+    },
+    {
+      "userName": "Bluey-Birdy",
+      "score": 5,
+      "text": "I use this all the time when I’m out and about. The reports do make a genuine difference, at least with my council. They can’t fix what they don’t know about!",
+      "version": "3.0.0",
+      "title": "Great"
+    },
+    {
+      "userName": "88mpa",
+      "score": 1,
+      "text": "Tried to report a broken footpath but need to receive an email tried my work account and my private one no email very frustrating.",
+      "version": "3.0.0",
+      "title": "Tried To Report Broken Footpath"
+    },
+    {
+      "userName": "Christian_138",
+      "score": 1,
+      "text": "Since the latest Apple update the app has changed to a Progressive Web App (PWA) I might as well be using Chrome.\nHaving used the app for over 5 years this is the worst user experience so far. Where the app was slick and easy to navigate this new version is clunky and confusing. Can we have the old app back please?",
+      "version": "3.0.0",
+      "title": "Latest update"
+    },
+    {
+      "userName": "Jesse_ba",
+      "score": 1,
+      "text": "This used to be an OK app but it now just seems to be a wrapper around a buggy website. The map is completely unusable and zooms randomly when you try to scroll. Did anyone actually test this on an iPhone before releasing it?",
+      "version": "3.0.0",
+      "title": "Hopeless"
+    },
+    {
+      "userName": "AvianLyric",
+      "score": 1,
+      "text": "Just wraps their website and makes it harder to use. Better of using their site normally",
+      "version": "3.0.0",
+      "title": "Just a wrapper around their website, doesn’t add anything extra"
+    },
+    {
+      "userName": "Britishbeef",
+      "score": 1,
+      "text": "The new update has made the app clunky and horrible to use. Totally lost its simplicity and ease of use.\n\nWon’t be bothering with it anymore.",
+      "version": "3.0.0",
+      "title": "New ‘update’"
+    },
+    {
+      "userName": "Dhayden1991",
+      "score": 1,
+      "text": "Used to love this app as things get sorted however this app looks like it hasn’t been updated for a while for the newer iOS systems and I can’t login as it doesn’t show anything when I click it and it’s been like this for about a year now, also the interface doesn’t act as it should also down to no update for newer iOS systems.\n\nPLEASE FIX IT!!",
+      "version": "2.8",
+      "title": "Buggy and can’t login"
+    },
+    {
+      "userName": "Robkar62",
+      "score": 4,
+      "text": "Trying to report issues in directly to Preston City Council is a joke.  However this seems to work regarding litter and vandalism.",
+      "version": "2.8",
+      "title": "Best Option Around"
+    },
+    {
+      "userName": "KevinCognito",
+      "score": 5,
+      "text": "I have used this app for at least three years and it is not only incredibly easy to use but also very quick. It identifies location, takes photographs and you can select the title and describe the problem. \nYou can report a pothole, a damaged footpath, non-working lights: eg at zebra crossings, in fact almost anything that councils have responsibility for. The app informs the relevant council anywhere in the UK and you get quick and regular updates on progress. Truly a tremendously useful app.",
+      "version": "2.8",
+      "title": "Excellent App; so easy and effective to use"
+    },
+    {
+      "userName": "jcpouce",
+      "score": 5,
+      "text": "Really really useful app.\nUX could be slightly improved, but as a service it's really great!",
+      "version": "2.8",
+      "title": "Really useful"
+    },
+    {
+      "userName": "Gerikisskiss",
+      "score": 1,
+      "text": "This app needs to fix itself as try using and it freezes itself not good",
+      "version": "2.8",
+      "title": "Upset house owner"
+    },
+    {
+      "userName": "Sharpercarla",
+      "score": 5,
+      "text": "Reported a hole reappearing on the road outside Waitrose Wilmslow, reported Tuesday it was fox on the Thursday 22/12/22.\nI also reported a dumped sofa that I noticed on a dog walk, again it was acted on.",
+      "version": "2.8",
+      "title": "Great app"
+    },
+    {
+      "userName": "Jonno70",
+      "score": 1,
+      "text": "App won’t let me go next beyond the map location page. Have to go through web page to report a problem.",
+      "version": "2.8",
+      "title": "Can’t get passed location page"
+    },
+    {
+      "userName": "Food rules!",
+      "score": 5,
+      "text": "I reported some fly tipping on this app and it was collected less than half an hour later. Could have been good timing but you can’t knock that efficiency. Obviously it would depend on how pro-active your local authority is.",
+      "version": "2.7",
+      "title": "Dumped mattress collected lightning fast"
+    },
+    {
+      "userName": "mx>",
+      "score": 1,
+      "text": "This app is a joke, the map is so buggy you can't look at different reports because it keeps zooming in and out uncontrollably. There's pretty much zero features, it's appalling. Whoever designed this app is having a laugh...",
+      "version": "2.7",
+      "title": "Awful design and bugs"
+    },
+    {
+      "userName": "Minesatrip",
+      "score": 1,
+      "text": "Problem with App, used it for years now it doesn’t load. Removed app and re installed but just the same it needs sorting",
+      "version": "2.7",
+      "title": "Rubbish"
+    },
+    {
+      "userName": "moody336",
+      "score": 1,
+      "text": "This app hasn’t been updated for a long time and is not compatible with the latest IOS and phone screens. Button placers are there with the button out of view, so they cannot be used.\nEither you update it or get it off the App Store because it’s quite useless without being updated.",
+      "version": "2.6",
+      "title": "Interface unusable"
+    },
+    {
+      "userName": "elisabeth021975",
+      "score": 1,
+      "text": "Try to report a pot hole every times I hit next it doesn’t move to next screen it’s useless",
+      "version": "2.6",
+      "title": "App on iPhone 12 Pro Max"
+    },
+    {
+      "userName": "Jpedro16",
+      "score": 5,
+      "text": "Quite straightforward and easy to use. Quite often issues are down to the local authority not integrating well with the app (i.e. not marking it as resolved).",
+      "version": "2.6",
+      "title": "Easy to use"
+    },
+    {
+      "userName": "Rob258462",
+      "score": 1,
+      "text": "Considering I live in a large village, maybe if the app used Google Maps or similar, it may find my location. The web version is much better than the app, hence only 1 star",
+      "version": "2.6",
+      "title": "Cannot Find My Location"
+    },
+    {
+      "userName": "DarthN",
+      "score": 1,
+      "text": "App has been abandoned, no update in over a year, website down and doesn’t seem to be working any more.",
+      "version": "2.6",
+      "title": "No longer works"
+    },
+    {
+      "userName": "buckus63",
+      "score": 1,
+      "text": "Reported a very simple defect which repeatedly came back as the authority wasn’t taking this as defect. Eventually found a way to insert defect but it was bounced to the wrong council. A link was sent via a different link from the local council email. This renders this App a complete waste of time.",
+      "version": "2.6",
+      "title": "Waste of time"
+    },
+    {
+      "userName": "smartshop user",
+      "score": 3,
+      "text": "Great app and in general problems get passed on to relevant council departments only problem is that the app does not work since a few iOS updates ago\nTried to delete and reinstall and so",
+      "version": "2.6",
+      "title": "Great app but not working properly on iOS"
+    },
+    {
+      "userName": "Wizzeroo",
+      "score": 1,
+      "text": "Great app in theory…if it worked. It needs more work on it by the developers. \nI can’t log in for starters!",
+      "version": "2.6",
+      "title": "Does work"
+    },
+    {
+      "userName": "Pagemakers",
+      "score": 2,
+      "text": "No longer able to report potholes.",
+      "version": "2.6",
+      "title": "Where’s the pothole reporting gone?"
+    },
+    {
+      "userName": "ajwiggy",
+      "score": 1,
+      "text": "Was excited to find this app because of the disgusting state of our roads but on using it for the first time Im told by a message that nothing gets reported to the local council!!",
+      "version": "2.6",
+      "title": "So what’s the point?"
+    },
+    {
+      "userName": "phantomSnapper",
+      "score": 3,
+      "text": "5 stars for the app to report problems but they need to be manually  removed once sorted by the relevant parties so often checking local area gives age old reports as the person reported hasn’t updated when fixed. \nAlso I sent a problem about a damaged tree and neither the location or picture was passed to the parks dept meaning they had to waste their and my time contacting me for info I had already given. \nHence reduced stars.",
+      "version": "2.6",
+      "title": "Pretty good"
+    },
+    {
+      "userName": "Bluemosaic",
+      "score": 1,
+      "text": "I can’t register an account and tried twice to report issue and failed both times. Useless",
+      "version": "2.6",
+      "title": "Doesn’t work"
+    },
+    {
+      "userName": "simon1955",
+      "score": 1,
+      "text": "I can download the app to my iPhone 12, though the functionality is non existent in comparison to the website. It allows you to enter the location, but no pictures & then just sticks.",
+      "version": "2.6",
+      "title": "APP NOT WORKING"
+    },
+    {
+      "userName": "Dinth",
+      "score": 2,
+      "text": "It's no longer possible to report anything after an update",
+      "version": "2.6",
+      "title": "Doesnt work on ios14"
+    },
+    {
+      "userName": "sjh391",
+      "score": 3,
+      "text": "Can’t seem to see this option and the app support link isn’t working?",
+      "version": "2.5",
+      "title": "Where do I create an account?"
+    },
+    {
+      "userName": "Laniepooh97",
+      "score": 4,
+      "text": "Would like to be able to review reports and see outcomes achieved, what I like is regardless of what city I am in I can report something",
+      "version": "2.4",
+      "title": "A good app"
+    },
+    {
+      "userName": "Ben every nickname is taken",
+      "score": 5,
+      "text": "I use this app a lot but it doesn't work on the new iPhone 11. After taking picture it loses the next button. Workaround is to quit the app and resume the report. Fixed in latest update 👌🏻",
+      "version": "2.4",
+      "title": "Doesn’t work on iPhone 11"
+    },
+    {
+      "userName": "Mundybrown",
+      "score": 1,
+      "text": "The App is that bad, it won’t let me creat a new acc.",
+      "version": "2.3",
+      "title": "Mr Brown"
+    },
+    {
+      "userName": "Cheshire Geek",
+      "score": 4,
+      "text": "I have used FixMyStreet on several occasions. It often results in prompt action by the local town council. \n\nAlthough I’m permanently signed in to my account, I find it frustrating that to complete a report the app requires my password to be re-entered at the final submission step. \n\nThis ought not to be necessary. \n\nWhen you’re out and about and you have a high entropy password, because the app is only used occasionally, this usually means that I cannot complete the submission until I am back home. \n\nYou could obviate this step completely, or for phones that support the feature, you could even facilitate TouchID or FaceID. \n\nLikewise, you could also ensure that the app is compatible with secure password managers such as LastPass. \n\nOne star less than five on account of these minor weaknesses.",
+      "version": "2.3",
+      "title": "Needs some improvements"
+    },
+    {
+      "userName": "ntahall",
+      "score": 2,
+      "text": "Streamlining the process and remembering the phone number would be an improvement.\nUpdate:  it’s almost 2019 and I still have to type in my phone number every time.",
+      "version": "2.2.1",
+      "title": "Useful but could be improved"
+    },
+    {
+      "userName": "Give-Me-Five",
+      "score": 3,
+      "text": "Limited functionality compared to the FixMyStreet website.  I am able to raise a new report but I cannot view my previous reports.  Instead I need to manually find my previous reports on the map and then I am directed out of the app to the website if I want to look at the status or provide an update.",
+      "version": "2.1",
+      "title": "Incomplete functionality"
+    },
+    {
+      "userName": "EnricoSalad",
+      "score": 4,
+      "text": "Nice app, works well in my area (oxfordshire), but two things:\n\n1) Need to be able to zoom in a bit further on the maps\n\n2) need to be able to filter out the completed reports and/or filter by report type. Otherwise you can get dosens of reprts cloggin up a map section and you don’t know if they are reporting the thing you want to report or something else.",
+      "version": "2.0.9",
+      "title": "Feature request"
+    },
+    {
+      "userName": "LizzieG0",
+      "score": 1,
+      "text": "Can’t seem to alter the display to only Open problems. Nuisance.",
+      "version": "2.0.9",
+      "title": "Fix my Street customising"
+    },
+    {
+      "userName": "Wessex 121",
+      "score": 5,
+      "text": "If a Council doesn't accept reports then what does it say about the council? Reported a pothole on a NSL road in Wiltshire only to find they don't accept reports from fix my street. Rang directly to report. Details taken but hold wasn't repaired for weeks. How many motorists had their suspension damaged? This app works well in Dorset.",
+      "version": "2.0.9",
+      "title": "Works for me"
+    },
+    {
+      "userName": "Mr Styli",
+      "score": 3,
+      "text": "It's a great app but it would be good idea for the IOS version to have an option to upload multiple photos.",
+      "version": "2.0.9",
+      "title": "Good app"
+    },
+    {
+      "userName": "Rc50c",
+      "score": 1,
+      "text": "I have used this a lot but in recent months reported problems and reports have not been passed on and not logged on map plus no email to confirm reported . It needs either a list of councils that use it or some way to check if email has been sent to council.",
+      "version": "2.0.9",
+      "title": "Doesn't seem to be working"
+    },
+    {
+      "userName": "Romo947",
+      "score": 1,
+      "text": "Great app in theory but it no longer works for LBE Ealing which has closed the email box to which messages have been sent in the past. Instead you are asked to fill in a six page online form!",
+      "version": "2.0.9",
+      "title": "No longer works for LB Ealing"
+    },
+    {
+      "userName": "mushrœm",
+      "score": 2,
+      "text": "Reports now go to wrong council and councils seem to be fed up of it and send emails saying please don't used fixmystreet as it requires too much human intervention.",
+      "version": "2.0.9",
+      "title": "The old app was better"
+    },
+    {
+      "userName": "TINYTED1",
+      "score": 5,
+      "text": "Great App for reporting problems in your town/city.",
+      "version": "2.0.9",
+      "title": "Very useful!"
+    },
+    {
+      "userName": "Andy66666262",
+      "score": 5,
+      "text": "Managed to get a roundabout repainted using this app - something I've been trying to contact the council about for the last year!\n\nPeople rating it low because you have incompetent councils is silly. The app is a great idea, kudos to the idea giver and the creators.",
+      "version": "2.0.4",
+      "title": "Perfect for contacting shy councils"
+    },
+    {
+      "userName": "ThePaulius",
+      "score": 2,
+      "text": "Great idea.",
+      "version": "2.0.4",
+      "title": "iPad version?"
+    },
+    {
+      "userName": "Rickvenny",
+      "score": 4,
+      "text": "I have had lots of success with this app. By 'success' I don't necessarily mean that my complaints and reports have been resolved, but they have always been sent on to the appropriate department with full details, and at the end of the day that's the best you can expect from this app.\nSaying that, on several occasions I received personal email responses within an hour and on many occasions this was followed with a phone call, and a follow up email.\nI do a lot of driving so my bug bear is unkept roads and potholes - some councils are a lot better than others at dealing with issues and replying to Fixmystreet, but I really like this app and the idea behind it.\nGood feeling when you see a filled in pothole or potentially dangerous branch removed hours after you report it.\nWho knows, it might save lives - just don't forget that if it's an immediate danger, phone it in instead!",
+      "version": "2.0.4",
+      "title": "Good site, great idea"
+    },
+    {
+      "userName": "Bob9876543",
+      "score": 1,
+      "text": "My first report via this app had copious details, a laboriously acquired photograph, everything required to describe the problem.\n\nApparently there were no details whatsoever in the report that was sent on to the council apart from the title and my number.\n\nI just got called by the highways agency about it because the council had passed it along anyway.\n\nSo kudos to the council (Haringey) and the highways agency for taking it seriously enough to do that.\n\nBut I might as well have gone direct to them if this app is going to waste all my time and effort and not pass along all the details I put in. :(\n\nAs it is, losing the photographic evidence is likely to mean that they'll turn up on a dry day, not see what the flooding problem is like under rainy conditions and bugger off again without doing anything, wasting everyone's time and effort and leaving a bad problem un-fixed.\n\nI'm bitterly disappointed with this app that promised so much.",
+      "version": "2.0.4",
+      "title": "Great idea - sends empty reports to council"
+    },
+    {
+      "userName": "TooMuchTimeOrNotEnough",
+      "score": 3,
+      "text": "Having used the website I thought I would try the app and what functions there are are fine but, they could be better. The main irritations is the referral to the website for more information and the lack of ability to rescale the map smaller to enable a better area view.",
+      "version": "2.0.4",
+      "title": "Good start but needs work"
+    },
+    {
+      "userName": "rmj1s",
+      "score": 1,
+      "text": "This app does not seem to allow any app sign up, as previously mentioned a great idea but a very poor app (functionality). \n\nIt's a mobile app so why can't I download it as use it ? Seems like I have to go to a website to sign up, already lost the will. Make it quick and easy to use, integrate with main stream app's credentials (as an option) and the take up would increase, down loaded not will remove what a shame !",
+      "version": "2.0.4",
+      "title": "Not really finished is it"
+    },
+    {
+      "userName": "gh123xyz",
+      "score": 3,
+      "text": "This is such a brilliant idea and in simple terms it does seem to do what it claims but it does feel a bit basic. i think there is so much more that could be done with this. i would love to see the following in the next version ... 1. any submissions that you make should be stored in the app (not just on your web site) so that each person can quickly access them in the future ... 2. within the submission it should show which council the submission falls under and also show what specifically has been sent to the council in question so that you know that something really has been sent ... 3. it would be great to know what arrangements / agreements have been put in place the council in question ... 4. it would be great to have stats for the council in question so that you can see whether the council is actually acting on the info provided ... 5. i would suggest that once a submission has been made, reminders are sent to the person that made the submission to try to get them to update the status so that stats can be as accurare as possible for each area.",
+      "version": "2.0.4",
+      "title": "Great concept. Needs more work."
+    },
+    {
+      "userName": "justphp",
+      "score": 1,
+      "text": "Not used it, why would I want to give it constant access to my location, even when not using the app?",
+      "version": "2.0.4",
+      "title": "Invasive"
+    },
+    {
+      "userName": "Quikstu",
+      "score": 5,
+      "text": "Only used this service on one occasion but faulty street lights outside my home were repaired within 72hrs.",
+      "version": "2.0.4",
+      "title": "Got the job done timeously."
+    },
+    {
+      "userName": "Chr15h",
+      "score": 1,
+      "text": "The functionality of this app is great however no actions have been taken from any of the report I have listed. Therefore this app is a complete waste of time.",
+      "version": "2.0.4",
+      "title": "Waste of time"
+    },
+    {
+      "userName": "Goatmasterfunk",
+      "score": 1,
+      "text": "Seems to work on until you try and submit the report.",
+      "version": "2.0.4",
+      "title": "Doesn't work"
+    },
+    {
+      "userName": "Olivia’s bestie",
+      "score": 5,
+      "text": "I have got about 10 things fixed from road signs, potholes, fallen trees, over grown trees and street lamps.",
+      "version": "2.0.4",
+      "title": "Excellent App"
+    },
+    {
+      "userName": "Mad mod2234578",
+      "score": 5,
+      "text": "Really easy to use. I've sent 5 and all 5 have been fixed.",
+      "version": "2.0.3",
+      "title": "Brilliant"
+    },
+    {
+      "userName": "Jameses78",
+      "score": 3,
+      "text": "I absolutely love this idea and will be using the service for my local area however I just hope I don't get annoyed with the current app. The top 3 changes I would implement,\n\n1. Ability to hide fixed issues\n2. Report/View issues in the app without Safari\n3. Enable List View",
+      "version": "2.0.3",
+      "title": "Great Idea But App Needs Work"
+    },
+    {
+      "userName": "020204234",
+      "score": 4,
+      "text": "Brilliant idea for a app, but could do with some UI improvements. The OS map used in the app aren't very fluid when scrolling. Also, when you want to see the details of a report on the map, you are taken to the FixMyStreet website in Safari. Can this info not be displayed in the app itself, ideally as part of the app, but if not, as a simple web view to avoid switching apps?",
+      "version": "2.0.3",
+      "title": "Great idea, needs some UI polish."
+    },
+    {
+      "userName": "Matthew Brayley",
+      "score": 5,
+      "text": "I find this app is easy and simple to use and making a street fault much better to report than using the council's own website. You can also see reports from other people in the area from the community.",
+      "version": "2.0.3",
+      "title": "Simple but so useful"
+    },
+    {
+      "userName": "WyndhamMisio",
+      "score": 4,
+      "text": "I like the fact you can record something offline for those times when there is a poor signal.",
+      "version": "2.0.3",
+      "title": "App works even better than the web site"
+    },
+    {
+      "userName": "stojom",
+      "score": 5,
+      "text": "have used this brilliant site many times on PC now conveniently on iPad. a fast way to report local problems without having to negotiate past some council jobsworth !",
+      "version": "2.0.3",
+      "title": "pothole power"
+    },
+    {
+      "userName": "Safetyphoto",
+      "score": 5,
+      "text": "Works well",
+      "version": "2.0.3",
+      "title": "Great app"
+    },
+    {
+      "userName": "Hails24",
+      "score": 5,
+      "text": "Fantastic easy way to report problems in your local area, i have used this to report broken street lights & they have been fixed fairly quickly after using fix my street. Highly recommended! 👍",
+      "version": "2.0.2",
+      "title": "Brill .... Get it now!"
+    },
+    {
+      "userName": "Dave Cummings",
+      "score": 5,
+      "text": "Hello I have used this app for over 4 years and it is the best way to get those annoying problems you see everyday around where you live sorted!\nFirst report I made  in 2010 was when the streetlight went out behind our house,they fixed it the next day!\nDon't go bothering \"ringing\" councils on expensive landlines just to be given the runaround,get with the times and use your IPhone or Ipad!\nIt's all on screen as an official record and you get a response immediately to say it has been passed to the council,don't bother with 101 which is hopeless ,just use \"FixMyStreet,",
+      "version": "2.0.2",
+      "title": "Review re North Tyneside Council responses"
+    },
+    {
+      "userName": "PaulMorriss",
+      "score": 5,
+      "text": "This new version lets you take a picture of a problem, like a pothole, and then upload it when you've got an Internet connection. It's very clear and easy to use.",
+      "version": "2.0.2",
+      "title": "Clear and simple way of reporting problems"
+    },
+    {
+      "userName": "srichgtr",
+      "score": 3,
+      "text": "One thing the app is missing which would make a big difference is to get a location from a photo already taken. This way you can take photos of issues then upload them in one go when you have a good mobile data signal or are on wifi. Not everyone has time to do the reports when they're actually at the location itself. \n\nI had no problem with the app finding my current location or being able to move the location report elsewhere but finding it from a photo already in my photo roll would make it much simpler. You could then happily report batches of problems in one go rather than having to stop for each one.",
+      "version": "2.0.1",
+      "title": "It needs one critical feature"
+    },
+    {
+      "userName": "TheGingaman",
+      "score": 1,
+      "text": "What a useless broken app, the developer should be embarrassed , won't find your location via GPS, won't find your location via search. Just as a test I put that little town called London in and it couldn't find that! Also unable to login with my credentials.",
+      "version": "2.0.1",
+      "title": "Useless"
+    },
+    {
+      "userName": "Stephen H123",
+      "score": 1,
+      "text": "Does not work in my iPhone 4 with iOS 6. Cannot click on 'report'",
+      "version": "1.0.3",
+      "title": "Don't bother"
+    },
+    {
+      "userName": "Scottele",
+      "score": 1,
+      "text": "Hasn't worked for ages",
+      "version": "1.0.3",
+      "title": "Hasn't worked for ages"
+    },
+    {
+      "userName": "Kewbe",
+      "score": 1,
+      "text": "Doesn't work. Description won't 'save' so you cannot continue with report",
+      "version": "1.0.3",
+      "title": "Fix my street"
+    },
+    {
+      "userName": "Twizzel57",
+      "score": 1,
+      "text": "Removed, not working, 4th line missing, can not report/send\nMoved to my council app works well",
+      "version": "1.0.3",
+      "title": "Not working"
+    },
+    {
+      "userName": "Trickey lon",
+      "score": 1,
+      "text": "Doesn't work, why it was great idea.....",
+      "version": "1.0.3",
+      "title": "Rich"
+    },
+    {
+      "userName": "James h uk",
+      "score": 1,
+      "text": "If you can't even fix you're app what hope you got for my road can't send a report at all could I give you 0/5 I would",
+      "version": "1.0.3",
+      "title": "Fix my app"
+    },
+    {
+      "userName": "Ben Mabbett",
+      "score": 2,
+      "text": "Great app for a great service, but unfortunately has been broken by iOS 6. Any chance of an update please?",
+      "version": "1.0.3",
+      "title": "iOS 6 has broken this app"
+    },
+    {
+      "userName": "Jswb",
+      "score": 1,
+      "text": "Just downloaded to iOS 6. Doesn't let you add description or proceed further.",
+      "version": "1.0.3",
+      "title": "Doesn't work"
+    },
+    {
+      "userName": "Double067",
+      "score": 3,
+      "text": "I used this app a lot and it use to be great until I upgraded to OS6. I hope the app gets updated soon.",
+      "version": "1.0.3",
+      "title": "Not a good upgrade"
+    },
+    {
+      "userName": "Andycambs",
+      "score": 1,
+      "text": "You can no longer add a description and proceed beyond this point after upgrade to iOS 6.\nUsed to work but now uninstalled.",
+      "version": "1.0.3",
+      "title": "No longer works on iOS 6"
+    },
+    {
+      "userName": "Flymanual",
+      "score": 1,
+      "text": "This app barely works. Most of the time I am unable to 'submit'. Even if I do manage, I have to check my emails, and go through the rigmarole of explaining the problem again! So why bother with the app, and not o straight to the website? Pointless. Good luck getting donations for this rubbish.",
+      "version": "1.0.3",
+      "title": "A bit pointless"
+    },
+    {
+      "userName": "Birdiestar",
+      "score": 1,
+      "text": "I know you are a charity but this is a\nPoor app.\n\nIt is under developed and poor in comparative terms to other similar apps on the market\n\nYou need to do some serious work on this before I will be a\nRegular user\n\nBuy I do accept that you rely on donations to support",
+      "version": "1.0.3",
+      "title": "Never like to bash charity"
+    },
+    {
+      "userName": "Hull-a-baloo",
+      "score": 5,
+      "text": "People have commented on not being able to report things off-site after taking the photo or that they have to go online afterwards to complete the report! I think this is where the app strikes a perfect balance. It takes less than a minute to take a photo with a brief title at the location in question, submit it, and then finish it off at home! Great work!",
+      "version": "1.0.3",
+      "title": "Excellent App!"
+    },
+    {
+      "userName": "Dmack65649",
+      "score": 3,
+      "text": "Quick and simple to use, but cannot put a drop-pin onto map (gps only) and you cannot complete the process from the app (have to open email and finish on www site)",
+      "version": "1.0.3",
+      "title": "Easy to use, but could be improved"
+    },
+    {
+      "userName": "PegasusXL5",
+      "score": 3,
+      "text": "Not updated in 18 months.\n\nWorks OK but need to be able to report problem away from location. Not always possible to fill in a report where the problem is. \n\nAlso no way to view/update existing problems from within app.",
+      "version": "1.0.3",
+      "title": "Needs an update"
+    },
+    {
+      "userName": "Une Meloooooon",
+      "score": 3,
+      "text": "Needs to let you pop in a post code if it can't find your location correctly.",
+      "version": "0",
+      "title": "Ok, but..."
+    },
+    {
+      "userName": "Jayenne",
+      "score": 5,
+      "text": "this app doesn't need to be good looking, it doesn't a lot of features. When it's one of very few apps that can really gives you the power to make a difference to your town by using GPS to let the local council know there is a problem they should fix. It even let's you send a pic and short message too. \nYou don't need to know where to send the notice - it's clever enough to know that - where ever you are.\nAdendum: my wishlist for this app would be augmented reality for any FMS tagged issues in my vicinity too - then I could check on the progress of my ( and other peoples) reported issues - then tag them as 'fixed'",
+      "version": "0",
+      "title": "Help your council keep your town maintained"
+    },
+    {
+      "userName": "Brucie24",
+      "score": 4,
+      "text": "Since upgrade to iOS4 it's broken. Before then I found this an excellent app. Hope they fix it soon",
+      "version": "0",
+      "title": "Get Location now doesn't work"
+    },
+    {
+      "userName": "Jonoire",
+      "score": 5,
+      "text": "Reported graffiti yesterday, today a man from the probation service rang to tell me they're in the park fixing it today!",
+      "version": "0",
+      "title": "If your neighbourhood needs fixing get this app"
+    },
+    {
+      "userName": "Johnnymd1",
+      "score": 1,
+      "text": "The website is good but the app poor. It rarely works and does what it should. Shame but great idea.",
+      "version": "0",
+      "title": "Poor"
+    },
+    {
+      "userName": "AJStevens",
+      "score": 2,
+      "text": "I've recently found the website and found it a great tool, I was going to later add updates with pics from iPhone. Just in case I looked at the app store and was excited to see this app did exist. Sadly it falls very short of the website, I'll leave it installed in hopes of a v2 soon, features missing from the website are the map and post code search, really Location should just be used to aid in getting the map to the rough area (instead of post code etc) but it should be map pin placement same as the website for specifing the incident location. Should be able to use pics from camera album (who's going to stand there on it to get a pic and location and send the report in one go. Could get run over!) better to snap with camera app first, or be able to update YOUR tickets with pictures later (as on the website). Should also be able to save and submit reports later if it can't get signal or you have several reports to submit. May need the website to have accounts, tired of the confirmation emails all the time. Also be able to see other issues reported (same as the website). Also perhaps use push notifications instead of emails. I hope a v2 with these improvements can come out soon.",
+      "version": "0",
+      "title": "Waiting for v2"
+    },
+    {
+      "userName": "Andy Smith - NLP trainer",
+      "score": 5,
+      "text": "I reported a dead streetlight. A couple of hours later the council called me back - a couple of weeks later they fixed it. Job done.",
+      "version": "0",
+      "title": "It works!"
+    },
+    {
+      "userName": "cobbep",
+      "score": 1,
+      "text": "Needs to be fully functional direct from iPhone great idea but poor execution",
+      "version": "0",
+      "title": "Not slick doesn't work"
+    },
+    {
+      "userName": "S.C.Thor",
+      "score": 2,
+      "text": "Although potentially very useful I have a concern that it is not at all clear what location is being sent. Original iPhone locations can be way out, so you might end up sending very poor location information. It would be nice to see what is being sent,  or better still to be able to locate the item being reported yourself on Maps. Nor are there any Cancel buttons on any of the screens!",
+      "version": "0",
+      "title": "Good idea, needs work"
+    },
+    {
+      "userName": "SamiPZR",
+      "score": 4,
+      "text": "...but misses out on the full 5 stars as I can't see any use for it. If someone's actually got their local authority to take action through this app, great! But in reality it's just another way to moan and be ignored.",
+      "version": "0",
+      "title": "Flawless app for reporting problems..."
+    },
+    {
+      "userName": "John Sheridan",
+      "score": 5,
+      "text": "A brilliant and simple application - its so easy to report problems. Genius!",
+      "version": "0",
+      "title": "Brilliant"
+    },
+    {
+      "userName": "Pluto99",
+      "score": 4,
+      "text": "Superb app for cleaner streets. Needs a couple of improvements -\n\n1. Showing other FMS reports nearby on a map would allow you to check if your problem had already been reported.\n\n2. Select a category like on the web version.",
+      "version": "0",
+      "title": "Pretty good"
+    },
+    {
+      "userName": "Tom Steinberg",
+      "score": 5,
+      "text": "Have any other iPhone apps resulted in set of stray traffic cones being removed from a road? I don't think so...\r\rGet it now so that you have it ready the next time you walk past something annoying.",
+      "version": "0",
+      "title": "Does exactly what it says on the tin"
+    }
+  ]
+}

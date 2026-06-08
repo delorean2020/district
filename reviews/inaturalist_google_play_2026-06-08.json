@@ -1,0 +1,2410 @@
+{
+  "store": "google_play",
+  "found": true,
+  "appId": "org.inaturalist.android",
+  "appName": "iNaturalist",
+  "rating": 3.8078432,
+  "dateRange": null,
+  "reviews": [
+    {
+      "userName": "Steven Røste",
+      "score": 1,
+      "text": "Amazing potential, but... incredibly frustrating. It crashes so frequently it's practically unusable, especially when trying to suggest an ID. I basically only use it for uploading. Update: App is still garbage. Tried to ID an observation 10 times with the app failing to process the ID. Then it froze and I had to force it to stop. I believe the problem is their image caching doesn't clear often enough.",
+      "date": "2026-06-07T15:40:28.420Z",
+      "version": "1.38.2",
+      "thumbsUp": 24
+    },
+    {
+      "userName": "Allan Marwood",
+      "score": 1,
+      "text": "Still waiting after 35 minutes for it to identify a fungus that I saw on a tree that Google lens was able to name in about 30 seconds. don't use it it's garbage",
+      "date": "2026-06-06T01:12:52.559Z",
+      "version": "1.38.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Aspen :3",
+      "score": 1,
+      "text": "It doesn't tell me what species I have and if it does, I couldn't figure it out",
+      "date": "2026-05-30T17:25:00.162Z",
+      "version": "1.38.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Fr34kuenCy",
+      "score": 1,
+      "text": "I love what this app does and I'd love to spend more time using it to ID other's finds but the app is truly a mess. It keep stuttering and crashing and loading the same few images on the 'explore' tab multiple times. 9/10 I don't have a good time using it. Please make it more stable. I like everything else about iNaturalist.",
+      "date": "2026-05-29T20:29:11.381Z",
+      "version": "1.38.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Jase Frost",
+      "score": 2,
+      "text": "not friendly to use in my opinion. tried hard to get identification just for a common spider............. This app is better suited for people who are more hardcore about insects, it wasn't useful to me, random person trying to know what kind of spider is in my apartment",
+      "date": "2026-05-28T08:52:17.756Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "J Mc",
+      "score": 3,
+      "text": "I Don't need validation. I'm an expert in my field.",
+      "date": "2026-05-28T08:17:32.540Z",
+      "version": "1.38.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Yamilex Torres Rodriguez",
+      "score": 5,
+      "text": "hello I rate this app because this app called I naturalist is actually a good source that uses picture of nature's species and things that we don't know like if we see a something living or unloving that we don't know what is it just tell this app, is clever and known to do its job to know the animals or nonliving things, so next time you need help, get iNaturalist for you to know animal and natural stuff or even stuff that are near you.",
+      "date": "2026-05-26T19:59:54.553Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Robert S",
+      "score": 5,
+      "text": "Fast and intuitive app, suggests identification to your observations with the chance to compare photos and have input from other people if in doubt. Easy, fun, the knowledge sticks in your head easier. Class",
+      "date": "2026-05-26T19:48:01.867Z",
+      "version": "1.38.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "PackiWacki",
+      "score": 4,
+      "text": "iNaturalist is a great app for nature lovers and aspiring ornithologists like me. You can get very specific with the birds, which I love. However, I hate how you need to go to the actual website to create a project or follow anyone, as I am not signed in on the website and cannot remember my password, nor do I want to go through the process to get it figured out. Please make it easier to use it on mobile, thank you.",
+      "date": "2026-05-26T03:49:24.272Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "M Henderson",
+      "score": 3,
+      "text": "Great app, but once you open it a self-destruct sequence is activated and it's only a matter of time before your phone's operating system crashes and burns 🔥. I love: -Adding species to my list. -How active other people are in helping to identify species. -Seeing all the cool things people are finding in my area. All this can be accessed on the website, but having it as an app is more convenient. However, after 5-10 minutes either the app crashes or the app crashes my entire phone. ☹️",
+      "date": "2026-05-25T22:40:38.200Z",
+      "version": "1.38.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Otto J.S. Laari",
+      "score": 3,
+      "text": "always extremely slow to load images",
+      "date": "2026-05-25T11:59:34.176Z",
+      "version": "1.38.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Vinayak Dwivedy",
+      "score": 4,
+      "text": "would love an option to hear sounds of fauna",
+      "date": "2026-05-24T10:33:23.917Z",
+      "version": "1.38.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "spindleclown",
+      "score": 4,
+      "text": "Wonderful, but PLEASE add a dark mode!",
+      "date": "2026-05-20T22:01:02.695Z",
+      "version": "1.38.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Eamon Tanner",
+      "score": 2,
+      "text": "iNaturalist is a useful tool, but the mobile app is poorly coded. There must be a memory leak or something because it gradually gets slower and laggier until you're forced to restart it after 5-15 minutes on average. Very annoying.",
+      "date": "2026-05-20T20:29:18.830Z",
+      "version": "1.38.2",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "James Sellers",
+      "score": 5,
+      "text": "This is the best identification app I've used.",
+      "date": "2026-05-16T16:12:44.655Z",
+      "version": "1.38.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Maxim Vovk",
+      "score": 5,
+      "text": "awesome app!",
+      "date": "2026-05-16T09:18:47.149Z",
+      "version": "1.38.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Paula Worton",
+      "score": 1,
+      "text": "stupid app",
+      "date": "2026-05-15T16:43:03.890Z",
+      "version": "1.38.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Alina “Climatly”",
+      "score": 5,
+      "text": "I love science",
+      "date": "2026-05-14T08:56:16.460Z",
+      "version": "1.38.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Aster F",
+      "score": 5,
+      "text": "i love using this app to learn things and contribute to science!!",
+      "date": "2026-05-13T20:57:23.136Z",
+      "version": "1.37.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "luke colley",
+      "score": 5,
+      "text": "This app is really easy to use. This app can be used by everyone. INaturalist is a great app used to help research. It's cool to be part of that. Looking at what other people are finding near you is also really fun.",
+      "date": "2026-05-12T23:12:25.378Z",
+      "version": "1.38.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "John Smith",
+      "score": 5,
+      "text": "Based.",
+      "date": "2026-05-12T12:34:06.230Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Adriano Meis",
+      "score": 1,
+      "text": "3 images I tried, unless it's 8k it doesn't recognize anything and just guesses with whatever",
+      "date": "2026-05-09T19:54:41.702Z",
+      "version": "1.38.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "R",
+      "score": 1,
+      "text": "I love this app and use it daily, but as my observations and identifications go up its become virtually unusable. Nothing loads. Its minutes between each post. So much time is just spent watching the little loading arrow spin.",
+      "date": "2026-05-08T20:59:59.592Z",
+      "version": "1.38.2",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Brittani Carroll",
+      "score": 3,
+      "text": "very cool app but pricey",
+      "date": "2026-05-07T20:51:46.339Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Ellie Hoyt",
+      "score": 1,
+      "text": "As much as I love the website, the app leaves much to be desired. I can essentially only post observations — attempting to see other posts, check notifications, edit observations, or anything else causes the app to immediately freeze and crash. I really wish it was more stable, I use the website all the time! I've changed phones too, and the problem continues...",
+      "date": "2026-05-05T14:20:55.311Z",
+      "version": "1.38.2",
+      "thumbsUp": 12
+    },
+    {
+      "userName": "Abner's Buick & Ice Cream Memory Shop",
+      "score": 2,
+      "text": "Doing plant ID on this app is cumbersome compared to PlantNet. Even many common plants are not identified. Even after providing my geographical location it may revert to giving results from around the world. Not impressed.",
+      "date": "2026-05-05T00:01:40.679Z",
+      "version": null,
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Chinchu C.",
+      "score": 4,
+      "text": "The image identifier works very well. Integration with Wikimedia Commons would be a great addition",
+      "date": "2026-05-03T09:52:27.730Z",
+      "version": "1.38.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Erik",
+      "score": 4,
+      "text": "Environmental scientist and ecosystem specialist: This app, and the corresponding use of Seek, is an incredible app bridging the gap between hiking, citizen science and biogeography. The ability to obscure coordinates is crucial. The iNaturalist app needs more feeling of progression; hitting a certain number of species, certain number of observations of the same species and encouragement to find new species and report common species as well.",
+      "date": "2026-05-02T11:15:05.249Z",
+      "version": "1.38.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Snick Snack",
+      "score": 3,
+      "text": "Great if you live just about anywhere else, from what I can see. But if you're in Arkansas? You might as well take a hike, and not in the fun way. You can't look up anything other than one historical site or the ENTIRE STATE. Arkansas might not be the biggest state, but it isn't small.",
+      "date": "2026-05-01T21:29:02.802Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Paul Round",
+      "score": 3,
+      "text": "Very slow to load observations currently",
+      "date": "2026-04-30T16:50:38.476Z",
+      "version": "1.38.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Patte G",
+      "score": 3,
+      "text": "I really enjoy this app for identifying critters and uploading photos and sounds. It is quite accurate on most things. The most frustrating thing while using it is after a few identifications it will stop working. like if I am identifying someone elses observation, it won't go through sometimes. or if I am uploading a photo for identification, sometimes it won't load the suggestions. Or when I'm scrolling through the explore page, it will sometimes make my phone hot and crash. Also no dark mode",
+      "date": "2026-04-30T14:03:48.878Z",
+      "version": "1.38.2",
+      "thumbsUp": 12
+    },
+    {
+      "userName": "Yasin Gundesli",
+      "score": 5,
+      "text": "good application, work very well. I have only one suggestion, are possible to add dark mode for OLED",
+      "date": "2026-04-28T17:04:51.838Z",
+      "version": "1.38.2",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Ryan Pierson",
+      "score": 5,
+      "text": "perfect for zoological people",
+      "date": "2026-04-26T15:50:10.659Z",
+      "version": "1.38.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Lee Stein",
+      "score": 5,
+      "text": "app makes my walks more fun.",
+      "date": "2026-04-24T18:36:58.866Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Tithira Lakkana",
+      "score": 5,
+      "text": "Best ever Biodiversity Monitoring App",
+      "date": "2026-04-24T05:12:27.353Z",
+      "version": "1.38.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Danni Exler",
+      "score": 5,
+      "text": "the visual identifier is heads and tails above other apps on the market that make you pay for basic information. this is a fun and great way to get outside. the missions add a game element to the app which is really great encouragement to get out and explore.",
+      "date": "2026-04-22T15:45:50.830Z",
+      "version": "1.38.2",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "Taylor",
+      "score": 5,
+      "text": "Handy tool for keeping a log of different plants and animals spotted while outdoors and getting help from others in identifying them. Only wish the app had a dark mode; otherwise, the interface feels quick and convenient to use.",
+      "date": "2026-04-20T19:01:06.365Z",
+      "version": "1.37.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Hayley C",
+      "score": 5,
+      "text": "it would be helpful to be able to select the common name used in your area. or suggest one.",
+      "date": "2026-04-20T09:27:30.385Z",
+      "version": "1.38.2",
+      "thumbsUp": 56
+    },
+    {
+      "userName": "Athen Adkins",
+      "score": 3,
+      "text": "needs the ability to filter by invasive species. for example, show only invasive plants on the map.",
+      "date": "2026-04-18T22:56:48.860Z",
+      "version": "1.36.8",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Clayton Borzini",
+      "score": 1,
+      "text": "April 2026 - still seeing the same behavior as below. January 2024 - I'm frequently seeing the observation tiles displaying the wrong photo. If I scroll down and let tiles below load then scroll back up the correct photos are then back in their place.",
+      "date": "2026-04-17T05:34:42.276Z",
+      "version": "1.37.2",
+      "thumbsUp": 25
+    },
+    {
+      "userName": "Isabel Limonene",
+      "score": 5,
+      "text": "best app and trustworthy. community is helping me a lot to identify all kind of insects.",
+      "date": "2026-04-15T10:18:39.764Z",
+      "version": "1.37.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Yumemi Okazaki",
+      "score": 2,
+      "text": "Terrible memory leak. Have no idea why an app sharing photos of plants and animals could eat so much memory. Checking 50 activities made it crash 3 times",
+      "date": "2026-04-14T05:02:26.710Z",
+      "version": "1.38.2",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Meg Back",
+      "score": 5,
+      "text": "best ever, checked by people who know their stuff!! shows the range of plants too, just invaluable.",
+      "date": "2026-04-12T20:34:41.761Z",
+      "version": "1.37.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Kimberly Ward",
+      "score": 5,
+      "text": "Would enjoy someone features like the website be added and wish it would stop rotating everything when I upload it. other than that I love it.",
+      "date": "2026-04-10T23:30:07.419Z",
+      "version": "1.37.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Fanni Nemes",
+      "score": 1,
+      "text": "I need an app that identifies the plant I see, not one that asks me to check which one I think took a photo of.",
+      "date": "2026-04-09T11:58:23.441Z",
+      "version": "1.37.2",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Steve Tietjen",
+      "score": 1,
+      "text": "not ready. have piture of plant - can't allow identification",
+      "date": "2026-04-09T01:13:31.117Z",
+      "version": "1.37.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Enya MacKennedy",
+      "score": 5,
+      "text": "Doesn't deserve such a low review when there's nothing not to love about it! I've been posting pictures of wild animals and plants. It works well and the other people are very helpful! The app unfortunately doesn't have all the same features as the website, the main annoyance I've had that I have to copy the link to someone's profile into my browser if I want to follow them. But it's really great!",
+      "date": "2026-04-04T05:30:03.458Z",
+      "version": "1.37.2",
+      "thumbsUp": 10
+    },
+    {
+      "userName": "David Hugh Meagher",
+      "score": 1,
+      "text": "I love the concept. I love the citizen science aspect. However the app is very sick; Why the heck does this app insist on changing the location to a different place than what I've specified (somewhere within a mile or so of where I chose) every single time in every different location? Additionally why the heck does it take 2 goes every single time to choose the correct folder for file/picture location. I've tried restarting; clearing the cache, but nothing helps & this is all driving me crazy",
+      "date": "2026-04-02T23:44:34.560Z",
+      "version": "1.37.2",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Gofer 1229",
+      "score": 5,
+      "text": "extremely helpful and insightful app. absolutely magnificent.",
+      "date": "2026-04-02T03:22:06.308Z",
+      "version": "1.37.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Solun",
+      "score": 1,
+      "text": "It's actually spyware just like most \"free\" apps.",
+      "date": "2026-03-31T16:01:13.453Z",
+      "version": "1.37.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Laurel Zito",
+      "score": 1,
+      "text": "Not useful or helpful , not to mention that I feel foolish like maybe like taking a picture of a mushroom and saying i've just spotted mushrooms when nobody's gonna notice or care. there is no community and the opt developers don't respond to any requests.",
+      "date": "2026-03-30T17:04:52.859Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Taran H.",
+      "score": 3,
+      "text": "Love the idea. Waiting for it to be more like the iPhone app.",
+      "date": "2026-03-29T08:00:31.391Z",
+      "version": "1.37.2",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Karla Salp",
+      "score": 3,
+      "text": "Updated review - unfortunately as a daily user of the app for the past 3 years, it has become increasingly glitchy. You can still upload observations, but anything beyond that (exploring, identifying) results in frequent crashes after only a few records (often less than 10!) despite phone restarts, clearing the cache, etc. It is basically useless for identifying observations, so you are limited to identifying to when you are at a computer. Major opportunity loss for the platform.",
+      "date": "2026-03-25T06:20:21.366Z",
+      "version": "1.37.2",
+      "thumbsUp": 30
+    },
+    {
+      "userName": "Jhon Christian Esquilon Odiongan",
+      "score": 5,
+      "text": "It's very helpful for anyone who wants to learn and discover living things in the world. It's highly educational and fun.",
+      "date": "2026-03-24T10:14:36.358Z",
+      "version": "1.37.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Lise Brown",
+      "score": 1,
+      "text": "too hard to use... not user friendly.",
+      "date": "2026-03-23T22:11:19.664Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Steve Boyce",
+      "score": 1,
+      "text": "Difficult to use. Not intuitive at all. Too much work and no answers.",
+      "date": "2026-03-23T01:29:19.713Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Mike Angelis",
+      "score": 1,
+      "text": "I was excited to use this app after seeing it on Sunday morning but I don't like the fact that it wants access to my photo library. That's a big no for me.",
+      "date": "2026-03-22T15:26:25.522Z",
+      "version": null,
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Frank Purpera",
+      "score": 5,
+      "text": "Great experience with inaturalist!",
+      "date": "2026-03-22T14:18:04.165Z",
+      "version": "1.37.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Robin J",
+      "score": 1,
+      "text": "if you like to watch a loading spinner, this app is for you! It does nothing else.",
+      "date": "2026-03-22T13:43:07.878Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Brett Patrick Gibson",
+      "score": 1,
+      "text": "slowest app to load that I've ever used. saw this on CBS Sunday morning and maybe everyone else downloaded it at the same time, but Jesus none of the pages are loading.",
+      "date": "2026-03-22T13:34:01.710Z",
+      "version": "1.37.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Christian Adamson",
+      "score": 1,
+      "text": "absolutely unusable. just spins and spins. if your lucky you might get to the next step so you can continue to.... spin and spin.... uninstalled.",
+      "date": "2026-03-22T13:30:15.906Z",
+      "version": "1.37.2",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "James Huntsinger",
+      "score": 5,
+      "text": "COOL",
+      "date": "2026-03-22T13:22:48.178Z",
+      "version": "1.37.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "kiera",
+      "score": 1,
+      "text": "really bad app ios has a good app this one seems like it was made when the dinosaurs were walking constant bugs and crashes",
+      "date": "2026-03-20T22:03:37.119Z",
+      "version": "1.37.2",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Calla Dunlop",
+      "score": 5,
+      "text": "contender for best app on my phone. I do with the photos would load in right side up so I didn't have to rotate every single one but that's my only complaint",
+      "date": "2026-03-19T20:49:25.107Z",
+      "version": "1.37.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Erin Thompson",
+      "score": 1,
+      "text": "Need to fix the pictures uploading at the wrong orientation problem that has been going on for literal YEARS now. It's a little buggy here and there otherwise but boring huge, and otherwise a great app. Disappointing this could be left unhandled so long",
+      "date": "2026-03-19T14:40:46.478Z",
+      "version": "1.37.2",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Kristen Banasch",
+      "score": 5,
+      "text": "I love using this app to ID things but I also use it for finding neat things to look for when I am going somewhere new. Its also helpful in the conservation world to see when migratory and dormant species start reappearing in the area. Wonderful app. I have noticed recently (last few months) when I take photos in the app or upload them, iNat flips it 90 degrees. It is quite irritating to go through and unflip them all. Please fix this for my sanity! ❤️",
+      "date": "2026-03-17T01:33:56.247Z",
+      "version": "1.37.2",
+      "thumbsUp": 10
+    },
+    {
+      "userName": "Dylan wilkinson",
+      "score": 1,
+      "text": "questionable authority and anyone can be banned without justification by a curator examples of these cases can be found online or the subreddit",
+      "date": "2026-03-15T08:06:59.760Z",
+      "version": "1.37.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Champ Djorem",
+      "score": 3,
+      "text": "needs android update stat",
+      "date": "2026-03-15T02:50:36.290Z",
+      "version": "1.37.2",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Whymustyouknowmyname ?",
+      "score": 4,
+      "text": "great, useful app. a few thing though, this app needs a tutorial because it's difficult to navigate at first. also, why is it that other people can overwrite my own identifications? it's annoying.",
+      "date": "2026-03-14T03:40:23.643Z",
+      "version": "1.37.2",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "JMACodeC20 MACcode",
+      "score": 5,
+      "text": "exceptional",
+      "date": "2026-03-09T06:25:59.598Z",
+      "version": "1.37.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Marisa Noordergraaf",
+      "score": 5,
+      "text": "love it!",
+      "date": "2026-03-07T14:07:21.616Z",
+      "version": "1.37.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Vitaliy M",
+      "score": 3,
+      "text": "I love iNaturalist, but the app needs improvements. Please add the dashboard for subscription notifications like the website and allow for push notifications. Also, the app gets really laggy the longer u stay on it and needs to be frequently restarted (devs should be able to easily debug this).",
+      "date": "2026-02-21T17:51:46.764Z",
+      "version": "1.37.2",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Itsnotrightyouknow",
+      "score": 4,
+      "text": "I give 4 stars as this is a site to log fauna, but I was told by the site that I could not upload photos I had not taken to show what is in my area, even if these photos are not copyrighted and are free to use. I live in the Philippines and do not have the money to buy a nice camera that can take such photos, so I uninstalled the app, as it is pointless as I can not send any photos. So I use Googles photo ID which tells me what species I have by submitting screen shots of my wildlife.",
+      "date": "2026-02-21T05:38:01.347Z",
+      "version": null,
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Ri Nique",
+      "score": 1,
+      "text": "doesn't work",
+      "date": "2026-02-14T06:35:09.131Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Randitha Philip",
+      "score": 5,
+      "text": "like the Pokedex in real life",
+      "date": "2026-02-05T21:39:51.177Z",
+      "version": "1.37.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Alexander Val",
+      "score": 5,
+      "text": "love this app",
+      "date": "2026-02-05T07:26:38.478Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Corinna",
+      "score": 4,
+      "text": "app crashes every single time i use it. ive uninstalled and reinstalled it multiple times. the app is not worth installing at all. just use the iNat website on a browser.",
+      "date": "2026-02-03T13:54:44.930Z",
+      "version": "1.37.2",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Nash Ibrahim",
+      "score": 5,
+      "text": "I learned so much from this very good",
+      "date": "2026-01-31T05:09:03.811Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Garrett Southmayd",
+      "score": 2,
+      "text": "ya kinda trash. it can't even identify my cat or our ordinary house plants.... sad. I expected more.",
+      "date": "2026-01-29T05:49:46.206Z",
+      "version": "1.37.2",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Bethany Rose",
+      "score": 1,
+      "text": "I have location on, yet every time I try to search near by it says I need to enable location services....which are enabled",
+      "date": "2026-01-27T03:34:01.177Z",
+      "version": "1.37.2",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "isopod",
+      "score": 5,
+      "text": "Incredibly easy to use citizen science program. It's a bit janky in some places and I kind of wish they'd let you use the recognition function without posting a whole new entry or downloading a whole new app, but otherwise... Surprisingly solid application for an amazing website and project!",
+      "date": "2026-01-27T03:04:26.171Z",
+      "version": "1.37.2",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Zehisa P",
+      "score": 1,
+      "text": "Now the map won't ever load 🤬 No updates in 7 months no wonder it won't work PLEASEEEEEEE fix the crashes it's becoming impossible to use. I notice a lot less people on it lately and no wonder. this is really sad :-( ( ...and Why does it keep reloading (screen goes white and often goes to previous activity) when you are right in the middle of id or typing ARGH. So SLOW to open, load info etc. Buggy , crashes.",
+      "date": "2026-01-26T14:59:14.743Z",
+      "version": "1.37.2",
+      "thumbsUp": 43
+    },
+    {
+      "userName": "Casper Keir",
+      "score": 3,
+      "text": "app can be quite slow especially when exploring on the map its actually gets so slow it crashes.",
+      "date": "2026-01-23T17:49:01.538Z",
+      "version": "1.37.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Lankesh",
+      "score": 4,
+      "text": "the AI and community has gotten really good on this app over the past few years. the UI itself could be upgraded. in particular, it'd be nice to be able to create my own lists/groups or have sort options so I can view my Observations better. Ex. observations I saw on my trip to Mexico, or observations of birds only.",
+      "date": "2026-01-21T00:29:41.306Z",
+      "version": "1.37.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Meyer Visser",
+      "score": 3,
+      "text": "I really want to give this app five stars but, its UI right now is stopping me from doing so. The problem is simple. It opens up to the uploads list instead of the explore list. The app not opening up to the Explore list disrupts the habit-forming of daily identifications of the photos uploaded by other users. The simple change of the app opening to the Explore list instead of the Uploads page, will significantly increase daily traffic towards the app.",
+      "date": "2026-01-17T04:15:16.637Z",
+      "version": "1.37.2",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Foster Schott",
+      "score": 5,
+      "text": "A must have, its been great for identifying little creatures AND to have a community of people with even greater knowhow being able to identify the creature. i most often use it to identify bugs as i love them. I typically catch bugs in my home and give them a good scan to see if they're native and if they are, i place them outside, but its always sad seeing it come up as invasive because then i have to squish it but its for the best. A nature lovers go to for learning about the world around em.",
+      "date": "2026-01-14T13:54:23.261Z",
+      "version": "1.37.2",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Bad Bunny",
+      "score": 5,
+      "text": "best app to ever exist best for zoology research enthusiasts",
+      "date": "2026-01-14T12:47:11.847Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Tracy",
+      "score": 4,
+      "text": "I really love iNaturalist but the app is just a little subpar compared to the website. It occasionally freezes or gets slow but not often enough to make it a major issue. I just wish it had more features like the website. If I had to pick one feature that needs to be added it would be the extra search filters you can get on the website. I want to be able to search for observations that are only ID'd at phylum level.",
+      "date": "2026-01-11T09:47:08.497Z",
+      "version": "1.37.2",
+      "thumbsUp": 14
+    },
+    {
+      "userName": "hell knight123",
+      "score": 1,
+      "text": "broke",
+      "date": "2026-01-09T17:29:44.240Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Jorge Higuita",
+      "score": 5,
+      "text": "excelente",
+      "date": "2026-01-07T15:20:10.441Z",
+      "version": "1.37.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Rajas Sambhare",
+      "score": 5,
+      "text": "New bug: older observations don't show images or thumbnails in the app.",
+      "date": "2026-01-07T13:33:48.855Z",
+      "version": "1.37.2",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "R S",
+      "score": 4,
+      "text": "INaturalist is a great app, but be aware of sad Internet gremlins who troll in the IDs of animals claiming every bird is a corvid or rare parrot. For some absurd reason you can only block so many people, so when you've reached your allocation, Trolls, Stalkers or even recreational hunters can engage with you freely. I just want to take photos of birds...",
+      "date": "2026-01-06T12:49:57.275Z",
+      "version": "1.37.2",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Thayne T",
+      "score": 1,
+      "text": "Crashes constantly and suspended my account twice yet can't communicate with me, nor tell me why they are so against me. I am a botanist and I deserve to be able to use these new tools and contribute to what is known instead of being completely locked out in the cold. Horrible people who don't care about others apparently nor the environment- if they are against the scientist who observes it they throw out all observations- and that is not science but politics or religion!",
+      "date": "2026-01-04T20:35:34.154Z",
+      "version": "1.37.2",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Shaveen Madushka",
+      "score": 4,
+      "text": "Please view observations in pages in iNaturalist app when viewing observations. So we can go to specific page other than have to visit through every possible observation",
+      "date": "2026-01-04T04:17:13.579Z",
+      "version": "1.37.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Daniel Meier",
+      "score": 4,
+      "text": "Would give it 5 stars if it didn't rotate my images when I try and upload off my phone. Samsung S24 FE.",
+      "date": "2026-01-03T23:46:30.545Z",
+      "version": "1.37.2",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Hannah Wortman",
+      "score": 1,
+      "text": "App keeps crashing and is completely unusable. Glitched and made me spam an observation",
+      "date": "2025-12-28T14:21:14.310Z",
+      "version": "1.37.2",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "Glenadel Febe",
+      "score": 4,
+      "text": "good app for curious minds. makes strolls or nature watching more interesting. i do wish the interface for android would be more intuitive and allow projects to be created on the app instead of having to go to the website. also wish we could upload offline drafts because mobile data can be spotty in nature trails sometimes.",
+      "date": "2025-12-26T14:56:43.950Z",
+      "version": "1.37.2",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Michelle Barrows",
+      "score": 4,
+      "text": "I love using iNaturalist but the app has been very unstable lately. When scrolling through the explore tab, it will sometimes close out and take me all the way back to the beginning, resetting my filters which is very frustrating. Otherwise the ID feature works very well if you have a clear photo and I love looking through observations!",
+      "date": "2025-12-23T21:16:55.592Z",
+      "version": "1.37.2",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "The iNaturalist project is absolutely awesome for anyone who likes to record their wildlife sightings or wants help identifying the animals, plants, etc. that they see. The Android app seems to have improved over the years even if it still has some performance issues.",
+      "date": "2025-12-23T17:16:13.572Z",
+      "version": "1.37.2",
+      "thumbsUp": 303
+    },
+    {
+      "userName": "Frowner Backrooms",
+      "score": 5,
+      "text": "i like it, please add a feature to search biomes on the website",
+      "date": "2025-12-20T16:53:03.636Z",
+      "version": "1.37.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Ian Murdoch",
+      "score": 4,
+      "text": "The app itself is fairly clunky currently, but iNaturalist as a whole is possibly the most fun you'll ever have while also volunteering your time and effort to provide data for scientific research. Also the easiest way to learn to identify things, since it's chockablock with thousands of photos of anything, in any form, taken anywhere at any time. 10/10, recommend to everyone.",
+      "date": "2025-12-11T00:04:21.623Z",
+      "version": "1.37.2",
+      "thumbsUp": 9
+    },
+    {
+      "userName": "Julie B",
+      "score": 5,
+      "text": "Started today and so far I love it. It's making me want to get outside more and explore.",
+      "date": "2025-12-08T05:59:04.420Z",
+      "version": "1.37.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Amy Lee",
+      "score": 3,
+      "text": "Nice idea, but app is quite buggy. Frequent difficulty uploading pictures (requiring reinstallation of app), waiting for ID suggestions to load, general slow function.",
+      "date": "2025-12-06T09:52:12.111Z",
+      "version": null,
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Hermy Reynolds",
+      "score": 1,
+      "text": "this app desperately needs dark mode. please add dark mode.",
+      "date": "2025-12-05T11:02:28.760Z",
+      "version": "1.37.2",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Jesse Radicevic",
+      "score": 1,
+      "text": "STAY AWAY!!! iNaturalist has accepted a grant that requires them to create a model using generative AI. Despite considerable backlash from the community, they have gone through with this model. Your pictures & identifications WILL be used for AI slop without your consent if they do not course correct soon. A year ago, I would've said the leadership would do the right thing because they've been trustworthy in the past, but they have been incredibly tight-lipped & shady about accepting this grant.",
+      "date": "2025-12-05T03:31:18.555Z",
+      "version": null,
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Killers_Quality YT",
+      "score": 2,
+      "text": "map is a pain to use much better results ok other apps",
+      "date": "2025-12-04T17:09:01.349Z",
+      "version": "1.37.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Da Snek",
+      "score": 5,
+      "text": "Great for documenting observations of local species, great for finding art references for drawing frogs",
+      "date": "2025-12-01T04:07:09.313Z",
+      "version": "1.37.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Batro Ngilangwa",
+      "score": 5,
+      "text": "Nice app",
+      "date": "2025-11-27T18:25:34.906Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Spoiled Jam",
+      "score": 2,
+      "text": "website is phenomenonal but the app needs serious revisions as it keeps kicking me out and displaying observations as the wrong animal despite all identifiers agreeing on one specific animal I can't leave my own observations and profile on the app otherwise it kicks me out",
+      "date": "2025-11-24T08:03:58.899Z",
+      "version": "1.37.2",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "D G",
+      "score": 1,
+      "text": "can't delete misclick IDs in app anymore. iNaturalist is great, but the app has never been. Now they are taking away even more feature from the app, but it hasn't helped with the bugs. The website remains the only functional way to use iNaturalist.",
+      "date": "2025-11-22T17:08:38.294Z",
+      "version": "1.37.2",
+      "thumbsUp": 7
+    },
+    {
+      "userName": "vagabond 404",
+      "score": 5,
+      "text": "More apps like this should exist !",
+      "date": "2025-11-22T15:46:36.627Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Robin Banks",
+      "score": 5,
+      "text": "Great app. Very helpful for identifying species I find. The filters are great, and the sheer amount of pictured is very helpful",
+      "date": "2025-11-22T15:30:06.529Z",
+      "version": "1.37.2",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Autumn Carter",
+      "score": 5,
+      "text": "I can almost always identify the plant or bug I am looking for. this ap is awesome.",
+      "date": "2025-11-21T04:36:08.880Z",
+      "version": "1.37.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "David Scrivener",
+      "score": 3,
+      "text": "negative experience with the donation request. I believe I've donated annually for a few years now. I was going to this year, but now I have to accept some sort of terms and conditions just to donate to them. so I decided to unsubscribe because that's BS, and that's when I discovered they have an unsubscription process that makes it a little inconvenient to unsubscribe. no, just no. that's how money grubbing corporations behave, I expect more from non-profits. trust is broken.",
+      "date": "2025-11-19T00:36:01.825Z",
+      "version": "1.37.2",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "Anthony Salcido",
+      "score": 4,
+      "text": "have you guys ever considered making a more game like app that maybe uses the crowd sourced identification system of this app? maybe something with a pokemon snap feel but in real life? maybe some albums, quests, profile sharing and friends, etc?",
+      "date": "2025-11-17T04:50:31.542Z",
+      "version": "1.37.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Jay",
+      "score": 2,
+      "text": "What happened? Why aren't species suggestions working anymore (at least on Android)? I have like 4 species of plants I want to identify and there just are simply no suggestions showing up. This is very sad and dissapointing as I rely on iNaturalist for species identification and I also have donated every year as well...can someone just explain what is going on? If so, I will gladly change my review!!",
+      "date": "2025-11-12T00:00:44.202Z",
+      "version": "1.37.2",
+      "thumbsUp": 14
+    },
+    {
+      "userName": "Tracy Dougherty",
+      "score": 5,
+      "text": "Great app. I use it every time I explore.",
+      "date": "2025-11-10T00:24:42.754Z",
+      "version": "1.37.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Artur Soból",
+      "score": 3,
+      "text": "Where’s the dark mode? My eyes are burning and it’s heating up the climate!",
+      "date": "2025-11-09T10:23:13.800Z",
+      "version": "1.37.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Sean Wilson-Leslie",
+      "score": 3,
+      "text": "very good app, very accurate but incredibly slow after even 5 minutes of use. it becomes unusable and tanks your phone quickly, and has done so in every version in the past year.",
+      "date": "2025-11-03T19:16:24.574Z",
+      "version": "1.37.2",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "Auto Vada",
+      "score": 1,
+      "text": "it could be something huge but it's not and it will be full of trash very soon. I could live with the poor app (ispot is much worse) which gives a glimpse into natural world all over the World. but it lacks the possibility to report a spam, animal abuse and appearing recently.... women pics. so basically they have the same standards and goals like FB, Instagram. how on earth we can use it for a school project? You can't keep insects wings or take fish on the sand to make a photo fgs!",
+      "date": "2025-11-02T11:38:34.390Z",
+      "version": "1.37.2",
+      "thumbsUp": 19
+    },
+    {
+      "userName": "Alex S",
+      "score": 3,
+      "text": "Ad someone who works with plants- often wrong. Also does not allow corrections to the IDs when wrong, might be poisoning their own data set by reinforcing wrong info. Often more info is needed than straight photos for things like mushroom id, or very similar species- location, time of year, smell, surrounding plants, etc.",
+      "date": "2025-10-31T21:49:42.590Z",
+      "version": "1.37.2",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "Rudy H.",
+      "score": 5,
+      "text": "Great app to connect and share plant and creature observations and learn from the knowledgeable user community.",
+      "date": "2025-10-30T17:54:13.650Z",
+      "version": "1.37.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Iva Juričić",
+      "score": 2,
+      "text": "I used to love this app and have used it for years to satiate my curiosity of nature around me. The app has become so slow and unusable, loading my searches forever. Another issue with the searches is typing in the species, going to add the location and the species you wrote gets wiped, you go again to write the species and the location gets wiped, and so on in circles for minutes on end, and then you finally succeed and its just loading and then times out, and back to typing. Optimize it please",
+      "date": "2025-10-29T23:47:11.994Z",
+      "version": "1.37.2",
+      "thumbsUp": 11
+    },
+    {
+      "userName": "Tenaya Rix",
+      "score": 5,
+      "text": "very helpful for identification of many insects, plants and animals. as someone who loves animals this has made it very easy to document everything i see when out and about. love this app!",
+      "date": "2025-10-29T23:07:51.132Z",
+      "version": "1.37.2",
+      "thumbsUp": 9
+    },
+    {
+      "userName": "Jayakumari",
+      "score": 5,
+      "text": "very good try yourself",
+      "date": "2025-10-27T15:37:07.675Z",
+      "version": "1.37.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Susan Warren",
+      "score": 5,
+      "text": "I love this app! I can't believe something so great is free with no ads or hassle! Makes life fun, like a scavenger hunt! 😊",
+      "date": "2025-10-26T12:17:57.258Z",
+      "version": "1.37.2",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "Matthew Tunney",
+      "score": 2,
+      "text": "Great idea. Inferior to any other form of research. I can identify something quicker at a public library.",
+      "date": "2025-10-24T10:31:14.144Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Debbie Wall Smith",
+      "score": 5,
+      "text": "wonderful for identification of olants and creatures",
+      "date": "2025-10-22T14:09:18.761Z",
+      "version": "1.37.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Shane (BrazenShane)",
+      "score": 2,
+      "text": "An okay app. It would have been 4 stars but bumped down to 2 and uninstalled for begging for money. You don't need to beg when you get ad revenue. Another great app ruined by greed.",
+      "date": "2025-10-20T08:54:33.656Z",
+      "version": null,
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Alison Robin D",
+      "score": 1,
+      "text": "They made a deal with Google to use GenAI. Making this review and uninstalling.",
+      "date": "2025-10-19T04:12:11.916Z",
+      "version": "1.36.8",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "cheryl potts",
+      "score": 5,
+      "text": "I love this app. I have learned so much by making observations and posting for identification.",
+      "date": "2025-10-10T12:06:50.904Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Stacey Miller",
+      "score": 2,
+      "text": "Photos Rotate & Support Blew Me Off",
+      "date": "2025-10-10T03:39:10.150Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Patriciu",
+      "score": 5,
+      "text": "This is awsome!",
+      "date": "2025-10-07T18:15:23.940Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Lucho Libre 65",
+      "score": 5,
+      "text": "great starter app, a bit confusing at first, but it's as good as the higher rated and first ask-for-credit card apps.",
+      "date": "2025-10-06T16:18:22.120Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Jean Stephenson",
+      "score": 1,
+      "text": "so slow. keeps freezing .... a huge issue when we spend so much time on the app",
+      "date": "2025-10-06T10:13:38.456Z",
+      "version": "1.36.8",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Catherine",
+      "score": 2,
+      "text": "5 years since I first reviewed app and it's still the same level of buggy and crashes all the time 🫩",
+      "date": "2025-10-06T07:49:21.123Z",
+      "version": "1.36.8",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "JoAnn Brereton",
+      "score": 3,
+      "text": "Looks too much like an app that was poorly ported from iPhone. too many clicks to do anything and suffered from a confusing UI. Honestly, I find it much easier to use circle to search.",
+      "date": "2025-10-04T17:58:22.710Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Adam Lane",
+      "score": 2,
+      "text": "I love the app idea but when trying to get feedback from the app about a few species, never heard anything. Just blank...and still is.",
+      "date": "2025-10-04T02:29:39.209Z",
+      "version": "1.36.8",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Garrett Campbell",
+      "score": 1,
+      "text": "I have to turn on precise location or the app doesn't function, it won't let me favorite or follow posts, the identification thing is messed up. I identified a plant, someone said \"that's not it\" my identification was removed then the same person identified it as the same plant I did and it was accepted. Garbage system.",
+      "date": "2025-10-02T15:52:15.680Z",
+      "version": "1.36.8",
+      "thumbsUp": 7
+    },
+    {
+      "userName": "Kevin Attt",
+      "score": 5,
+      "text": "good",
+      "date": "2025-10-01T16:46:57.350Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Amethyst Toast",
+      "score": 3,
+      "text": "love the concept, wish it were more specific / functional",
+      "date": "2025-09-30T06:12:45.640Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Jay Mahendran Thevar",
+      "score": 5,
+      "text": "useful app...can learn about habitat around us...",
+      "date": "2025-09-28T16:30:17.477Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Shilpa Singh",
+      "score": 4,
+      "text": "One can identify plants but payment is required to diagnose.",
+      "date": "2025-09-28T15:28:38.170Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Arakal Cassella",
+      "score": 2,
+      "text": "annoying constant commenting. I'd love if you could stop getting the same ID answer for literally every photo even after confirmation/ proper label at time of posting. #1 reason I wont use iNat. Unnecessary and annoying. If that could go away, it would be a great tool and I'd try it again. until then, infuriatingly redundant clutter to sort through.",
+      "date": "2025-09-28T01:12:09.607Z",
+      "version": null,
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Cathy Coulson",
+      "score": 2,
+      "text": "Can't figure out how to get an id on anything. No instructions. No clue why I've even posted anything because it isn't identified anywhere.",
+      "date": "2025-09-27T04:02:22.506Z",
+      "version": "1.36.8",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Ankur Mishra",
+      "score": 5,
+      "text": "Great app! The idea of getting people involved and observe nature in such a fun way, where we cannot just get to know what we have observed but also contribute to science and document organisms helping scientists and conservationists to understand various trends and act accordingly is brilliant!",
+      "date": "2025-09-25T03:43:01.811Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Eli Hutfles",
+      "score": 5,
+      "text": "Better than Pokémon Go",
+      "date": "2025-09-23T16:48:10.415Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Darius Becker",
+      "score": 5,
+      "text": "So much fun learning and playing Pokemon go but better. Sorry I'm super broke. I'll definitely donate on pay day. Maybe just change the prompt for if the bird is captive or not to just \"captive?\" It's slightly less vague",
+      "date": "2025-09-19T09:00:28.146Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Anatoliy M",
+      "score": 5,
+      "text": "Extremely good app. Best app for reporting observation everything in nature. 100/10",
+      "date": "2025-09-18T02:17:27.269Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Glen Donovan",
+      "score": 1,
+      "text": "Terrible trying to load/upload pictures. Four times I tried, and no photos got uploaded.",
+      "date": "2025-09-15T20:27:50.948Z",
+      "version": "1.36.8",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Chris Ebert",
+      "score": 5,
+      "text": "easy way to get involved in citizen science and learn about the things living around you....",
+      "date": "2025-09-13T21:21:13.693Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Anthony Fitzpatrick",
+      "score": 5,
+      "text": "I'll never be late from unnecessary distractions ever again. Saw a cool plant or bug = I helped For the bees 🐝🎉",
+      "date": "2025-09-13T19:32:58.846Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Piotr Naskrecki",
+      "score": 2,
+      "text": "A phenomenal project with a very poorly executed app. It does not come close to the reliability and performance of the web version.",
+      "date": "2025-09-12T10:07:11.120Z",
+      "version": "1.36.8",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Brad Bateman",
+      "score": 4,
+      "text": "such a huge database the app lags a lot. but still a great citizen science platform.",
+      "date": "2025-09-12T01:09:22.533Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Tasha",
+      "score": 2,
+      "text": "Good idea but poor execution. I am unable to participate in a project due to technical issues with the application. Updating did not fix the issue.",
+      "date": "2025-09-11T20:37:43.567Z",
+      "version": "1.36.8",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Leaf Branch",
+      "score": 5,
+      "text": "very satisfied",
+      "date": "2025-09-10T23:16:17.364Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Lee WM",
+      "score": 5,
+      "text": "amazing app for everyone. thank you & YAH bless all the staff.",
+      "date": "2025-09-09T23:41:23.826Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Themetr Philltscheff",
+      "score": 1,
+      "text": "I used to love the app and use it a lot but after one of the last updates it locked me out. I can't login now and I guess I won't use it anymore. I don't know why would they do this to me. No email, nothing. I feel very bad about this.",
+      "date": "2025-09-09T09:05:39.705Z",
+      "version": "1.36.8",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Kim MacDonald",
+      "score": 3,
+      "text": "Great app, but I would love to be able to sort my observations by date or species. I would also love to be able to organize my observations with tags or private projects or something. Selecting a location takes too long, there should be a way to save favorite locations.",
+      "date": "2025-09-07T19:16:46.377Z",
+      "version": "1.36.8",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Natalie Woo",
+      "score": 2,
+      "text": "The app functions are great however the android app often lags and crashes. Used it on ios and it was not this bad.",
+      "date": "2025-09-06T18:43:26.744Z",
+      "version": "1.36.8",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Rosie Day",
+      "score": 2,
+      "text": "it's so unfathomably slow that it's almost unusable. I have been stuck for literal hours waiting to identify a freaking TURTLE. Inexcusable.",
+      "date": "2025-09-04T13:36:37.693Z",
+      "version": "1.36.8",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "NaturesTemper",
+      "score": 5,
+      "text": "great app and opportunity for citizen science",
+      "date": "2025-09-04T13:02:25.882Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Emil Jonsson",
+      "score": 5,
+      "text": "😍",
+      "date": "2025-09-02T20:24:21.820Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "franco correa irrazabal",
+      "score": 3,
+      "text": "The app is innovative and useful, but it needs improvements: optimization (it often freezes), audio and video recognition to better identify living beings, smoother navigation like on the website, adding animal sounds to the profiles, and expanding sources beyond Wikipedia. This is constructive criticism, as the app is creative and educational, but it requires adjustments to reach its great potential. this isn't a negative opinion, it is a constructive one, I'll be waiting for an answer.",
+      "date": "2025-09-02T04:39:50.407Z",
+      "version": "1.36.8",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Isaiah Freedman",
+      "score": 3,
+      "text": "I love using iNaturalist but the app is still fairly buggy. The activity tab to look at new identifications on my posts causes the app to crash always.",
+      "date": "2025-09-01T17:57:53.911Z",
+      "version": "1.36.8",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "David Scott",
+      "score": 1,
+      "text": "Unable to identify North American wildflowers, even the \"easy\" ones.",
+      "date": "2025-09-01T04:26:39.604Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "David Quinn",
+      "score": 5,
+      "text": "the Pokedex for nature buffs, this app allows you to post photos of what you see in nature and as long as you give enough info like a general location, a few photos and time of year someone out there can tell you what it is if you don't already know. I do not experience the crashes people mention, if I am offline and upload something to Inat it will put the post on hold till I am online, when you open the app with Internet it will start uploading the post.",
+      "date": "2025-08-31T17:27:22.464Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Diane Schmidt",
+      "score": 1,
+      "text": "deleted app. I wanted this app to identify by sound recording only since I was trying to identify the insect at night which makes it impossible to find the insect since it is dark outside. apparently it will not identify without a photo of it. would be nice if this app worked like Merlin app for bird sounds.",
+      "date": "2025-08-30T05:09:10.321Z",
+      "version": null,
+      "thumbsUp": 7
+    },
+    {
+      "userName": "Botond Gergely Nagy",
+      "score": 5,
+      "text": "amazing, easy to use and useful",
+      "date": "2025-08-29T21:00:25.917Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "stacey denman",
+      "score": 5,
+      "text": "I'm not sure why it's only rated 3.8 but as far as pictures and information I have gotten from taking photos of jumping spiders, I have been very pleased.",
+      "date": "2025-08-29T12:36:28.979Z",
+      "version": "1.36.8",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Ghost Cat",
+      "score": 1,
+      "text": "Mislabeled map. The Gulf of Mexico is incorrectly labeled as gulf of america. It is still, and always will be, the Gulf of Mexico. The fat orange dementia ridden freak can't change that.",
+      "date": "2025-08-27T01:09:43.460Z",
+      "version": null,
+      "thumbsUp": 8
+    },
+    {
+      "userName": "Ravens Aura",
+      "score": 5,
+      "text": "Great app for exploring and recording all living things. I mostly use it for bird watching but also get curious as to what other critters are around, so I love the map view as well. The filter functions are great for this too.",
+      "date": "2025-08-26T22:24:43.106Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Mark Winterland",
+      "score": 1,
+      "text": "it won't upload my image. I reduced the size in case that was the issue.",
+      "date": "2025-08-25T17:55:52.927Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A. “GlobalGal49” King-Turner",
+      "score": 1,
+      "text": "poor instructions. options for answers are not relevant. disheartened. looking for another app.",
+      "date": "2025-08-21T10:58:12.945Z",
+      "version": "1.36.8",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Kate Thomas",
+      "score": 2,
+      "text": "I've tried this app several times over the years and have never been able to upload any observations. It just tells me \"waiting to upload\". I've un-installed, reinstalled, no dice. I'd love to contribute to citizen science projects and to learn more about the world around me, but every time I've been stymied. :(",
+      "date": "2025-08-19T11:38:50.300Z",
+      "version": "1.36.8",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Edwin M",
+      "score": 5,
+      "text": "go 🌎",
+      "date": "2025-08-19T05:04:59.103Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Rachel Laprade",
+      "score": 1,
+      "text": "Every time I try to record a sound, the app prompts me to share photos (and the app won't record sound). I want to identify insects and frogs by call/sound, but the app is unable to do that.",
+      "date": "2025-08-18T16:00:15.747Z",
+      "version": "1.36.8",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Parker Varin",
+      "score": 5,
+      "text": "Cool",
+      "date": "2025-08-18T00:25:43.490Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "white shadow",
+      "score": 5,
+      "text": "just when you think this app can't get any better it tells you can join community projects related to your subject of expertise...the man who created this is a genius and i would definitely recommend it to zoologist and botanist who are passionate about their subjects especially for undergraduate students to increase their intrest in research.....what's better then can document all the species I have ever witnessed",
+      "date": "2025-08-14T14:31:55.803Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Michael Forsythe",
+      "score": 2,
+      "text": "The app itself is great, but the community is split between enthusiastic amateurs and ultrasnob gatekeepers. The amateurs have fun by making observations and the gatekeepers have fun by taking a dump on them. I bet it was nice at first, maybe it will be again, but for now, this is unrecommendable to anyone but sociopaths.",
+      "date": "2025-08-11T14:41:17.320Z",
+      "version": null,
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Mike Massotto",
+      "score": 3,
+      "text": "Amazing app with impactful and invaluable utility. But it desperately needs improvements. Sometimes the explore page crashes if you swipe through too many entries. You can't \"friend\" users and opt for notifications whenever they submit a sighting. And even though you can \"Fave\" sightings, you can't view your Faves anywhere in the app. Please get onto bug fixing and QoL features, this app is amazing and deserves the attention.",
+      "date": "2025-08-08T16:03:45.241Z",
+      "version": "1.36.8",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Nicholas Morgan",
+      "score": 4,
+      "text": "interface is a little clunky but a great app for the curious mind!",
+      "date": "2025-08-06T03:17:24.503Z",
+      "version": "1.36.8",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Ojn Joo",
+      "score": 5,
+      "text": "Love it! Documenting and identifying the creatures we meet on my little girls voyage through life :)",
+      "date": "2025-08-06T01:03:22.213Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Natalie Byhre",
+      "score": 1,
+      "text": "They are considering adding ai implementation which is going to skew identification extremely poorly, is a waste of water and energy resources and is going to get novice foragers killed. One star review will remain until decision is made to cancel ai implementation.",
+      "date": "2025-08-05T15:37:46.345Z",
+      "version": "1.36.8",
+      "thumbsUp": 8
+    },
+    {
+      "userName": "Judith Falkins",
+      "score": 5,
+      "text": "information available is organized and easily accessed",
+      "date": "2025-08-04T17:15:50.299Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Kevin",
+      "score": 5,
+      "text": "Works well at identifying anything I cross in nature.",
+      "date": "2025-08-04T14:22:59.203Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Stuart Colebrook",
+      "score": 2,
+      "text": "Failed to identify any of my houseplants",
+      "date": "2025-08-02T05:37:27.227Z",
+      "version": "1.36.8",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Cat",
+      "score": 1,
+      "text": "I love Inaturalist but if generative AI is introduced, I may have to delete the app. This is not why the app was made, and definitely not why people like me volunteer to contribute to local ecology. Please, don't sell out Inat.",
+      "date": "2025-07-31T16:38:16.601Z",
+      "version": "1.36.8",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "M",
+      "score": 1,
+      "text": "Teaming up with Generative AI. Get the plagarism machine out of my community science.",
+      "date": "2025-07-29T00:27:54.954Z",
+      "version": "1.36.8",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Mark Weaver",
+      "score": 5,
+      "text": "love this app",
+      "date": "2025-07-25T22:07:16.944Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "feoleb",
+      "score": 3,
+      "text": "the app doesn't work. it freezes on the permissions settings to allow using the camera",
+      "date": "2025-07-25T21:21:34.497Z",
+      "version": "1.36.8",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Kayleigh Ildiko",
+      "score": 4,
+      "text": "I LOVE THIS APP! I wish everyone had it, and would be amazed by the fact that nearly every ant, fly, flower, blade of grass has a name and story! It would be fun if it was more game-ified I wish there was a little more social aspect, I'd love to be more able to follow my friends and see what they've been recording/observing, and help ID! I couldn't find a way on the app to follow friends, but found them online, but then there doesn't seem to be any benefit once you're back on the app.",
+      "date": "2025-07-21T23:20:28.211Z",
+      "version": "1.36.8",
+      "thumbsUp": 74
+    },
+    {
+      "userName": "Udesh Sewduth",
+      "score": 5,
+      "text": "it's like Pokémon in real life..nice if they had challenges",
+      "date": "2025-07-21T17:33:47.896Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Andrew Milner",
+      "score": 5,
+      "text": "Love it!",
+      "date": "2025-07-20T22:12:10.222Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Faraz Husain",
+      "score": 5,
+      "text": "who came here after listening to paul stamets",
+      "date": "2025-07-20T19:29:41.513Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Mary I.",
+      "score": 3,
+      "text": "I thought I'd give it a try, but I don't see much to actually do on the app besides upload pictures. I didn't see active projects to participate in that suit my interests and location and I didn't experience much community either. It seemed like my entries got missed or ignored. I wish it felt more like I was contributing to science.",
+      "date": "2025-07-20T04:13:37.248Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Bruce Polikoff",
+      "score": 1,
+      "text": "Doesn't work over vpn.",
+      "date": "2025-07-18T16:50:35.714Z",
+      "version": "1.36.8",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "E Geist",
+      "score": 5,
+      "text": "social media app that makes me happy I love all the information that is available I love knowing that I'm contributing to scientific datasets and being able to see what flora and fauna are in my area",
+      "date": "2025-07-17T19:35:32.431Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Trevor Hartman",
+      "score": 5,
+      "text": "AWESOME. I absolutely love looking and raking pictures trying to identify the mammals or insects I find.",
+      "date": "2025-07-17T14:20:18.377Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "steve woods",
+      "score": 4,
+      "text": "short lived one day the bloom.. recorded",
+      "date": "2025-07-17T13:29:38.771Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "G",
+      "score": 4,
+      "text": "Great. Helps you know what other living things live around you and helps scientists have a big database os different species and their location for research. Win win for everyone. I definitely see what people mean about the app being buggy. The more you use it the buggier and slower it gets.",
+      "date": "2025-07-17T11:36:19.668Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Laura McCutchon",
+      "score": 5,
+      "text": "discovery of a hummingbird moth. large and beautiful in my home.",
+      "date": "2025-07-16T20:11:36.605Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Raey",
+      "score": 5,
+      "text": "Mushroom guy brought me here",
+      "date": "2025-07-09T17:14:12.658Z",
+      "version": "1.36.8",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Dena Lane",
+      "score": 1,
+      "text": "Gives no actual information about uploaded pictures, and the community doesn't respond either. Useless for plant identification.",
+      "date": "2025-07-05T05:14:53.690Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "albert mpondi",
+      "score": 5,
+      "text": "Excellent",
+      "date": "2025-07-01T18:04:54.370Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Laird Findlay-Bentson",
+      "score": 5,
+      "text": "good",
+      "date": "2025-07-01T03:11:49.630Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "binche",
+      "score": 5,
+      "text": "unlike other apps, this one has stayed mostly the same over the years Ive used it which I appreciate. great for uploading photos of everything I see on my hikes. Its helpful to have other people help ID stuff than trying to guess on my own.",
+      "date": "2025-06-30T14:54:02.775Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Graham Mayo",
+      "score": 5,
+      "text": "easy too set up and use",
+      "date": "2025-06-29T10:29:54.830Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Zoe Antonoff",
+      "score": 3,
+      "text": "PLEASE FIX 6/29/2025 ! I cannot seem to follow, search, or message people on android app. super weird. makes it hard to want to use the app because I cannot message the naturalists I wish to connect with:/ otherwise fantastic platform!",
+      "date": "2025-06-29T07:43:48.810Z",
+      "version": "1.36.8",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Alabama Zephyr",
+      "score": 3,
+      "text": "kind of aggravating now how many times you have to click to even take a photo. not sure who thinks this is user-friendly or a good idea pretty good at identifying things but the user interface could use some major improvements to simplify things for end-users",
+      "date": "2025-06-27T23:26:34.711Z",
+      "version": "1.36.8",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Evan",
+      "score": 4,
+      "text": "This app is super useful for being able to identify different types of animal/plant/fungus species. It's honestly pretty amazing. Being able to track which species you've seen in the wild is very cool, and the community around the app is incredible. However, I can't rate it higher simply because this app can sometimes be very buggy. Crashes are somewhat common and posts can sometimes refuse to be shown. Still, very cool app. Would recommend.",
+      "date": "2025-06-25T15:33:51.990Z",
+      "version": "1.36.8",
+      "thumbsUp": 22
+    },
+    {
+      "userName": "RB Nation",
+      "score": 4,
+      "text": "i'm in love with this app, the concept of it is beautiful but the (app)lication is a tad lacking. Can be glitchy especially after multiple obersavtions, and I highly recommend add a video option for obsetvations as well. With that said, I use it any chance I get. The suggestions both from the app and other observers as well as a brief page for the species is such a valuable teaching tool, it's such a great way to get people interacting with the outdoors, I act like mine's a pokedex",
+      "date": "2025-06-24T17:35:49.891Z",
+      "version": "1.36.8",
+      "thumbsUp": 14
+    },
+    {
+      "userName": "Brandon Gibbons",
+      "score": 5,
+      "text": "Amazing tool",
+      "date": "2025-06-24T01:16:41.743Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "lab owner lab",
+      "score": 4,
+      "text": "really helpful and accurate. I find the pictures I take match the suggested identifications really quickly and accuratley",
+      "date": "2025-06-23T16:01:30.108Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Emma Summers",
+      "score": 1,
+      "text": "Uninstalled after I heard they are integrating gen AI",
+      "date": "2025-06-21T16:21:39.540Z",
+      "version": "1.27.9",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Caleb Shingleton",
+      "score": 3,
+      "text": "I love iNaturalist, but the android app always seems to be slow when loading. The website works great!",
+      "date": "2025-06-19T03:10:05.506Z",
+      "version": "1.36.8",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Doug O",
+      "score": 4,
+      "text": "It's a great app, but if I could recommend one change, it's to make the Observations Map interactive so people can move it to see an animals full range and not just some of it.",
+      "date": "2025-06-17T18:27:09.231Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Jason Nelke",
+      "score": 1,
+      "text": "was really excited to use this app and start documenting local wildlife, and then AI... seems counterintuitive to use something so environmentally harmful for a naturalist app. deleted my account and I'll look for other options",
+      "date": "2025-06-14T02:58:35.125Z",
+      "version": null,
+      "thumbsUp": 9
+    },
+    {
+      "userName": "Echo Mary",
+      "score": 1,
+      "text": "They're ignoring their user base and carrying on with their generative-AI plan.",
+      "date": "2025-06-13T19:56:46.757Z",
+      "version": "1.36.8",
+      "thumbsUp": 13
+    },
+    {
+      "userName": "Brent",
+      "score": 5,
+      "text": "awesome app",
+      "date": "2025-06-13T00:25:11.488Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Yikes Midwest",
+      "score": 1,
+      "text": "generative ai is the complete opposite point of what this app is supposed to be",
+      "date": "2025-06-12T22:00:20.859Z",
+      "version": "1.30.15",
+      "thumbsUp": 9
+    },
+    {
+      "userName": "Peter Wells",
+      "score": 1,
+      "text": "Used to like this app but they're moving to GenAI, so the results will be meaningless and they're selling out the environment in the process.",
+      "date": "2025-06-12T13:43:39.401Z",
+      "version": "1.30.15",
+      "thumbsUp": 11
+    },
+    {
+      "userName": "Micah O",
+      "score": 2,
+      "text": "I just don't feel comfortable using an app by someone who so clearly ignores their community. I haven't seen a single one of us who wanted AI involved. So many of us work for conservation of nature and use your app to log out observations. Now you turn to a company posing legitimate concerns to our fields of work/life...",
+      "date": "2025-06-12T10:02:29.600Z",
+      "version": "1.36.8",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "Alex Smith",
+      "score": 1,
+      "text": "Used the app for a long time, with the new announcement of an introduction of AI to INat I see no reason to keep an app that has abandoned its core identity. I will be sad to see it go under after all these years of providing wonderful community driven data. For shame.",
+      "date": "2025-06-12T05:31:18.203Z",
+      "version": null,
+      "thumbsUp": 9
+    },
+    {
+      "userName": "PoorMe1Art",
+      "score": 1,
+      "text": "I used to enjoy it, but now they're going to use it to train GenAI models which is just so disappointing...",
+      "date": "2025-06-11T22:12:12.360Z",
+      "version": null,
+      "thumbsUp": 7
+    },
+    {
+      "userName": "KotoniCorgi",
+      "score": 1,
+      "text": "I used to love iNaturalist, however they are now going in a direction I cannot condone. The use of generative AI (from a conglomerate like google) is antithesis to everything that users who helped shaped this community stand for; the conservation and documentation of the natural world.",
+      "date": "2025-06-11T21:40:49.891Z",
+      "version": "1.25.12",
+      "thumbsUp": 9
+    },
+    {
+      "userName": "Mel V",
+      "score": 1,
+      "text": "I've used this app for years and have been pleased with the community-based science aspect of it, but they've decided to throw this away to use generative AI that is known to \"hallucinate\" completely made up content and destroy all reliability of the tool. Why would I use something that I can never trust?",
+      "date": "2025-06-11T20:36:59.164Z",
+      "version": "1.26.9",
+      "thumbsUp": 7
+    },
+    {
+      "userName": "Ari Beck",
+      "score": 1,
+      "text": "Selling out to Google AI so I can't trust that things are going to be accurate on this app anymore.",
+      "date": "2025-06-11T19:02:42.689Z",
+      "version": "1.36.8",
+      "thumbsUp": 9
+    },
+    {
+      "userName": "Cate Lindsey",
+      "score": 1,
+      "text": "this company plans to use genAI so not only will it give untrustworthy info, it'll be causing immense ecological and economic damage to do so. meanwhile the company is avoiding answering user questions about data safely. absolutely unfit to be used.",
+      "date": "2025-06-11T17:57:47.925Z",
+      "version": "1.36.8",
+      "thumbsUp": 11
+    },
+    {
+      "userName": "Marcin Druzdzel",
+      "score": 1,
+      "text": "no fake AI slop, pls",
+      "date": "2025-06-11T17:16:46.197Z",
+      "version": null,
+      "thumbsUp": 7
+    },
+    {
+      "userName": "Ella Shaffer",
+      "score": 1,
+      "text": "Uninstalling this app after they've decided to partner with AI. Why would I ever want to bring AI into nature? Why would I want to use the water-guzzling lying machine to tell me wrong identifications of the real, incredible things in our world? Shame.",
+      "date": "2025-06-11T15:37:09.229Z",
+      "version": "1.36.8",
+      "thumbsUp": 15
+    },
+    {
+      "userName": "Almond Milkbone",
+      "score": 1,
+      "text": "uninstalling after the gen ai announcement. what a bummer. i thought y'all were better than this.",
+      "date": "2025-06-11T15:00:30.682Z",
+      "version": "1.36.8",
+      "thumbsUp": 10
+    },
+    {
+      "userName": "Becky Blondin",
+      "score": 1,
+      "text": "iNaturalist just released a statement stating it's adding Generative AI tools. Problems with this: - Gen AI facilities have been known to cause environmental damage, particularly in their water usage. - Gen AI has hallucinations and will misidentifying things. - Where will the Gen AI gain it's data? From users who have volunteered their expertise over the years? Will the company ask permission before scraping their data? Will these people be paid for their information or will it be stolen?",
+      "date": "2025-06-11T14:37:27.840Z",
+      "version": "1.21.7",
+      "thumbsUp": 10
+    },
+    {
+      "userName": "Spooky Weirdo",
+      "score": 2,
+      "text": "Announced turning to Google-supported generative AI for identifications, with no opt-out. Hard pass, do not want my data used for this",
+      "date": "2025-06-11T13:55:59.240Z",
+      "version": "1.36.8",
+      "thumbsUp": 9
+    },
+    {
+      "userName": "Landon “Stormy” Schuster",
+      "score": 1,
+      "text": "Disappointing turn of events-- using our observation data to train Generative AI benefits no one.",
+      "date": "2025-06-11T13:46:27.489Z",
+      "version": null,
+      "thumbsUp": 6
+    },
+    {
+      "userName": "Corey McMahon",
+      "score": 1,
+      "text": "Only started using iNaturalist recently, it's a shame to hear about their plan to participate in Generative AI.",
+      "date": "2025-06-11T13:23:38.749Z",
+      "version": "1.36.8",
+      "thumbsUp": 7
+    },
+    {
+      "userName": "Jonathan Shirley",
+      "score": 1,
+      "text": "As a Volunteer Naturalist at the local arboretum, this has been a relatively useful educational tool. But a handy field guide is better than an app corrupted by generative ai, which is notoriously inaccurate and antithetical to the naturalist ethic.",
+      "date": "2025-06-11T10:50:29.740Z",
+      "version": "1.36.8",
+      "thumbsUp": 10
+    },
+    {
+      "userName": "Clay R",
+      "score": 1,
+      "text": "this app used to be good until they made the abysmal decision to use google AI. This is an environmental app polluting their datasets with a technology that is harmful to the environment. I just deleted my account and years of observations.",
+      "date": "2025-06-11T07:04:45.867Z",
+      "version": "1.30.15",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "Elyssa Tappero",
+      "score": 1,
+      "text": "This isn't the highest functioning app ever created, but that wasn't a huge concern of mine until iNat just announced their plan to include generative AI. Fix the known issues with your app before jumping into features your users don't even want!",
+      "date": "2025-06-11T04:41:43.819Z",
+      "version": "1.36.8",
+      "thumbsUp": 12
+    },
+    {
+      "userName": "Aly L",
+      "score": 1,
+      "text": "I am deeply saddened to hear they intend to use generative AI, which will absolutely contribute to the extinction and suffering of many species featured on the app. Money over integrity seems to be the trend these days. Disappointing.",
+      "date": "2025-06-11T04:00:08.822Z",
+      "version": null,
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Ripley LaCross",
+      "score": 1,
+      "text": "iNaturalist's partnership with Google's generative AI program is a backhand to all the independent, UNPAID taxonomists that made this app what it was, as well as being the complete opposite of what community science stands for. Not to mention genAI is an environment destroyer. Yknow, the thing we're studying? Deleted and uninstalled.",
+      "date": "2025-06-11T01:08:06.327Z",
+      "version": null,
+      "thumbsUp": 6
+    },
+    {
+      "userName": "Kyoki Kai",
+      "score": 1,
+      "text": "GenAi has no place in things such as this and I am absolutely saddened to see that money is more important than the enviromental harm it brings with it.",
+      "date": "2025-06-10T23:37:39.673Z",
+      "version": "1.36.8",
+      "thumbsUp": 9
+    },
+    {
+      "userName": "Karen McDonald",
+      "score": 4,
+      "text": "Love this app, but all of a sudden it won't open in Android and I keep getting messages that it has a bug and to install an updat, but there's no update, and it won't open.",
+      "date": "2025-06-08T17:15:31.919Z",
+      "version": "1.29.18",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "SI ABDERRAHIM moutmar",
+      "score": 5,
+      "text": "good quality app",
+      "date": "2025-06-08T10:42:43.719Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Stefan Jones",
+      "score": 1,
+      "text": "They want full access to my Album, nope it's totally unnecessary for this app to function. Here's my feedback from the the support team when I asked why their app wanted full Album access; \"This is a bug in the app, it's not intended. We're looking into how to fix it but I unfortunately can't provide an estimate as to when it will be fixed.\" Fine, until your privacy ethics are sorted you have 1 less user.",
+      "date": "2025-06-08T07:00:22.620Z",
+      "version": "1.36.8",
+      "thumbsUp": 70
+    },
+    {
+      "userName": "Art Patten",
+      "score": 5,
+      "text": "Not perfect but pretty darn close and incredibly important. Would be nice to be able to select multiple sexes for a single observation.",
+      "date": "2025-06-04T11:19:43.521Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Chris",
+      "score": 1,
+      "text": "couldn't figure out how to get it to identify a flower and if they want to keep it a secret on how to do that then I'm not using the app",
+      "date": "2025-06-03T20:19:08.147Z",
+      "version": "1.36.8",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Mayank Gaming",
+      "score": 3,
+      "text": "not so good I would recommend. you the app named merlin bird id",
+      "date": "2025-05-30T09:58:20.936Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Great Dashar",
+      "score": 1,
+      "text": "🤮",
+      "date": "2025-05-29T22:34:49.920Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Guido Pelagos",
+      "score": 1,
+      "text": "Great initiative but OMG what a disaster user unfriendly app...rarely have I been so frustrated by the absolute un-intuitiveness of any app. This app needs to be rigorously tackled by a proper app maker and not by a hobbyist in his basement. I love this idea but the execution is abominably bad.",
+      "date": "2025-05-29T15:39:03.410Z",
+      "version": "1.36.8",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Timothy Thatcher",
+      "score": 2,
+      "text": "You should have a rating system to prevent sharing of poor or non-relevant content (such as a feather classified as a turkey, etc). Taking extra time to parce through that kind of content has no value.",
+      "date": "2025-05-29T15:14:34.410Z",
+      "version": "1.36.8",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Michelle Koskitalo",
+      "score": 5,
+      "text": "Incredible app for people interested in uploading photos and or other observation data of species that live anywhere in the world, from a backyard, a park, under water, in your city, in wilderness. Discover animals, plants, fungus, birds, and more. Contribute to the inventory and mapping of living things wherever you are. Join local or international projects.",
+      "date": "2025-05-28T11:16:24.899Z",
+      "version": "1.36.8",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Not Who You Think",
+      "score": 1,
+      "text": "S25 Ultra crashing and black screening at the \"Suggest ID\" button. I love this app otherwise and love interacting with like minded scientists and nature enthusiasts. Please fix the crashes and encourage people to add notes. Edit: Unable to press any buttons past the observations screen due to the app instantly losing response. Please fix Completely cleared data, logged back in, no fix.",
+      "date": "2025-05-26T23:26:04.968Z",
+      "version": "1.36.8",
+      "thumbsUp": 11
+    },
+    {
+      "userName": "Kevin Achtmeyer",
+      "score": 2,
+      "text": "Incredibly glitchy, and especially finicky when identifying, it randomly exits the observation, then makes it impossible to add any others, and often very slow, with seemingly random crashes that require you to restart the app entirely. Amazing website, which is why you get 2 stars instead of 1, but a horrible app, would not recommend.",
+      "date": "2025-05-26T21:20:04.864Z",
+      "version": "1.36.8",
+      "thumbsUp": 12
+    },
+    {
+      "userName": "Jaime McCoin",
+      "score": 2,
+      "text": "Unfortunately I'm having similar issues as other users where the app tells me \"you have to be connected to the internet to do that!\" despite *being on the internet*, and then my submissions just sit and sit and are unable to be uploaded. It seems like I tried doing 1 submission weeks ago where I didn't have connectivity at the time and literally anything after that can't get processed correctly, so it seems like a \"stuck in queue\" issue. I hope they get it fixed, I really want to use it!",
+      "date": "2025-05-24T13:22:38.337Z",
+      "version": "1.36.8",
+      "thumbsUp": 38
+    },
+    {
+      "userName": "Micaiah Dyer",
+      "score": 5,
+      "text": "Phenomenal app and community.",
+      "date": "2025-05-24T01:03:30.230Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Wesley Merrill",
+      "score": 5,
+      "text": "the best app for field biology",
+      "date": "2025-05-23T16:26:30.447Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Monty Knudsen",
+      "score": 5,
+      "text": "Easy to use and very responsive.",
+      "date": "2025-05-23T05:53:21.528Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Ralph Polattie",
+      "score": 1,
+      "text": "worthless app",
+      "date": "2025-05-22T17:02:17.474Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Michelle Colpus",
+      "score": 5,
+      "text": "I've been using this app for years now. It's a fantastic way of uploading observations and starting the identification process. The app itself is not geared towards assisting with idenifying other people's observations, which is annoying. At times (more recently) the app has difficulties loading and I may have to wait longer than usual to access what I want. It would be nice if I had the option to download my images from the app.",
+      "date": "2025-05-22T02:19:02.426Z",
+      "version": "1.36.8",
+      "thumbsUp": 23
+    },
+    {
+      "userName": "Mike Neill",
+      "score": 5,
+      "text": "Reliable identification and a great knowledge builder. Easy to use.",
+      "date": "2025-05-21T23:20:33.337Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Bryn Armstrong",
+      "score": 5,
+      "text": "my favourite app but it could be 100 times better for usability and speed and information depth...",
+      "date": "2025-05-21T22:20:49.710Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Mark Mehrer",
+      "score": 5,
+      "text": "Six Stars! iNaturalist is everything I could ever want from a Gold Label species info app. Thanks for iNat!",
+      "date": "2025-05-21T21:34:19.685Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Bob Reed",
+      "score": 5,
+      "text": "I truly appreciate this app. It appears to be accurate about 98 % of the time, which I think is much more than acceptable. I do wish the pictures on the opening page would change periodically. It seems I see the same photos every couple of weeks.",
+      "date": "2025-05-21T21:34:05.962Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Tim “TheGardener”",
+      "score": 5,
+      "text": "Very good at accurately identifying most of the things I photograph with my phone, impressively good. When it can't the community usually comes up with an identification shortly after. I find the app invaluable for plants, fungi, insects and spiders that I spot.",
+      "date": "2025-05-21T21:11:50.983Z",
+      "version": "1.36.8",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Collin Willson",
+      "score": 5,
+      "text": "Phenomenal way to get in touch with nature and support worldwide research. I heavily recommend this service to anyone with a passion for the planet.",
+      "date": "2025-05-21T20:55:27.691Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Marian Waterman",
+      "score": 5,
+      "text": "Hands down, iNaturalist is one of the most compelling and important citizen science projects for the world",
+      "date": "2025-05-21T20:27:17.653Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Jean-Luc Stiles",
+      "score": 5,
+      "text": "Love it, learn it, use it.",
+      "date": "2025-05-21T20:16:19.223Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Bill Butler",
+      "score": 5,
+      "text": "so good",
+      "date": "2025-05-21T20:07:10.346Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Sanjay Ramsaroop",
+      "score": 5,
+      "text": "This app is not only great to identify species but also a form of citizen science. It also encourages you to be more observant about your natural surroundings. It's very easy to use and I would encourage anyone interested in the natural world to use it.",
+      "date": "2025-05-21T19:56:54.481Z",
+      "version": "1.36.8",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Zack Simon",
+      "score": 5,
+      "text": "Phenomenal ID capabilities, and helping fuel citizen science in the process. Can't recommend enough for anybody curious about all the life around us. ❤️",
+      "date": "2025-05-21T19:54:48.100Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Carole Martin",
+      "score": 5,
+      "text": "Excellent app for nature enthusiasts. Wherever you travel you have a chance to discover plants & animals either new to you or familiar which can be added to your your collection. Others are eager to help identify unknowns for you if you can take photos that show identifying characteristics. Watch your collection grow! So satisfying.",
+      "date": "2025-05-21T19:42:47.969Z",
+      "version": "1.36.8",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Utta Gagel",
+      "score": 5,
+      "text": "I use i-Naturalist almost every day! to identify and record nature around me. Highly recommend!!",
+      "date": "2025-05-21T19:41:06.396Z",
+      "version": "1.27.9",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Mary Goonan",
+      "score": 5,
+      "text": "Awesome & fun!",
+      "date": "2025-05-21T19:35:45.862Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Johan Loots",
+      "score": 5,
+      "text": "I enjoy and appreciate this App in total. Feedback and learning is great 👍",
+      "date": "2025-05-21T19:35:19.441Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Deborah Payne",
+      "score": 5,
+      "text": "excellent",
+      "date": "2025-05-19T17:24:15.120Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "vicki hird",
+      "score": 5,
+      "text": "Great app. Love it when I get an ID right.",
+      "date": "2025-05-18T09:24:36.842Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Gerald Britton",
+      "score": 1,
+      "text": "Billy doesn't work at all. tried to make an observation with my phone microphone. it popped up a thing about location permission. No way to select it or close it or confirm it. it just hung even when location was already permitted in settings system settings",
+      "date": "2025-05-17T00:46:04.544Z",
+      "version": "1.36.8",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "connor walen",
+      "score": 1,
+      "text": "Downloaded the app to identify insect sounds. Sadly, i did not look at the reviews closer. I can confirm that the sound identification does not work. The app will sit in loading limbo.",
+      "date": "2025-05-13T04:37:42.933Z",
+      "version": null,
+      "thumbsUp": 2
+    },
+    {
+      "userName": "elliot",
+      "score": 5,
+      "text": "great for identifying plants and animals. i mostly use it for bugs. its also fun to help other people identify things. plus, you get to help researchers and scientists in the process. i love you inaturalist",
+      "date": "2025-05-11T20:50:46.378Z",
+      "version": "1.36.8",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "Martha",
+      "score": 5,
+      "text": "I love to hiking with my family in Mount Shasta California 96097",
+      "date": "2025-05-11T01:47:42.127Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Randy L",
+      "score": 2,
+      "text": "horribly slow you have to describe an animal even with a sound recording have to push 3 or 4 buttons just to get a sound recording started, by then your animal is LONG gone definitely developed by computer nerds with NO practical in the field experience do yourself a favor and just get Merlin, developed by the ornithology department at Cornell University, not the Dems that brought you GTA 6",
+      "date": "2025-05-09T22:02:04.949Z",
+      "version": "1.36.8",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "robert heaton",
+      "score": 5,
+      "text": "kinda like a grown up app to document em all great for identification in nature + contributing data to science.",
+      "date": "2025-05-07T21:05:15.698Z",
+      "version": "1.36.8",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Hey Homes",
+      "score": 1,
+      "text": "\"waiting to upload\" for over a week, App's broke, has never worked.",
+      "date": "2025-05-07T18:35:13.456Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Shepherd",
+      "score": 5,
+      "text": "One of the best apps out there, seriously.",
+      "date": "2025-05-06T19:22:59.336Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Douche Baginglol",
+      "score": 1,
+      "text": "was not able to find deathcap mushrooms to feed to my family",
+      "date": "2025-05-02T12:16:08.220Z",
+      "version": "1.36.8",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Nick Galvez",
+      "score": 5,
+      "text": "I love this app, I always seek knowledge so I post a picture and someone smarter than me tells what plant or bug it is",
+      "date": "2025-05-01T13:16:18.271Z",
+      "version": "1.36.5",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Dan C",
+      "score": 2,
+      "text": "Refused to identify anything. kept moaning about coordinates and other details which could be grabbed from file metadata. even after manually entering could not identify or even guess.",
+      "date": "2025-04-26T18:04:50.750Z",
+      "version": "1.36.8",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Debra Monteith",
+      "score": 5,
+      "text": "Helpful, fun and informative.",
+      "date": "2025-04-26T17:59:35.662Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Ros Hunter",
+      "score": 5,
+      "text": "Great community!",
+      "date": "2025-04-26T04:09:56.977Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Hegar Pramastya",
+      "score": 5,
+      "text": "it connects with GPS and directly pins the location. highly usable for mapping population distribution.",
+      "date": "2025-04-26T00:11:34.747Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Vijaya",
+      "score": 1,
+      "text": "not nice",
+      "date": "2025-04-25T11:21:04.966Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "nirupama savant",
+      "score": 5,
+      "text": "want to upload recorded vidio of Oriental Magpie Robin.",
+      "date": "2025-04-25T09:25:36.781Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Movie Viewer",
+      "score": 3,
+      "text": "it's a pretty good database but sometimes it gets stuck uploading and adding to projects just doesn't work",
+      "date": "2025-04-25T08:44:34.700Z",
+      "version": "1.36.8",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Donald Davidson",
+      "score": 5,
+      "text": "great app to use if an amateur gardener",
+      "date": "2025-04-24T17:58:30.301Z",
+      "version": "1.36.8",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Lou P",
+      "score": 1,
+      "text": "Never id's the plant. Ridiculously slow.",
+      "date": "2025-04-24T17:29:35.289Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Philip Afolabi",
+      "score": 5,
+      "text": "great app... works perfectly and easy to use",
+      "date": "2025-04-24T16:32:25.699Z",
+      "version": "1.36.8",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "P Jones",
+      "score": 5,
+      "text": "amazing, you can scan almost anything including skeletons, sounds, insects, animals, plants and just about every thing you can think of, it's a very good app and it's all free",
+      "date": "2025-04-24T12:25:43.462Z",
+      "version": "1.36.8",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Tiffany Williams",
+      "score": 1,
+      "text": "I wanted to like this app but since I can't mark a guide as a fave and most don't allow downloads, I have to keep searching for the guide I was using 2 secs ago and search all over again.",
+      "date": "2025-04-24T07:18:45.563Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Heath Bleau",
+      "score": 5,
+      "text": "The app has become indispensable on all of my outings, urban and wild!",
+      "date": "2025-04-24T00:11:45.740Z",
+      "version": "1.36.8",
+      "thumbsUp": 1
+    }
+  ]
+}

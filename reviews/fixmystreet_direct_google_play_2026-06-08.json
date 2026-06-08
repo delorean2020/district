@@ -1,0 +1,2393 @@
+{
+  "store": "Google Play",
+  "found": true,
+  "appId": "org.mysociety.FixMyStreet",
+  "appName": "FixMyStreet",
+  "rating": 2.81,
+  "reviews": [
+    {
+      "userName": "Will Pomeroy",
+      "score": 1,
+      "text": "App is awful - can't sign in, just end up in an ever revolving circle. Delete the app and use the web portal. Better still see if your council has a version of it integrated into their web portal and use that. Log in works and is remembered on the web version",
+      "date": "2026-06-05T11:47:57.860Z",
+      "version": "3.0.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Laura Riley",
+      "score": 2,
+      "text": "The app has stopped letting me take photos. I now have to take the photo before I start the report and upload it. I suppose one way of stopping people from quickly reporting a problem.",
+      "date": "2026-05-18T16:23:30.490Z",
+      "version": "3.0.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Antony Denbeigh",
+      "score": 1,
+      "text": "I used to love this app and reported many issues to Brent which were followed up quickly. Since the latest update, I can no longer upload photos with my report on my Android phone. This issue has been reported by many users, but no response from the developers. Apps with no responsive developers are pointless and frustrate everyone. Very disappointing, with so many issues needing to be reported to local authorities.",
+      "date": "2026-04-11T12:56:06.953Z",
+      "version": "3.0.2",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Julian Bailey",
+      "score": 4,
+      "text": "great for reporting all issues where ever you are. but currently having issues uploading photos.",
+      "date": "2026-03-18T12:30:30.960Z",
+      "version": "3.0.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Karl Scott",
+      "score": 5,
+      "text": "brilliant App",
+      "date": "2026-03-07T14:27:18.955Z",
+      "version": "3.0.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Carol Ransford",
+      "score": 2,
+      "text": "For some reason my photos will never load up. very annoying since they say they are more likely to fix issues that have photos",
+      "date": "2026-02-24T13:03:04.872Z",
+      "version": "3.0.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Gerrard Mitchell-cotter",
+      "score": 4,
+      "text": "truly an amazing app if you need anythink Council owned to be fixed or reported then this is the app for you. the Council are responding and fixing the issues",
+      "date": "2026-02-20T13:17:21.932Z",
+      "version": "3.0.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Gareth Williams",
+      "score": 5,
+      "text": "Excellent app, I reported a large pothole and it was repaired within 2 days.",
+      "date": "2026-02-20T11:49:05.469Z",
+      "version": "3.0.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Malcolm Eller",
+      "score": 3,
+      "text": "please enable us to report from android auto similar to Waze, otherwise Its going to be unsafe and impractical to report potholes.",
+      "date": "2026-02-20T08:05:45.838Z",
+      "version": "3.0.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Simon supersi",
+      "score": 1,
+      "text": "crashed and would work",
+      "date": "2026-02-14T09:53:51.926Z",
+      "version": "3.0.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Steve Locks",
+      "score": 3,
+      "text": "Sometimes have success but often frustrating as reports get marked as \"closed\" while they are still an issue and no useful information is given about what they are doing or how to follow up once \"closed\".",
+      "date": "2026-01-13T12:44:25.134Z",
+      "version": "3.0.2",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Richard Bacon",
+      "score": 4,
+      "text": "Not withstanding the bugs listed in other reviews this app works pretty well. It takes the hassle out of reporting an issue. Regarding the password forget issue, you don't have to log on to report, just add your email address at the end of the report and it will send an email for you to verify your report. They are also responsive to improvement suggestions. Lots of councils have adopted the app and are very responsive to reports sent on it.",
+      "date": "2025-11-21T10:44:24.140Z",
+      "version": "3.0.2",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Tim Lynch",
+      "score": 5,
+      "text": "Fast response from the council to problems with overgrown street and fly tipping.",
+      "date": "2025-10-21T22:08:21.511Z",
+      "version": "3.0.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Paul Sobek",
+      "score": 1,
+      "text": "doesn't even open",
+      "date": "2025-09-06T13:51:12.937Z",
+      "version": "3.0.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Regen James Gregg",
+      "score": 1,
+      "text": "The app is just the web page 🤷 pointless. Might as well just bookmark the site.",
+      "date": "2025-08-30T11:33:12.712Z",
+      "version": "3.0.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Cuthbert Baines",
+      "score": 5,
+      "text": "This app makes it really easy to report flytipping, I wish I'd known about it earlier.",
+      "date": "2025-08-23T06:10:11.635Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "David Clark-Bell",
+      "score": 4,
+      "text": "love this app but after updating to a new version I can not upload photos. please fix. I have uninstalled and reinstalled without a fix.",
+      "date": "2025-08-21T09:03:33.853Z",
+      "version": "3.0.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Peter Shellis",
+      "score": 5,
+      "text": "very effective.",
+      "date": "2025-08-10T12:14:07.744Z",
+      "version": "3.0.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Rick P",
+      "score": 1,
+      "text": "The app no longer opens the camera to take a picture making it a PITA to use. Backwards steps in updates",
+      "date": "2025-07-27T06:52:41.788Z",
+      "version": "3.0.2",
+      "thumbsUp": 7
+    },
+    {
+      "userName": "Victoria R",
+      "score": 5,
+      "text": "Reported 2 situations that have successfully been resolved. Most recently resolved within 3 weeks.",
+      "date": "2025-07-22T11:16:33.316Z",
+      "version": "3.0.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Aryan Dizayee",
+      "score": 1,
+      "text": "like the idea of this app, sounds great in theory. the issue is, the app simply does not work. Extremely buggy and just not possible to report anything. I am having the same issues with the website too. Just does not work.",
+      "date": "2025-06-30T14:55:53.489Z",
+      "version": "3.0.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Karen Smith",
+      "score": 1,
+      "text": "just a browser shell. the website is glitchy so then that means the app too is glitchy.",
+      "date": "2025-06-29T20:14:37.274Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Kaz Delita",
+      "score": 1,
+      "text": "It lets me select photos but then does not upload them. Also, it lets me select photos from Browse and from Screenshots but not from recent Camera photos. Cat be bothered with it anymore.",
+      "date": "2025-06-28T07:43:44.869Z",
+      "version": "3.0.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Graham P",
+      "score": 3,
+      "text": "App needs fixing, won't let me add photos. Apart from that it seems to work OK and I can report problems.",
+      "date": "2025-06-21T05:54:02.724Z",
+      "version": "3.0.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Greg Sutton",
+      "score": 1,
+      "text": "Can't login. Submit button doesn't work. Needs updating as it's very clunky now.",
+      "date": "2025-06-12T12:44:07.150Z",
+      "version": "3.0.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Steve Holland",
+      "score": 1,
+      "text": "after last update simply can't sign in on android 11",
+      "date": "2025-06-11T11:05:08.845Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Simon Morgan",
+      "score": 2,
+      "text": "I've successfully reported issues before, but I just tried to report one, submitted it, and it seems to have vanished into the either. When I try to log in, it doesn't do anything and just takes me back to the login page. I can log in fine using the website using the website on my PC.",
+      "date": "2025-05-18T11:14:55.233Z",
+      "version": null,
+      "thumbsUp": 3
+    },
+    {
+      "userName": "James Young",
+      "score": 5,
+      "text": "gets the jobs that the council should be doing ,Done",
+      "date": "2025-04-20T16:20:43.103Z",
+      "version": "3.0.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Filip Rasinski",
+      "score": 1,
+      "text": "The app is just not working. I reinstalled it twice, but it still didn't help!",
+      "date": "2025-04-16T09:49:12.328Z",
+      "version": "3.0.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Ashley D",
+      "score": 3,
+      "text": "Very useful app for reporting issues such as flytipping to the council. However, both the app and website are poorly designed. The UI isn't very user-friendly, and the app doesn't remember my login, so I have to enter it every time I submit a report. When zooming in/out of the map, it will sometimes close automatically, and there's no option to delete old reports, so my map is becoming cluttered.",
+      "date": "2025-04-09T10:50:21.742Z",
+      "version": null,
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Carole Connally",
+      "score": 5,
+      "text": "get things done quickly",
+      "date": "2025-03-25T16:06:38.439Z",
+      "version": "3.0.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Wendy West",
+      "score": 3,
+      "text": "when it works! just a waste of time really. you might as well phone the council or email them. I've taken it off my phone.",
+      "date": "2025-03-22T13:35:54.871Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Rob S",
+      "score": 2,
+      "text": "Good idea but the map UI is dreadful, almost impossible to zoom, pan and select.",
+      "date": "2025-03-10T07:04:02.703Z",
+      "version": "3.0.2",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "S H",
+      "score": 5,
+      "text": "Excellent for reporting",
+      "date": "2025-03-03T10:40:23.146Z",
+      "version": "3.0.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "nenya03",
+      "score": 1,
+      "text": "FixMyStreet is a good website, but this app just doesn't work. I submit something, get the confirmation screen, but then try to look at it later from my desktop PC and it's nowhere to be found. Happened on multiple occasions.",
+      "date": "2025-02-27T00:38:52.508Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Rod Read",
+      "score": 5,
+      "text": "Comhairle nan Eilean Siar Spot on You responded and fixed an issue in under 24 hours Wow",
+      "date": "2025-02-20T11:15:52.524Z",
+      "version": "3.0.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Neys Schreiner",
+      "score": 1,
+      "text": "The app manages to be worse than the browser interface. I wouldn't even call this an app.",
+      "date": "2025-01-17T12:42:47.570Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "John Murray",
+      "score": 1,
+      "text": "App doesn't work.",
+      "date": "2024-12-20T19:54:21.673Z",
+      "version": "3.0.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Thomas Kaye",
+      "score": 1,
+      "text": "Doesn't recognise roads anymore. Useless",
+      "date": "2024-12-18T06:39:45.332Z",
+      "version": "3.0.2",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Me Owd China",
+      "score": 1,
+      "text": "Three attempts. Report will not send. Sticking to council's website.",
+      "date": "2024-12-05T03:39:10.737Z",
+      "version": "3.0.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Phil Taylor",
+      "score": 1,
+      "text": "Now pointless. Used to be very good but it's now impossible to view or post issues through the app and moving around the map is very difficult. Can now only use this service through a desktop browser.",
+      "date": "2024-12-01T12:21:01.920Z",
+      "version": "3.0.2",
+      "thumbsUp": 8
+    },
+    {
+      "userName": "Ceslav Lipnevic",
+      "score": 1,
+      "text": "pointless app",
+      "date": "2024-11-13T20:07:18.878Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Excellent Service",
+      "date": "2024-11-09T14:46:18.171Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Ian Kennedy",
+      "score": 1,
+      "text": "Great for logging problems but local council are useless so app doesn't work. Also if your doing multiple ones, it puts them in the wrong place. Now the app keeps logging me out, so now 0 stars.",
+      "date": "2024-10-14T07:25:21.706Z",
+      "version": "3.0.1",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Jamesir Bensonmum",
+      "score": 5,
+      "text": "It's an app with good intentions and so far has worked well for me. Each of my reports have been dealt with, so it's working as intended. Very good.",
+      "date": "2024-10-08T08:58:14.713Z",
+      "version": "3.0.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Jamie Ellis",
+      "score": 4,
+      "text": "Needs an Dark Mode UI",
+      "date": "2024-10-04T19:48:34.429Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Anna D",
+      "score": 1,
+      "text": "Thought this would save me time as my voluntary work means I regularly find and report local problems on Fix My Street. However this app works less well than the website - loading maps, scrolling and panning are all problematic and don't work very well. Have now uninstalled.",
+      "date": "2024-09-24T13:53:27.732Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Ibrar",
+      "score": 5,
+      "text": "Excellent",
+      "date": "2024-09-02T05:21:40.682Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Luke",
+      "score": 1,
+      "text": "Its bascially faster and more effective to go through your councils website and use their reporting forms or email addresses. This app seems to lead to nothing getting done, and is easier for the council to ignore.",
+      "date": "2024-08-03T07:30:42.661Z",
+      "version": "3.0.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "R H",
+      "score": 1,
+      "text": "Pointless app merely forwards you to their website",
+      "date": "2024-06-28T20:25:19.479Z",
+      "version": "3.0.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Lynne Davis",
+      "score": 5,
+      "text": "Works well. Easier to use than the council's own online system for reporting non-working traffic lights, fly tipping, etc. And they do deal with the issues reported. Also, you can see what problems other people have reported, and add to those reports if appropriate rather than creating a duplicate.",
+      "date": "2024-06-26T08:30:55.564Z",
+      "version": "3.0.1",
+      "thumbsUp": 10
+    },
+    {
+      "userName": "Richard",
+      "score": 3,
+      "text": "It works, but it often logs me out, and doesn't switch me over to my borough's FixMyStreet. It's very slow to move the map around, and it hard to click items before you raise an issue, do you might end up double posting. Using your local areas web page is much easier, and saves having an extra app on your phone.",
+      "date": "2024-06-20T18:11:00.300Z",
+      "version": "3.0.1",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Jamie Morris",
+      "score": 2,
+      "text": "Wrapper for website, not designed properly for mobile devices",
+      "date": "2024-06-11T14:34:43.136Z",
+      "version": "3.0.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "John Thornley",
+      "score": 1,
+      "text": "Doesn't report to the local council.",
+      "date": "2024-06-07T14:21:50.350Z",
+      "version": "3.0.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Gary McMahon",
+      "score": 3,
+      "text": "Unable to login, links open in browser, unusable.",
+      "date": "2024-05-22T06:44:30.790Z",
+      "version": "3.0.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "William Skinner",
+      "score": 5,
+      "text": "Great App...",
+      "date": "2024-05-17T10:20:13.468Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Anthony Daniels",
+      "score": 2,
+      "text": "Despite what you say, the app still logs you out between sessions so if you report something , you still have to log in each time. Annoying - was meant to be fixed.",
+      "date": "2024-03-27T14:24:27.632Z",
+      "version": "3.0.1",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Adrian ZUM",
+      "score": 5,
+      "text": "For me in UK west midlands the report for potholes was a success 24h response from local council and 48h problem solved!. Thank you for this app.",
+      "date": "2024-03-27T13:29:03.470Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Dave Rutt",
+      "score": 5,
+      "text": "At last, an easy way to report potholes, anywhere in the country.",
+      "date": "2024-03-25T12:11:34.130Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Brian Passingham",
+      "score": 3,
+      "text": "Before you played about with this app, it was perfect. But now you are unable to report any problems. Perhaps this is what you want.",
+      "date": "2024-03-24T14:05:56.894Z",
+      "version": "3.0.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Joshua Waller",
+      "score": 1,
+      "text": "Location via GPS longer works",
+      "date": "2024-03-19T16:17:48.450Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Pete Busby",
+      "score": 1,
+      "text": "Terrible app, location doesn't work, unable to pan map, can zoom in but not out, uses the mobile site just within an app. Uninstalled and continue using Love clean streets instead. Pixel 8 Pro",
+      "date": "2024-03-12T08:37:38.195Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Hamish Fenton",
+      "score": 2,
+      "text": "Hmm that doesn't seem to be working right now. Check again in a few minutes. --- the oh so regular message when you try to make a report. It's just lost everything you've entered.",
+      "date": "2024-03-10T07:21:19.204Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Rockin' Johnny Aitken",
+      "score": 1,
+      "text": "Just what we need to report cars taking up our pavements but hang on it comes up showing the spanner then nothing happens no program no working. When I click on the program it just starts to show a yellow screen with a picture of a spanner then freezes, update: 19th Feb 2024, still freezes upon bootup with yellow screen showing spanner.",
+      "date": "2024-02-19T21:31:27.286Z",
+      "version": "3.0.1",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "Alexander “Alex” Lewis",
+      "score": 5,
+      "text": "FixmyStreet does the impossible and gets the council to do something. It is a much easier way to report issues than phoning or emailing the council. It would be nice if I didn't have to verify every report but still gets 5*s because of the amazing service.",
+      "date": "2024-02-03T07:31:58.430Z",
+      "version": "3.0.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Daniel kirk",
+      "score": 1,
+      "text": "won't alow permissions for location. too many unnecessary steps to submit an issue. why send an email confirmation after I have logged in, reported and then confirmed in the app? why can't I create a similar report using a template for example.",
+      "date": "2024-02-01T11:18:25.728Z",
+      "version": "3.0.1",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "TRACY Howell",
+      "score": 5,
+      "text": "Great app to have help great app to have help your st",
+      "date": "2024-01-31T13:52:51.245Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Alan Lowe",
+      "score": 3,
+      "text": "It always says I'm offline and no connection, but I'm not, at home with good WiFi.",
+      "date": "2024-01-29T15:20:27.181Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Christopher Allen",
+      "score": 2,
+      "text": "Basildon council email address no longer works. Looks like this app is defunct presently. Update backend",
+      "date": "2024-01-26T22:29:14.771Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "david seager",
+      "score": 1,
+      "text": "Almost useless for Wolverhampton",
+      "date": "2024-01-21T12:42:24.377Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Tony O'Donnell",
+      "score": 1,
+      "text": "It's just a chrome link.",
+      "date": "2024-01-01T10:38:02.853Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Simon D",
+      "score": 3,
+      "text": "Many faults in this useful app have been fixed by the recent update, but the app still fails to keep me logged in. When I submit a report, I have to wait for an email to arrive to confirm the report. This is an annoying extra step that wastes time when filling in reports on the go, so I can't go higher than a 3 star rating until this is fixed. The developer failed to acknowledge that this fault still exists when responding to my last review.",
+      "date": "2023-11-08T09:31:00.558Z",
+      "version": "3.0.1",
+      "thumbsUp": 16
+    },
+    {
+      "userName": "Kasabugu",
+      "score": 1,
+      "text": "Doesn't work any more! 'Makes sending reports simple'? You must be joking!!! Have tried for 3 days to send report on a water leak but get message that it's an invalid report enter full name council needs this....and please select a category ( nothing to select). Back to web site for reporting problems.",
+      "date": "2023-09-05T15:29:32.867Z",
+      "version": "3.0.1",
+      "thumbsUp": 8
+    },
+    {
+      "userName": "Roger N",
+      "score": 1,
+      "text": "Every page of the updated app now features same unnecessarily prolonged introduction referring to ULEZ issues when I try to complete a report. App tells me of latest reports, usually miles away as opposed to latest LOCAL reports which might be of use. It keeps logging me out. Today I had almost completed a report and at last stage the app invited me to log in in order to automatically populate my name etc. I did so and app kindly deleted content of my report without saving it. So I gave up.",
+      "date": "2023-09-04T00:04:29.747Z",
+      "version": "3.0.1",
+      "thumbsUp": 9
+    },
+    {
+      "userName": "Clive",
+      "score": 5,
+      "text": "Have all ways had a good response from council and things got done.",
+      "date": "2023-08-13T10:47:01.410Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "S. D.",
+      "score": 5,
+      "text": "Really effective app. Used it loads!",
+      "date": "2023-08-11T06:58:20.372Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Katrina Stamp",
+      "score": 5,
+      "text": "So easy to use! Fast responses. Would be good to see evidence of the fix with a photo back",
+      "date": "2023-07-16T14:13:41.223Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Mark",
+      "score": 4,
+      "text": "Handy app to make reports to local authority. I would like to be able to just tick an issue has been resolved without the need to comment",
+      "date": "2023-07-12T22:53:06.106Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Dave Bell",
+      "score": 2,
+      "text": "Buggy and appears to run on Google Chrome rather than being a distinct App. Map is rather limited and few reported problems appear to be cleared. Not sure if my local council ever acts on reported problems.",
+      "date": "2023-07-12T11:13:28.370Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Adam Williams",
+      "score": 1,
+      "text": "Not an app Glorified WebView wrapper.",
+      "date": "2023-07-11T17:12:35.271Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Dave Badminton",
+      "score": 2,
+      "text": "Not an easy app to use. Doesn't remember your login so every time you want to use it you have to login. The location is not very accurate and everything is a little clunky. Was a much better app before",
+      "date": "2023-07-09T15:40:31.791Z",
+      "version": "3.0.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Laurence Dagley",
+      "score": 1,
+      "text": "It is not as good as it used to be as it takes ages sometimes weeks for council to acknowledge my reports",
+      "date": "2023-06-28T15:10:39.225Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Mark Thompson",
+      "score": 1,
+      "text": "Buggy as hell. When trying to use the map to locate a problem and drop the pin, the map goes crazy, zooming in and out on its own accord, moving in complete opposite directions to what your intending. Totally unusable.",
+      "date": "2023-06-28T11:34:30.857Z",
+      "version": "3.0.1",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Roke Beedell (RokeJulianLockhart)",
+      "score": 2,
+      "text": "Just a WebView. Even a PWA would be preferable.",
+      "date": "2023-06-26T01:18:08.316Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Steph ; Blind Beekeeper",
+      "score": 5,
+      "text": "This app is generally the best! At getting things done. I never expected it. I just hope my contribution helps my neighbours to enjoy the neighbourhood as much as i do.",
+      "date": "2023-06-25T18:41:57.115Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Naeem Yousef",
+      "score": 2,
+      "text": "Preferred previous version. As now you've got to login every time, especially if you clear out caches on your phone.",
+      "date": "2023-06-20T08:56:36.799Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "christopher auger",
+      "score": 5,
+      "text": "Well intentioned and potentially satisfying for those with problems. Needs instructions how to use this app. Easier than reporting by email. Intuitive app.",
+      "date": "2023-06-18T23:40:03.817Z",
+      "version": "3.0.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Chadley Wilson",
+      "score": 1,
+      "text": "map navigation is impossible, swiping up and down causes map to zoom. So I can't get it to the place I want it. Stupid",
+      "date": "2023-06-13T06:35:57.712Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "G B",
+      "score": 4,
+      "text": "Dropped star mapping not as good since New UI 2023 Reported jobs fixed in days central Somerset can't moan great app.. Also you can follow up as fixed by clicking on your original marker to get the fix removed from map... 👌 Keep signing me out and marker keeps picking up other reports when dragging past them on map 😞",
+      "date": "2023-06-12T21:25:07.732Z",
+      "version": "3.0.1",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Christopher Kent",
+      "score": 1,
+      "text": "Rubbish The latest update has completely ruined this and made it hard to report anything. It just doesn't work now",
+      "date": "2023-06-04T17:03:23.746Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Elle Gee",
+      "score": 5,
+      "text": "It is so easy to use to report flytipping for example.",
+      "date": "2023-06-01T12:41:36.140Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Mark Willis",
+      "score": 2,
+      "text": "Latest update is much harder to use, moans if you don't pick a road, takes longer to report issues, a real step backwards.",
+      "date": "2023-05-29T17:53:58.523Z",
+      "version": "3.0.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Zafer",
+      "score": 2,
+      "text": "Awful new experience. It used to be great, you'd choose what you needed and reported and it gave advice and guidance. Now it's just a shortcut to their website, it's buggy and hardly works. I've noticed that since the update the notifications may not be sending to councils? I reported a load of potholes and heard back nothing from my council, this have been them though so not sure.",
+      "date": "2023-05-23T19:17:21.310Z",
+      "version": "3.0.1",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Campbell Milne",
+      "score": 4,
+      "text": "Works well, need link back to reports for follow up purposes.",
+      "date": "2023-05-19T13:44:08.165Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "curt",
+      "score": 1,
+      "text": "Doesn't work; upon opening, it just takes me to sign-in page for Hapi benefits and has no functionality whatsoever to report road problems. I tried signing in with Hapi account from my employer and this just takes me to my employer's benefit page, again without the expected functionality.",
+      "date": "2023-05-12T17:12:33.590Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "carl granger",
+      "score": 2,
+      "text": "Latest update has ruined the app, was far more user friendly before. **Edit** Local council now emails you back after submitting a report via this app telling you not to use the app.",
+      "date": "2023-05-11T11:15:49.950Z",
+      "version": "3.0.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Billy Williams",
+      "score": 3,
+      "text": "I can now open the app",
+      "date": "2023-05-07T13:38:27.123Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "GERALD CURRELL",
+      "score": 5,
+      "text": "Positive service and it works.",
+      "date": "2023-05-05T08:34:18.849Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Susie Superlative",
+      "score": 4,
+      "text": "Map view difficult to fix a location - it jumps and pans of its own accord!",
+      "date": "2023-05-03T15:32:33.596Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "John Goodbody",
+      "score": 2,
+      "text": "The old app was much better, be better to reinstate that.",
+      "date": "2023-05-02T20:05:30.945Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Zak",
+      "score": 4,
+      "text": "'Use my current location' is now fixed but the navigating around the map is not smooth, it jumps about. Thanks for the reply, still the same 01/05/23",
+      "date": "2023-05-01T17:48:37.580Z",
+      "version": "3.0.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "John Williams",
+      "score": 5,
+      "text": "Had issues after update but reinstalled and excellent again. Thank you for your rapid response",
+      "date": "2023-04-30T14:57:50.185Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Bec Fawcett-Howitt",
+      "score": 4,
+      "text": "Edit: The problem has been solved now, which is good. Thank you for responding to my email regarding the issue. What have you done? The previous version was fine. I can't actually navigate the map because it just zooms in.",
+      "date": "2023-04-30T12:22:21.427Z",
+      "version": "3.0.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Derek Batterbee",
+      "score": 1,
+      "text": "Lined up the target....got a message that it is not a road?????????? Waste of time!",
+      "date": "2023-04-28T15:40:18.320Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Lucy Evison-Birks",
+      "score": 4,
+      "text": "Great for what it's for, wish it had the areas correct. NORTON is in Sheffield. Not the entire area of Sheffield.",
+      "date": "2023-04-27T23:05:30.122Z",
+      "version": "3.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Matt M",
+      "score": 4,
+      "text": "The map interaction was not working after the latest update. It was quickly fixed and now the app is working much better.",
+      "date": "2023-04-20T23:31:40.544Z",
+      "version": "3.0.1",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Jackie W",
+      "score": 1,
+      "text": "Latest update not installing",
+      "date": "2023-04-13T14:25:30.392Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "steve w",
+      "score": 1,
+      "text": "Latest update not installing 13/4/23",
+      "date": "2023-04-13T14:24:40.658Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Andrew Cunningham",
+      "score": 5,
+      "text": "Things get sorted within days of reporting them 👍",
+      "date": "2023-04-13T13:15:25.618Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Daniel Michael",
+      "score": 1,
+      "text": "Doesn't work since latest update. Can't use my location and in-app map just zooms rather than moves.",
+      "date": "2023-04-12T15:22:06.832Z",
+      "version": "3.0.0",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Nikki Coulson",
+      "score": 3,
+      "text": "Brilliant idea, but reports go to the wrong council. Most of the reports should go to county councils not local councils. No point in me using this, I will just go to the County Council web site instead. Sorry, I would love to support your app but it is incorrect.",
+      "date": "2023-03-15T19:56:37.267Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Colin S",
+      "score": 5,
+      "text": "Brilliant app that saves lots of effort if you travel the UK. Works really well.",
+      "date": "2023-03-08T16:38:47.670Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Mike Thompson",
+      "score": 2,
+      "text": "Great idea, poor execution. Multiple attempts at uploading pics failed, or maybe they didn't no feedback in app.",
+      "date": "2023-03-06T13:23:43.370Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "X X",
+      "score": 1,
+      "text": "No moderation. Recommend you use the councils app instead. This app has too many trolls allowed to post anonymously with xenophobic and derogatory language.",
+      "date": "2023-02-07T14:51:55.105Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "David Smith",
+      "score": 1,
+      "text": "Pointless. Council's do not acknowledge \"Fix My Street\" anymore. A council email confirmed this following report submissions.",
+      "date": "2023-01-11T14:07:18.296Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Jonesy Jones",
+      "score": 5,
+      "text": "The app is brilliant. What is not brilliant is the fact that many Local Authority Highways Departments are refusing to accept Fix My Street reports to exonerate themselves from blame when a report is made. Sadly that is the corrupt councils not the fault of the excellent app nor its developers. Shame on those in local government who put their figures above public safety.",
+      "date": "2023-01-04T18:00:59.165Z",
+      "version": "2.6",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Christine “BissyBee” Baker",
+      "score": 4,
+      "text": "Job completed great service",
+      "date": "2022-12-11T20:52:17.604Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Abdel Karim Bensiali (Karim)",
+      "score": 4,
+      "text": "FizMyStreet froze and stopped working",
+      "date": "2022-12-09T14:46:23.186Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "aSky",
+      "score": 1,
+      "text": "the app is terrible and outdated. i am not sure if it's even maintained. wish there was an alternative to this service",
+      "date": "2022-10-15T23:04:42.470Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Tom Bishop",
+      "score": 1,
+      "text": "App requires me to log in but has no facility for me to register in order to be able to log in. Elementary design flaw.",
+      "date": "2022-08-09T17:56:15.840Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Pauline Devlin",
+      "score": 5,
+      "text": "Let's the public report problems.",
+      "date": "2022-07-09T11:22:58.666Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Aaron S",
+      "score": 5,
+      "text": "A great tool for reporting issues to local authorities.",
+      "date": "2022-06-29T18:33:35.598Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Steven Topping",
+      "score": 1,
+      "text": "Terrible app, constantly freezes",
+      "date": "2022-06-14T12:49:01.741Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "LE R",
+      "score": 5,
+      "text": "Fantastic for reporting local area faults like pot holes, street lighting, fly tipping etc",
+      "date": "2022-05-24T08:09:12.470Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Simon Vivian",
+      "score": 1,
+      "text": "Wouldn't accept report. I get to the confirmation of name page and it says 'Invalid Report' and 'Choose a category' when there don't seem to be any categories from which to choose.",
+      "date": "2022-04-18T17:40:29.585Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Claire",
+      "score": 1,
+      "text": "very stressful. didn't show me my area repairs.",
+      "date": "2022-03-31T20:22:27.398Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "DAVID ROBINSON",
+      "score": 1,
+      "text": "I have tried it many,many times but does not make any impression on my local council- Essex County Council. They say they have never received anything. So I'm afraid I've given up on it - such a good idea but does not work",
+      "date": "2022-02-28T08:40:27.966Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Shaolin Jaa",
+      "score": 5,
+      "text": "Excellent app that makes reporting problems a breeze (far easier than trying to navigate council websites). Received a reply the very next day.",
+      "date": "2022-02-15T12:16:23.407Z",
+      "version": "2.6",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Lydia Capaldi",
+      "score": 1,
+      "text": "Not available for where I live so uninstalled. Download it and give it a whirl, if you live somewhere that it is available for it may be useful.",
+      "date": "2022-02-06T17:10:58.695Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Greg Forward",
+      "score": 5,
+      "text": "Excellent app. - I submitted a report via this app., then just 2 days later received an email from the authority responsible for the issue raised promising to investigate it.",
+      "date": "2022-02-03T16:24:58.779Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Dominic Hargreaves",
+      "score": 3,
+      "text": "Works but should not require files access just to take a photo!",
+      "date": "2022-02-01T19:12:07.961Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "David",
+      "score": 1,
+      "text": "Vale of Glamorgan council obviously don't use it. Nothing ever gets fixed, app is good idea but council must buy into it.",
+      "date": "2022-01-10T13:00:57.327Z",
+      "version": "2.6",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Kelly Taylor",
+      "score": 1,
+      "text": "The app no longer works but you can still use the site.",
+      "date": "2022-01-05T18:53:35.146Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Stewart Robertson",
+      "score": 1,
+      "text": "I'm not sure it still works. It worked well when I first installed it but over the last few occasions something has seemed to go wrong. It eithers stick in the middle or seems to be uploading the photos but never gets to the end. I can't be bothered anymore, it takes too much time.",
+      "date": "2022-01-02T11:36:31.927Z",
+      "version": "2.6",
+      "thumbsUp": 7
+    },
+    {
+      "userName": "Tim Rodriguez",
+      "score": 3,
+      "text": "The app is basic and could do with something like uplikes from others, satellite view of map, auto log in using google/Facebook, confirmation inbox that someone has noticed it and work will begin.",
+      "date": "2021-12-30T10:18:36.766Z",
+      "version": "2.6",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Clive",
+      "score": 5,
+      "text": "Great app",
+      "date": "2021-12-25T12:40:18.335Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "The app does not allow you to open an account with it, thus sabotaging its purpose. This is an elementary failure.",
+      "date": "2021-12-14T10:28:39.148Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Sweetazanutjutt",
+      "score": 5,
+      "text": "This actually works really well, I phoned my local council 3 times to get a street light issue sorted with no luck but as soon as I sent an issue via this app it was sorted within 24hrs",
+      "date": "2021-12-13T12:15:48.293Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Ian Dowd",
+      "score": 2,
+      "text": "What's the point, can't register.",
+      "date": "2021-12-07T10:09:15.898Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Eric Orton",
+      "score": 1,
+      "text": "does not work at all",
+      "date": "2021-12-02T20:05:48.704Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Robert Lawson",
+      "score": 1,
+      "text": "Keeps asking for a password which i have not got",
+      "date": "2021-12-02T20:02:25.200Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "C Moy",
+      "score": 1,
+      "text": "Doesn't find my location, doesn't load a map. Only other option is to login but no way to register an account to actually log in. Might as well uninstall it 🤷‍♀️",
+      "date": "2021-12-02T20:01:22.571Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Grant Boardman",
+      "score": 1,
+      "text": "Unable to make an account, tried numerous times to no avail ☹",
+      "date": "2021-12-02T20:00:27.761Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "U2021",
+      "score": 1,
+      "text": "Useless, my local council together with most others do not accept reports from this company, they have to be reported direct. So the app serves no purpose. Now uninstalling.",
+      "date": "2021-11-22T10:26:44.830Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Jeanette Smith",
+      "score": 4,
+      "text": "Had a couple of eyesores fixed through reporting them on this app. Very good.",
+      "date": "2021-09-21T10:54:18.194Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "J I",
+      "score": 4,
+      "text": "Great at what it does, all UK councils should be compelled to accept reports from it. Slightly clunky in that you constantly need to sign into it.",
+      "date": "2021-08-02T07:21:20.698Z",
+      "version": "2.6",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Lucas P",
+      "score": 5,
+      "text": "This has to be the best thing for people and councils of reporting issues. Straight to the right person and issues usually resolved in 24 hours its amazing and something the public sector seriously needed",
+      "date": "2021-07-19T13:31:44.213Z",
+      "version": "2.6",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Ashvin Halai",
+      "score": 2,
+      "text": "App needs to be able to save user details to stop having to re-input every single time and then have to confirm with email.",
+      "date": "2021-07-02T13:19:39.718Z",
+      "version": "2.6",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Martin Wood",
+      "score": 1,
+      "text": "I would give no stars. Do not install. Reported potholes through this several months ago to now be sent an email to say that they are no longer taking reports from this app... what's the point!!",
+      "date": "2021-05-27T21:02:45.865Z",
+      "version": "2.6",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Luke O'Rafferty",
+      "score": 3,
+      "text": "The app seems to get the job done but it does put as many obstacles in your way as possible. It doesn't bother remembering your password so you have to log in every time and even then you have to confirm every report via email anyway. At there's a confirmation that the council have received the issues but I never see any resolution to the issues Will probably go back to Love Clean Streets",
+      "date": "2021-05-05T16:26:08.730Z",
+      "version": "2.6",
+      "thumbsUp": 31
+    },
+    {
+      "userName": "Stephen McGrath",
+      "score": 5,
+      "text": "Downloaded and used twice within 48hrs to report fly tipping to two different local authorities. Really easy to use. Terrific sercive from local authorities.",
+      "date": "2021-04-20T18:23:44.333Z",
+      "version": "2.6",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Tim P",
+      "score": 5,
+      "text": "Great app for reporting visual local issues",
+      "date": "2021-04-15T09:34:58.750Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Tim Booker",
+      "score": 4,
+      "text": "Doesn't upload anything. Just takes me round in circles asking that I choose a category, when there is no category option to choose from.",
+      "date": "2021-04-05T21:10:56.822Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Colin Livingston",
+      "score": 3,
+      "text": "Good app however would be good to see what you have reported as history on account?",
+      "date": "2021-04-05T12:25:54.485Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Barry Major",
+      "score": 1,
+      "text": "Ignores area asked for",
+      "date": "2021-03-31T21:04:21.314Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Paul Jex",
+      "score": 4,
+      "text": "Good app, frustrating that South Somerset Council keep telling me to report the issue again on their web site to save them having to duplicate the fix my street report. So whats the point of this app if they keep redirecting me to their web site. Sounds like there's no integration what so ever.",
+      "date": "2021-03-10T19:30:11.350Z",
+      "version": "2.6",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Alan Harwood",
+      "score": 3,
+      "text": "Just downloaded this app as we have major fly tipping problems locally. I was a bit bemused by the fact that, on the app, you can sign into your account but there is no tab to allow a new user to create their account. I had to go via Google and ask it how this was done and follow the link to a different page that is not part of the app itself. Curious to say the least & the app developers should address this. I've not used the app in anger yet but we shall how it goes.",
+      "date": "2021-02-26T16:05:15.396Z",
+      "version": "2.6",
+      "thumbsUp": 10
+    },
+    {
+      "userName": "Geoffrey Llewellyn",
+      "score": 5,
+      "text": "First class.",
+      "date": "2021-02-18T08:27:35.713Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Richard Stiling",
+      "score": 5,
+      "text": "It works",
+      "date": "2021-01-25T09:21:01.822Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Yosemite “Yosemite”",
+      "score": 4,
+      "text": "The idea behind this app is great and it is generally very useful. I've reported dozens of full bins, broken steps, fly tipping ect and the council does really take notice and fix the issues. However, lately I have to constantly login and confirm reports with follow up emails which I didn't need to do previously. The maps and menus are fairly clunky and could do with a freshen up.",
+      "date": "2021-01-10T14:47:01.504Z",
+      "version": "2.6",
+      "thumbsUp": 47
+    },
+    {
+      "userName": "Sharon Ladlow (Ladders0812)",
+      "score": 5,
+      "text": "Great App for reporting various issues from pot holes, dog fouling to illegal parking and loads more",
+      "date": "2020-12-02T18:32:34.940Z",
+      "version": "2.6",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Mike Shepherd",
+      "score": 4,
+      "text": "Good idea and extremely useful. However,on the app, I can't find a link to check progress etc and so I need to open the web site directly to find what I want. Or am I missing something?",
+      "date": "2020-11-29T10:42:27.949Z",
+      "version": "2.6",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Rachel Ottery-Driscoll",
+      "score": 4,
+      "text": "I love this app and use it regularly, sometimes a little hard to navigate so 4 🌟",
+      "date": "2020-09-26T18:19:43.277Z",
+      "version": "2.6",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "rich peas",
+      "score": 5,
+      "text": "Used to be spot on & deserves 5 stars but through no fault of Fix My Street, my local council now no longer excepts reports from third parties. What's all that about?",
+      "date": "2020-08-19T17:51:17.210Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Jack",
+      "score": 4,
+      "text": "Clunky old looking interface but the app does work well otherwise. I have confidence using it, however myself and others would feel more confident if the interface was brought up to date",
+      "date": "2020-08-13T23:07:46.129Z",
+      "version": "2.6",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Jon Pennycook",
+      "score": 3,
+      "text": "The app keeps forgetting that I have an account, so prompts for a password. I would prefer if OpenStreetMap was used - more accurate. FixMyStreet is easy to use. It asks you where the problem is, to select a type of problem, then to describe it, offering the choice of submitting a photo too. Based on the type and location, it works out which is the right council to send it to. I use it mostly to report potholes, overgrown paths, graffiti, flyposting, flytipping, and missed bin collections",
+      "date": "2020-08-03T07:19:12.317Z",
+      "version": "2.6",
+      "thumbsUp": 13
+    },
+    {
+      "userName": "chris pilgrim",
+      "score": 5,
+      "text": "Great app easy to use",
+      "date": "2020-07-18T15:58:04.278Z",
+      "version": "2.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Clare Grayson",
+      "score": 5,
+      "text": "Fab app to report fly tipping!!",
+      "date": "2020-07-13T22:24:41.668Z",
+      "version": "2.6",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Tom",
+      "score": 2,
+      "text": "You need to start removing older reports from more than 5 or 6 months ago. Why isn't this done automatically? The report markers end up clogging up certain roads otherwise.",
+      "date": "2020-05-29T05:36:03.300Z",
+      "version": "2.5",
+      "thumbsUp": 7
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Fairly good app",
+      "date": "2020-04-19T15:54:17.600Z",
+      "version": "2.5",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Resolve reports so quickly. When ever I report to council never gets sorted. Fix My Street always resolves & promptly too.",
+      "date": "2020-03-28T07:11:42.154Z",
+      "version": "2.5",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "The council don't even fix the problems reported! Waste of time!",
+      "date": "2020-03-07T13:07:51.212Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Good reporting app. Much better than the council's own and things get dine. Would like if I could drop more than one pin in roads that have several .",
+      "date": "2020-03-04T18:01:13.622Z",
+      "version": "2.5",
+      "thumbsUp": 7
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Very good app, very quick response when reports put in, brilliant idea.",
+      "date": "2019-10-03T12:10:50.144Z",
+      "version": "2.3",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "easy to use",
+      "date": "2019-09-26T09:16:59.870Z",
+      "version": "2.3",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Pointless when the council refuse to do anything the dog fouling around ours is disgusting I sent 12 reports in 4 days and nothing been done waste of a app thanks flintshire council for nothing",
+      "date": "2019-09-26T06:30:07.959Z",
+      "version": "2.3",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Works better then contacting Birmingham City Council direct... Less jargon more action!",
+      "date": "2019-09-11T08:09:01.649Z",
+      "version": "2.3",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Works perfectly, photos load without a problem, report sent to highways and fault was fixed within three days. I don't understand stand other reviews that say the app crashes, or that their reports are ignored. Just to repeat it works perfectly and is very easy to use.",
+      "date": "2019-09-06T16:01:49.907Z",
+      "version": "2.3",
+      "thumbsUp": 29
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "App is now almost completely useless, crashes as you try to upload a photo making it almost impossible to log a report. Used to work perfectly, now it's a waste of time and effort.",
+      "date": "2019-09-02T18:38:41.265Z",
+      "version": "2.3",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "doesn't get location",
+      "date": "2019-08-12T18:29:51.884Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Not sure if the service still works (some info regarding this is confusing within the app itself), but it helped our block with the fly tipping problem we are experiencing on a regular basis.",
+      "date": "2019-08-10T08:11:40.445Z",
+      "version": "2.3",
+      "thumbsUp": 7
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "\"The council is not responsible for maintaining ...\" please contact the other guys.(Highways England) \"Please describe the exact position of the manhole as we can't read the map\"",
+      "date": "2019-07-30T05:06:36.853Z",
+      "version": "2.3",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "excellent app",
+      "date": "2019-07-01T06:35:09.639Z",
+      "version": "2.3",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "My local Council has now started refusing to take reports via this app. North Somerset Council informs me it has no way to process your reports and will only accept reports via thier website or telephone. They have accepted reports in the past, so in my experience this is only a recent issue. I did report this too you once before, you informed me you get mixed messages from the NS Council officers, but rest assured my last 3 reports using your app have been refused by NS Council.",
+      "date": "2019-05-28T17:27:26.400Z",
+      "version": "2.3",
+      "thumbsUp": 12
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "If only it let you login......the website does.",
+      "date": "2019-05-16T08:13:59.770Z",
+      "version": "2.3",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "unable to set up so not working",
+      "date": "2019-04-24T09:18:05.808Z",
+      "version": "2.3",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "great app",
+      "date": "2019-04-06T02:08:55.295Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Great app that got me results. Too good that my council no longer accepts reports from the app. Sad.",
+      "date": "2019-03-27T22:14:04.247Z",
+      "version": "2.3",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Used a lot but now broken. when reporting any new issue it wants further details but the options are blank and it will not allow this part to be skipped so in the end no report can be sent.",
+      "date": "2019-03-09T13:45:43.810Z",
+      "version": "2.3",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "generally well designed, although it would be helpful to be able to zoom in even closer to the map - on locations where many problems have already been reported withoverlapping pins, it is difficult to see whether a problem has been reported already.",
+      "date": "2019-03-03T13:39:07.391Z",
+      "version": "2.3",
+      "thumbsUp": 12
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Very useful .",
+      "date": "2019-02-16T18:12:43.120Z",
+      "version": "2.3",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "First report and the app crashes half way through. Great!",
+      "date": "2019-01-03T13:41:46.371Z",
+      "version": "2.3",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Cant even load location",
+      "date": "2018-09-17T06:13:11.840Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Very,very, very slow",
+      "date": "2018-08-13T09:50:04.729Z",
+      "version": "2.2.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "The app is ok and has worked in the past. My local council, Barnsley \nMetropolitan Borough Council no longer accept reports via the app",
+      "date": "2018-08-10T21:47:10.839Z",
+      "version": "2.2.1",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "Works okay until you click more info on a report. The report opens but as \nsoon as you come off that report app goes all jerky and doesn't load any \nmore very easily.",
+      "date": "2018-08-03T18:28:38.523Z",
+      "version": "2.2.1",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Great idea if only Birmingham council did the job that you were reporting! \nI think that the council are no longer bothered with the FixMy Street app \nor the people who report issues. The app was good at first but has now it's \nlost its clout!",
+      "date": "2018-06-21T08:15:19.835Z",
+      "version": "2.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Great idea. Fails to mark fixed issues and no response from bigger \nproblems. Some kind of feedback / option to be included in any email chains \nwould be good.",
+      "date": "2018-06-18T23:25:39.889Z",
+      "version": "2.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Works ok for reporting problems, but there's no follow-up when problems \nhave been fixed. The map of my village shows multiple reports across a 4 \nyear period which gives the impression that (the current) potholes have \nbeen reported. I suggest that the developers auto-clear reports after 3 \nmonths (after confirming with the rapporteur). In its present form, the \nvalue of the app simply diminishes as time goes by...",
+      "date": "2018-05-04T07:12:50.109Z",
+      "version": "2.0.10",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Fantastic app! A problem I've noticed though: when reports are too close \ntogether on the map, I can't get to them to open because they're \noverlapped. I also suggest highlighting the \"fixed\" reports in a different \ncolour.",
+      "date": "2018-04-22T09:24:48.439Z",
+      "version": "2.0.10",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Very  poor! Tried many times does not send  validation email.",
+      "date": "2018-03-09T11:20:30.806Z",
+      "version": "2.0.10",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Useless. Keeps asking me to confirm my name and won't submit reports.",
+      "date": "2018-03-08T14:06:08.500Z",
+      "version": "2.0.10",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "Good app if anyone would bother to remove all old jobs. I work for a council collecting some of these jobs but it has stuff on there from two years ago.",
+      "date": "2018-02-23T10:03:50.478Z",
+      "version": "2.0.10",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Used to submit loads of reports. Local council do listen and fix problems I've reported via FMS. Developers are friendly and responsive, too, which is nice to see!",
+      "date": "2018-02-05T10:21:42.298Z",
+      "version": "2.0.10",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "The site/app would be better in general if older reported issues were automatically cleared instead of it showing all reported faults.",
+      "date": "2018-01-28T12:30:31.441Z",
+      "version": "2.0.10",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "No longer works. Does not show reported problems on map anymore.",
+      "date": "2018-01-18T14:48:53.947Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "Report numerous potholes. Not one has been fixed.",
+      "date": "2018-01-04T03:47:47.934Z",
+      "version": "2.0.10",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "It does what it say it does and makes it easy",
+      "date": "2017-12-30T16:04:01.542Z",
+      "version": "2.0.10",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "All I get is this information is required so can't finish any report",
+      "date": "2017-10-26T12:56:06.196Z",
+      "version": "2.0.10",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "Brilliant idea, flawed implementation. Two issues: outdated app, and lack of council involvement. The app feels like something circa 2011. The council's aren't motivated to respond to anything raised through FMS which makes it quite pointless.",
+      "date": "2017-10-13T22:12:19.506Z",
+      "version": "2.0.10",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Useless. Cannot submit reports as states info is required despite all the fields being completed. Shame, as until a few months ago worked well.",
+      "date": "2017-09-24T16:32:23.167Z",
+      "version": "2.0.10",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Was really good and worked well.  My local authority emailed me yesterday saying they no longer accept reports from fixmystreet and all reports must be made on their own page.   NO LONGER USABLE",
+      "date": "2017-09-19T07:37:37.517Z",
+      "version": "2.0.10",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Works well when it works. However, I keep getting a message saying it cannot locate my position when i am anywhere remotely rural which makes it hard to report fly tipping.",
+      "date": "2017-08-02T08:59:10.741Z",
+      "version": "2.0.10",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Generally good  - does what it says on the tin - but a few niggles: it forgets my password so I keep having to re-enter it every time and select for an anonymous submission, and when you try to update an entry, it takes you out of the app and into the website.",
+      "date": "2017-07-06T18:01:20.472Z",
+      "version": "2.0.10",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "The councils hate this app.  So far 3 different Borough councils I have had problems with. One of which will ignore any reports coming in via email from this app as they can't keep up with the work load.  One will simply reply saying you need to Contact the relevant department (other words they are exhausted of forwarding the report themselves) and one other not to name bounces emails back and asks for it to be reported on their own site.  All in all.  This app is a brilliant idea.  But depending on which Borough /council the reports will go to depends how they will treat it,  credit to a couple of councils whom actually got repairs done within 48 hours!",
+      "date": "2017-06-13T13:24:23.447Z",
+      "version": "2.0.9",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "This was useful but no longer allows posts because despite filling out name and title it tells you that Title information is required.  So now useless!  Using Samsung S7 edge with Android 7.",
+      "date": "2017-06-07T10:33:24.524Z",
+      "version": "2.0.10",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "Gave up and went back to desktop version.  Could not expand the map large enough to pinpoint an item as it was already so cluttered with pins. Needs to be able to zoom in much further.",
+      "date": "2017-04-19T08:37:22.825Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "Great way to end up in the middle of an argument between a council and a contractor eager to make as many charges for no fault found as possible.",
+      "date": "2017-02-24T20:29:03.992Z",
+      "version": "2.0.10",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Easy to use,  but please add an option to hide fixed reports or at least show them in a different colour.",
+      "date": "2017-02-22T07:27:21.532Z",
+      "version": "2.0.10",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Reported dumped mattress in the street. Council came round within 2 hours and picked it up. Impressed.",
+      "date": "2017-02-20T13:32:17.296Z",
+      "version": "2.0.10",
+      "thumbsUp": 13
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "This app is  rubbish  I couldn't even  log into it I saw an issue  that I  wanted to  report but had a  message about overlay on my phone it's a good idea  but I think it needs more work",
+      "date": "2017-02-13T17:26:23.994Z",
+      "version": "2.0.10",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Seems to work fine and action being taken on things I've reported. ☺",
+      "date": "2017-02-11T16:23:19.262Z",
+      "version": "2.0.10",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "Cannot be used for Staffordshire County council.",
+      "date": "2017-02-09T17:59:19.397Z",
+      "version": "2.0.10",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Great App? Very fast and simple to use to report issues in your street to local councils. I recommend everyone down load and use it",
+      "date": "2017-01-16T21:28:18.815Z",
+      "version": "2.0.10",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "I used the website few months back when the council took away all the recycling skips in the car park for the 2 high rise flats.  I complained every week direct and no help.  I put it on here and suddenly the council decided to put 4 blue and 4 black wheelie bins back...  Not that that's enough over 450 people but it's something and people are recycling again",
+      "date": "2016-11-20T11:33:29.757Z",
+      "version": "2.0.10",
+      "thumbsUp": 12
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "I use it to report problems with road signs, graffiti, flytipping and streetlights",
+      "date": "2016-11-05T10:50:35.488Z",
+      "version": "2.0.10",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "I have reported things,but no! i still have the same neighbours. lol",
+      "date": "2016-11-04T19:13:16.548Z",
+      "version": "2.0.10",
+      "thumbsUp": 15
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Great app",
+      "date": "2016-10-15T05:44:40.130Z",
+      "version": "2.0.9",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "App keeps telling me to use the App next time even though I am using the App at the time. Bit annoying.",
+      "date": "2016-09-18T10:20:10.728Z",
+      "version": "2.0.9",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Needs a way to register in the App to be useful. No details of where to register either.",
+      "date": "2016-09-16T05:56:10.570Z",
+      "version": "2.0.9",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "With the withdrawal of my local councils reporting option, I have returned to fixmystreet. I know this works",
+      "date": "2016-06-21T19:56:09.329Z",
+      "version": "2.0.9",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "Pointless if the council then emails me to make me redo my report via their own website. So I had to submit 2 reports via 2 platforms.",
+      "date": "2016-06-02T08:58:07.985Z",
+      "version": "2.0.9",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Asks me to enter a subject when I already have. Asks me to confirm my password but no facility for doing that.",
+      "date": "2016-05-16T08:50:12.348Z",
+      "version": "2.0.9",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "A very useful app. The abilities to link photos of the issue, geo-locate it, as well as point to it on a map are all strong features.",
+      "date": "2016-05-11T19:35:48.260Z",
+      "version": "2.0.9",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "New update has rendered the app useless. Doesn't work anymore. Can't find location and can't log in......  Update - now seems to be working. Thanks guys.",
+      "date": "2016-05-01T20:54:14.776Z",
+      "version": "2.0.9",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Very quick update fixing the location issued. Maybe other developers should take note as the bug was fixed around 24 hours after being discovered",
+      "date": "2016-04-30T17:53:16.364Z",
+      "version": "2.0.9",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "New version is now working. From recent reviews, 29/30th April, see a few people reported bugs which were fixed the same day.  Well done to the developer.",
+      "date": "2016-04-30T12:51:43.610Z",
+      "version": "2.0.9",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "login, find my location or search.",
+      "date": "2016-04-29T22:58:28.252Z",
+      "version": "2.0.8",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "When I tried to report a problem the next button won't work after I've typed in the details",
+      "date": "2016-04-27T13:38:43.738Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "It cannot find my location, nor if I search for it manually. I live in a very large town....",
+      "date": "2016-03-30T18:18:36.775Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Made two reports and neither was acted on.",
+      "date": "2016-03-11T13:16:56.399Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "Please make a decent app this could be huge.",
+      "date": "2016-03-07T20:52:32.890Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "A far quicker response can be got by reporting potholes directly on the County Council's website because then it goes straight to the Contractor rather than just on a list for a busy council officer to look at when he has time.",
+      "date": "2016-03-04T20:49:50.538Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Would be a great app if council took any notice of the complaints! Have rubbish been left for months now rat food, have mould on ceiling inside block of flats which a council ' worker ' wiped with a cloth a year or so ago saying that's fixed it! Need roof looking at to find where damp coming from because starting to intrude inside flat now aswell!!!  IF YOU GET COUNCILS TO LISTEN & DO WORK WOULD BE GREAT THEN WOULDN'T FEEL LIKE LIVING IN A SLUM AREA!  NORTHAMPTON BOROUGH COUNCIL SHAME ON YOU, DON'T LIE JUST DO JOBS!!!",
+      "date": "2016-02-29T11:29:48.302Z",
+      "version": "2.0.6",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "Now you have to take photos beforehand as the attach image stage crashes when taking photo - Moto E LTE. Please fix!  Works on Nexus 7 but then I have to hotspot to use it...",
+      "date": "2016-02-08T11:00:48.211Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Great idea but the app has lots of glitches",
+      "date": "2016-01-11T17:47:00.219Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "The idea and basics behind this app is great however things are broken, very broken. It's easy to report problems but difficult to navigate through the app looking at other reported problems.",
+      "date": "2016-01-07T12:22:55.324Z",
+      "version": "2.0.6",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "But the app could use updating, it's a bit rough around the edges",
+      "date": "2015-12-31T19:06:04.711Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "It used to be very frustrating when finding a problem with the road surface somewhere along my commute, but having no idea who to report it to. This brilliant little app removes that problem, as it seems your report to the correct local council for you. I've reported two potholes so far, and had responses within a day on both occasions. Very helpful.",
+      "date": "2015-12-03T09:42:32.349Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Reported two potholes using the app - both repaired within 3 days!",
+      "date": "2015-12-01T10:08:52.697Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "This is a great app but cant exit app once done. Its easy to use and clear.",
+      "date": "2015-11-25T19:26:14.659Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Is there a way the app could be configured to turn off previous reports   as atm there are so many in my borough that you cannot view the map when you zoom out in the slightest it is just a screen filled with yellow tags.",
+      "date": "2015-11-19T22:19:39.990Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Compared to other map apps this method of moving the map until the location is it in the cross hairs is ace! :-)",
+      "date": "2015-11-13T14:33:35.639Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "The app itself works well when reporting hazards. Just one minor complaint - the arrow button is used to autolocate whereas many apps use a tear drop symbol these days. However to edit reports you have to go onto website, but the back button doesn't work and often have to force the page to close.",
+      "date": "2015-11-12T10:52:04.739Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "When viewing a report the back button doesn't return to the map. To leave the report I have to close the app and then reopen.",
+      "date": "2015-11-08T09:12:32.555Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Wow, this app is really painful to use. Runs really slowly on Nexus 5, maps are some kind of website with slow scrolling (not using Google maps). App needs to be rewritten!",
+      "date": "2015-08-29T08:53:41.838Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Website no problems,  just installed app had error when clicking back button",
+      "date": "2015-08-28T13:22:22.731Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "The only way to get to the main menu is to find a recent problem on the map, press it, only then you get the options to see the main menu. Who wrote the software for this app, they want shooting... I know this is a charity, but come on. The PC version is great, that's what makes this worse.",
+      "date": "2015-08-20T22:45:57.793Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Works great for reporting problems  but the app itself has problems. The back button doesn't work, there's no menu, no way to exit, and it often doesn't download map tiles. If the UK was sorted it would be so much better",
+      "date": "2015-08-18T22:27:14.816Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Not very good at all, it appears that most functions don't work at all....and to have a non functioning back button is ridiculous.",
+      "date": "2015-08-17T08:33:35.368Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "This is a fab app. I've reported the same highways issue multiple times directly to the local council but it still isn't fixed. Fingers crossed for reporting it through the app which was easy to use. BUT the back button on my phone doesnt do anything so there is no way to go back a page or close the app without minimising. And there is no option to view the map/issues without starting to log a new one.",
+      "date": "2015-08-11T10:25:54.534Z",
+      "version": "2.0.6",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Why does the back button still not  work? This is ridiculous, it needs sorting ASAP!",
+      "date": "2015-08-06T17:09:29.600Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Would give tbis 2.5 stars. Map doesn't always load, or freezes,  even through WiFi, so frustrating, especially when out & about & just want to report something quickly: thought that was the point the of it! Quicker to phone my local council! As others have said you can't go back e.g. to view other reports. Also, I've received confirmation emails from  local council  but the subject isn't what I've reported, e.g. I reported litter bins overflowing or flytipping & confirmation email says noise nuisance.",
+      "date": "2015-07-27T16:49:41.933Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "The Fixmysteet is a great scheme in general so can't fault that. However, the app has no functioning back button; map navigation buttons do not work; pin placement is difficult (doesn't even show the pin when tapping).",
+      "date": "2015-07-22T22:04:47.667Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "Could not seem to sign into app",
+      "date": "2015-07-08T15:13:29.545Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Good app that helps me report problems in my area to my local council.",
+      "date": "2015-05-30T23:30:02.272Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Easy way to report problems",
+      "date": "2015-04-28T08:19:20.430Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Reported Graffiti 2 days later removed !",
+      "date": "2015-04-15T21:19:48.913Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Excellent, This is one of the best App's I have.",
+      "date": "2015-04-04T11:06:42.811Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "It is cool  being nosy what's happening in my street there is A LOT of complaints lol",
+      "date": "2015-03-18T16:17:02.995Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "No back button very Laggy doesn't respond mot of the time",
+      "date": "2015-03-07T09:21:22.780Z",
+      "version": "2.0.6",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "It's up to the local council how quickly they respond!",
+      "date": "2015-02-28T14:42:07.796Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "The idea is great and the website works great. However, the app will not display a map of my area (Northern Ireland). I believe using Open Street Map would be of huge benefit to both projects. If your app could be used to submit OSM map notes it could be adopted as a useful tool with OSM mapper's who are very good at capturing real time data.",
+      "date": "2015-01-20T08:00:37.350Z",
+      "version": "2.0.6",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Good app which does what it says on the tin. I would like to see my open reports as like the website. Its also very annoying when you navigate to the home page and it keeps trying to locate you.",
+      "date": "2015-01-04T09:46:46.261Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "The app works and could be so much better. The navigation is confusing and the app will not exit and has to be manually killed. Good effort nevertheless.",
+      "date": "2014-12-26T19:08:04.665Z",
+      "version": "2.0.6",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "I'm in the top ten in my city apparently got so much fixed without having to wait hold to be told I've called the wrong department when reception put me through there in the first place",
+      "date": "2014-12-25T00:40:18.757Z",
+      "version": "2.0.6",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Scrolling in the map is very slow, would be useful if you could also see issues in your area like on the website.",
+      "date": "2014-12-11T14:50:44.538Z",
+      "version": "2.0.6",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "When you click on the details of a report, how do you get back to the main screen? I've mashed the back button and everything else. I have to fully quit the app to go back. Not good when you're making sure that you're not double reporting a problem.",
+      "date": "2014-12-11T13:05:53.564Z",
+      "version": "2.0.6",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Better than old app but map lags on Note 4",
+      "date": "2014-11-19T17:19:27.100Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Useful app, just report the problem then you'll be contacted later. Rather call and wait for hours.",
+      "date": "2014-11-18T18:16:39.503Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Used this app this morning, received an email within an hour from my local council (Gwynedd, Wales) and had the Street Enforcement officer round within a couple of hours! Result.",
+      "date": "2014-11-06T12:30:13.208Z",
+      "version": "2.0.6",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "No way to see previous reports or others.  Completely useless for anything other than new reports",
+      "date": "2014-11-02T20:00:32.226Z",
+      "version": "2.0.6",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Would not work in my area",
+      "date": "2014-10-17T09:50:31.713Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Use the website regular so good to see as an app, will test it out soon, initial impressions look good.",
+      "date": "2014-10-10T08:55:36.749Z",
+      "version": "2.0.6",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "This was a great app....  Until the last update.  I now can't see the maps, just brown blocked squares on the screen.  Worked perfectly for months before this.   Hope it can be fixed soon!",
+      "date": "2014-10-09T05:51:44.560Z",
+      "version": "2.0.5",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "While I like the app and its functionality there two things missing in my opinion:  1) easy password reset option. There is non at the moment. 2) easy manageable lists of reported issues",
+      "date": "2014-09-07T12:20:49.430Z",
+      "version": "2.0.4",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Quite good interface_spot a problem, login through app,  allow app to locate place,  take photograph. Transmit to appropriate local government department.",
+      "date": "2014-08-20T11:11:09.655Z",
+      "version": "2.0.4",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Needs a \"forgotten username/password\" field, somewhere, as it's been a while, so I've forgotten mine (new phones, etc). Trying to get that back is seemingly impossible... Will have to create a new user... Still love this, though.",
+      "date": "2014-08-05T10:39:52.785Z",
+      "version": "2.0.4",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Got to love this app does exactly what it says on the tin",
+      "date": "2014-07-15T05:56:19.502Z",
+      "version": "2.0.4",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Doesnt work",
+      "date": "2014-06-04T22:44:58.988Z",
+      "version": "2.0.3",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Won't find location either manual or automatic!",
+      "date": "2014-06-03T23:14:45.164Z",
+      "version": "2.0.3",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Obviously a work in progress. Be better when you can do everything via the app, especially not having to click the link in your email, how about using a captcha?",
+      "date": "2014-05-10T16:25:01.625Z",
+      "version": "2.0.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Good for reporting, bad for updating your report as you are directed to the website and have to log in again. Halfway there.",
+      "date": "2014-04-27T12:16:16.186Z",
+      "version": "2.0.2",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Needs some work",
+      "date": "2014-04-22T08:35:53.927Z",
+      "version": "2.0.2",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Works with no signal too",
+      "date": "2014-04-17T10:46:34.251Z",
+      "version": "2.0.2",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "But graphics buggy on S4. Thanks for building all the same!",
+      "date": "2014-02-10T09:06:00.876Z",
+      "version": "2.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Great app works well",
+      "date": "2014-01-31T23:24:32.779Z",
+      "version": "2.0.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "...but does the job OK. Keep up the good work.",
+      "date": "2014-01-31T22:48:50.469Z",
+      "version": "2.0.1",
+      "thumbsUp": 1
+    }
+  ]
+}

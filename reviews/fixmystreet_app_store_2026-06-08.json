@@ -1,0 +1,2068 @@
+{
+  "store": "app_store",
+  "found": true,
+  "appId": 322000552,
+  "appName": "SeeClickFix",
+  "rating": 4.59975,
+  "dateRange": null,
+  "reviews": [
+    {
+      "userName": "Frank Oakland CA",
+      "score": 2,
+      "text": "I have tried iPhone 14 and 16 and the app kicks me out once I try pushing a problem. Worked fine until a recent update.",
+      "version": "6.4.0",
+      "title": "Not working on Apple phones"
+    },
+    {
+      "userName": "Reviewer11235813",
+      "score": 1,
+      "text": "App crashes when selecting report category, rendering the app useless. Refund cities until this is fixed. You are stealing taxpayer money.",
+      "version": "6.4.0",
+      "title": "Show stopper crash"
+    },
+    {
+      "userName": "Atlanta iPhone/iPad User",
+      "score": 2,
+      "text": "App consistently crashed when selecting “Park Issue”, so I had to change to “Sidewalk Issue” to get my issue submitted.\n\nSpent 10 minutes, looking for a way to log the bug, but no success. You apparently need some kind of special login to log a bug.",
+      "version": "6.4.0",
+      "title": "Unable to report bug"
+    },
+    {
+      "userName": "ashmarie1026",
+      "score": 1,
+      "text": "Multiple requests have been sent to have severe street damage fixed with no response. Another request was sent multiple times for a vehicle that hasn’t moved since at least last July with no response",
+      "version": "6.4.0",
+      "title": "Unresponsive"
+    },
+    {
+      "userName": "Also an Old Man",
+      "score": 5,
+      "text": "I love the fact that the County can be notified of an issue that needs to addressed.  One can submit photos of the issue to assist in further identification.  The County overseer can then send the problem to the correct County Department.  Job well done.",
+      "version": "6.4.0",
+      "title": "Notification of County Issues"
+    },
+    {
+      "userName": "JB_VW",
+      "score": 5,
+      "text": "This is a must for any county - it gives citizens the opportunity to report on things they see that need fixing or addressing. You may see a fallen sign or trash on the roadway. Now you can report it!",
+      "version": "6.3.0",
+      "title": "Great Tool!"
+    },
+    {
+      "userName": "manvinrick3",
+      "score": 5,
+      "text": "SeeClickFix turned out to be a successful program.  Almondridge has seen dramatic positive change around the neighborhood.  \nThank you",
+      "version": "6.3.0",
+      "title": "Thank you"
+    },
+    {
+      "userName": "Hells yess",
+      "score": 1,
+      "text": "There is no way to close an issue within the app.",
+      "version": "6.3.0",
+      "title": "Missing features"
+    },
+    {
+      "userName": "Vegas Fats",
+      "score": 1,
+      "text": "Clark County Nevada is 100% useless in responding to SeeClickFix reports. I watch multiple reports being created for the same incident over months and nothing gets done. Thanks Clark County.",
+      "version": "6.2.6",
+      "title": "Not really SeeClickFix’s fault"
+    },
+    {
+      "userName": "RaneeC555",
+      "score": 1,
+      "text": "All this app does is makes me see how bad my city is with all the derelict crime, homeless issues, unwillingness to fix or make info structure better.  My city takes forever to acknowledge fixes or even fix them at all. Many times they just bi—tch about how their city workers are hard workers when in reality it is the opposite. Pd are corrupt in renton and enforce nothing. People speed galore in my town since pd stopped enforcing speed limit. \n\nCitizens keep pushing to defund pd and having resided in towns that did that: let me warn you that you run great risk by doing that. Gangs will over run the city and you have to know personal numbers of minute men that offer protection. You don’t want lawlessness in a society where half the people need law or it will crumble. Stop trying to push defund pd. If you want to experience this your self live in one of those towns. You will move out fast.\n\nWhat’s the point i put fixes in and mg town ignores them. Speeding is out of control and people seem to do what ever the hell they want with little to no recourse.",
+      "version": "6.2.6",
+      "title": "Settings are a bit off for gps"
+    },
+    {
+      "userName": "Abcdefghijklmnop6362",
+      "score": 1,
+      "text": "I made an account and my city that I live in does use this and resolves issues quickly. However, I get several emails everyday of other posts in my neighborhood, have unsubscribed to everything, and messaged support THREE times now asking them to delete my account (it always tells me there is an error when I try to do it myself…). So, I would highly suggest just not using this platform unless you enjoy email spam and no support from their support email.",
+      "version": "6.2.6",
+      "title": "No support with app"
+    },
+    {
+      "userName": "z33ggggy",
+      "score": 5,
+      "text": "I would like to see you add an other description add to the list. I needed to put in an issue about snow removal but there wasn’t a specific one on the list.",
+      "version": "6.2.6",
+      "title": "Snow removal"
+    },
+    {
+      "userName": "Rustech visionary",
+      "score": 4,
+      "text": "I be found the app to be quite useful in reporting issues such as graffiti, potholes, and other public safety issues. Seems to have some ongoing odd GPS location issues where it defaults to a specific address. Also I've noticed that there are a handful of posters responsible for a disproportionate number of reported issues including some very fickle issues such as a single candy wrapper next to a public walkway. I think the app could benefit from some moderating in such instances.",
+      "version": "6.2.6",
+      "title": "Good app no some issues,"
+    },
+    {
+      "userName": "White VA",
+      "score": 2,
+      "text": "Need more communication to the community",
+      "version": "6.2.6",
+      "title": "Communication"
+    },
+    {
+      "userName": "tu padre culero",
+      "score": 5,
+      "text": "The city been doing a great job as soon as I put a request, they go clean everything fast I like it. Keep the streets clean great job.",
+      "version": "6.2.6",
+      "title": "Illegal dumping"
+    },
+    {
+      "userName": "don schilling",
+      "score": 5,
+      "text": "Thanks to responders!",
+      "version": "6.2.4",
+      "title": "Thanks"
+    },
+    {
+      "userName": "tlhlassie",
+      "score": 5,
+      "text": "Thank you Public Works for taking care of this issue in Northridge Subdivision’",
+      "version": "6.2.4",
+      "title": "Vacant overgrown lots"
+    },
+    {
+      "userName": "SP_Frank",
+      "score": 5,
+      "text": "Excellent that you describe the bugs you fixed.",
+      "version": "6.2.4",
+      "title": "Details"
+    },
+    {
+      "userName": "Dr Moosetrax",
+      "score": 1,
+      "text": "The City ignores most complaints.\nExample: the terrible open sewer smell in North Shore Park, particularly behind the pool, is caused by a buildup of Sargassum seaweed. This should be collected and removed. Multiple complaints have been made by multiple people over the past few weeks and nothing gets done",
+      "version": "6.2.3",
+      "title": "Real Issues ignored by City"
+    },
+    {
+      "userName": "Njasdklngkdsngklajs",
+      "score": 1,
+      "text": "Garbage",
+      "version": "6.2.3",
+      "title": "Text input on mobile is broken"
+    },
+    {
+      "userName": "cucumber_waffles",
+      "score": 2,
+      "text": "Nice idea but super buggy.  The app scrambles text I enter in the description and then select a dropdown.  Also when I comment on an issue it sometimes doesn’t appear, but when I close the app,reopen the app, and recomment thinking that it failed to submit- it now has both comments.",
+      "version": "6.2.3",
+      "title": "Nice idea but very buggy"
+    },
+    {
+      "userName": "Unknown_5K",
+      "score": 1,
+      "text": "Reported multiple abandoned vehicles and nothing was ever done",
+      "version": "6.2.3",
+      "title": "Actions"
+    },
+    {
+      "userName": "Registration failed?",
+      "score": 1,
+      "text": "Was just told by a city employee that this app is no longer in service. New app is NBConnected.",
+      "version": "6.2.3",
+      "title": "New app"
+    },
+    {
+      "userName": "FloridaGator1Card",
+      "score": 1,
+      "text": "The app is extremely useful and effective when it works, but it has a lot of bugs with iOS 26. Entered text gets garbled when making selections from the drop downs. When it works, it works and if the reports are detailed, honest, and well intentioned, repairs often occur, which is great for the city and its residents. If they update the app for iOS 26, it will be much more useful, but they have not done that yet.",
+      "version": "6.2.3",
+      "title": "Good, when it works, but buggy in iOS 26"
+    },
+    {
+      "userName": "traddy",
+      "score": 2,
+      "text": "The app is garbling text in the description field for some users.",
+      "version": "6.2.3",
+      "title": "Great when it works"
+    },
+    {
+      "userName": "Tatiana Iglesias",
+      "score": 1,
+      "text": "Filter closed/acknowledged cases and more than half the map will reflect neglected",
+      "version": "6.2.3",
+      "title": "This app has 0 cases closed (all time) for Tampa and cities near by"
+    },
+    {
+      "userName": "Mardeedee",
+      "score": 1,
+      "text": "8/28/25 - I installed this to use in Chicago but, then, saw the requests were from over a decade ago. Looks like no one uses this in chicago probably because there’s CHI311. Too bad, this would have been nice bc this app allows viewing the photos that were submitted with service requests.",
+      "version": "6.2.3",
+      "title": "Not for Chicago"
+    },
+    {
+      "userName": "dtoyd",
+      "score": 2,
+      "text": "To find requests without hours of spare time for scrolling I kindly request a filter based on type of request. Real life example: Dozens of illegal dumping requests that I don’t want to see are effectively hiding the few entries I do want to see unless i pick through one by one. Luckily computing devices are great at this very thing!",
+      "version": "6.2.3",
+      "title": "Better filters please"
+    },
+    {
+      "userName": "CFIair",
+      "score": 3,
+      "text": "See click fix, has been very useful to report things such as pot holes, unlicensed auto sales for. Homes and sidewalks that need clear g.\nI suggest we have a field that allow us to report vehicles registers out of state but always on mlocla property. This type of w braking causes oss of $1.3M in Stamford and that is not catching all\nOf them.\nAunt some similar way we can report specifically for out of state vehicle, that don't pau local insurance, race, etc.",
+      "version": "6.2.0",
+      "title": "Useful resource most of the time- w/ suggestion License Plates tax evaders out of state."
+    },
+    {
+      "userName": "patpics",
+      "score": 5,
+      "text": "This app works very well for my purposes to communicate property needs that should be reported .  Action is almost always taken and notifications are sent.",
+      "version": "6.2.0",
+      "title": "Easy effective system!"
+    },
+    {
+      "userName": "TSBellaire",
+      "score": 5,
+      "text": "The app makes it super easy to file incidents around the city of Bellaire and Houston without waiting needlessly for an operator.",
+      "version": "6.2.0",
+      "title": "SeeClickFix /311 Easy to Report"
+    },
+    {
+      "userName": "Besutufy Salem",
+      "score": 5,
+      "text": "Excellent turnaround time! Thank you!",
+      "version": "6.2.0",
+      "title": "Repairs to potholes on Jefferson avenue in front of Ste Anne’s  & over the bridge"
+    },
+    {
+      "userName": "Xhihihx",
+      "score": 1,
+      "text": "Can we please get an easy to complete form? every time someone dumps garbage I have to click the same 20 stupid buttons.",
+      "version": "6.2.0",
+      "title": "Stupid 20 click forms"
+    },
+    {
+      "userName": "NotSoAverageJo15",
+      "score": 1,
+      "text": "Love the idea, but I can’t do anything with this if the login doesn’t work. I’ve reset my password a few times now on a browser, but when I go to log in on the app I get an error. That means I can’t contribute or do anything at all.",
+      "version": "6.1.0",
+      "title": "Cool but there’s issues"
+    },
+    {
+      "userName": "t($&@9",
+      "score": 5,
+      "text": "I’m really grateful for how quickly my concern is recognized",
+      "version": "6.1.0",
+      "title": "Grateful"
+    },
+    {
+      "userName": "pgk2008",
+      "score": 3,
+      "text": "Good app, but when the app tells me there may be duplicates, the list doesn't show enough detail to determine whether the listed items are indeed duplicate. Please include a few lines of text for each possible duplicate.",
+      "version": "6.1.0",
+      "title": "Show more text for duplicates"
+    },
+    {
+      "userName": "Abbottim",
+      "score": 3,
+      "text": "Some agencies click “resolved” to indicate they have dispensed with the matter. It’s out of their hands, as if they fixed the issue. \n\nBut sometimes they’ve only referred it. It is out of their hands; but to the person notifying via Click… it’s not resolved at all. \n\nPerhaps there could be more options for the agency. “Referred” — then STATE WHAT AGENCY so the customer can follow up if accountability is needed. Also, perhaps another something to justify any delay, like waiting for parts, waiting for the mission to return fr Mars, etc. \n\nThank you. I really should give this five stars.",
+      "version": "6.1.0",
+      "title": "“Resolved” needs to be changed"
+    },
+    {
+      "userName": "Ian391",
+      "score": 2,
+      "text": "The app on iOS has a keyboard bug that causes gliding while typing to insert extra random and jumbled characters. Please fix this. Thank you.",
+      "version": "6.1.0",
+      "title": "Keyboard bug"
+    },
+    {
+      "userName": "crispymakai",
+      "score": 5,
+      "text": "I think it’s a really good site. They told us about this at the city that we saw something that was graffiti to report it. They were gonna clean up. We really appreciate this. Thank you.",
+      "version": "6.1.0",
+      "title": "Thank uou"
+    },
+    {
+      "userName": "Watching Paterson",
+      "score": 1,
+      "text": "This app is a waste and just another knee jerk way the Mayor of Paterson is trying to suppress the public . The site is not user friendly and isn’t monitored in real time .",
+      "version": "6.1.0",
+      "title": "Horrible App"
+    },
+    {
+      "userName": "buddyboy1951",
+      "score": 5,
+      "text": "Our hill is always forgotten about when it comes to sanding unless someone complains. The sander always goes up to the end of Russ St and never continues down Door to Vinton. Please be sure to take care of our hill. Thank you",
+      "version": "6.1.0",
+      "title": "Vinton St/McKim"
+    },
+    {
+      "userName": "PejorativeSaint",
+      "score": 1,
+      "text": "Garbage app that can’t find my location even though location services are on. Putting in a pin on the map lets me proceed but then a search of the categories returns a blank result so impossible to report anything.",
+      "version": "6.0.2",
+      "title": "Useless"
+    },
+    {
+      "userName": "4NanaJC",
+      "score": 5,
+      "text": "Great way to report an issue needing work",
+      "version": "5.17.0",
+      "title": "Quick Response"
+    },
+    {
+      "userName": "Robkule",
+      "score": 1,
+      "text": "The app for whatever reason removes all punctuation from a ticket description. This has been a problem for years. Why hasn’t this simple bug been fixed?",
+      "version": "5.17.0",
+      "title": "Removes all punctuation in description"
+    },
+    {
+      "userName": "girloflove2121A",
+      "score": 5,
+      "text": "É lente",
+      "version": "5.17.0",
+      "title": "Good"
+    },
+    {
+      "userName": "Twinkie05",
+      "score": 5,
+      "text": "I don’t know what Public Works repaired on Wednesday evening but YOU GUYS ROCK!  We have lived in Skyline for 8 years. The next day, I had the best shower of my life in 8 years!! On Saturday I could run my dishwasher and washing machine at the same time and it didn’t take forever for both of them to fill.  Whatever you repaired made a huge difference!!!  Thank you for all your hard work.  Pam Balentine",
+      "version": "5.17.0",
+      "title": "Water"
+    },
+    {
+      "userName": "Steve148$",
+      "score": 4,
+      "text": "From the first time I uploaded a photo no what what I select to upload only the very first photo I ever used will appear in any report",
+      "version": "5.17.0",
+      "title": "Useful but buggy"
+    },
+    {
+      "userName": "WaltFrench",
+      "score": 4,
+      "text": "Sometimes—like to report an abandoned car in your neighborhood—this app requires multiple tiny details, many of which I can only guess at\n\nBut usually it’s a quick way to alert the city to non-emergency stuff that needs attention: a new pothole dangerous to cyclists, street lights out, suspicious water flows (busted sewer?) etc",
+      "version": "5.17.0",
+      "title": "Mostly fine way to alert city officials"
+    },
+    {
+      "userName": "Chris32$",
+      "score": 1,
+      "text": "Left untouched",
+      "version": "5.17.0",
+      "title": "Left unfinished"
+    },
+    {
+      "userName": "Kia-kat",
+      "score": 5,
+      "text": "A quick way to report issues.  Low bar for the amount of hassle with high results from the city.   Love it",
+      "version": "5.17.0",
+      "title": "Easy peasy"
+    },
+    {
+      "userName": "Bugrocks",
+      "score": 4,
+      "text": "Thank you very much for the job well done with this. These have been a problem for some time and the coverage your guys did should help immensely.",
+      "version": "5.17.0",
+      "title": "Potholes"
+    },
+    {
+      "userName": "Sunshine City Citizen",
+      "score": 5,
+      "text": "Within days of reporting a damaged storm water drain with rebar exposed, the city installed a brand new one making that spot in our neighborhood where many people walk daily safe again. See Click Fix is not only a time saver, but since it is so easy to report issues, I am happy to keep submitting instead of trying to make phone calls and send emails. Wonderful tool!",
+      "version": "5.17.0",
+      "title": "Hazard fixed quickly!"
+    },
+    {
+      "userName": "Too Many Ads Daily",
+      "score": 1,
+      "text": "The clicked fixed are closed before the worked is even started!",
+      "version": "5.17.0",
+      "title": "Click Fix Closed"
+    },
+    {
+      "userName": "hackasaurusrex",
+      "score": 1,
+      "text": "This app, unfortunately, is down to having only a single developer working on it and he’s limited to just 30min per week. \n\nIf you try to use punctuation when opening a ticket, the app will remove it when you hit post. As a result, you’re going to look like an angry and illiterate lunatic when you submit your request. \n\nThis has been a bug for years. The latest iteration of the bug removes all punctuation from your ticket and then just appends it to the end as an unbroken series of periods, commas, and question marks.",
+      "version": "5.17.0",
+      "title": "Years later, punctuation is still broken"
+    },
+    {
+      "userName": "Rk on Sayles",
+      "score": 1,
+      "text": "I do not know if the app works or not, I do know that the city pays  no attention to it or simply does not care, because they do not enforce the ordinance",
+      "version": "5.17.0",
+      "title": "Cars parked in yard"
+    },
+    {
+      "userName": "DaWolfdogs",
+      "score": 1,
+      "text": "App loses locations and filters resets while working. Not good.",
+      "version": "5.17.0",
+      "title": "Not consistent"
+    },
+    {
+      "userName": "n5ism",
+      "score": 1,
+      "text": "I’ve used this app before to good effect but lately requests just vanish down a hole. No acknowledgement that the request was received and certainly no action taken.",
+      "version": "5.17.0",
+      "title": "No response"
+    },
+    {
+      "userName": "rtvxxu",
+      "score": 5,
+      "text": "Thanks for responding so quickly- it’s a great feeling to get rid of broken things!!!",
+      "version": "5.17.0",
+      "title": "Big Thank You!!!"
+    },
+    {
+      "userName": "Saul48",
+      "score": 2,
+      "text": "See click fix seems to be a useful tool for bringing non critical issues to the attention of city workers. In the hands of self-appointed watchdogs with beefs against their neighbors it is sometimes abused. Some of the issues seem like they would be better resolved by knocking on your neighbor’s door and discussing the matter. I wish it was possible to comment on individual complaints.",
+      "version": "5.17.0",
+      "title": "What’s the beef?"
+    },
+    {
+      "userName": "Cristina Barragan",
+      "score": 5,
+      "text": "I am very pleased with this app, they keep on top of things. Thank you, all for your hard work.",
+      "version": "5.17.0",
+      "title": "On top of it"
+    },
+    {
+      "userName": "Hungary kills",
+      "score": 2,
+      "text": "This app rarely opens, always says: Oops, try again.",
+      "version": "5.17.0",
+      "title": "Not great"
+    },
+    {
+      "userName": "JazzeJC",
+      "score": 5,
+      "text": "I sent a request last week to see, click, fix about the fire hazard danger of overgrown weeds/bushes on the fire road behind the houses on Sunmeadow St.  The crew literally had it cleared early the week after my request.  Thank you crew! Job well done!",
+      "version": "5.17.0",
+      "title": "Fire road hazard clearance -Sunmeadow St"
+    },
+    {
+      "userName": "GrandmaDoreen",
+      "score": 5,
+      "text": "You guys are the best. Thanx",
+      "version": "5.17.0",
+      "title": "Thanx"
+    },
+    {
+      "userName": "Bhmal",
+      "score": 1,
+      "text": "Tried and tried but couldn’t post an image with my request.  Wish my locality would pick a new usable service.",
+      "version": "5.17.0",
+      "title": "Cannot post with an image from my iPhone"
+    },
+    {
+      "userName": "EVIL VW",
+      "score": 1,
+      "text": "No way to delete or edit an entry.\n\nPlease add the option to delete my own entry.",
+      "version": "5.17.0",
+      "title": "No delete option"
+    },
+    {
+      "userName": "Susanajo55",
+      "score": 3,
+      "text": "This was handled by the trash collection team ages ago. I called them directly and they were apologetic, professional, respectful and efficient. They picked it up before noon the same day. See Click Fix is only responding NOW. My post was months ago. lol so it’s closed.",
+      "version": "5.16.0",
+      "title": "Trash Uncollected"
+    },
+    {
+      "userName": "rifar1",
+      "score": 5,
+      "text": "Living on this alley has made me realize that much of the damage is also due to the amount of traffic using it as a through street. Many patrons leaving the pharmacy head north instead of exiting to 9th. The alley is busier than Lincoln Street to the front of my house. My wife and I are both retired and see this daily out our backyard. A no left turn sign from the pharmacy might be in order.",
+      "version": "5.16.0",
+      "title": "Alley between 8th/9th"
+    },
+    {
+      "userName": "wm.mile",
+      "score": 5,
+      "text": "Commercial truckers expanding in residential neighborhood now a fleet with 55 feet long trailers.",
+      "version": "5.16.0",
+      "title": "Still waiting"
+    },
+    {
+      "userName": "proposter",
+      "score": 2,
+      "text": "Too many questions, hard to navigate, and potholes don't get fixed. See, 100 clicks, no fix.",
+      "version": "5.16.0",
+      "title": "False advertising"
+    },
+    {
+      "userName": "Kim Greve",
+      "score": 1,
+      "text": "I spoke with a clerk at the county of San Bernardino regarding an issue with the gravel along the road washing away, and was told to either email the issue with pictures or use the app.  The email address that I wrote down, came back undeliverable, so I was going to submit it on the app. The app indicates the address is not part of the county and would not let me proceed to submit the request.\n\nThe app needs to be corrected.  The address has been a part of the county for a very, very long time. It is not part of the city.  The address is located on Kendall between Yucca Street and Little League Drive and is part of the county responsibility.",
+      "version": "5.16.0",
+      "title": "Location of an issue indicates it is not part of the county area"
+    },
+    {
+      "userName": "Inspired Citizen",
+      "score": 5,
+      "text": "Tracks the request and gives the city records of work requested and work completed.",
+      "version": "5.16.0",
+      "title": "Great information tool!"
+    },
+    {
+      "userName": "Tony~10",
+      "score": 4,
+      "text": "I like the ease of reporting and the overall functions of the app. However there should be a way for the government entities to not be able to close a report without verification by a third party or the person who submitted the issue. A county near me posts an automated answer with vague information and many times the issue is not actually handled.  Or they say they have handled it even though it’s an ongoing issue.",
+      "version": "5.16.0",
+      "title": "Automated messages"
+    },
+    {
+      "userName": "required nickname ok",
+      "score": 1,
+      "text": "Crashes. Loses your content. Completely unintuitive.",
+      "version": "5.16.0",
+      "title": "This app is sooooo janky"
+    },
+    {
+      "userName": "RosserB",
+      "score": 1,
+      "text": "I’ve been successful reporting things that need to be fixed.  But, once fixed I keep getting notified that the issue is still open.  If there is a way to close an issue, it’s not obvious.",
+      "version": "5.16.0",
+      "title": "Useful but hard to stop"
+    },
+    {
+      "userName": "JRicketson",
+      "score": 5,
+      "text": "I have used SCF to report illegal signs on the public right-of-way for years. However, there are times when Public Works fails to do their job and then replies on the complaint that it has been done. This is particularly annoying when they turn off “Public commenting” so that there is only one way to respond, ….. and that involves making a new request. This has happened recently at 3946 Northside Drive in Macon, GA.  Public Works has falsely stated (3 times) that the illegal signs and the illegal sign under construction had been removed. As of right now, the steel sign posts and the wooden sign posts are still in the same place, the public right-of-way. Someone in authority needs to step up and take responsibility.",
+      "version": "5.16.0",
+      "title": "Mixed Results"
+    },
+    {
+      "userName": "McPhtown",
+      "score": 1,
+      "text": "We don’t see results yet. We see over a dozen empty buildings that are weathered, ruined, and abandoned construction sites. Some with no roof for over a decade. All my reports have been closed with no resolution.",
+      "version": "5.16.0",
+      "title": "I see you’re kinda responding"
+    },
+    {
+      "userName": "Whdufhh",
+      "score": 1,
+      "text": "Reported several abandoned vehicles. No response or activity seen for these issues. Vehicles are still there nearly 5 months after I reported. I don’t think this service is even monitored anymore.",
+      "version": "5.15.0",
+      "title": "No service"
+    },
+    {
+      "userName": "Bobcat378",
+      "score": 5,
+      "text": "It is amazing the problems in the neighborhood that the CITY OF FOLSOM has been so proactive in taking care of certain situations in our neighborhoods. I. E. abandoned vehicles/ cars parked on the lawn / tall dried weeds that had the potential of a fire threatening homes.",
+      "version": "5.15.0",
+      "title": "Taking Care of Business"
+    },
+    {
+      "userName": "Cyclist Edge",
+      "score": 1,
+      "text": "Utility of the app is significantly reduced because the only way to attach a photo is most recent or camera. One cannot go to their library, and one cannot select multiple photos to upload. This functionality used to work in earlier versions of the app, but seems to not work. When trying to upload those photos from the iPhone library, the app goes back to the starting screen with no results. They need to fix this for the app to have any utility",
+      "version": "5.15.0",
+      "title": "Photos do not work right"
+    },
+    {
+      "userName": "ForestForrtheTrees",
+      "score": 2,
+      "text": "Should be called SeeClickBouncePuzzleBouncePuzzleMaybeFix\n\nRequires a street address even when I’ve geo-located the problem on my phone, so if the problem is along a park, as they often are, this app tries to put in an address on another nearby street. And the best I can correct this is to manually type in an address of a home adjacent to the park, on the right street but a block away. After having to look up that address in Google Maps. \n\nMy municipality has found it necessary to implement about a dozen questions/checks for an issue, and even if I haven’t answered them all (because they are off the screen in the app), the app app still lets me hit Submit, then gives me a big error message in little tiny type. You could say that’s the fault of my city’s implementation, but it still makes this app very difficult and time-consuming to use. I end up standing by the side of the road for 15-20 minutes trying to get it all straight.",
+      "version": "5.15.0",
+      "title": "Very clumsy, frustrating, time-consuming"
+    },
+    {
+      "userName": "Citizen of Abilene",
+      "score": 1,
+      "text": "Not maintained",
+      "version": "5.15.0",
+      "title": "Sidewalks and bike routes !!!"
+    },
+    {
+      "userName": "1995Hydra",
+      "score": 5,
+      "text": "Large pot hole.",
+      "version": "5.15.0",
+      "title": "Pot hole Cheatham av"
+    },
+    {
+      "userName": "#%^£>",
+      "score": 5,
+      "text": "I’ve reported everything from LP playground being muddy and needing mulch, to a 1 foot sinkhole on Larned at Rivertown Market. It all gets fixed! Wow! So grateful!",
+      "version": "5.15.0",
+      "title": "Very happy!"
+    },
+    {
+      "userName": "The Lopéz",
+      "score": 1,
+      "text": "Amazed at how expeditiously the city responded to the pothole threatening my low profile WRX! That was awesome! They came earlier than me leaving, and filled it so I could leave safely and begin my day! Big up to that street crew!!! Don’t know how it will stand up to the plows this winter… but we’ll cross that bridge if we get to it. Meantime… great job street patch crew!!! Ya’ll rock!!!💯💪🏽",
+      "version": "5.14.0",
+      "title": "Expeditiously Done!"
+    },
+    {
+      "userName": "lucylu.mk",
+      "score": 1,
+      "text": "I am unable to make new actual requests, only post to neighbors. None of mine have been even acknowledged in months, when they used to get fixed within the week. Can’t find anywhere why. Their Q&A section only says that posting to neighbors is an option, but for me there are no other options.",
+      "version": "5.14.0",
+      "title": "Blocked me from making requests"
+    },
+    {
+      "userName": "New guy no good.",
+      "score": 1,
+      "text": "Can’t edit or delete post.",
+      "version": "5.13.0",
+      "title": "Can’t edit or delete post."
+    },
+    {
+      "userName": "Close it already",
+      "score": 2,
+      "text": "I keep getting notices that this issue is still open and that I should close it out if it has been resolved. First, that seems backwards, but there is no mechanism on the app for me to do that.",
+      "version": "5.13.0",
+      "title": "Closing Issues"
+    },
+    {
+      "userName": "Eftca",
+      "score": 1,
+      "text": "I disabled photo access for the app.\nI verified in my iPhone settings that I disabled access.\n\nThe app can still access my entire photo library.",
+      "version": "5.13.0",
+      "title": "App can access photos despite not allowing access"
+    },
+    {
+      "userName": "Techsavee2013",
+      "score": 3,
+      "text": "App doesn't allow users to edit requests. App incorrectly uploads wrong photos to requests. PLEASE FIX",
+      "version": "5.13.0",
+      "title": "Bug Fix and Edit Options"
+    },
+    {
+      "userName": "RaeGravley",
+      "score": 5,
+      "text": "Problem was fixed within 24 hours.\nThank you.",
+      "version": "5.13.0",
+      "title": "Thank you"
+    },
+    {
+      "userName": "JG!$",
+      "score": 1,
+      "text": "Why when you state to close a tickets it doesn’t close and keeps popping up",
+      "version": "5.13.0",
+      "title": "Close"
+    },
+    {
+      "userName": "Jeweyibis",
+      "score": 1,
+      "text": "I've sent in the same request 3 times. With being told the route supervisor has the information. Don't know what y'all pay him but he's not done anything for me in 2 months. We have huge trash piles on Hancock place and Idlewood drive also. Haven't seen a truck in months. So this app doesn't work for me.",
+      "version": "5.12.0",
+      "title": "No Responce."
+    },
+    {
+      "userName": "Ollddskool",
+      "score": 5,
+      "text": "Together.\nThis app gives me a WE feeling in my city. Like I can make it better.\nAnd my city?\nThey are all over it ❤️",
+      "version": "5.12.0",
+      "title": "WE can do something"
+    },
+    {
+      "userName": "Ancient Human",
+      "score": 5,
+      "text": "We couldn’t ever get along without them ! Thank you , Thank you !",
+      "version": "5.12.0",
+      "title": "Best City Service Auburn has ever offered !"
+    },
+    {
+      "userName": "v of Vallejo",
+      "score": 3,
+      "text": "I wish this app was easier to use.  I could report a lot more problems. I find I cannot get the address right. Sometimes when driving it’s impossible to get an address.",
+      "version": "5.12.0",
+      "title": "Good app but I find it difficult"
+    },
+    {
+      "userName": "Dabwink",
+      "score": 1,
+      "text": "To report and to get results is usually quite good! Where are you are sorely lacking and have been for years is when you report back to say that the problem has been fixed you don’t receive or ignore that so 1065 days later I still get the same question on the same issue over and over again that’s where this app really needs to be fixed! Somebody is dropping the ball at the end and it’s frustrating.  And I’d like to add that, it doesn’t matter how many times I report back thatThe issue has been fixed… Still get the question a few months later asking if it has it been fixed…. some of my issues have been close to 2000 days waiting for you guys to get the message. So fix that issue and you’ll get five stars for me! And thank you for the survey‼️",
+      "version": "5.11.0",
+      "title": "Feedback"
+    },
+    {
+      "userName": "harleyvgk",
+      "score": 5,
+      "text": "This is an excellent way to request help!!",
+      "version": "5.11.0",
+      "title": "Cool"
+    },
+    {
+      "userName": "Gregeaux",
+      "score": 5,
+      "text": "HSV City Landscape came quickly & did a super job clearing space for egress in our alley. Personable kind courteous! The best!",
+      "version": "5.10.0",
+      "title": "High weeds in alley"
+    },
+    {
+      "userName": "TheSterlingcritic",
+      "score": 5,
+      "text": "95% of the time that I report stuff on this app it gets done and it gets done immediately. Great app!!!!",
+      "version": "5.10.0",
+      "title": "Great program"
+    },
+    {
+      "userName": "nfwbs",
+      "score": 3,
+      "text": "Maybe it’s just that I have an old apple phone, but this Ap needs to remember the phone owner. It’s ridiculous have to type in your name, address and phone number each time. Also, the checks to acknowledge the rules is almost invisible and they are not on the same side of the page as other boxes. Make those boxes bold!",
+      "version": "5.10.0",
+      "title": "Needs to be more user friendly"
+    },
+    {
+      "userName": "Thankful Resident",
+      "score": 5,
+      "text": "I want to thank See Click Fix and the staff in Lake Elsinore for their prompt and thorough work. Cleaning up other people junk is not a pleasant job, but our residents truly appreciate your efforts. You keep our community clean and presentable and ultimately improve our property value. Thank you for everything you do!",
+      "version": "5.10.0",
+      "title": "Thank you!"
+    },
+    {
+      "userName": "suchislifexoxo",
+      "score": 4,
+      "text": "And they get right on the complaint, what ever the situation, how amazing 🤩 is that",
+      "version": "5.10.0",
+      "title": "Amazing 🎁"
+    },
+    {
+      "userName": "OurAmericanValues",
+      "score": 3,
+      "text": "It was better before they improved it. There’s very little information and it’s hard to find. It seems rather static and of little use. even when things get done it’s hard to track when they got done. It’s sort of an after the fact reporting. All you can tell is that it got assigned to somebody but that was obvious before. it used to be much more interactive.",
+      "version": "5.10.0",
+      "title": "More confusion, less information"
+    },
+    {
+      "userName": "Hemet Hockey Gmom",
+      "score": 5,
+      "text": "ClickFix allows me to ride my bike, photo graffiti, overgrown vegetation blocking the sidewalk, broken concrete, random hazards - whatever needs attention - public or private - and pass it on to the City of Hemet to add to their list of things to do.",
+      "version": "5.10.0",
+      "title": "Volunteer"
+    },
+    {
+      "userName": "trecym67",
+      "score": 5,
+      "text": "Really wish this app had a way to edit or delete a post after submitting. At least twice I’ve accidentally swiped a finger (yes, my fault) and ended up with incomplete postings.  After hitting “submit” it would be very helpful if there was a message something like “Once submitted your post cannot be edited or deleted, are you ready to submit at this time?”",
+      "version": "5.10.0",
+      "title": "Can’t edit/delete post after submitting"
+    },
+    {
+      "userName": "I'm Found",
+      "score": 5,
+      "text": "I was happy the Malden tree trimmers came and took care in trimming the tree in front of my house. Nice job and clean up.",
+      "version": "5.10.0",
+      "title": "Great job"
+    },
+    {
+      "userName": "tech stupid savy",
+      "score": 5,
+      "text": "A big tree fell across the street and it took less than a half hour for them to show up with all the needed equipment to quickly and professionally clear the road. Friendly workers who cleaned up after themselves and had smiles the whole time. Thank you.",
+      "version": "5.9.7",
+      "title": "Incredibly great service. Really!"
+    },
+    {
+      "userName": "Bevshar",
+      "score": 3,
+      "text": "The code violation is too hard to find and use. most people give up before they find he space",
+      "version": "5.9.7",
+      "title": "Code violation."
+    },
+    {
+      "userName": "Ronnie G Man",
+      "score": 5,
+      "text": "We submit many tickets to the city road department and they are frequently not completed.",
+      "version": "5.9.7",
+      "title": "Repairs Not Made When Reported"
+    },
+    {
+      "userName": "MDinWA",
+      "score": 1,
+      "text": "It seems like the only goal of this app is to push an issue onto someone else. I submitted that an ottoman has been dumped at a bus stop. It went from one department to another before I was told by King County Transportation that it’s been there a while, so weee just going to leave it. Now there’s more crap over there. \nI just submitted a request for a broken or leaking water main at the Crestview Park. Just got a notice that it’s been closed because I should contact the water department. \n\nUseless. Glad we’re spending money on an app that is not maintained and only exists for some government employee to have one more box to check everyday.",
+      "version": "5.9.7",
+      "title": "Worse interactions ever"
+    },
+    {
+      "userName": "KerrenA",
+      "score": 1,
+      "text": "I sent an email requesting information on why there is not a baseball/softball scoreboard.  NEVER RECEIVED A REPLY.",
+      "version": "5.9.7",
+      "title": "Score board at Memorial"
+    },
+    {
+      "userName": "Park KDS",
+      "score": 3,
+      "text": "On the app I have not been able to close an open ticket I started when the problem is resolved. As a result I end up getting multiple emails asking to close. Please take a look at the app for iPhones. KS",
+      "version": "5.9.7",
+      "title": "Problems closing posts"
+    },
+    {
+      "userName": "Peter40B",
+      "score": 5,
+      "text": "The city of Marlborough MA uses this app. I’ve reported a couple of issues and they always respond within the same day. Not necessarily to fix the issue but to let me know it’s on their agenda. Certainly useful in closing the time between rude things happening and getting a fix. \n\nA great public service tool!",
+      "version": "5.9.7",
+      "title": "It’s a local and mobile thing"
+    },
+    {
+      "userName": "Bababobphilly",
+      "score": 5,
+      "text": "I appreciate it, this tool fir community organizations and block captains are essential. We are able to get action on issues close to our hearts reference safety. \nBaba Bob Shipman, Philadephia Pa",
+      "version": "5.9.7",
+      "title": "Community Savior Tool"
+    },
+    {
+      "userName": "Her Red",
+      "score": 3,
+      "text": "I discussed with Hanna this morning in Abilene",
+      "version": "5.9.7",
+      "title": "Nothing accomplished in this app"
+    },
+    {
+      "userName": "Tee Consigliano",
+      "score": 1,
+      "text": "the burden on taxpayers to do the city's maintenance work, isn't the way city maintenance is supposed to happen. In return for tax dollars, the city should fix the problems such as illegal dumping and parking violations (which are obvious if the city took an hour to drive around the neighborhood) without making taxpayers take the time to report each issue piecemeal. Instead the city uses this app to pretend it's effectively listening to taxpayers when it doesn't even fix most of the problems reported. What a joke.",
+      "version": "5.9.6",
+      "title": "App doesn't let you submit requests"
+    },
+    {
+      "userName": "fxgdvf",
+      "score": 2,
+      "text": "Like pretty much everything else in this town\nA complete failure  when it comes to any enforcement \nOnly reason why I report it is because a class action lawsuit will expose this city’s leadership complete disregard of their foremost duty to enforce our laws.",
+      "version": "5.9.6",
+      "title": "Good app no enforcement"
+    },
+    {
+      "userName": "caogus",
+      "score": 1,
+      "text": "I like the sight but I put the address of the property and it doesn’t display the right address",
+      "version": "5.9.6",
+      "title": "Addresses for the issues reported"
+    },
+    {
+      "userName": "cjhfrbigbdrj",
+      "score": 1,
+      "text": "After 6 attempts to create an account I finally deleted the app",
+      "version": "5.9.6",
+      "title": "Hjordunfuurvmhksrb"
+    },
+    {
+      "userName": "58kt58",
+      "score": 1,
+      "text": "The principal of the website is good however, site navigation is poor and the response to posted issues is non existent or extremely slow resolution. \nSome items have taken months or even years to to be addressed.",
+      "version": "5.9.6",
+      "title": "Slow response"
+    },
+    {
+      "userName": "Natebrain",
+      "score": 1,
+      "text": "A lawsuit is gonna come about - this app is worse than next door app allowing anonymous neighbor complaints that lead to unnecessary neighbors stabbing other neighbors in the back. Anything regarding that brings the attention of a code complaince Officer against another patron or neighbor should require information as the complainant- becuase the defendant might end up in court with charges and this constitutes a illegal action and retaliation against law abiding homeowners who are living their lives normally. Then a anonymous complaint only one causes a homeowner to be a criminal to code complaince and their City. Allows patrons to lie and “add brownies to the bend complaint to make it look more Thant what it is . For example : overgrown weeds Around a wrecked vehicle: when the vehicle isn’t wrecked or damaged. Allows white lies and over exaggerated descriptions. Causing bigger issues than necessary.",
+      "version": "5.9.6",
+      "title": "Allows neighbor backstabbing"
+    },
+    {
+      "userName": "seadootodd",
+      "score": 5,
+      "text": "Needham DPW guys are the best & they take care of  of business",
+      "version": "5.9.6",
+      "title": "Needham DPW guys #1"
+    },
+    {
+      "userName": "ATL Tarheel",
+      "score": 1,
+      "text": "This is the only way my county will apparently let me report a problem, but it doesn’t work.  I downloaded the app and followed the instructions only to be told I already had an account.  How is that possible when I’ve never used the app before?  I then tried to register using my husband’s e-mail address & waited for a one time password to be sent.  It never happened.  I guess this is now a convenient way for our local government folks to hide behind their desks and get paid for doing nothing!",
+      "version": "5.9.6",
+      "title": "Doesn’t Work!"
+    },
+    {
+      "userName": "NickDxx",
+      "score": 1,
+      "text": "This used to be great but now I haven't been able to submit a report. The new \"location validation\" won't let me write the address and is making me try to choose an old report that was never closed that doesn't have the exact address. So when I hit submit I get an error message now saying the address isn't legitimate because it gives an address range and won't let me pinpoint a new location. (For illegal trash dumping). So many questions to ask and a waste of time now!",
+      "version": "5.9.5",
+      "title": "Used to work"
+    },
+    {
+      "userName": "DiCris",
+      "score": 5,
+      "text": "I placed a request to have 4 shopping carts removed that were on Promenade Ave. The very next day, I received info that the task had been completed and resolved. The issue was resolved very quickly.",
+      "version": "5.9.5",
+      "title": "Quick response and action taken"
+    },
+    {
+      "userName": "Adam1106",
+      "score": 1,
+      "text": "I used the app to take a photo of a water leak to report and it even showed the photo in the preview. As soon as I hit submit it choose the last photo from my camera album and not the one I just took in the app, which was a photo for work with sensitive data in view! Now I can’t even delete the post and it is available for anyone to view! Emailed the support group and flagged the post but still no take down. I’m furious and no way should this have been allowed to happen",
+      "version": "5.9.5",
+      "title": "Uploaded a wrong photo!"
+    },
+    {
+      "userName": "VPG7478",
+      "score": 3,
+      "text": "The people in charge of this app could have also installed a delete button, to remove old requests over a year old. I keep getting emails on an outstanding request from 120+ days ago, just wanted it deleted. I reached out and they said they are not able to delete resolved requests. Why not?? Old resolved requests should be deleted. Please install a delete button and I’ll change my rating.",
+      "version": "5.9.5",
+      "title": "Good utility app but…"
+    },
+    {
+      "userName": "MicCheck313",
+      "score": 1,
+      "text": "The police shows a great failure to get these type people off the street in a reasonable time frame!!",
+      "version": "5.9.5",
+      "title": "Crack houses n Associates"
+    },
+    {
+      "userName": "tcrain19",
+      "score": 2,
+      "text": "I am unable to even submit a report. It fails to submit and will not let me submit the answers to required questions. The one time I think I was able to get it to work (not sure how) it didn’t seem to help. City of Oakland didn’t get involved.",
+      "version": "5.9.5",
+      "title": "Serious flaws here"
+    },
+    {
+      "userName": "st.Thomas and Cramer ave",
+      "score": 1,
+      "text": "Why do you continue to miss third Friday and Wednesday yard trash ?",
+      "version": "5.9.5",
+      "title": "Missed third Friday pickup st.Thomas Ave. 3/18/22"
+    },
+    {
+      "userName": "Kin2u",
+      "score": 3,
+      "text": "I like being able to help our local authorities address problem issues in the community. What I don’t like is  when these problems are disbursed to other authorities or departments and are immediately closed. To me, closing means completed. Leave the original call open so the public can follow the process from reporting to finished. This will also help those who are about to report the issue again know that the situation is already in process and they can follothe process too if they desire.",
+      "version": "5.9.5",
+      "title": "Closing Early"
+    },
+    {
+      "userName": "tunabops",
+      "score": 5,
+      "text": "Thank you, as always, for Public  Works quick response",
+      "version": "5.9.5",
+      "title": "Mail box fix"
+    },
+    {
+      "userName": "EHannP",
+      "score": 5,
+      "text": "This is such an easy and helpful tool for communicating concerns - small and large!",
+      "version": "5.9.4",
+      "title": "Excellent community resource"
+    },
+    {
+      "userName": "Knicky Sixxe",
+      "score": 4,
+      "text": "Easy to use and thankful it exists. Last thing I wanna do is sit on hold with the service provider to tend to an issue, or send an email and hope the person isn’t on vacation. The work gets done.",
+      "version": "5.9.4",
+      "title": "Easy to Use, Functional"
+    },
+    {
+      "userName": "erahm85",
+      "score": 3,
+      "text": "This application is generally good for reporting information to the city. However, I would suggest adding the ability to add videos. Also, the reporting party should be the one to clear the report because the city has been clearing reports as “resolved” when they receive the report, but prior to carrying out the work. We should be able to hold the city accountable by keeping track of the length of time it took from reporting the issue, to the city actually carrying out the work.",
+      "version": "5.9.4",
+      "title": "Missing some tools"
+    },
+    {
+      "userName": "Sssss1345",
+      "score": 5,
+      "text": "Street lights out in the corner of Deborah and chriswood and also at alley and Deborah. It’s very dark in this ghetto neighborhood.",
+      "version": "5.9.4",
+      "title": "Street lights"
+    },
+    {
+      "userName": "Dpn121212",
+      "score": 1,
+      "text": "Text boxes lock up after only a few letters. Flow and navigation is confusing. Could not load Categories. Took 3 attempts to submit.",
+      "version": "5.9.4",
+      "title": "Needs improvement"
+    },
+    {
+      "userName": "Jackalafia",
+      "score": 5,
+      "text": "I have used this app many times, and all the time there were positive results.  The app is users friendly and straight forward. Highly recommended!",
+      "version": "5.9.4",
+      "title": "Reliability"
+    },
+    {
+      "userName": "dem107",
+      "score": 2,
+      "text": "Submitting a request in Chicago doesn’t work. The link to the City of Chicago seems broken and the developers say to talk to the city.",
+      "version": "5.9.4",
+      "title": "Doesn’t work in Chicago"
+    },
+    {
+      "userName": "Bored of the dramz",
+      "score": 1,
+      "text": "The municipality that you report to can block your comments if they dont like what you have to say",
+      "version": "5.9.3",
+      "title": "City can block"
+    },
+    {
+      "userName": "High mileage",
+      "score": 5,
+      "text": "There is a lurking agenda here. There is censorship. ...and I don’t mean due to profanity.",
+      "version": "5.9.3",
+      "title": "Censoring."
+    },
+    {
+      "userName": "AlgebraVic",
+      "score": 1,
+      "text": "They just recently updated the app.  They have a bad bug on iPhone: when selecting day of rash pickup and yes/no choice the accept button is not visible.  I couldn’t usd it on my phone at all and had to navigate their very poorly designed website.  Get some competent people!",
+      "version": "5.9.3",
+      "title": "Horrible user interface"
+    },
+    {
+      "userName": "spjps",
+      "score": 5,
+      "text": "I’ve reported a loose curb stone 3 times to no avail. I know there is a lot to do however this is a dangerous spot and tonight I fell into it and can barely walk. \nNot sure what else I can do.",
+      "version": "5.9.3",
+      "title": "Used to be good."
+    },
+    {
+      "userName": "curranblanca",
+      "score": 1,
+      "text": "There’s a bug in your app. No way to apply your answers to questions later in the form. Can’t submit a request.",
+      "version": "5.9.3",
+      "title": "Nov 2021 bugs"
+    },
+    {
+      "userName": "TheBubbelahs",
+      "score": 1,
+      "text": "Your crappy app crashes every time I try to upload a photo to an existing report.",
+      "version": "5.9.1",
+      "title": "Deleting periods"
+    },
+    {
+      "userName": "Iserjio",
+      "score": 1,
+      "text": "Unable to submit report as the interface has fields but misses “answer” button on multiple questions. Would appreciate better quality control so it actually be useful",
+      "version": "5.9.1",
+      "title": "App needs quality control!"
+    },
+    {
+      "userName": "510DustMite",
+      "score": 1,
+      "text": "The ability to submit answers to questions is not scaling, making it impossible to answer the required questions for requests. Does not function on iPhone 12 mini, and I am assuming iPhones with less resolution.",
+      "version": "5.9.1",
+      "title": "App has become literally unusable in smaller phones"
+    },
+    {
+      "userName": "Kerry-gud",
+      "score": 5,
+      "text": "I love this app! It’s easy to log in issues and action typically takes place 1-4 days after reporting. It’s a hugely important tool for Oakland residents to help improve our surroundings.",
+      "version": "5.8.5",
+      "title": "Easy to Use and So Effective!"
+    },
+    {
+      "userName": "Kkandie",
+      "score": 5,
+      "text": "I reported some pot holes in front of our yard late last night. They were promptly repaired, filled in areas less than 14 hours after I reported! \n    Amazing work guys! \n    Thank you so much!!!",
+      "version": "5.8.5",
+      "title": "Pot holes"
+    },
+    {
+      "userName": "Nurse_Focker",
+      "score": 1,
+      "text": "App never works (and hasn’t for over 2 years). I have to go online to submit issues every time, and then the City of New Haven ignores them. Bonus is that other New Haveners will attack you for reporting illegal activity. I’ve tried emailing SeeClickFix, and they ignore my emails or respond condescendingly with no help. Just a sad company and a sad city.",
+      "version": "5.8.5",
+      "title": "App doesn’t work"
+    },
+    {
+      "userName": "X357855",
+      "score": 1,
+      "text": "Filing a simple ticket via this dumpster fire if an app is incredibly frustrating. Things that should be checkboxes take multiple screens. Errors are not reported next to the ui affordance used to fix them. What should be a simple 1 minute tasks is a 3 minute exercise in frustration and failure. Please see click and fix this app.",
+      "version": "5.8.5",
+      "title": "Worst UX of any app"
+    },
+    {
+      "userName": "Surffers",
+      "score": 1,
+      "text": "To submit a report it ask too many questions.",
+      "version": "5.8.5",
+      "title": "Too lengthy"
+    },
+    {
+      "userName": "my binghampton",
+      "score": 3,
+      "text": "I am grateful we have the App. \nSometimes human response time is slower \nAnd reports have to be submitted several times.\nBut I am glad we have a department to help keep citizens accountable for a better city to live in.",
+      "version": "5.8.5",
+      "title": "App overview"
+    },
+    {
+      "userName": "SteveRalNC",
+      "score": 2,
+      "text": "It is easy to report something but often impossible to close it after it has been resolved.",
+      "version": "5.8.5",
+      "title": "Great idea"
+    },
+    {
+      "userName": "HELP HANK!!",
+      "score": 5,
+      "text": "Thank you Sgt! Thanks for keeping us safe!",
+      "version": "5.8.5",
+      "title": "Thank you!"
+    },
+    {
+      "userName": "Beastcdt32",
+      "score": 5,
+      "text": "Thanks for the quick response to my request on North Judge Ely Blvd. You had our problem fixed within 24 hours!\n I appreciate you guys!! \nI. Taylor",
+      "version": "5.8.5",
+      "title": "Pot hole repair"
+    },
+    {
+      "userName": "really dude why",
+      "score": 5,
+      "text": "It is a great way to see what issues are going on on in our community’s and other community’s and stay up to date on the current issues it is also a smooth and non-complicated process to report issues and also runs smooth and doesn’t crash my phone",
+      "version": "5.8.5",
+      "title": "Great app to use and in joy"
+    },
+    {
+      "userName": "bex_sf",
+      "score": 1,
+      "text": "It’s honestly super disgusting that they have “encampment” as an issue for this app! People don’t have anywhere else to go, and continuing to traumatize and displace them does NOT solve the problem. It just hides it away from people who don’t want to face the reality of the housing crisis.",
+      "version": "5.8.5",
+      "title": "Get rid of the option to post about “encampments”"
+    },
+    {
+      "userName": "JBell715",
+      "score": 5,
+      "text": "When I report something, it’s handled expeditiously",
+      "version": "5.8.5",
+      "title": "Location"
+    },
+    {
+      "userName": "GeoWmR",
+      "score": 1,
+      "text": "If this is a review of the App, it is a good idea but less than effective.  Locations are not always accurate.\nIf this is an evaluation of action by the town on FIXING, it is a failure.  Too often a reply indicating Case Closed is received.  Perhaps the system should be renamed See-Click- Ignore or See-Click-StopBotheringUs.",
+      "version": "5.8.5",
+      "title": "SCF seems like a good idea but less than effective."
+    },
+    {
+      "userName": "Ssgtjohnnyg",
+      "score": 4,
+      "text": "I would like the ability to click off two issues at the same time.I would like it easier to offer suggestions or to add on our own issues",
+      "version": "5.8.5",
+      "title": "Improvements"
+    },
+    {
+      "userName": "CaptainChunkles",
+      "score": 1,
+      "text": "Freezes up periodically.",
+      "version": "5.8.5",
+      "title": "Freezes up"
+    },
+    {
+      "userName": "HiMaui",
+      "score": 1,
+      "text": "Put in request and nothing ever happens.",
+      "version": "5.8.5",
+      "title": "Non responsive"
+    },
+    {
+      "userName": "Keeping it cool",
+      "score": 1,
+      "text": "Waste of time App",
+      "version": "5.8.5",
+      "title": "Waste of time app"
+    },
+    {
+      "userName": "Jeepers66",
+      "score": 3,
+      "text": "Updated the app today and the links on the landing page are no longer working.",
+      "version": "5.8.5",
+      "title": "Links not working"
+    },
+    {
+      "userName": "gspress",
+      "score": 1,
+      "text": "Can not log in on my IPad",
+      "version": "5.8.4",
+      "title": "Terrible Performance"
+    },
+    {
+      "userName": "hawaiian7717",
+      "score": 5,
+      "text": "Well one star for not picking up the downed tree for two days in a row or fixing any of the potholes that I have given to the app",
+      "version": "5.8.4",
+      "title": "Get those tax dollars to work for me"
+    },
+    {
+      "userName": "LindinL60",
+      "score": 2,
+      "text": "I completed several requests and they were closed with no response. Clearly a waste of time.",
+      "version": "5.8.4",
+      "title": "Closed request with no response or fix"
+    },
+    {
+      "userName": "gonefishing823",
+      "score": 1,
+      "text": "grammar structure sentences do not always upload correctly.",
+      "version": "5.8.4",
+      "title": "Uploading issue"
+    },
+    {
+      "userName": "Ellyrosebarausky",
+      "score": 5,
+      "text": "Thank you for a great and prompt service",
+      "version": "5.8.4",
+      "title": "Plowing Issue Resolved"
+    },
+    {
+      "userName": "Nickname!#!",
+      "score": 5,
+      "text": "Excellent tool to communicate with the city. \n\nI travel so much within the Brazos Valley for work, I wish all cities, counties, state entities would use this app.",
+      "version": "5.8.4",
+      "title": "Communicate with the City"
+    },
+    {
+      "userName": "nickname3746838",
+      "score": 4,
+      "text": "Starts with 5 stars because it works!\nLoses one star because it's hard to use and you have to click a bunch of extra steps to acknowledge things instead of making the form better. For example one could require a street corner or description from nearest GPS point to handle some poor GPS coordinates from phone. Thanks though!",
+      "version": "5.7.3",
+      "title": "Gets things done!"
+    },
+    {
+      "userName": "Bedfordhiker",
+      "score": 3,
+      "text": "Clean up your files on aged items closed many times",
+      "version": "5.7.3",
+      "title": "Clean up your files"
+    },
+    {
+      "userName": "Doadear",
+      "score": 3,
+      "text": "I tried to use the app to enter my address, but the app used a different address— grrrr!",
+      "version": "5.7.3",
+      "title": "Please create better confirmation tools"
+    },
+    {
+      "userName": "Frogf@rter",
+      "score": 5,
+      "text": "Appreciate the trimming on Columbus at Pinal St. Very helpful when trying to drive onto Columbus. Safer than going halfway into the road to check for on coming traffic!!",
+      "version": "5.7.3",
+      "title": "Thanks for trimming"
+    },
+    {
+      "userName": "troyxxxx",
+      "score": 5,
+      "text": "There is one review over 700 days that will not close out even when requested.",
+      "version": "5.7.3",
+      "title": "Great"
+    },
+    {
+      "userName": "SargeandFamily",
+      "score": 5,
+      "text": "I find that with this app we get things done, especially if someone takes a picture. Thank you to all the City representatives that take the time to respond. #lovemycity #loveCorona",
+      "version": "5.7.3",
+      "title": "Love Click fix app"
+    },
+    {
+      "userName": "NKarigaca",
+      "score": 4,
+      "text": "I sometimes don’t see my category, but there is no catch all. Issues around restrooms at parks: lack of supplies or trash. When I have something that is not an emergency involving a tree, I have to phone it in.",
+      "version": "5.7.3",
+      "title": "Lack of categories"
+    },
+    {
+      "userName": "chattertong",
+      "score": 1,
+      "text": "Completely useless.  It has my location as New Haven, CT (I’m in Atlanta, GA).  Won’t let me do anything to change it.  Can’t look up the request I submitted via web browser.  I’m sure New Haven is nice, Ive never been, but I honestly don’t care about their potholes.",
+      "version": "5.7.2",
+      "title": "Hoping just a bad release"
+    },
+    {
+      "userName": "Hamps59",
+      "score": 3,
+      "text": "I’m still getting the same notices over and over for issues I posted 2+ years ago that we’re fixed even though I indicate that they have been fixed and should be CLOSED.\nThis has worked great for all the issues I’ve posted and should get 5 stars for that except for the continual notices. \nI’ll continue to use it when something comes up but once it’s fixed and I show it’s closed PLEASE stop sending me the same messages.",
+      "version": "5.7.2",
+      "title": "Used to Be Great"
+    },
+    {
+      "userName": "SwankPeRFection",
+      "score": 1,
+      "text": "Has stopped working with my local authorities and GPS locks are also taking longer or don’t work properly to get current location since last update.  The chance of all municipalities in two states no longer working with your system is pretty far fetched, so I’m going to chalk it up to an issue with the last update and location services.  You need to fix this!!!\n\nApp needs to be updated to use new iOS 12+ photo attachment API which no longer requires apps to have static and individualized permissions to our photo libraries.  The new API that’s been around since iOS 12 and is now in 13 as well, allows for the app to be given access to any photo the user chooses without needing permissions to the camera roll.  Your app doesn’t work properly when the new UI tries to serve it the photo the user chooses.  This needs to be fixed.\n\nWorse app icon ever.  Am I fixing my heart or problems in the city/county I’m in? 🙄",
+      "version": "5.7.2",
+      "title": "Needs Update"
+    },
+    {
+      "userName": "qswdefrgxguurexghui",
+      "score": 2,
+      "text": "Nothing happened after continued reports",
+      "version": "5.7.0",
+      "title": "No response to reports of no trash pick up"
+    },
+    {
+      "userName": "CleanVallejoUp",
+      "score": 5,
+      "text": "Great job on the recent pickup of garbage on Rollingwood 👍🏼😁",
+      "version": "5.7.0",
+      "title": "200 Rollingwood"
+    },
+    {
+      "userName": "mikier52",
+      "score": 5,
+      "text": "The previous reporting app used by Multnomah County was cumbersome and very difficult to navigate. Click/Fix is fantastic. Some of the best features are: 1)submitting a photo also provides the exact location\n2)  logical screen sequence to report an issue\n3) immediate submission acknowledgement and subsequent followup \n4) option to share posting with impacted neighbors",
+      "version": "5.6.9",
+      "title": "Extremely user friendly"
+    },
+    {
+      "userName": "MileHighDenver",
+      "score": 2,
+      "text": "Has this app been abandoned? I submitted a request for piles of trash in a neighborhood yard and nothing has happened for a 6 weeks. Not sure if anyone even gets the requests from this so I wouldn’t recommend using it.",
+      "version": "5.6.9",
+      "title": "No response and no action taken"
+    },
+    {
+      "userName": "UWVET92",
+      "score": 1,
+      "text": "This app appeals to the angry, ignorant, resentful among us.  What a crappy tool.",
+      "version": "5.6.9",
+      "title": "A grown-up tattling app."
+    },
+    {
+      "userName": "Jimmyjexx",
+      "score": 1,
+      "text": "After updating to IOS 13.5, no longer able to upload photos from Photo Library or Recent Photos,etc. prior to update no problem with uploads. \nOne of the only reasons I use this app, was the ease of use. Take a photo, upload, “Bam “pretty much done reporting a issue to city. Device is XS Max, ver 13.5",
+      "version": "5.6.9",
+      "title": "Unable To Upload Photos"
+    },
+    {
+      "userName": "KhaledOakland",
+      "score": 1,
+      "text": "App where gentrifiers go to snitch on neighbors. They even snitch on the most stupidest things you could imagine.  No to Gentrification, your not welcome in our neighborhoods. Get out.",
+      "version": "5.6.9",
+      "title": "Snitch App"
+    },
+    {
+      "userName": "BookerTDub",
+      "score": 4,
+      "text": "While my hometown city doesn't use SeeClickFix for infrastructure deficiency reporting, I live in an area where 2 neighboring cities & 3rd city about an hour away uses SeeClickFix app platform. Instead of having multiple apps for multiple cities, government agencies, etc which use the SCF platform, this app does it all in one.\nUpdate: Downgraded to 4 stars because the comments aren’t showing in the app.",
+      "version": "5.6.8",
+      "title": "Love this app"
+    },
+    {
+      "userName": "any nane",
+      "score": 5,
+      "text": "I was able to photograph and locate an issue and submit the problem immediately to the city. On my morning walk the next day it had already been fixed. A wonderful useful and useable application!",
+      "version": "5.6.8",
+      "title": "Immediate notification of location and priblems"
+    },
+    {
+      "userName": "only half satisfied",
+      "score": 3,
+      "text": "The municipality in which I live declares items taken care of when they are not. They don’t explain that dissolution is too complex or provide very much feedback at all. They also do not provide any reports to the city Council or residents and what kinds of issues have been raised and how they have been resolved.",
+      "version": "5.6.7",
+      "title": "Municipality not respecting the purpose of the app"
+    },
+    {
+      "userName": "YouBmusic",
+      "score": 1,
+      "text": "After using this service for many years it seems more like a middle man to getting anything done, and many things seem to die with that middle man. If you have an issue in your town your better off heading down to the office to speak to a person the old fashioned way, or even giving a call would likely work better, heck sending a telegram might even work better! Overall I am not impressed by this App and find it has no need for existence.",
+      "version": "5.6.6",
+      "title": "Not Impressed"
+    },
+    {
+      "userName": "Leeca98",
+      "score": 2,
+      "text": "The option to close a reported issue is not available in the iOS version of this app on a iPad Air 2. I had to login to the site using my computer and a browser to close incidents reporting potholes.\n\nIf that could be fixed or made more user friendly I would give it 5 stars.",
+      "version": "5.6.6",
+      "title": "Can’t close incidents in app"
+    },
+    {
+      "userName": "LITTLE RED ~~~",
+      "score": 3,
+      "text": "It’s all or none with this tool, at least it gives us a place to vent and at times it works great, the problem is we are all overwhelmed, correct me if I’m wrong, but I see we’re making ground on illegal dumping I don’t see it like I used to, and I don’t hear or see post that dumping is still a major problem, still happens, but don’t see it as much.",
+      "version": "5.6.4",
+      "title": "All Hands on Deck"
+    },
+    {
+      "userName": "ChrisH133",
+      "score": 1,
+      "text": "I am not sure that the city of Raleigh knows about SeeClickFix because they do not seem address reported issues. Save you time and skip SeeClickFix.",
+      "version": "5.6.4",
+      "title": "Never have seen a response to reported issues"
+    },
+    {
+      "userName": "jack speichrr",
+      "score": 5,
+      "text": "Howard county is terrible when it comes to responding to reports. I reported a dangerous condition in march 2018, followed up six additional times only to have it pushed around in DPW. \nWhen they do not repair dangerous conditions, what good is it to report issues. \nJack Speicher",
+      "version": "5.6.4",
+      "title": "Storm drain repair"
+    },
+    {
+      "userName": "Kepeka3",
+      "score": 5,
+      "text": "I’m seeing many unanswered reports, come on city of East Orange and Newark NJ. Can we update our community apps.",
+      "version": "5.6.4",
+      "title": "Not sure if my city uses it"
+    },
+    {
+      "userName": "Tree and Litter Lady",
+      "score": 5,
+      "text": "A great way citizens can communicate with city workers to help us make VALLEJO a better city!",
+      "version": "5.6.4",
+      "title": "Lazy dumping"
+    },
+    {
+      "userName": "riverriver98371",
+      "score": 1,
+      "text": "I am trying to reset my password and this app has sent me a link via email to reset it. However, the app continually takes me back to the main page with no password reset. It just keeps asking me to sign up or sign in, and when I can’t sign in I am  asked me again for my email to reset my password.",
+      "version": "5.6.4",
+      "title": "Doesn’t work"
+    },
+    {
+      "userName": "see94591",
+      "score": 4,
+      "text": "This app has made me have faith in the City of Vallejo. You record something on this app and presto it gets taken care of. Seems like it’s a great way to show accountability for the employees & you visual see things get taken care of or fixed. Makes you want to keep paying your city taxes & thank the employees for doing their jobs for us tax payers.",
+      "version": "5.6.4",
+      "title": "City of Vallejo"
+    },
+    {
+      "userName": "Tenn Turkey",
+      "score": 3,
+      "text": "I submitted a picture of the man hole cover in front of my house and within a week a nice crew came out and repaired the pothole",
+      "version": "5.6.4",
+      "title": "Man cover pot hole"
+    },
+    {
+      "userName": "stereos roswell 30075",
+      "score": 4,
+      "text": "Buena aplicación, se ayuda a la comunidad reportando incidentes , o fallas en los servicios públicos.",
+      "version": "5.6.4",
+      "title": "Great tool, buena aplicación."
+    },
+    {
+      "userName": "Bigcowrocks",
+      "score": 1,
+      "text": "This might be the worst, most unhelpful app in the App Store! Not one single post has been addressed in the Charlotte NC area. Not one has been fixed and entries date back to 2010! I don’t think this app is even linked to any of the local utilities therefore rendering our posts/complaints useless. This app is a waste of time in the Charlotte, NC area!",
+      "version": "5.6.2",
+      "title": "Terrible App!!!"
+    },
+    {
+      "userName": "Djeog",
+      "score": 1,
+      "text": "When the city doesn’t acknowledge issues or clear or close cases. It’s pretty much useless.",
+      "version": "5.6.2",
+      "title": "Waste of time"
+    },
+    {
+      "userName": "Jrportman",
+      "score": 1,
+      "text": "No good",
+      "version": "5.6.2",
+      "title": "P"
+    },
+    {
+      "userName": "wouldluvapizza",
+      "score": 1,
+      "text": "The only way to launch SeeClickFix is to click on someone else’s post. I’ve tried for months to just launch from my iphone and it has never worked. I will have to continue to open via email. Deleting this useless app.",
+      "version": "5.6.0",
+      "title": "Never opens"
+    },
+    {
+      "userName": "need mire infi",
+      "score": 5,
+      "text": "Thank you!  Quick work. Love quick fix!!",
+      "version": "5.6.0",
+      "title": "Potholes fixed"
+    },
+    {
+      "userName": "DG&TG",
+      "score": 1,
+      "text": "Over the past 6 to 7 months the see click fix for the city and North Port is just closing all citizens concerns. Pointing them to a different website to see when the case hearing has been updated. App responders are very rude. And the numbers are not matching up. Total waste of my time to use this app. As the concerns are just closed so they can have good numbers.",
+      "version": "5.6.0",
+      "title": "Not Fixing"
+    },
+    {
+      "userName": "wasyeoftime",
+      "score": 2,
+      "text": "The town in Massachusetts I live in ignored issues. So this app is useless like them.",
+      "version": "5.6.0",
+      "title": "Great if your town doesn’t ignore issues"
+    },
+    {
+      "userName": "Cruzmore",
+      "score": 5,
+      "text": "I have had many pot holes filled and roads repaired using this app. Repair crews a usually respond quickly. 👍",
+      "version": "5.6.0",
+      "title": "See Click and Fix is a great App!"
+    },
+    {
+      "userName": "My3girlssrj",
+      "score": 5,
+      "text": "I love this site. I’ve submitted several things and all have either been picked up the next day or within a couple of days.",
+      "version": "5.6.0",
+      "title": "Curb side trash and debri"
+    },
+    {
+      "userName": "Ujdhsviab",
+      "score": 5,
+      "text": "Lots of timely cleanup of trash.\nWell done clean up crews",
+      "version": "5.6.0",
+      "title": "Around 27 th San Pablo"
+    },
+    {
+      "userName": "Firefly987",
+      "score": 5,
+      "text": "I reported a pothole the evening of 5/21 & it was fixed less than 24 hours later on 5/22. THANK YOU!!!👍🏼👍🏼👍🏼",
+      "version": "5.6.0",
+      "title": "Pothole"
+    },
+    {
+      "userName": "lori123455",
+      "score": 5,
+      "text": "Thanks you so much for fixing pot holes! Job well done and so prompt!!There are always potholes popping up on Peach st from So14 thru So 18 I got new tires and would like to keep in good shape! I’m impressed! Thank you!",
+      "version": "5.4.3",
+      "title": "Thanks!"
+    },
+    {
+      "userName": "Mendota Street restoration",
+      "score": 5,
+      "text": "I like to think the Detroit Forestry department,For the quick response and Removal of the tree",
+      "version": "5.4.3",
+      "title": "Tree removal"
+    },
+    {
+      "userName": "1006Kenforest",
+      "score": 3,
+      "text": "The app is just fine. I understand we need to work as a community. Why do the same people always getting breaks. And have the same code violation. My neighbor never cut her grass unless I post here.",
+      "version": "5.4.3",
+      "title": "App is fine"
+    },
+    {
+      "userName": "OSU1stbase23",
+      "score": 5,
+      "text": "This app is great, it allows you to report issues in your city and the City of Broken Arrow has responded quickly to each of my reports. Thank you City if Broken Arrow!",
+      "version": "5.4.3",
+      "title": "Love!"
+    },
+    {
+      "userName": "HealGodsKids",
+      "score": 3,
+      "text": "This is nothing but a copied and renamed version of Commonwealth Connect. I would be OK with that if they at least fixed some of the glitches and shortcomings of Commonwealth Connect. First of all, there’s no intuitive way to sort through issues in your neighborhood. Second, there is really no help through the app to explain certain things. For example, what do the different colors of the pins actually represent? Also, why is it that when I receive an email notification I can’t just click on the link and automatically open the app to that issue? Instead, it opens a web browser which is much more difficult to navigate on a mobile device. I feel like this app is an excellent start to improving our community, but it really needs a better GUI.",
+      "version": "5.4.3",
+      "title": "Just renamed Commonwealth Connect"
+    },
+    {
+      "userName": "fjared",
+      "score": 5,
+      "text": "Noticed very large, very dead, tree about 15 yards from Rd that serves all school approaches to elementary school. Report brought removal within 2 weeks.",
+      "version": "5.4.3",
+      "title": "Dangerous tree on State Rd"
+    },
+    {
+      "userName": "Pickyaboutalarmclocks",
+      "score": 1,
+      "text": "After this app got a big upgrade recently, when you tapped a link in an email notification, it didn’t open the issue and there was no way to find it. Now it does open the issue, but when you tap to vote or change the status, nothing happens. \n\nUsed to be useful, now it’s junk.",
+      "version": "5.4.3",
+      "title": "Broken"
+    },
+    {
+      "userName": "SexySHol",
+      "score": 4,
+      "text": "I give this app for stars for two reasons one There is no iPad app two They change my city app and deleted it without putting a notice on the app saying to download this one I have to find out on my own imagine people that are not tech savvy and would even think about to do that. But this app is better than the website still think it could be improved.",
+      "version": "5.4.3",
+      "title": "See click fix St. Pete app gone"
+    },
+    {
+      "userName": "user1063a",
+      "score": 1,
+      "text": "App not very user friendly and is only effective as the agency’s using it!",
+      "version": "5.4.3",
+      "title": "Usually a waste of time"
+    },
+    {
+      "userName": "One Mainiac",
+      "score": 5,
+      "text": "This app probably drives the city guys crazy! However it is very efficient, useful, and appreciated by people like me!",
+      "version": "5.3.0",
+      "title": "Crazy!"
+    },
+    {
+      "userName": "JKL58",
+      "score": 5,
+      "text": "When I moved to Oakland I was surprised at the condition of the roads. I mentioned seeing some garbage left on the sidewalk and a neighbor told me about SeeClickFix!  \n\nFor a test I wrote up about a pothole. Within a week it was filled!  What a surprise!  I’ve been reporting all sorts of incidents like debris, potholes, and sidewalk tripping hazards.  \n\nI’m impressed with the promptness of the response to fix. I also learned that if anything may be hazardous waste to contact the fire department- who came by the very next day to pick up the 5-gallon cans of used paint! \n\nThe app is easy to use, similar to the website reporting.",
+      "version": "5.3.0",
+      "title": "Grrrreat to know this app!"
+    },
+    {
+      "userName": "Makburl",
+      "score": 5,
+      "text": "Really love this app and the way I can keep track of reports I make to my city, I really feel like I’m helping improve my community. :)",
+      "version": "5.2.1",
+      "title": "Helps with transparency!"
+    },
+    {
+      "userName": "gailj2",
+      "score": 5,
+      "text": "This app plus my smart phone camera unclogs storm sewers, gets a soggy mattress along the roadside picked up or reports blight. It works. Really does!",
+      "version": "5.2.1",
+      "title": "Click to Fix My Neighborhood"
+    },
+    {
+      "userName": "ciderella722",
+      "score": 2,
+      "text": "Even when I type in the address for service your app changes and puts the current location I’m at instead of the problem area. Very annoying!",
+      "version": "5.2.0",
+      "title": "Tagging spots on map"
+    },
+    {
+      "userName": "Japenese",
+      "score": 1,
+      "text": "The app is good! That action is not! Nothing is done about what we submit.",
+      "version": "5.1.9",
+      "title": "Application"
+    },
+    {
+      "userName": "TaDa underReview",
+      "score": 1,
+      "text": "Past:  great tool for reporting and getting minor issues resolved.\nPresent:  Poor tool where duplicate, ONGOING complaints are being erased and intentionally overlooked by the City ppl accessing this app.  They are finding reasons NOT to acknowledge and address your written, legitimate complaints. Trying to hide something... i don’t know what, but something. \n\nPost and post for help to no avail.  Several caring Complaints CLOSED with no resolution. This app is now a joke that is simply Not Funny. City taxes paid, but this City rudely stops you from posting a complaint until they review and revise what you are actually complaining about.  Would do better sending a News cam for exposure.  Trying to make Memphis a better place, but the real issues are covered up.  Unprofessionally awful in many ways!  You started this system- Why STOP now!",
+      "version": "5.1.8",
+      "title": "Good tool under scrutiny by City if Memphis staff responders"
+    },
+    {
+      "userName": "Pedro v",
+      "score": 3,
+      "text": "The map is shifted north south from reality in Memphis TN. So if you select north side of street it geocodes to south side of street.",
+      "version": "5.1.8",
+      "title": "Great but..."
+    },
+    {
+      "userName": "AnotherWench",
+      "score": 1,
+      "text": "This used to be a great app! Now I can’t figure out how to report an issue to anyplace but my “neighbors.” I want to report issues to the city! My neighbors already know about the issues. The app is no longer intuitive AT ALL. I do not recommend it and will delete it from my phone as soon as I finish this review.",
+      "version": "5.1.8",
+      "title": "New version is incomprehensible"
+    },
+    {
+      "userName": "ReviewingShouldBeAnonymous",
+      "score": 2,
+      "text": "I was forced to use the app to report an issue to my city because SeeClickFix makes website reporting non-functional. I prefer to use web interfaces - mobile or laptop/desktop - to limit single-use app clutter on my phone, and to limit the data collection that apps generally are designed to maximize. SeeClickFix.com does have a web interface to report issues but the issue reporting function is hidden and not obvious. Instead the site devotes its real estate and resources to directing users to download the app. Once the website reporting page is found, it fails to function. I tried it on mobile Firefox, desktop Firefox and desktop Safari. Only after failing those three attempts did I download the app, because there is no alternative way to report a road construction problem in my city. I reported the issue and then deleted the app.  There is no need for this app - issues should be reportable through the website.  Some users may find it convenient but I see no reason why the issue reporting page could not be bookmarked in the browser of the user’s choice.",
+      "version": "5.1.7",
+      "title": "Unnecessary app"
+    },
+    {
+      "userName": "Fast Pickup Response",
+      "score": 4,
+      "text": "Wow!  Pickup within 24 hours of reporting on SeeClickFix!  Now that’s how it works!  Much appreciation!",
+      "version": "5.1.5",
+      "title": "Dumping on Cunningham at Davenport"
+    },
+    {
+      "userName": "K94589",
+      "score": 1,
+      "text": "The city just closes the reports and nothing has been done- this is a let down",
+      "version": "5.1.5",
+      "title": "Abandoned cars left for weeks"
+    },
+    {
+      "userName": "Newmommy ny",
+      "score": 5,
+      "text": "This is app is easy to use and allows you to put additional information to help explain the situation. Very helpful and creates a quick turn around time with the county while also providing feedback in a timely manner.",
+      "version": "5.1.5",
+      "title": "Great tool for the community"
+    },
+    {
+      "userName": "Johndee510",
+      "score": 5,
+      "text": "No more calling since my daughter downloaded this app. \n\nNow I take a picture of the trash that others dump in my neighborhood and magically the fairy angels come and pick it up. Like magic, poof it’s gone, but there has been time that I had to resend. \n\nThank you for this app City of Oakland.",
+      "version": "5.1.5",
+      "title": "Love this app"
+    },
+    {
+      "userName": "nhzero",
+      "score": 2,
+      "text": "It's easier to report on this app than on DC's 311 app, but on either one good luck getting better than a 10% success rate. I've reported around 150 items in the last 2 years in DC. Maybe 6 or 7 have been fixed. \n\nIt's far too easy for cities to close out requests without doing anything at all. SeeClickFix should require a photo before cities can \"close\" a problem that has likely just been ignored.",
+      "version": "5.1.5",
+      "title": "Easy to report, hard to get anything fixed"
+    },
+    {
+      "userName": "RoseiTeaChing",
+      "score": 1,
+      "text": "UPDATE: sadly I must revoke my review. For some reason the app was completely changed and ruined with a bizarre format, horrid layout and useless features. It was perfect before and now it's just useless. Who made this awful decision?\n\nEasy to use, and literally the only thing that our local government has responded to. I love this app.",
+      "version": "5.0.10",
+      "title": "Really effective."
+    },
+    {
+      "userName": "Chuck_e4",
+      "score": 2,
+      "text": "There needs to be a catch all  section for issues that don’t fit nicely into the selected issues. Dead fixed a water line break in front of my home last October/November and broke my curb and messed up my grass from the sidewalk to the street and I am unable to report this issue on the app. The work still has not been corrected and my front yard looks a mess. Please fix this issue",
+      "version": "5.1.2",
+      "title": "Need additional choices for issues to be reported"
+    },
+    {
+      "userName": "Antioch resident",
+      "score": 2,
+      "text": "The city needs to respond in a more timely fashion. They ask for help but they also need to do their job. They keep asking for taxes but where are the results for us the citizens. Code enforcement forget about doing their job.",
+      "version": "5.0.10",
+      "title": "Please help us the Antioch residents!!!"
+    },
+    {
+      "userName": "AbbeyMom",
+      "score": 4,
+      "text": "No longer user friendly! Doesn’t accept addresses, reverts to reporters address. Picture sometimes will not load. Very difficult to use!!!!",
+      "version": "5.0.10",
+      "title": "ClickFix"
+    },
+    {
+      "userName": "EastCoastShooter",
+      "score": 5,
+      "text": "I've been using this app for a few months. It is quite useful for getting those nasty potholes repaired. Like a lot of drivers I travel the same route every day. Always amazed that a road repair crew will just drive by the holes and not fix them. Worse, they'll fix one you report but leave another one five feet away and not fill it. This app makes it more efficient. Enable GPS and then Snap photos with your smartphone. Fill out the form and attach photos. GPS provides specific addresses (in most cases) so the crew can find it, compare to the photo(s) and get 'r done. I like it! Tires,?wheels, tie rods, springs. All that it very expensive to repair. Compared to the cost of fixing some holes this app provides a civic minded way to save yourself and thousands of other drivers costly repairs. Virginia Beach is very good about getting them fixed quickly, there is no reason not to use this app!",
+      "version": "5.0.10",
+      "title": "Great For Getting Potholes Repaired"
+    },
+    {
+      "userName": "trumpisapunk",
+      "score": 1,
+      "text": "Images won’t load during reporting",
+      "version": "5.0.10",
+      "title": "Images won’t load during reporting"
+    },
+    {
+      "userName": "Buzz.Brown Oakland California",
+      "score": 3,
+      "text": "It takes FOREVER to get Oakland Public Works to take ACTION using this service",
+      "version": "5.0.10",
+      "title": "311 not working with Oakland Public Works"
+    },
+    {
+      "userName": "thumbunny99",
+      "score": 3,
+      "text": "App doesn't respond very quickly when tapping/pressing the icon to close reports.  One other person and myself are directing people to the appropriate place to report issues, because the city doesn't monitor SeeClickFix since they have their own app.",
+      "version": "5.0.5",
+      "title": "iOS close process buggy"
+    },
+    {
+      "userName": "Agls1",
+      "score": 5,
+      "text": "Thanks for this app. It makes life easier and my neighborhood better.",
+      "version": "5.0.5",
+      "title": "Makes me feel like I can make a difference in my community"
+    },
+    {
+      "userName": "noodleznow",
+      "score": 2,
+      "text": "As much as I was hoping for real improvement, I think it’s actually gone backwards. It’s a disorganized app with even more disorganized search results. It’s all we’ve got, so I’ll have to keep using it, but it’s always frustrating.",
+      "version": "5.0.5",
+      "title": "Great concept, poorly executed"
+    },
+    {
+      "userName": "ron mooney",
+      "score": 1,
+      "text": "Updated app makes it harder to post issues \nThe ability to check similar posts might be nice, but should be date sensitive \nMake it easier, not harder please",
+      "version": "5.0.5",
+      "title": "Poor version"
+    },
+    {
+      "userName": "suefl9",
+      "score": 4,
+      "text": "The app makes reporting easy but one problem I noticed was if i see something that needs to be reported and I’m driving at the time, i can snap a picture but i need to pull over in order to submit because the app will always take the GPS address even if i type in the correct address of the violation it won’t accept it.",
+      "version": "5.0.5",
+      "title": "Good app"
+    },
+    {
+      "userName": "Imagemakers",
+      "score": 2,
+      "text": "I can not report anything that asked for an address as on my phone I can not edit the location. All I see when I go to edit it is the lengthy generic text the app has. I can not scroll to the bottoms to edit it. My only choice is to report using the wrong type of report saying everything is a road issue or a park issue even when it is with a property. I never had an issue in the past being able to enter the exact address. Hope this gets solved as I like the app and my city responds well to it.",
+      "version": "5.0.5",
+      "title": "Used to work well, now not so much"
+    },
+    {
+      "userName": "FrayBBQ",
+      "score": 1,
+      "text": "Cannot send any report. Continuously got a 500 server error.",
+      "version": "5.0.5",
+      "title": "Useless"
+    },
+    {
+      "userName": "DontWasteYourTime1",
+      "score": 1,
+      "text": "The Town of Chelmsford “uses” the app, but nothing actually gets fixed. They are GREAT at replying that they looked at things though.",
+      "version": "5.0.5",
+      "title": "If the Users actually took action"
+    },
+    {
+      "userName": "Pancho91911",
+      "score": 3,
+      "text": "After the latest update, the GPS locator is off by about 50 ft after you click the submit button and check the report.",
+      "version": "5.0.3",
+      "title": "GPS Locator Issues"
+    },
+    {
+      "userName": "Libertyforall",
+      "score": 2,
+      "text": "It’s really dumb as the submitter of an issue that I cannot edit the title one submitted!\n\nOther than that the app is a great idea, the biggest problem is that the local public works department‘s are not already linked in to this app.",
+      "version": "5.0.3",
+      "title": "Cannot edit title once submitted!"
+    },
+    {
+      "userName": "y047",
+      "score": 1,
+      "text": "I really liked this app, but the latest update makes it much harder to use. I'll be looking for other solutions.",
+      "version": "5.0",
+      "title": "New update is a bust"
+    },
+    {
+      "userName": "iSC22",
+      "score": 3,
+      "text": "The new version is pretty, but did little to enhance the user experience. \n\nThe messages and notifications feed is no longer. \nYou can no longer view user profiles to see issues they submitted. \nYou can no longer see top contributors in your community. \n\nSome more minor, but annoying features that disappeared:\nWay to many taps and swipes to see an issue image. \nNo way to zoom in on an issue image. \nNo way to tap on user profiles/usernames in the comment thread. \nNo way to see total number of issues I reported. \nAnd more \n\nAs you can see, many features lost, but few gained other than a new look for the same tasks. While I provided this feedback in the beta stage, unfortunately it wasn't taken into account. I hope these features are on the road map and that this app see more updates than the last one. \n\nKeep up the good work.",
+      "version": "5.0",
+      "title": "New Version, Lost Features"
+    },
+    {
+      "userName": "Mrz JB",
+      "score": 1,
+      "text": "This service gets a ZERO",
+      "version": "4.6",
+      "title": "Zero"
+    },
+    {
+      "userName": "Moldyduckbutter",
+      "score": 1,
+      "text": "This app in theory could be good, however it is not. \n\nIt no longer populates issues in areas, even after I have submitted one. \nThe UI is poor. \nThe design and layout is poor. \nThere is no way to communicate with the person that closed or did something to the ticket.",
+      "version": "4.6",
+      "title": "Crap App"
+    },
+    {
+      "userName": "interfrastic",
+      "score": 4,
+      "text": "The app is not perfect, but solid enough to get the job done…and it is so much better than previous systems I have used!\n\nThe app is only a tool that makes it much easier to report problems, so the very bad reviews based on how the cities actually respond (or don’t) to the reports are not at all fair to the creators of the app itself.",
+      "version": "4.6",
+      "title": "A good tool that cities may or may not use well"
+    },
+    {
+      "userName": "10enbaum",
+      "score": 5,
+      "text": "This app is incredibly useful in helping local government keep up with the times and serve its residents. Now if only my city paid more attention...",
+      "version": "4.6",
+      "title": "Love this app!"
+    },
+    {
+      "userName": "Josh6bro",
+      "score": 1,
+      "text": "This apps seems useless.  I reported an illegal dump; big bundle of trash dumped in the middle of the road.  Several days later the app indicated that the issue was closed, but the trash was still there.  I called the office and they said that someone came out and pushed the garbage to the side to make the road safe.  WHAT?  I asked why did they not remove the trash.  He said maybe they didn't have the proper equipment.  WHAT?  WHAT did they think they were coming out for related to an illegal dump.  He said he would contact a supervisor and see if they can get this cleanup expedited.  Here it is a week later and still the trash remains.  I don't know if this problem is specific to Oakland, but I do know that it is very frustrating and suggestive of a dysfunctional app and city.",
+      "version": "4.6",
+      "title": "Is anybody home?"
+    },
+    {
+      "userName": "newzac",
+      "score": 2,
+      "text": "Comments should be anonymous. You should be able to remove or edit your own comments. \n\nThe officials can actually see your email if you report anonymous, defeating the anonymity.\n\nThere is no way in the app to change your email once your anonymity has been breached.",
+      "version": "4.6",
+      "title": "Needs improvement"
+    },
+    {
+      "userName": "Mo City Tiger",
+      "score": 5,
+      "text": "I believe that the City needs to increase it fines and court cost to deter Violators.",
+      "version": "4.6",
+      "title": "Action"
+    },
+    {
+      "userName": "Smootherworld",
+      "score": 1,
+      "text": "Well we have been without power for nearly 3 hours, but according to the City of Danville outage map there are no issues for our area!!",
+      "version": "4.6",
+      "title": "Needs work"
+    },
+    {
+      "userName": "cepm",
+      "score": 5,
+      "text": "It's seems to be pretty functional and user friendly but I've only recently learned about it.",
+      "version": "4.6",
+      "title": "So far the app works well"
+    },
+    {
+      "userName": "Master of Old Thunder",
+      "score": 2,
+      "text": "Done",
+      "version": "4.6",
+      "title": "NEW IOS now causes ap to Freeze if location set first"
+    },
+    {
+      "userName": "Da best app evar",
+      "score": 1,
+      "text": "Not user friendly, have been trying to update the username and it keeps bringing me to the app!!!",
+      "version": "4.6",
+      "title": "Updating information"
+    },
+    {
+      "userName": "KristaRose52710",
+      "score": 5,
+      "text": "I'm so glad to find this app! It's amazing!!",
+      "version": "4.6",
+      "title": "Awesome"
+    },
+    {
+      "userName": "Kvnleal",
+      "score": 4,
+      "text": "Clean up the neighborhood!",
+      "version": "4.6",
+      "title": "Love it!"
+    },
+    {
+      "userName": "V&AHun",
+      "score": 5,
+      "text": "Awesome app if you care about your neighborhood and your surroundings.\nEasy to use!\nIt would be nice if this app would be so popular like Twitter!",
+      "version": "4.6",
+      "title": "For responsible citizen"
+    },
+    {
+      "userName": "Cafelait",
+      "score": 1,
+      "text": "Have tried multiple times to submit my issue. Keep getting \"connection error occurred . Unable to finish uploading report.\" Can't upload issue. No help button to contact customer service.",
+      "version": "4.6",
+      "title": "Won't submit"
+    },
+    {
+      "userName": "jshumilak",
+      "score": 5,
+      "text": "I am loving this app… Response time is quick, and the first few things I've reported were taken care of within a couple days or so. It really does work, and it is very easy to use. :-)",
+      "version": "4.6",
+      "title": "Great!"
+    },
+    {
+      "userName": "njackson81",
+      "score": 1,
+      "text": "It won't even let you register…",
+      "version": "4.6",
+      "title": "Worst App Ever!!!!"
+    },
+    {
+      "userName": "Pete - Clawson",
+      "score": 1,
+      "text": "This app doesn't work well at all, poor execution of online version",
+      "version": "4.6",
+      "title": "Function"
+    },
+    {
+      "userName": "Juan Benito",
+      "score": 1,
+      "text": "Addendum: city (Medford,  MA) does not respond to problems. Reported over a year ago by email and again this spring by SeeClickFix and sidewalk still a danger. Maybe it's not the app but the city admin. \n\nCannot filter for your city or neighborhood very well except by maps. Hasn't had a new version since 2015. Disappointed.",
+      "version": "4.6",
+      "title": "Needs to be updated 👎🏼"
+    },
+    {
+      "userName": "Mattronome",
+      "score": 4,
+      "text": "I've reported streetlight outages, holes in sidewalks, and water leaks--all were taken care of by Oakland or Berkeley crews in short order. I'm still waiting for some pothole repairs...but that's not the app's fault.",
+      "version": "4.6",
+      "title": "Very effective!"
+    },
+    {
+      "userName": "Prof090807",
+      "score": 3,
+      "text": "This app is great, as it allows townspeople to report issues in their neighbourhood.  A couple of things need improvement:\n\nIt would be a great improvement using the search function to be able to filter by nearest incidents, having the most recent reports at the top.  Currently they sort and filter by location.  One has to fish through the lot to find the newest.  If I filter by newest, i get reports from adjacent communities, and have to go fishing through to find those for my town.  There is no information on the list what town the incident relates to.\n\nI realize this may be difficult, and may require some work.  Possibly set a radius (miles?) from current location? Or add some information to the list to know what town is reporting an issue.\n\nThe communities often do not seem to close fixed incidents.  I have an incident that was fixed but the town never closed the issue, even though it's been done for months. This is a town issue, and not an issue with the app.  Perhaps the user reporting can have the option to close the incident using the app.  That way more items might be closed.",
+      "version": "4.6",
+      "title": "Improvements"
+    },
+    {
+      "userName": "Davidph3",
+      "score": 5,
+      "text": "Easy to use, and my county government facilities office commented on my request within the hour.",
+      "version": "4.6",
+      "title": "Grateful"
+    },
+    {
+      "userName": "Tucker-Revere",
+      "score": 5,
+      "text": "This app is great.   Written records get answered and the work completed.",
+      "version": "4.6",
+      "title": "Great app that allows constituent to report issues"
+    },
+    {
+      "userName": "baxterdog",
+      "score": 5,
+      "text": "App works great, easy to send issues and follow up on them. Chicago is not integrated well into this, though. Many issues are not listed and  issues get closed by the City when they haven't been resolved.",
+      "version": "4.6",
+      "title": "Great app, which the city did more"
+    },
+    {
+      "userName": "Lucee5850",
+      "score": 5,
+      "text": "Love this app because I don't have to call when I need to correspond with the city regarding trash, pick up or new trash cans.",
+      "version": "4.6",
+      "title": "Can You Help Me?"
+    },
+    {
+      "userName": "Booch123",
+      "score": 4,
+      "text": "Never had a problem. Easy to use. Provides a great service. I report potholes all the time. If you were no longer near the location, you can move the location of your report on the map. I would give it five stars, but I'm not 100% sure these reports or actually submitted to local governments or not.",
+      "version": "4.6",
+      "title": "Great, assuming reports are submitted"
+    },
+    {
+      "userName": "HH9",
+      "score": 1,
+      "text": "Repeatedly receive \"connection error\" message when trying to add comment to open issue. \n\nAlthough you must create an account to use, there's no way to recall or review posts you've made, you have to find it from the map view. \n\nNo way to limit the list of open tickets by issue.",
+      "version": "4.6",
+      "title": "Bugs, no way to recall issues you've posted"
+    },
+    {
+      "userName": "Why won't this thing work???!!",
+      "score": 2,
+      "text": "When I attempted to report an issue, I filled out all the required fields.  There was no exact address - it was just in the middle of a road, no House number.  I listed the road name as the address.  It would not submit and kept popping up a field that said there was no location listed.  There was indeed a location listed, so I don't understand why it was giving me the error.  I had to use the Full Site (on a phone, which was a nightmare), and when I entered the exact same info, it submitted easily.\nI cannot believe this is human error as I did complete all required fields and drop-downs in app reporting an Issue.  Please check into it.",
+      "version": "4.6",
+      "title": "Could not submit - bug in app?"
+    },
+    {
+      "userName": "RCEvans",
+      "score": 1,
+      "text": "This app seems to have been taken over by the school system here in Miami, Everything you post requires you to provide Name of School, Type of School, Are you the principal and your initials if you're the school administrator. This seems ridiculus to me and has been this way for well over a year. It has rendered this app useless in dade county in my opinion, perhaps maybe that was the intent.",
+      "version": "4.6",
+      "title": "School information"
+    },
+    {
+      "userName": "Chris Makepeace",
+      "score": 4,
+      "text": "I like the convenience of reporting service issues. Keep up the good work!",
+      "version": "4.6",
+      "title": "Useful Reporting"
+    },
+    {
+      "userName": "Randy Hurley",
+      "score": 3,
+      "text": "You should have an updated profile section, and a search for people under the neighbors section. Don't know how long it takes for issues to be resolved.",
+      "version": "4.6",
+      "title": "Changes to the app"
+    },
+    {
+      "userName": "Pinkyslf",
+      "score": 5,
+      "text": "I love the fact that there is a means for the public to report issues in Oakland that needs to be addressed. City employees can not be everywhere so having the public's eyes helps everyone who lives and works in Oakland. It has been my experience that the City responds in a timely manner whenever I've reported an issue.",
+      "version": "4.6",
+      "title": "Cleaner City"
+    },
+    {
+      "userName": "CF Ofdensen",
+      "score": 3,
+      "text": "App moves the location you select far enough to make your reports off by a few street numbers. :/",
+      "version": "4.6",
+      "title": "Last cation selection is inaccurate"
+    },
+    {
+      "userName": "mkleider",
+      "score": 5,
+      "text": "Works well for communicating with my city government about local issues.",
+      "version": "4.6",
+      "title": "Useful"
+    },
+    {
+      "userName": "bvd_lax",
+      "score": 4,
+      "text": "Portland Maine is using this app. They've been responsive so it appears affective and it makes me feel like they're paying attention",
+      "version": "4.6",
+      "title": "Simple and accurate"
+    },
+    {
+      "userName": "Oor Willie",
+      "score": 5,
+      "text": "My SCF app fails consistently, most likely because they fail to keep up as OS's improve. I start a report and if there is a pic in it the app quits half way thru the report. The app has not been updated since 2014 according to this page.",
+      "version": "4.6",
+      "title": "Fails to keep current with OS"
+    },
+    {
+      "userName": "EjayToothfairy",
+      "score": 5,
+      "text": "Much better than navigating the cumbersome City of St Petersburg website!",
+      "version": "4.6",
+      "title": "Quick and easy!"
+    },
+    {
+      "userName": "lunch4u",
+      "score": 5,
+      "text": "You guys are great I just wish you had more funding and more people working for you so you can make the streets of Vallejo a lot cleaner and better!\nI mean Dang Vallejo had two presidential candidates come to our town and we have to do better than this.\nSo thank you see it Click it fix it! I appreciate what you do...",
+      "version": "4.6",
+      "title": "My Rubbish review"
+    }
+  ]
+}

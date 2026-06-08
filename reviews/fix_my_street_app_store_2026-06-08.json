@@ -1,0 +1,38 @@
+{
+  "store": "app_store",
+  "found": true,
+  "appId": 1400531943,
+  "appName": "My Hoover Connect",
+  "rating": 4.82218,
+  "dateRange": null,
+  "reviews": [
+    {
+      "userName": "Cypress Trace",
+      "score": 5,
+      "text": "Great job on picking up a tree I had removed from my back yard. Fast response and they made it easy for me to clean up after.",
+      "version": "5.15.0",
+      "title": "Tree pickup"
+    },
+    {
+      "userName": "Spade guy",
+      "score": 5,
+      "text": "Amwaste really responded quickly for my container with a broken hinge.  They showed up within 5 days of my request. Good job.",
+      "version": "5.15.0",
+      "title": "Trash Container Replacement"
+    },
+    {
+      "userName": "Jenn Close",
+      "score": 5,
+      "text": "Thank you for all the hard work you all do! You guys do so much for the city and it shows!",
+      "version": "5.8.4",
+      "title": "Thankful for Hoover Public Works!"
+    },
+    {
+      "userName": "HootyHoo1234",
+      "score": 3,
+      "text": "I like the idea of the convenience that this app will bring once the bugs are worked out. \nThings I’d like to see fixed: \n1. I am unable to close a request after it has been “acknowledged” by the city. This seems like it would create an inconvenience for the city, as residents have to reach out to them to close the request. I expect many residents will not bother, resulting in the city making stops that are no longer necessary. \n2. The map function does not allow me to drop a pin at the location. The address function results in the red X icon not reflecting where my property is. Likewise, if I try to create a request based on where the red X is on the map, the resulting address is incorrect. Perhaps this is just a calibration issue.",
+      "version": "5.3.4",
+      "title": "Good Idea, but Execution Still Needs Work"
+    }
+  ]
+}

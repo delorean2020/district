@@ -1,0 +1,2410 @@
+{
+  "store": "google_play",
+  "found": true,
+  "appId": "com.seeclickfix.ma.android",
+  "appName": "SeeClickFix",
+  "rating": 3.4504504,
+  "dateRange": null,
+  "reviews": [
+    {
+      "userName": "Jason Dunn",
+      "score": 1,
+      "text": "This app is absolute garbage! It is unreliable, flaky, loses data constantly, and is unusable on Android. It is an absolute travesty that this company foists this garbage service onto local cities and has the gall to charge them for it. This entire app needs to be put into the wood chipper and done over from scratch by a company that actually knows how to design android apps properly!",
+      "date": "2026-05-29T02:21:24.300Z",
+      "version": "7.9.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Joe Foster",
+      "score": 5,
+      "text": "Better app. Thanks to Supervisor Lloyd Pareira",
+      "date": "2026-05-11T20:14:42.483Z",
+      "version": "7.9.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Angeliko Teretzis",
+      "score": 5,
+      "text": "Easily report and follow up with small problems...Very Happy",
+      "date": "2026-05-04T04:54:48.118Z",
+      "version": "7.9.1",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Ivan Azcue",
+      "score": 1,
+      "text": "You can report, you can take pictures.You can even take video.It will still take them days weeks even months to get something taken care of. city employees move like molasses. i even had an officer.Tell me that it is legal to park, unregistered and uninsured vehicles on public streets. lmao 🤣 🤣 back when I was fifteen I learned that you cannot park a unregistered and uninsured vehicle on public streets. always ask for a supervisor.",
+      "date": "2026-04-26T12:51:35.476Z",
+      "version": "7.8.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Sue Glover",
+      "score": 5,
+      "text": "Looks like this is working!",
+      "date": "2026-04-20T16:10:09.620Z",
+      "version": "7.8.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Chip",
+      "score": 1,
+      "text": "Experiencing scripting bugs trying to submit repair ticket(s).",
+      "date": "2026-04-19T20:10:26.782Z",
+      "version": "7.8.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Jayson Spencer",
+      "score": 2,
+      "text": "the map misplaces the requests every time",
+      "date": "2026-04-15T19:56:41.340Z",
+      "version": "7.8.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "dwayne fisher",
+      "score": 5,
+      "text": "quick responses",
+      "date": "2026-04-13T17:33:44.659Z",
+      "version": "7.8.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Michael Avila",
+      "score": 5,
+      "text": "Easy to use and gets results from my city.",
+      "date": "2026-03-29T04:34:19.802Z",
+      "version": "7.8.1",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Steve Adeff",
+      "score": 2,
+      "text": "slow loading of each section of submitting a report.",
+      "date": "2026-02-25T00:31:06.896Z",
+      "version": "7.7.0",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Rick Howard",
+      "score": 5,
+      "text": "helps with quicker response.",
+      "date": "2026-01-26T22:18:58.116Z",
+      "version": "7.4.1.4796",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Sam Greene",
+      "score": 1,
+      "text": "terrible app. constantly glitches or freezes. use the website instead",
+      "date": "2026-01-24T01:13:20.163Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Matt Massacre",
+      "score": 5,
+      "text": "very useful",
+      "date": "2026-01-09T13:35:37.271Z",
+      "version": "7.7.0",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Alejandro Naranjo",
+      "score": 1,
+      "text": "useless",
+      "date": "2025-12-25T02:57:32.165Z",
+      "version": "7.7.0",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Michael Miller",
+      "score": 5,
+      "text": "excellent service and app.",
+      "date": "2025-12-24T04:44:17.940Z",
+      "version": "7.7.0",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Ross Levine",
+      "score": 1,
+      "text": "should be renamed to \"see click ignore\" report illegal findings and watch the city make excuses rather than do their jobs. useless app!",
+      "date": "2025-12-21T17:30:16.854Z",
+      "version": "7.7.0",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Lee Dear",
+      "score": 5,
+      "text": "This is a great tool. This is providing a solution to a lot of the quality of life issues in our city. The app isn't perfect but I'm excited for the start.",
+      "date": "2025-09-30T12:14:43.911Z",
+      "version": "7.4.1.4796",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Jared Weniger",
+      "score": 5,
+      "text": "been working great so far",
+      "date": "2025-09-26T15:43:57.734Z",
+      "version": "7.4.1.4796",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Tony Babecka",
+      "score": 1,
+      "text": "Great for reporting issues... when it works. Haven't been able to upload photos for a few weeks. This really helps cities quickly identify and correct issues! PLEASE FIX!",
+      "date": "2025-08-24T14:50:52.511Z",
+      "version": "7.4.1.4796",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Sarah Geurtz",
+      "score": 1,
+      "text": "It won't upload photos. Android user. It used to work but for months now, if I want to report something, I have to take a pic, then screenshot the pic, crop down the screenshot, and then upload the pic that way. Very annoying. I've tried it online via my phone and also via the app but either way I have to follow the above annoying process.",
+      "date": "2025-08-13T22:09:01.500Z",
+      "version": "7.4.0.4792",
+      "thumbsUp": 12
+    },
+    {
+      "userName": "C",
+      "score": 1,
+      "text": "attempting to attach images results in a \"network error.\" different networks didn't fix the issue. it's on the apps end",
+      "date": "2025-08-10T18:56:16.919Z",
+      "version": "7.3.1.4778",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Holly Jaye",
+      "score": 5,
+      "text": "I have been using this app 10 years. It works EXTREMELY WELL.",
+      "date": "2025-08-04T02:11:21.823Z",
+      "version": "7.3.1.4778",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Catswarm6 6",
+      "score": 1,
+      "text": "app is poorly constructed sign in is after report does not remember the user no home city app stalls",
+      "date": "2025-07-16T14:50:59.900Z",
+      "version": "7.3.1.4778",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "John Vines",
+      "score": 1,
+      "text": "I'm no longer able to upload pictures",
+      "date": "2025-06-23T18:01:47.209Z",
+      "version": "7.3.1.4778",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Bill Taylor",
+      "score": 1,
+      "text": "photos don't upload after recent release",
+      "date": "2025-06-05T20:08:13.790Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Zachary Yaro",
+      "score": 2,
+      "text": "The SeeClickFix app started giving me an error with any photo I upload straight from my camera, but if I open it in Paint and save a new copy, it works. (Pixel Fold running up-to-date Android 15.)",
+      "date": "2025-06-02T13:46:04.368Z",
+      "version": "7.3.0.4765",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Sj Sadler",
+      "score": 1,
+      "text": "Ineffective and inconsequential comes to mind when using this app to address the parking and traffic. kind of like the senior patrol car . it's not about the app it's about the response ,it's not about the patrol it's about the awareness.",
+      "date": "2025-05-06T09:44:31.738Z",
+      "version": "7.3.0.4765",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Greg Nickel",
+      "score": 5,
+      "text": "Easy to navigate",
+      "date": "2025-04-02T20:54:20.562Z",
+      "version": "7.3.0.4765",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Smoke Dawg (smokedawg)",
+      "score": 5,
+      "text": "they get it done 💯",
+      "date": "2025-03-19T00:02:45.325Z",
+      "version": "7.1.0.4757",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Sharlene Stocki",
+      "score": 1,
+      "text": "It took 10 different passwords entered correctly and it does not work.",
+      "date": "2025-03-10T19:32:30.161Z",
+      "version": "7.2.0.4761",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Barbara Mitchell",
+      "score": 4,
+      "text": "My account was deactivated I cannot file a report please reactivate my account thanks",
+      "date": "2025-03-07T13:56:49.149Z",
+      "version": "7.0.1.4751",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Thomas Radovich",
+      "score": 1,
+      "text": "Incredibly limited options for reporting. This app is worse than Boston 311 in every way. It's disappointing that this is the way some cities want issues reported.",
+      "date": "2025-02-23T17:48:43.755Z",
+      "version": "7.1.0.4757",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Peter Duffy",
+      "score": 1,
+      "text": "This is no longer working for me",
+      "date": "2025-01-15T22:51:36.589Z",
+      "version": "7.0.1.4751",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Holly",
+      "score": 2,
+      "text": "I didn't like this app they changed it. you used to be able to report. where you lived. I don't need this app.",
+      "date": "2025-01-14T19:07:06.762Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Ian",
+      "score": 1,
+      "text": "The service behind the app is incredible, but the mobile app is outdated in many ways, producing what I consider a horrendous experience. It can get worse if your city has a custom version that isn't maintained as well as the main app. It's like this on iOS, too.",
+      "date": "2024-12-04T19:42:12.586Z",
+      "version": "6.10.0.4733",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "H C",
+      "score": 4,
+      "text": "Works to get the city's attention. Useful",
+      "date": "2024-10-23T20:17:26.239Z",
+      "version": "6.10.0.4733",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Dan Hunt (marquisdan)",
+      "score": 1,
+      "text": "it's a fantastic app for neighborhood busybodies who like harassing their neighbors over trivial nonsense.",
+      "date": "2024-10-23T02:18:00.948Z",
+      "version": "6.10.0.4733",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Kattana The_Balla",
+      "score": 2,
+      "text": "There is NO CURRENT REQUESTS!!! in fact it only has FOUR, YES 4 COMPLAINTS IN TOTAL LISTED CURRENTLY. October 21 2024 is today's date. An the four that are listed are from MAY '23!!!! I thought the app needed an update but there is non. If this app was up to date an current I would consider at best a 4 star review. If fixed I will consider revising this.",
+      "date": "2024-10-21T20:16:10.307Z",
+      "version": "6.10.0.4733",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Lourens de Bruyn",
+      "score": 1,
+      "text": "Poor app 1. I cannot use the app offline as no information is stored on the phone. So when I spot a problem while out of reception this cannot be noted and prepared for uploading. 2. Limited items. Where is the \"other\" category? I want to report a problem that does not fit into one of the categories. \"Other\" should be compulsory. 3. Why can I not unsubscribe from the mailing list in total? Only specific items? This violates our local laws. 4. Why only 500 characters in this field?",
+      "date": "2024-10-03T09:42:30.999Z",
+      "version": "6.10.0.4733",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Ben Lisak",
+      "score": 1,
+      "text": "The app works fine, would be better if the city actually did anything. I reported sand in the road a half a dozen times now and they keep closing the ticket without doing anything about it. Time to go back to good ol' sue the city when the road conditions cause a crash or damage to your vehicle.",
+      "date": "2024-09-15T07:04:15.821Z",
+      "version": "6.10.0.4733",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Bronwen Bayman",
+      "score": 5,
+      "text": "Efficient",
+      "date": "2024-09-03T15:13:04.676Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "jake smart",
+      "score": 5,
+      "text": "Wow. It actually works",
+      "date": "2024-07-28T21:49:49.476Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "silkstarlight",
+      "score": 2,
+      "text": "The location finder needs work. I downloaded this specifically to report a missing concrete cover in front of a bus bench. Somebody will break an ankle stepping into it. The location finder insisted I was in Colton when I was on Baseline in San Bernardino. Then the app stated the part of Baseline I was at was not in their jurisdiction. Am uninstalling the app. I did not realize 92410 is not part of the county. Am sure you will figure out the hazard location when an ambulance gets the call.",
+      "date": "2024-07-05T18:04:07.640Z",
+      "version": "6.9.0.4723",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Les",
+      "score": 2,
+      "text": "O M G.. The number of emails they send is ridiculous. For every single thing people report in the city.. I reported one thing, and it got fixed, so the functionality is good. I apprec that it works. They just need to chill on the crazy amount of emails they send",
+      "date": "2024-05-31T22:35:58.410Z",
+      "version": "6.8.0.4697",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "M Robinson",
+      "score": 3,
+      "text": "The request 'list' does not have a map option: clicking on a list item should focus the map.",
+      "date": "2024-04-20T16:36:53.461Z",
+      "version": "6.8.0.4697",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Travis F",
+      "score": 1,
+      "text": "What started off as a good idea has transitioned into an app where all the \"Karen's\" of the world can have a safe space to complain about people less fortunate then them. Thanks to this app, the lives of thousands of unhoused/homeless people are constantly being challenged and harassed for being homeless. It's understandable that we have a problem with our homeless epidemic, it's only going to get worse. Instead of harassing homeless people, let's figure out a solution that works for everyone.",
+      "date": "2024-03-11T04:48:48.260Z",
+      "version": "6.8.0.4697",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Travis",
+      "score": 2,
+      "text": "It was a good app until my local officials decided to only accept certian types of requests and totally neutered the best functionalities. I thought this type of software was to help facilitate communication between residents and local government. Seems like my local government dosen't want to do the work. But hey I can request a street sweep so that's something I guess.",
+      "date": "2024-03-10T13:08:21.853Z",
+      "version": "6.8.0.4697",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Dale Kluth",
+      "score": 1,
+      "text": "Tried to register my email address and I received a message stating my address is in use. Tried to reset password and never received a password reset email.",
+      "date": "2024-01-20T22:15:58.660Z",
+      "version": "6.8.0.4697",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Syl Ventus",
+      "score": 5,
+      "text": "Very user friendly",
+      "date": "2024-01-20T16:02:56.750Z",
+      "version": "6.7.0.4694",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Tyrone Wreggitt",
+      "score": 1,
+      "text": "The app doesn't stay on page",
+      "date": "2024-01-01T16:44:08.419Z",
+      "version": "6.8.0.4697",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Kathleen McCarthy",
+      "score": 5,
+      "text": "Totally awesome professional",
+      "date": "2023-12-23T22:32:33.561Z",
+      "version": "6.8.0.4697",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Jill Rose (Crazy Beagle Mom)",
+      "score": 5,
+      "text": "The few times I've used this app, I felt it was useful, but that's if I believe my fine city's employees have done their job as well as they are paid to do it",
+      "date": "2023-12-23T21:28:58.149Z",
+      "version": "6.8.0.4697",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Vautrin a Holly",
+      "score": 3,
+      "text": "You can make reports maybe where you live or put it on comments about what's going on in our community. But it doesn't even work your way and I'm going to tell you why politicians government and guess what covering up whatever it is what it is and I'll be able to change it until the right people get into office just that simple.",
+      "date": "2023-11-25T16:13:45.687Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Les Lodder",
+      "score": 4,
+      "text": "Like it",
+      "date": "2023-11-19T07:23:08.262Z",
+      "version": "6.8.0.4697",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Sheri Doyle",
+      "score": 1,
+      "text": "No sirve. App does not function correctly.",
+      "date": "2023-11-07T13:32:59.634Z",
+      "version": "6.8.0.4697",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Denise Polizelli",
+      "score": 5,
+      "text": "Amazing feedback. Quick responses and updates.",
+      "date": "2023-09-27T15:59:39.843Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Susan Murphy",
+      "score": 5,
+      "text": "Awesome",
+      "date": "2023-09-05T06:59:41.720Z",
+      "version": "6.6.0.4692",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A. Picasso",
+      "score": 3,
+      "text": "Though this app is an improvement over my city's previous reporting systems, it's still far from perfect. SeeClickFix staff need to work on their apps' UI, which could be made more aesthetically appealing, less clunky, and more intuitive. Also helpful would be the ability to copy text within individual request pages, and to suggest that a request recently closed by an organization be reopened if within a certain timeframe (where users cannot already reopen a request themselves).",
+      "date": "2023-08-21T00:46:29.489Z",
+      "version": "6.6.0.4692",
+      "thumbsUp": 16
+    },
+    {
+      "userName": "Steven Salsburg",
+      "score": 5,
+      "text": "Quick responses and solutions.",
+      "date": "2023-08-14T20:03:05.395Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Edward Hicks (Lo-skamz)",
+      "score": 5,
+      "text": "Cool App",
+      "date": "2023-08-11T04:37:18.730Z",
+      "version": "6.7.0.4694",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "jim weaver",
+      "score": 5,
+      "text": "Works well",
+      "date": "2023-07-20T01:22:52.967Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Karen Skeen",
+      "score": 3,
+      "text": "The app won't load.",
+      "date": "2023-06-16T02:26:46.931Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Cynthia Gutierrez",
+      "score": 1,
+      "text": "Doesn't work",
+      "date": "2023-06-04T21:53:45.665Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Ryan Fitzpatrick",
+      "score": 1,
+      "text": "This app is a bane on communities. It promises quickly repaired potholes and traffic improvements but delivers none of that. All it produces is neighborhood animosity and cyber bullying while actual infrastructure problems are ignored. Like Nextdoor, only if you could SWAT your neighbors with code enforcement. This app should be banned.",
+      "date": "2023-06-03T01:12:09.913Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Shaun Mosiychuk",
+      "score": 5,
+      "text": "Very responsive and best way to get things taken care of. Thank you",
+      "date": "2023-06-01T07:21:47.100Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "antronx007",
+      "score": 2,
+      "text": "Can't sign in. Entering email just cycles back to sign in page. Uses external browser istead of in app sign in. Lazy coders.",
+      "date": "2023-05-30T19:42:18.264Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Anakin Skynwalker",
+      "score": 4,
+      "text": "For those who are complaining that nothing gets done after reporting an issue: sorry to say but you picked a bad town to live in and they chose to ignore you. My city fixes stuff the same day, so yhe reports are definitely going through. And those who are complaining of network errors. Buy a mew device. The app works fine its you who is the problem. i have android too. Anyway great app love it definitely nice and easy to use.",
+      "date": "2023-05-16T23:06:57.825Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 12
+    },
+    {
+      "userName": "Richard P",
+      "score": 1,
+      "text": "Didn't help a bit",
+      "date": "2023-05-13T08:53:44.839Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Robert Patterson",
+      "score": 5,
+      "text": "Absolutely just amazing",
+      "date": "2023-05-03T16:07:39.407Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Mike Emery",
+      "score": 5,
+      "text": "Super handy and efficient way to communicate with my city",
+      "date": "2023-04-27T17:22:54.483Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Timothy Walser",
+      "score": 5,
+      "text": "Could be a little more user friendly, but it does what it needs to effectively.",
+      "date": "2023-04-27T14:25:02.553Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Kevin Strickland",
+      "score": 5,
+      "text": "Love seeing.the photos and other posts.",
+      "date": "2023-04-27T00:52:27.854Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "william hillegus",
+      "score": 1,
+      "text": "This app is a great way for citizens to report on each other like they used to do in the soviet union, is doxxing people online ,and is also subverting ones right to face their accuser. This app is an authoritarians dream",
+      "date": "2023-03-31T18:16:30.380Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Raymond Julies",
+      "score": 5,
+      "text": "Excellent app",
+      "date": "2023-03-21T07:15:47.909Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Cheri Adams",
+      "score": 5,
+      "text": "Things get taken care of if you use this app. It's great.",
+      "date": "2023-03-20T16:51:13.416Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Victoria",
+      "score": 5,
+      "text": "It's the app thats full of misteries",
+      "date": "2023-03-06T02:43:24.543Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Richard Mulvey",
+      "score": 5,
+      "text": "Which is the best app on my phone the response time is ASAP",
+      "date": "2023-03-03T20:22:39.847Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Dean Dummitt",
+      "score": 1,
+      "text": "ANDROID version sucks. it will not upload photos",
+      "date": "2023-02-27T22:52:28.700Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Human",
+      "score": 5,
+      "text": "Works great. If only the county/city did anything about many of the reports.",
+      "date": "2023-02-25T19:39:24.431Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Donald",
+      "score": 1,
+      "text": "The CITY OF TUCSON STATES WORK HAS BEEN COMPLETE WHICH IS FALSE SAME PROBLEMS STILL EXIST THEY DO NOT CARE",
+      "date": "2023-02-04T14:58:32.886Z",
+      "version": "6.5.0.4669",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "rob",
+      "score": 5,
+      "text": "I gave this 5 stars but I downloaded it a few years ago. I was getting ads popping up on my Galaxy s9 non stop and driving me nuts, I downloaded this app and the very next time an ad popped up it asked me if I had opened the pre installed tv remote ap, which I hadn't, so I deleted the TV remote app and the pop ups were GONE !!. Have not had to use it since.",
+      "date": "2023-02-03T13:01:30.831Z",
+      "version": "6.3.0.4654",
+      "thumbsUp": 24
+    },
+    {
+      "userName": "Peter Leon",
+      "score": 5,
+      "text": "So much easier than calling",
+      "date": "2023-01-30T22:04:38.274Z",
+      "version": "6.4.0.4664",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Carl Roberts",
+      "score": 1,
+      "text": "It should be zero stars can not get back to put confirmation code in to use app worthless unstall right after i installed it",
+      "date": "2023-01-29T02:29:15.937Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Carl",
+      "score": 4,
+      "text": "Still new but great so far.",
+      "date": "2023-01-26T08:37:49.895Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Matthew Pictrowski",
+      "score": 2,
+      "text": "App opens with a Las Vegas location. Not local/regional area.",
+      "date": "2023-01-19T12:26:06.584Z",
+      "version": "6.3.0.4654",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Este Gonzalez",
+      "score": 5,
+      "text": "Its all good",
+      "date": "2023-01-11T08:05:03.993Z",
+      "version": "6.3.0.4654",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Tom Henle",
+      "score": 5,
+      "text": "Simple to use",
+      "date": "2023-01-05T20:33:59.515Z",
+      "version": "6.3.0.4654",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Tom Lariviere",
+      "score": 5,
+      "text": "Messages get to the dpw",
+      "date": "2022-12-29T21:46:19.406Z",
+      "version": "6.3.0.4654",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Juan Jimenez",
+      "score": 5,
+      "text": "Great way of communicating with the city!!!!",
+      "date": "2022-12-20T20:15:02.419Z",
+      "version": "6.3.0.4654",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "john floris",
+      "score": 5,
+      "text": "Very good",
+      "date": "2022-12-13T18:02:34.528Z",
+      "version": "6.3.0.4654",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "AHACKER07",
+      "score": 4,
+      "text": "Great, except it takes a long time for some of work orders to get completed!",
+      "date": "2022-12-08T18:12:18.569Z",
+      "version": null,
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Shawn Hughes",
+      "score": 1,
+      "text": "Terrible app. Samsung classified it as a game. Not very intuitive.",
+      "date": "2022-12-03T18:48:09.169Z",
+      "version": "6.3.0.4654",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "JO KAISER",
+      "score": 3,
+      "text": "Tickets closed out without contacting the reporter. Most items are completed but it's a flash bang job. IE holes are filled but not followed up on to ensure pothole stays filled. I realize this is a service for our convenience & the county doesn't really have the funds/manpower to do this. They have done some great work with fixing monsoon slide areas. Once items are closed - there is no going back to the history even copy the ticket to re-open it.",
+      "date": "2022-11-07T17:41:22.197Z",
+      "version": null,
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Jennifer White",
+      "score": 5,
+      "text": "Great fixing app",
+      "date": "2022-10-26T13:21:02.171Z",
+      "version": "6.3.0.4654",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "MTag7 (MTag7)",
+      "score": 5,
+      "text": "Gets the job done",
+      "date": "2022-10-19T22:45:32.670Z",
+      "version": "6.3.0.4654",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Andy Austin",
+      "score": 3,
+      "text": "Cannot edit or add comments to an existing report.",
+      "date": "2022-09-28T20:48:09.457Z",
+      "version": "6.2.0.4647",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Adelle Matlia",
+      "score": 5,
+      "text": "Quick response, fast service!",
+      "date": "2022-09-19T22:36:12.904Z",
+      "version": "6.2.0.4647",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "TRACEY SWANN",
+      "score": 5,
+      "text": "Work orders are compketed",
+      "date": "2022-09-07T21:28:27.636Z",
+      "version": "6.2.0.4647",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Toni Bufford",
+      "score": 5,
+      "text": "Once site was found, requesting help was pretty easy. Getting a response to my request has been frustrating & non existent to date. My trash was missed once, in the past few years & the error was quickly corrected, within 24 hrs, including a return phone call. Please help by responding. Thank you in advance. Have a Blessed day.",
+      "date": "2022-08-26T01:29:44.373Z",
+      "version": "6.2.0.4647",
+      "thumbsUp": 22
+    },
+    {
+      "userName": "Sally Ross",
+      "score": 5,
+      "text": "Quick report, quick response. Valuable App.",
+      "date": "2022-08-16T05:06:23.547Z",
+      "version": "6.2.0.4647",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Elaine Herrick",
+      "score": 1,
+      "text": "Can't function here. I need to schedule a bulk trash pick up.",
+      "date": "2022-08-10T23:03:44.157Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Daniel Lourens",
+      "score": 5,
+      "text": "Good Day, very nice app but please do make this available on Hauwei App Gallery aswell. Newer versions of Hauwei cannot run this app without google play",
+      "date": "2022-07-27T20:55:11.947Z",
+      "version": "6.2.0.4647",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Steve L",
+      "score": 1,
+      "text": "Doesn't connect, takes too long to load photos, hard to find location without multiple taps, overall a difficult app to navigate. Poor user interface/usability. Needs work.",
+      "date": "2022-07-22T14:13:58.420Z",
+      "version": "6.2.0.4647",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Kori T",
+      "score": 1,
+      "text": "Garbage. Doesn't work and I'm irritated my city switched over to it.",
+      "date": "2022-07-09T21:09:54.801Z",
+      "version": "6.2.0.4647",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Shahid Ali Arbab",
+      "score": 5,
+      "text": "Good",
+      "date": "2022-07-03T17:55:35.223Z",
+      "version": "4.2.0.4075",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Jj",
+      "score": 5,
+      "text": "Deluxe & wrap sandwich are worth the money.",
+      "date": "2022-06-26T16:39:37.334Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Betty Echols",
+      "score": 5,
+      "text": "Works great except when they close the complaint with NO EXPLANATION",
+      "date": "2022-06-07T17:27:05.553Z",
+      "version": "6.0.0.4619",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Kevin Patel",
+      "score": 5,
+      "text": "Ok",
+      "date": "2022-06-07T11:02:57.497Z",
+      "version": "6.0.1.4634",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Jessica Brown",
+      "score": 5,
+      "text": "Very user friendly",
+      "date": "2022-05-28T19:47:24.943Z",
+      "version": "6.0.1.4634",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Clement Craig Floors",
+      "score": 5,
+      "text": "Great App indeed,very helpful regarding information in my neighborhood.",
+      "date": "2022-05-07T15:10:56.750Z",
+      "version": "6.0.1.4633",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Shelle Berk",
+      "score": 4,
+      "text": "I think this app is a great tool . It's easy and time efficient to use.",
+      "date": "2022-04-11T13:04:38.648Z",
+      "version": "6.0.1.4633",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Bill Weaver",
+      "score": 5,
+      "text": "This app does an awesome job ..",
+      "date": "2022-04-10T17:26:57.213Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Jesus Morales",
+      "score": 4,
+      "text": "Easy to use. Fast, results",
+      "date": "2022-03-31T01:54:44.540Z",
+      "version": "6.0.1.4634",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "James Hunnicutt",
+      "score": 2,
+      "text": "Most of the time service goes unanswered",
+      "date": "2022-03-26T22:36:50.184Z",
+      "version": "6.0.1.4633",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Decline ManagementTM",
+      "score": 5,
+      "text": "Easy to enter and update repair requests.",
+      "date": "2022-03-25T23:36:18.201Z",
+      "version": "6.0.1.4633",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Alex",
+      "score": 5,
+      "text": "Great app for busy bodies to snitch on neighbors with",
+      "date": "2022-03-18T19:55:18.286Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "S Miller",
+      "score": 1,
+      "text": "This app seems like it doesn't function the way it should; it has said I had a precious draft request with photos, yet these photos are not visible. There is no prompt indicating your request has even been sent either.",
+      "date": "2022-03-09T17:14:23.930Z",
+      "version": "6.0.1.4633",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "Ed Wieczorek",
+      "score": 4,
+      "text": "always room for improvement",
+      "date": "2022-03-02T11:45:15.444Z",
+      "version": "6.0.0.4619",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Erin Boyce",
+      "score": 1,
+      "text": "This app used to work fine and then all of a sudden nothing worked. I've uninstalled it and reinstalled it. It can't load Place data it can't load anything. Even the desktop website has outdated security registration so I can't use it in my browser. Get it together seeclickfix.",
+      "date": "2022-03-01T00:00:04.958Z",
+      "version": "6.0.0.4619",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Carl davis",
+      "score": 1,
+      "text": "This app does not report or follow up with correct results when reporting issues! (Useless app)",
+      "date": "2022-02-25T18:44:35.668Z",
+      "version": "6.0.0.4619",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Ronda Bernstein",
+      "score": 4,
+      "text": "Washington, DC hasn't been a partnering municipality since 2019 so please update your description.",
+      "date": "2022-02-20T08:05:26.897Z",
+      "version": "6.0.0.4619",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Gennario Veltaine",
+      "score": 4,
+      "text": "This app highlights how much tht cities like to deflect actual issues. Auditing should be used to help actually address these issues",
+      "date": "2022-02-03T12:45:38.430Z",
+      "version": "6.0.0.4619",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Bruce Blaker",
+      "score": 4,
+      "text": "Expect rude emails from the city of Champaign, IL. You tell them a streetlight needs replaced, they send an email saying it's fixed when it's not. Put in another fix and you will receive a nasty email. The app works great, just not the city you put in in with.",
+      "date": "2022-01-22T13:43:18.320Z",
+      "version": "6.0.0.4619",
+      "thumbsUp": 24
+    },
+    {
+      "userName": "Vash Hutchinson",
+      "score": 5,
+      "text": "It's really good to go and see on the real.",
+      "date": "2022-01-22T07:32:19.278Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Kent Lewandowski",
+      "score": 3,
+      "text": "Good tool for reporting problems butif your city workers aren't interested in following up, it makes little difference. Also it's suffering from spammers creating accounts and submitting false email messages.",
+      "date": "2022-01-17T15:33:18.260Z",
+      "version": "6.0.0.4619",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Ron Yarolimek",
+      "score": 5,
+      "text": "Have used this app many times to report issues I have observed in our City. In most cases, the city has addressed my issues within 24 hours. Great app.",
+      "date": "2022-01-08T16:23:28.685Z",
+      "version": "6.0.0.4619",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Poorboy Troy",
+      "score": 4,
+      "text": "Well put together",
+      "date": "2022-01-06T08:16:44.734Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Quaide Qg",
+      "score": 5,
+      "text": "Excellent concise",
+      "date": "2022-01-03T18:36:14.310Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Bob B (Bo)",
+      "score": 1,
+      "text": "Cannot cancel.",
+      "date": "2021-12-18T17:03:18.595Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Lluchin Ephraim",
+      "score": 1,
+      "text": "I can't even sign up for an account. Keeps giving can't register due to recaptcha stuff. UIF is bad.",
+      "date": "2021-12-13T09:00:26.483Z",
+      "version": "6.0.0.4619",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Richard Yardman",
+      "score": 1,
+      "text": "A great way for our city to waste more of our time & money! Case was created & closed with no resolution.",
+      "date": "2021-11-16T23:12:38.332Z",
+      "version": "6.0.0.4616",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "James c Whitfield",
+      "score": 5,
+      "text": "Three brake issue is close",
+      "date": "2021-11-12T14:10:07.978Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "K. E.",
+      "score": 5,
+      "text": "It works every time. Get involved in your community and make a difference.",
+      "date": "2021-11-03T16:09:03.762Z",
+      "version": "6.0.0.4616",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Roz Witkowski",
+      "score": 4,
+      "text": "Only thing is I don't want a yone to see my name",
+      "date": "2021-11-02T18:46:18.431Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Thinh Le",
+      "score": 5,
+      "text": "If you want to keep your community clean then use this app regularly. Make your representative official work for you, if they don't then fired them on the next election.",
+      "date": "2021-10-30T04:42:45.756Z",
+      "version": "6.0.0.4616",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Loiska Jerez",
+      "score": 5,
+      "text": "Fast response to complaints!!! COMPLAINTS escalated to the right agency for resolution!!! So far so good!!!",
+      "date": "2021-10-29T19:12:13.789Z",
+      "version": "6.0.0.4616",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "clayton morse",
+      "score": 5,
+      "text": "The app gives me a feeling that I have some control over issues in my neighborhood and I don't have to be the a-hole neighbor to get any of it done plus I have seen neighborhood issues actually get fixed due to this app so I give it 10 stars if I could.",
+      "date": "2021-10-27T13:05:54.203Z",
+      "version": "6.0.0.4616",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "me myself",
+      "score": 3,
+      "text": "OK but clunky.",
+      "date": "2021-10-25T17:04:35.510Z",
+      "version": "5.3.3.4599",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Susanna Hernandez",
+      "score": 5,
+      "text": "I reported some potholes at a intersection and recieved a quick response. They informed me that they reported it to the appropriate department and I'm waiting to see if they will fill them .. Love the app because it is easy to use",
+      "date": "2021-10-21T22:22:48.210Z",
+      "version": "6.0.0.4615",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "J B",
+      "score": 1,
+      "text": "Don't work",
+      "date": "2021-10-17T16:54:37.302Z",
+      "version": "5.3.3.4599",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Stephanie Bain Smith Scarpulla",
+      "score": 4,
+      "text": "Easy to use and very informative",
+      "date": "2021-10-15T20:15:28.907Z",
+      "version": "5.3.3.4599",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Zanti Blue",
+      "score": 4,
+      "text": "It's a decent app, kinda surprised. Nice to not have to wait on hold for a person, just take a picture, sum up the issue, and go on with life.",
+      "date": "2021-09-29T05:05:43.309Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Michelle",
+      "score": 5,
+      "text": "Local agencies are very responsive. It's great to see results and it's easy reporting issues with photos.",
+      "date": "2021-09-22T14:26:27.622Z",
+      "version": "5.3.3.4599",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "David",
+      "score": 1,
+      "text": "Town responded that it's fixed, and it's clearly not. No way to even see prior submissions and/or respond or comment.",
+      "date": "2021-09-08T20:47:54.938Z",
+      "version": "5.3.3.4599",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Mary Ann Gore",
+      "score": 5,
+      "text": "Everything that was posted using this app was taken cared of",
+      "date": "2021-09-04T17:52:22.490Z",
+      "version": "5.3.3.4599",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Jennifer White",
+      "score": 5,
+      "text": "Love this app. Could use a few fixes tho",
+      "date": "2021-08-13T03:39:23.486Z",
+      "version": "5.3.3.4599",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Gopinath Lakshmi Narasimhan",
+      "score": 5,
+      "text": "Excellent, my city does read and respond to requests raised via this app. Very convenient to post either with a registered profile or anonymous. The email alerts to post threads are very helpful.",
+      "date": "2021-08-10T00:38:58.433Z",
+      "version": "5.3.3.4599",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Jennifer White",
+      "score": 5,
+      "text": "Great app wish it ran a lil smoother tho.",
+      "date": "2021-07-25T23:15:05.376Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Brian Hoss",
+      "score": 5,
+      "text": "Just an Absolutely Awesome app and i always keep this on my phone ,.. Its easy to use and they actually fix the problem ,.. Awesome guys and thabk you so very much for such an awesome and easy to use App. ,.. :) :) ,..",
+      "date": "2021-07-20T23:58:56.877Z",
+      "version": "5.3.3.4599",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Arturo Martinez",
+      "score": 4,
+      "text": "Great way to report issues and keep a history of issues reported!",
+      "date": "2021-07-17T21:58:32.555Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Dan",
+      "score": 1,
+      "text": "Good for lonely people who snitch all the time for lack of anything else.",
+      "date": "2021-07-15T12:03:35.888Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Victor Holbrook",
+      "score": 4,
+      "text": "Anytime i have reported an issue it has been resolved quickly",
+      "date": "2021-07-14T13:03:11.421Z",
+      "version": "5.3.3.4599",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Philip Johnson",
+      "score": 1,
+      "text": "App does not work, just gives an error about local storage and help does not explain how to fix on Android",
+      "date": "2021-06-19T21:46:06.292Z",
+      "version": "5.3.3.4599",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Urban Rogers",
+      "score": 5,
+      "text": "A quick and efficient way to keep the improvement of Abilene going in the right direction 👌.",
+      "date": "2021-06-08T23:01:24.880Z",
+      "version": "5.3.3.4599",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "T Figueiredo",
+      "score": 1,
+      "text": "Was great, not so much after update. Quite a few of the previous version's features have disappeared. Very unhappy with the app...",
+      "date": "2021-05-26T21:45:18.910Z",
+      "version": "5.3.3.4599",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Sara Perez Sanders",
+      "score": 3,
+      "text": "Updates have diminish reporting features. Before the update app was great for reporting and getting quick status updates. Now app does not allow you to report accurately on issues that need to be resolved like clogged storm drains or broken sidewalks and sinkholes in the roadway. Request remain open even after they've been resolved for several weeks or no updates at all and tickets remain open without resolution.",
+      "date": "2021-05-20T18:13:48.653Z",
+      "version": "5.3.3.4595",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "William Morrow",
+      "score": 5,
+      "text": "Easy to use and augments having to use the more cumbersome county website.",
+      "date": "2021-05-17T04:56:24.654Z",
+      "version": "5.3.3.4599",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Justin Lewis",
+      "score": 1,
+      "text": "This app shows the address of the person complaining so that would be an ignorant thing to do especially if you live in Abilene Texas if you know what I mean.",
+      "date": "2021-04-26T03:49:42.552Z",
+      "version": "5.3.3.4595",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Thomas Spero",
+      "score": 5,
+      "text": "It gets stuff done",
+      "date": "2021-04-16T20:26:43.230Z",
+      "version": "5.3.3.4595",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "--",
+      "score": 5,
+      "text": "I love this app, its the best.",
+      "date": "2021-04-15T17:27:12.692Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Clinton Burston",
+      "score": 5,
+      "text": "Excellent program! Easy to use",
+      "date": "2021-04-06T02:04:16.710Z",
+      "version": "5.3.3.4595",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "The app itself works fine. But when looking at a lot of these review profiles...it looks like a whole bunch of \"Karen's and kevins\" who don't have the courage to be a decent human who is sensible and actual good neighbors and talk to your neighbor. As far as illegal dumping and legitimate abandoned cars it works. But what it's ACTUALLY used for is snitching on people. So if thats you Kevin or Karen you better make sure its anonymous, or you will have no friends. Which you prob dont have anyway.",
+      "date": "2021-04-04T05:38:19.532Z",
+      "version": "5.3.3.4595",
+      "thumbsUp": 12
+    },
+    {
+      "userName": "Tina Martin",
+      "score": 5,
+      "text": "Love that you are able too express issues and not have to wait on hold for long periods of time and still receive back information.",
+      "date": "2021-03-31T19:56:47.362Z",
+      "version": "5.3.0.4583",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "James",
+      "score": 5,
+      "text": "Fantastic app!",
+      "date": "2021-03-25T14:52:35.257Z",
+      "version": "5.3.3.4594",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Chris Kosta",
+      "score": 5,
+      "text": "Easy to use.",
+      "date": "2021-03-22T12:29:07.325Z",
+      "version": "5.3.0.4583",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "DJ Bill Kody",
+      "score": 5,
+      "text": "Works great",
+      "date": "2021-03-16T17:22:33.694Z",
+      "version": "5.3.0.4583",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Cassie Layne",
+      "score": 4,
+      "text": "Fast efficient job!",
+      "date": "2021-03-15T18:20:24.517Z",
+      "version": "5.3.3.4593",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Michal Makuch",
+      "score": 5,
+      "text": "Great app for reporting potholes and broken stuff around the village",
+      "date": "2021-03-08T01:37:27.830Z",
+      "version": "5.3.0.4583",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Marlen Gaddis",
+      "score": 5,
+      "text": "Is EPS a good information",
+      "date": "2021-02-14T00:51:52.261Z",
+      "version": "5.3.0.4583",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Norman Moran",
+      "score": 5,
+      "text": "Things are being addressed in a timely manner. There is so much illegal dumping in National City. I'm glad the City is acting to clean things up.",
+      "date": "2021-02-11T17:32:26.837Z",
+      "version": "5.3.0.4583",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Ernie Coombes",
+      "score": 3,
+      "text": "It seems to be a less functional version of the website at the moment. It's handy to have the app for quick reporting but I don't see a way to close my open requests that were opened previously using the website. I am logged in as a registered user but I just had to leave the app to close one of my requests. Is this functionality in the works?",
+      "date": "2021-02-01T18:02:21.184Z",
+      "version": "5.3.0.4583",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "Daryl Brunette",
+      "score": 5,
+      "text": "Had a broken trash can. I told the city about it on this app. Had a new one within 6 days. Thank you Bay City!",
+      "date": "2021-01-31T01:55:49.675Z",
+      "version": "5.3.0.4583",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Carol",
+      "score": 5,
+      "text": "I was surprised at how easy this was to use. I got a response within a day acknowledging my request.",
+      "date": "2021-01-05T00:12:17.910Z",
+      "version": "5.3.0.4583",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Richard Turbin",
+      "score": 1,
+      "text": "Can not access . report dumping menu .",
+      "date": "2020-12-31T18:50:39.710Z",
+      "version": "5.3.0.4583",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "steve wright",
+      "score": 1,
+      "text": "App for neighbors to whine about stuff they could just be humans and deal with on their own. This app almost got my camper van stolen. While the idea for this app is interesting the application is horrific. Some residents use the app to report serious issues but at least 50% of all posts are whining about neighbors who park poorly or about a bottle on the sidewalk they want some one else to come and throw away for them or pictures of people's homes under and overpass listed as \"debris\". This app needs the ability for neighbors to come together to improve our own neighborhoods. Or it needs to partner directly with ways to get involved in making our community better. Please don't install this destructive, hate-first app. I parked my Camper Van on my street a few doors down from my hose late on Sunday. I could not get the van to its permanent place until the following weekend. I was careful to ensure it was parked well and parked legally. It was reported as abandoned and two hrs after being reported I caught two people try to break in. They told me it was reported on an abandoned car site to justify their actions. Their MUST be a better way to do this than anonymous snitching! Don't install this app. Just be a good person.",
+      "date": "2020-12-28T18:26:31.222Z",
+      "version": null,
+      "thumbsUp": 9
+    },
+    {
+      "userName": "Peter Jones",
+      "score": 1,
+      "text": "Nice idea, poorly implemented. Keep trying To the response: Use the app. Test the app. Try the app. Hard to navigate Hard to close open tickets Cant find things small text boxes for data entry Its just sucks And a great idea all at the same time Seems designed by someone that has never used the app.",
+      "date": "2020-12-19T18:10:51.685Z",
+      "version": "5.3.0.4583",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "JT",
+      "score": 1,
+      "text": "Very hard to use.. and you can't seem to put the correct address in.. cant see other issue around youre area",
+      "date": "2020-11-24T22:52:09.101Z",
+      "version": "5.3.0.4583",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "RICHARD SARTOR",
+      "score": 4,
+      "text": "Very updated. A little hard to use. Gets fast information.",
+      "date": "2020-11-19T06:49:32.415Z",
+      "version": "5.3.0.4583",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "mike feeny",
+      "score": 5,
+      "text": "Anytime a problem or situation comes up in the neighborhood, posting here gets acknowledged and solved 9 times out of 10",
+      "date": "2020-11-10T01:40:03.220Z",
+      "version": "5.2.2.4572",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Lorri Yurick",
+      "score": 4,
+      "text": "I really want to give 5 stars, but it won't let go of an old picture from a post 1 month ago! Please do an update to fix this issue!! I'm reporting grafitti on a daycare building and wont let go of a picture of a fallen tree!",
+      "date": "2020-11-09T15:27:31.489Z",
+      "version": "5.2.2.4572",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Rich Kramer",
+      "score": 3,
+      "text": "Useful app but would be way more useful if one could search requests on a map like the desktop app permits.",
+      "date": "2020-10-28T12:40:34.950Z",
+      "version": "5.2.2.4572",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Cheryl Costello",
+      "score": 1,
+      "text": "Terrible app. Can't edit or remove a comment.",
+      "date": "2020-10-18T20:05:29.387Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Stephanie Cigarroa",
+      "score": 1,
+      "text": "The app is not good enough , it keeps rerouting me out of the app and into the web browser and has me repeating login info , work beat on desktop computer for me , also I do have an android maybe it works better on apple ?",
+      "date": "2020-10-16T14:34:58.183Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Monte Hackwith",
+      "score": 5,
+      "text": "Great app for getting the county to fix issues. Couple tips. 1. Create a special email so you don't get retaliation from the gov't or the citizen you are reporting. You also can choose to post as \"anonymous\" but if you forget, your email is revealed. 2. Get the date time stamp camera mobile app. It can put a date time location compass and map right on the photos, saving a lot of time.",
+      "date": "2020-10-10T11:41:18.585Z",
+      "version": "5.2.2.4572",
+      "thumbsUp": 17
+    },
+    {
+      "userName": "Patricia Coston",
+      "score": 5,
+      "text": "Good",
+      "date": "2020-10-05T21:09:38.922Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "James Burton",
+      "score": 3,
+      "text": "Great app for Huntsville AL area. Now if we can just get surrounding cities to be active users. . . Btw, I use a Samsung Galaxy s3. Update 06-15-17: I'm on an s4 now, and the app doesn't notify me when there's an update to an issue. :( Update 09-30-20: i just tried to reopen and comment an issue that was just closed, and i can't do either from the app. Now on a OnePlus 5, Android 9. What can i do?",
+      "date": "2020-09-30T16:35:47.895Z",
+      "version": "5.2.2.4572",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Mike",
+      "score": 5,
+      "text": "So far so good",
+      "date": "2020-09-11T21:17:39.484Z",
+      "version": "5.2.2.4572",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Wes Holbrook",
+      "score": 4,
+      "text": "Good thank you",
+      "date": "2020-08-27T16:50:31.571Z",
+      "version": "5.2.2.4572",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Gigi Sotomayor",
+      "score": 1,
+      "text": "See click fix, more like see snitch fix. People rants on here like they do on Facebook, and they're always complaining about the stupidest little things. I had left one of my grocery bags on my porch so I could take the rest of my bag upstairs and someone took a picture of it and posted it stating that I was dumping trash. I already know who it was so I walked up to that person immediately and checked her.",
+      "date": "2020-08-23T19:12:27.436Z",
+      "version": "5.2.2.4572",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "Paula Ewaski",
+      "score": 5,
+      "text": "Practically everything you need in one place. One problem still when you log into online billing for electricity still says you need to download flash player.",
+      "date": "2020-08-01T01:59:27.625Z",
+      "version": "5.2.1.4565",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "Rick",
+      "score": 1,
+      "text": "Problems with app- can't edit when you make a mistake. Can't add a photo after an issue has been started. Not enough topics related to the issues needed to start a new issue. Please fix these issues, thank you .",
+      "date": "2020-07-29T19:46:35.221Z",
+      "version": "5.2.1.4565",
+      "thumbsUp": 13
+    },
+    {
+      "userName": "ScG",
+      "score": 1,
+      "text": "Garbage",
+      "date": "2020-07-22T21:38:19.440Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Vinyl Vixen",
+      "score": 5,
+      "text": "Easy to use",
+      "date": "2020-07-09T21:13:42.727Z",
+      "version": "5.2.1.4565",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "John DeLorme",
+      "score": 5,
+      "text": "They actually have been responding!!",
+      "date": "2020-07-09T15:38:04.512Z",
+      "version": "5.2.1.4565",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "John S",
+      "score": 1,
+      "text": "Android version of this app simply doesn't work. I haven't yet managed to file a report - it's always a \"failed network connection,\" a perpetually spinning circle when I try to upload a photo, or a plain old crash. I use the web version often with no trouble at all, but the mobile app is so far a real stinker. I uninstalled it due to its unreliability and to the developers' failure to fix this ridiculous flaw: Users can't follow up (comment) on a complaint anonymously or as a guest.",
+      "date": "2020-07-08T23:12:08.460Z",
+      "version": null,
+      "thumbsUp": 70
+    },
+    {
+      "userName": "Bentley Bumpin",
+      "score": 5,
+      "text": "It's a great way to get a hold of the city. They answer your questions quickly and keep you informed on the issue at hand.",
+      "date": "2020-07-08T08:57:01.695Z",
+      "version": "5.2.1.4565",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "john j Coakley",
+      "score": 1,
+      "text": "Always problems with uploading pictures and location settings",
+      "date": "2020-06-22T19:47:04.934Z",
+      "version": "4.5.5.4505",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Barbara Gabel",
+      "score": 5,
+      "text": "Great to have. Now if the city would only get on the dead beats",
+      "date": "2020-06-19T09:51:01.540Z",
+      "version": "5.2.1.4565",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "JoyceAnn Chatfield",
+      "score": 5,
+      "text": "Always good",
+      "date": "2020-06-12T18:50:28.688Z",
+      "version": "5.1.4.4557",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Edana Schmidt",
+      "score": 5,
+      "text": "I think it's great that the cities are enlisting help from the residents to keep their cities nicer to be in. Whoever thought this up .. great idea! Thank you.",
+      "date": "2020-06-09T15:43:57.736Z",
+      "version": "5.1.4.4557",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "matthew “Matt” petrowski",
+      "score": 5,
+      "text": "Great way to have contact with DPW . Fast results",
+      "date": "2020-06-06T00:58:56.136Z",
+      "version": "5.1.4.4557",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "Robert Martin Sr",
+      "score": 4,
+      "text": "The App appears to be user-friendly...",
+      "date": "2020-05-21T12:59:10.360Z",
+      "version": "5.1.4.4557",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "NewEnglandgirl",
+      "score": 5,
+      "text": "Good, timely responses. Good to see tasks assigned to the right people in the city.",
+      "date": "2020-05-13T19:22:36.950Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Karen Austin-hagerman",
+      "score": 3,
+      "text": "I didn't really know how to use this app. That it could be beneficial for me",
+      "date": "2020-05-13T03:07:14.434Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Hank Bohanon",
+      "score": 5,
+      "text": "Super useful!",
+      "date": "2020-05-09T18:59:39.394Z",
+      "version": "5.1.4.4557",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "WolfTiger Aka Honey Badger",
+      "score": 5,
+      "text": "Easy to use",
+      "date": "2020-05-02T22:24:04.403Z",
+      "version": "5.1.4.4557",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Paul Fine",
+      "score": 5,
+      "text": "Everytime I need to report an issue to my town, whether it is a pothole or a broken trash bin, I use the app and the town responds quickly and efficiently.",
+      "date": "2020-04-28T14:21:51.168Z",
+      "version": "5.1.4.4557",
+      "thumbsUp": 8
+    },
+    {
+      "userName": "Marilyn Peters",
+      "score": 5,
+      "text": "Great way to get things taken care of around town without having to go through red tape and \"channels\"",
+      "date": "2020-04-28T10:35:16.257Z",
+      "version": "5.1.3.4555",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Great app",
+      "date": "2020-04-23T00:21:02.308Z",
+      "version": "5.1.3.4555",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Great and thank you",
+      "date": "2020-04-07T21:45:27.488Z",
+      "version": "5.1.3.4555",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Worked well",
+      "date": "2020-04-07T17:14:10.183Z",
+      "version": "5.1.3.4555",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Pure evil. This is the beginning of a communist state. They want you to be a good citizen and report your neighbors and friends to the authorities. America should reject this.",
+      "date": "2020-04-07T13:45:58.604Z",
+      "version": null,
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Hitler could only dream of having an app like this.",
+      "date": "2020-04-07T13:38:50.855Z",
+      "version": "5.1.3.4555",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "DO NOT INSTALL OR USE THIS APP! It is not your job to \"snitch\" on your neighbors. We are still a Free Country, a Free Society, and a FREE PEOPLE! This is a blatantly Marxist app, and it is wrong. Even in an \"emergency\" we STILL have Constitutional Rights, rights that cannot, MUST NOT, be infringed due to a panicked populace and a power-hungry government. REJECT THIS APP, and SHUN THE DEVELOPER!",
+      "date": "2020-04-07T13:02:18.100Z",
+      "version": "5.1.3.4555",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Great app",
+      "date": "2020-03-10T15:38:59.808Z",
+      "version": "5.1.1.4550",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Works great! Super informative. Excellent way for cities to connect with citizens",
+      "date": "2020-02-21T14:38:20.309Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Good",
+      "date": "2020-02-10T22:39:28.604Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "After submitting an issue with th green belt lights being out through this app, I quickly saw the issue being resolved.",
+      "date": "2020-02-09T18:38:08.454Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "I recommend this app to everyone. Thanks for helping my city keep clean. Thanks",
+      "date": "2020-02-03T22:47:28.321Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Non-intuitive!",
+      "date": "2020-01-25T12:54:18.970Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Nice app",
+      "date": "2020-01-07T23:41:59.499Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Actually the app itself is pretty good. It is just that the City of Oakland seems to ignore or drag its' feet on most complaints.",
+      "date": "2020-01-06T21:14:19.180Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "great way to document and ensure acknowledgment of issues happening near you",
+      "date": "2019-12-31T02:48:21.720Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "This app version of what used to be a usable website is very difficult to use. I still can't figure out how to favorite things and keep a short list of what I'm following.",
+      "date": "2019-12-29T03:18:48.246Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Great",
+      "date": "2019-12-16T15:47:24.362Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Perfect for reporting things around home and town that need to be addressed or fixed😊",
+      "date": "2019-12-05T15:49:19.273Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "Be very, VERY careful with this app. I use it only for reading about issues. Reporting something on it can lead to trouble. You can report anonymously, and that's fine. But if you comment on it, your identity will be revealed. And also, any post or comment you make cannot be edited or deleted. If any such post involves neighbors, it will create instant enemies. Beware.",
+      "date": "2019-12-04T01:33:06.653Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 30
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Very accurate and easy to use...lets not forget how informative it is 🙌",
+      "date": "2019-11-25T22:28:21.820Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Great app. Things get done.",
+      "date": "2019-11-19T01:37:10.953Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Pot holes get fixed faster",
+      "date": "2019-11-08T16:46:24.575Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Great app",
+      "date": "2019-11-06T20:37:47.201Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Awesome",
+      "date": "2019-10-30T20:02:00.872Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Helps bring attention to need for city support",
+      "date": "2019-10-29T02:33:07.963Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Street sign fixed",
+      "date": "2019-10-18T21:55:26.562Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Able to report a damaged hydrant; basically fixed the next day! Kept in the loop throughout the whole process by email notifications as well.",
+      "date": "2019-10-07T16:03:05.460Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Great app Makes it easy to report messes and code violations in your neighborhood without revealing your name. And in my city, stuff reported via this app gets dealt with quickly. Love that you can snap pictures and attach them pronto. Rat out your neighbors while snapping photos on your daily walk. Just be sure your OWN act is cleaned up, because they can rat YOU out easily, too. 😁",
+      "date": "2019-10-06T23:31:50.188Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 16
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Its the best to get thing done in my city",
+      "date": "2019-09-25T17:44:42.115Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "It is easy to use and issues that are addressed are removed promptly. Lets my family knowvwhat is going on in the community and the neighborhood.",
+      "date": "2019-09-25T16:27:31.865Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "Works when it wants, I get a lot of network errors and there is nothing wrong with my network.",
+      "date": "2019-09-24T12:22:17.954Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Love it",
+      "date": "2019-09-22T20:08:43.471Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Love this service",
+      "date": "2019-09-19T16:41:46.267Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Awesome way to stay informed of issues in the neighborhood.",
+      "date": "2019-09-18T22:51:11.930Z",
+      "version": "5.0.1.4541",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Works well, get answers, and items fixed quickly too.",
+      "date": "2019-09-15T15:30:10.962Z",
+      "version": "5.0.0.4540",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Good App. Good idea for getting things done.",
+      "date": "2019-09-14T19:37:49.158Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "Location not at all accurate.",
+      "date": "2019-09-14T16:25:19.287Z",
+      "version": null,
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "so far so goo",
+      "date": "2019-09-09T23:53:31.331Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Works good!",
+      "date": "2019-09-04T23:16:31.625Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Easy to use and gets things done",
+      "date": "2019-08-31T23:15:37.251Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Really excellent way to be involved in community issues. Very good municipal response!",
+      "date": "2019-08-29T01:47:05.582Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "Would be great but the app always changes the address.",
+      "date": "2019-08-27T16:54:41.436Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 3
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "very useful app",
+      "date": "2019-08-20T01:54:23.606Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "A cute but useful communication tool",
+      "date": "2019-08-17T01:16:21.962Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Easy to use and effective means of communicating with your local town or city",
+      "date": "2019-08-15T13:25:37.596Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Excellent way to get things done without the hassle of trying to find the right place or person to call.",
+      "date": "2019-08-12T13:50:38.426Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "This is a great tool! Thanks City of Topeka!",
+      "date": "2019-08-07T17:43:03.783Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "really Great idea. simple to use. good responses.",
+      "date": "2019-08-07T16:53:15.352Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "great app",
+      "date": "2019-08-05T23:10:18.115Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "great app to share problems near you",
+      "date": "2019-08-04T14:25:58.171Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "very good app to see what's going on as far as issues in your neighborhood so you know whether or not you're the only one who is having the same problem",
+      "date": "2019-08-03T11:40:48.893Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Convenient and easy to use to report issues to the city that need attention",
+      "date": "2019-08-02T14:16:29.621Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Great app",
+      "date": "2019-07-23T00:56:04.839Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 2,
+      "text": "Recent update is horrible. I need to report an issue so I pull over and open the app, getting some kind of 'get to know your community' banner. I am on the side of the road trying to report an issue and I can no longer see the buttons and prompts. you have ruined this app.  Oh, and the address I was reporting was blocks away from where I was.  I had to edit it three times before I scrolled down and found the button to save and continue.    The developers invite me to contact support, but that is not a real-time option.  My city uses this application for public works, and it was FINE before this last update. I would have given it 5 stars.",
+      "date": "2019-07-19T21:49:54.336Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 21
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "love the app. do you have a version for private large facility managers?",
+      "date": "2019-07-18T21:16:09.526Z",
+      "version": null,
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "needs a delete option or to be able to edit. entered location wrong and cannot fix.",
+      "date": "2019-07-06T02:25:01.515Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 15
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "so far all but one that I report has been fixed",
+      "date": "2019-06-30T16:39:45.110Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Why isn't there a way to edit a post after you submit it? If the address is wrong, and it always is, even after saving the location... very annoying... You can't go change the address. You have to go add a comment with the correct address or start over. There goes your anonymity... It's a cool app and all. But needs work. Just the fact an issue has been closed doesn't mean it's been fixed either. It's just been closed.",
+      "date": "2019-06-27T21:17:03.704Z",
+      "version": "4.6.2.4531",
+      "thumbsUp": 53
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "good tool to utilize if you don't want to call the appropriate party.",
+      "date": "2019-06-17T12:26:17.167Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "It's great I love the updates",
+      "date": "2019-06-17T08:06:14.473Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "👍",
+      "date": "2019-06-16T16:46:57.830Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "The app is ok...except when you try to report something from the app. The catchpa tries to pop up, but doesn't, so you can't report from the app. You have to go to the internet to report, which sort of makes the app useless.",
+      "date": "2019-06-15T16:09:12.129Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 6
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "why can't we edit a post!?!?! when i have to add a comment to an anonymous post, it kinda defeats the purpose......",
+      "date": "2019-06-13T03:21:25.409Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "great way to notify the city of problem property",
+      "date": "2019-06-08T21:11:32.665Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "this app is spectacular you see a problem take a picture, and the city will take care of the rest as soon as posible. great app.",
+      "date": "2019-06-05T22:48:14.140Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 4
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "great tool to connect with the city of new Westminster. im thankful that the city has adopted this and actively uses it to improve the city. great connect between city staff and residents.",
+      "date": "2019-06-04T23:09:16.370Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "spectacular works very well and gets the job done city does a great job responding",
+      "date": "2019-06-01T22:51:46.648Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "city has come out and fixed both problems i reported",
+      "date": "2019-06-01T15:46:35.799Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "problem still not resolve",
+      "date": "2019-05-26T23:54:33.663Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "what a great service",
+      "date": "2019-05-23T16:26:04.688Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "rarely intuitive to use..I just dont like the fact you have to sign up. I just want to report and be done.",
+      "date": "2019-05-20T22:26:32.989Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Easy to report issues and love the follow up email.",
+      "date": "2019-05-14T00:51:23.252Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 3,
+      "text": "Like the web page better. App won't let you supplement a report if you later have a picture to submit. This should have been a no brainer.",
+      "date": "2019-05-08T19:52:09.339Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 2
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "The issues that I've reported have been taken care of in a timely manner. Thank you very much!",
+      "date": "2019-05-07T03:08:42.643Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "easy to report issue, while not waiting on the phone.",
+      "date": "2019-05-07T00:52:07.898Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 4,
+      "text": "overall, very easy to use. intuitive. Only thing I don't like, is that I cannot remove a picture once I've posted it.",
+      "date": "2019-04-30T04:58:38.913Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Nice touch for St Charles@",
+      "date": "2019-04-29T02:52:07.155Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "very good",
+      "date": "2019-04-29T01:19:07.162Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "too slow when click submit. don't tell me to contact you. that does nothing. fix the apo. too slow when click submit. it's not my phone or connection. it's your slow app",
+      "date": "2019-04-27T20:25:25.163Z",
+      "version": null,
+      "thumbsUp": 5
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "worst app. so slow to submit. do not respond telling me to contact you. i have to no avail. just fix your app. don't let cities mark issues closed. don't have home screen say \"24,879 issues resolved!\" esp when they aren't. let anonymous post more than 1 photo. gps pointer often wrong. says different street than what pointer is on. very difficult to move pointer. don't let cities list illogical category names",
+      "date": "2019-04-27T20:23:18.695Z",
+      "version": null,
+      "thumbsUp": 12
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Positive attention is given to this site and the response is EXCELLENT! Thank You",
+      "date": "2019-04-27T19:43:04.870Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "love how easy it is to report a problem",
+      "date": "2019-04-24T23:38:40.417Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "An app that helps the community! I love it!",
+      "date": "2019-04-22T12:10:51.410Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Great city app!",
+      "date": "2019-04-21T20:00:43.107Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "so far so good. But lets see if it creates any ACTION",
+      "date": "2019-04-16T20:01:24.475Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "easy to use",
+      "date": "2019-04-06T22:59:22.874Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Great! I wish I had this app in the other states I had lived in 5 years ago it would of saved myself, car and waller ALOT of grief. Keep up the awesome work! :)",
+      "date": "2019-03-31T16:19:03.592Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "a quick site to post issues on.",
+      "date": "2019-03-30T05:18:37.260Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 1,
+      "text": "This app also forces me to install a \"Game Launcher\" which is absolutely not welcome on my work phone. This app, and what appear to be related apps, can not be uninstalled or disabled. Oh, and it won't upload reports.",
+      "date": "2019-03-29T15:55:38.568Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 5
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "Great",
+      "date": "2019-03-27T21:25:11.939Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "love it",
+      "date": "2019-03-27T06:22:27.471Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "A Google user",
+      "score": 5,
+      "text": "easy to use and report",
+      "date": "2019-03-21T00:18:26.504Z",
+      "version": "4.6.0.4518",
+      "thumbsUp": 0
+    }
+  ]
+}
