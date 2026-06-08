@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>District Care — Research</title>
+  <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/e-ukraine">
   <style>
     :root {
       --green: #1a7a4a; --green-light: #e8f5ee;
@@ -14,13 +15,17 @@
       --gray-400: #9aa0a6; --gray-600: #5f6368; --gray-900: #202124;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: var(--gray-900); background: var(--gray-50); line-height: 1.6; font-size: 14px; }
+    body { font-family: 'e-Ukraine', -apple-system, BlinkMacSystemFont, sans-serif; color: var(--gray-900); background: #F6F6F6; line-height: 1.6; font-size: 14px; }
 
-    nav { position: sticky; top: 0; background: white; border-bottom: 1px solid var(--gray-200); z-index: 100; display: flex; align-items: center; overflow-x: auto; padding: 0 20px; scrollbar-width: none; }
-    nav::-webkit-scrollbar { display: none; }
-    nav a { display: inline-block; padding: 13px 11px; font-size: 12.5px; color: var(--gray-600); text-decoration: none; border-bottom: 2px solid transparent; white-space: nowrap; }
-    nav a:hover { color: var(--green); border-bottom-color: var(--green); }
-    nav a.active { color: var(--green); border-bottom-color: var(--green); font-weight: 600; }
+    nav { position: fixed; left: 0; top: 0; width: 216px; height: 100vh; background: transparent; border-right: none; z-index: 100; display: flex; flex-direction: column; padding: 20px 0; overflow-y: auto; }
+    nav a { display: block; padding: 8px 12px; margin: 1px 8px; border-radius: 7px; font-size: 12.5px; color: var(--gray-600); text-decoration: none; white-space: normal; line-height: 1.4; }
+    nav a:hover { background: rgba(255,255,255,0.55); color: var(--gray-900); }
+    nav a.active { background: #FEFEFE; color: var(--gray-900); font-weight: 600; }
+    nav a:first-child { margin: 0; padding: 10px 20px; border-radius: 0; border-bottom: 1px solid rgba(0,0,0,0.08); margin-bottom: 10px; }
+    nav a:first-child:hover { background: transparent; color: var(--green); }
+    nav hr { border: none; border-top: 1px solid rgba(0,0,0,0.08); margin: 6px 20px; }
+    .page-body { margin-left: 216px; padding: 16px 16px 16px 0; }
+    #main-content, #raw-content { background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 0 0 1px rgba(0,0,0,0.04); }
 
     .hero { background: white; border-bottom: 1px solid var(--gray-200); padding: 40px 24px 28px; }
     .hero .container { max-width: 1160px; margin: 0 auto; }
@@ -98,7 +103,8 @@
     .asp { background: var(--blue-light); color: var(--blue); }
     .mot { background: var(--green-light); color: var(--green); }
 
-    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; margin: 12px 0; }
+    .cards { display: flex; flex-wrap: wrap; gap: 14px; margin: 12px 0; }
+    .cards > * { flex: 1 1 260px; }
     .card { background: white; border: 1px solid var(--gray-200); border-radius: 10px; padding: 16px; }
     .card h4 { margin-top: 0; font-size: 13px; margin-bottom: 6px; }
     .card p { font-size: 13px; color: var(--gray-600); margin: 0; }
@@ -124,7 +130,8 @@
     .warn-box { background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: 11px 15px; font-size: 13px; margin: 10px 0; color: #5d4037; }
     .info-box { background: var(--green-light); border: 1px solid #a5d6a7; border-radius: 8px; padding: 11px 15px; font-size: 13px; margin: 10px 0; color: #1b5e20; }
 
-    .tax-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; margin: 12px 0; }
+    .tax-grid { display: flex; flex-wrap: wrap; gap: 12px; margin: 12px 0; }
+    .tax-grid > * { flex: 1 1 260px; }
     .tax-card { background: white; border: 1px solid var(--gray-200); border-radius: 8px; padding: 14px; }
     .tax-card h5 { font-size: 12.5px; font-weight: 700; color: var(--green); margin-bottom: 8px; }
     .tax-card ul { list-style: none; }
@@ -137,7 +144,8 @@
     .hlabel.p { background: var(--orange-light); color: var(--orange); }
     .hypo p { font-size: 13px; color: var(--gray-600); margin: 0; }
 
-    .stat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin: 12px 0; }
+    .stat-grid { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0; }
+    .stat-grid > * { flex: 1 1 150px; }
     .stat-card { background: white; border: 1px solid var(--gray-200); border-radius: 8px; padding: 14px; text-align: center; }
     .stat-val { font-size: 20px; font-weight: 700; color: var(--green); display: block; margin-bottom: 4px; }
     .stat-lbl { font-size: 11px; color: var(--gray-400); }
@@ -173,19 +181,17 @@
 
 <nav>
   <a href="/">← Головна</a>
-  <a href="#competitors" class="active">Конкуренти (прямі та непрямі)</a>
+  <a href="#competitors">Конкуренти (прямі та непрямі)</a>
   <a href="#benchmark">Бенчмарк</a>
   <a href="#patterns">Патерни</a>
   <a href="#synthesis">Висновки</a>
-  <a href="#raw-data" style="margin-left:auto;color:var(--gray-400)">Сирі дані ↓</a>
+  <hr>
+  <a href="#raw-data">Сирі дані</a>
 </nav>
 
-<div class="hero">
-  <div class="container">
-    <h1>Research — District Care</h1>
-    <div class="sub">Синтез · Конкуренти · Бенчмарк · Патерни · Висновки · Сирі дані</div>
-  </div>
-</div>
+
+<div class="page-body">
+<div id="main-content">
 
 <!-- РІВЕНЬ 01 -->
 <section id="competitors">
@@ -195,50 +201,35 @@
     <div class="level-desc">Матриця за осями + 3 спільні патерни ринку, 3 відмінності.</div>
 
     <h3>Прямі конкуренти (Україна)</h3>
-    <div class="tw">
-      <table>
-        <thead>
-          <tr>
-            <th></th>
-            <th><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a></th>
-            <th><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a></th>
-            <th><strong>District Care</strong></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>Тип</td><td><span class="tag hard" style="margin:0;font-size:10px">HARD</span></td><td><span class="tag hard" style="margin:0;font-size:10px">HARD</span></td><td>Ціль</td></tr>
-          <tr><td>Кроків до відправки</td><td>7+</td><td>8</td><td><strong>2–3</strong></td></tr>
-          <tr><td>Карта як core</td><td>❌ моніторинг повітря</td><td>❌</td><td>✅</td></tr>
-          <tr><td>Ідентичність</td><td>GOV ID</td><td>Анонімно</td><td><strong>Email + реальне ім'я</strong></td></tr>
-          <tr><td>Після відправки</td><td>Номер без пояснень</td><td>Тиша</td><td><strong>"Сигнал активний"</strong></td></tr>
-          <tr><td>Одержувач звіту</td><td>Міндовкілля (непрозоро)</td><td>Непрозоро</td><td><em>TBD — відкрите питання</em></td></tr>
-        </tbody>
-      </table>
+    <div class="cards">
+      <div class="card">
+        <h4><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a> <span class="tag hard" style="margin:0 0 0 4px;font-size:10px;vertical-align:middle">HARD</span></h4>
+        <p>Щоб подати перший звіт, треба увійти через GOV ID і заповнити профіль. Карта показує станції моніторингу повітря, а не скарги від людей.</p>
+      </div>
+      <div class="card">
+        <h4><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a> <span class="tag hard" style="margin:0 0 0 4px;font-size:10px;vertical-align:middle">HARD</span></h4>
+        <p>Бот у Telegram. Ім'я не потрібне, але 8 кроків щоб щось надіслати. Після відправки — жодної відповіді чи підтвердження.</p>
+      </div>
     </div>
 
-    <h3>Міжнародні еталони (ASPIRATIONAL)</h3>
-    <div class="tw">
-      <table>
-        <thead>
-          <tr>
-            <th></th>
-            <th><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a></th>
-            <th><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a></th>
-            <th><a href="https://seeclickfix.com" target="_blank">SeeClickFix</a></th>
-            <th><a href="https://www.eyesea.org" target="_blank">Eyesea</a></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>Фокус</td><td>Civic infra, UK+global</td><td>Природничі спостереження</td><td>Civic reporting, USA</td><td>Морське забруднення</td></tr>
-          <tr><td>Кроків до відправки</td><td>4 (веб)</td><td>3</td><td>3–4</td><td>4 (iOS)</td></tr>
-          <tr><td>Карта як core</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
-          <tr><td>Ідентичність</td><td>Email</td><td>Реєстрація</td><td>Email</td><td>Email (Volunteer/Seafarer)</td></tr>
-          <tr><td>Після відправки</td><td>Публічно + статус</td><td>"Needs ID"</td><td>CRM-трекінг</td><td>Credits + публічна картка</td></tr>
-          <tr><td>Одержувач звіту</td><td>Рада через API</td><td>Наукова спільнота</td><td>Міська влада (311)</td><td>Дані / NGO (нечітко)</td></tr>
-          <tr><td>Масштаб</td><td>7.6M звітів · 73% фікс/тиждень</td><td>250M+ спостережень</td><td>4.6★ / 7 887 відг.</td><td>50+ завантажень (2026)</td></tr>
-          <tr><td>Ключовий патерн</td><td>Автороутинг до ради</td><td>Photo-first + AI ID</td><td>CRM + accountability</td><td>Credits + Recover flow</td></tr>
-        </tbody>
-      </table>
+    <h3>Міжнародні еталони</h3>
+    <div class="cards">
+      <div class="card">
+        <h4><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a> <span class="tag asp" style="margin:0 0 0 4px;font-size:10px;vertical-align:middle">ASP</span></h4>
+        <p>Подаєш скаргу за 4 кроки — вона одразу летить до потрібної місцевої ради. Видно хто отримав і що зробили. 7.6 млн звітів, 73% вирішуються.</p>
+      </div>
+      <div class="card">
+        <h4><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a> <span class="tag asp" style="margin:0 0 0 4px;font-size:10px;vertical-align:middle">ASP</span></h4>
+        <p>Фотографуєш — додаток сам визначає вид тварини або рослини. 3 кроки до публікації. Дані йдуть науковцям, тому люди повертаються.</p>
+      </div>
+      <div class="card">
+        <h4><a href="https://seeclickfix.com" target="_blank">SeeClickFix</a> <span class="tag asp" style="margin:0 0 0 4px;font-size:10px;vertical-align:middle">ASP</span></h4>
+        <p>Звіт одразу потрапляє до міської служби. Можна відстежити хто і коли відреагував. 4.6 зірки — найкраще налагоджений зворотний зв'язок від влади серед усіх протестованих.</p>
+      </div>
+      <div class="card">
+        <h4><a href="https://www.eyesea.org" target="_blank">Eyesea</a> <span class="tag asp" style="margin:0 0 0 4px;font-size:10px;vertical-align:middle">ASP</span></h4>
+        <p>Фіксує забруднення морів. Коли надсилаєш звіт — одразу бачиш скільки балів заробив. Єдиний серед протестованих де гейміфікація вбудована прямо в момент відправки.</p>
+      </div>
     </div>
 
     <h3>3 спільні патерни ринку</h3>
@@ -439,11 +430,11 @@
   </div>
 </section>
 
-<!-- RAW DATA SEPARATOR -->
-<hr class="raw-divider">
-<div class="raw-label" id="raw-data">
-  <h2>Сирі дані</h2>
-  <p>Повний конкурентний аналіз · флоу · таксономія · статистика · гіпотези · скріни</p>
+</div><!-- /main-content -->
+
+<div id="raw-content">
+<div id="raw-data">
+  <a href="#" id="raw-back" style="display:none"></a>
 </div>
 
 <!-- COMPETITIVE -->
@@ -1101,7 +1092,7 @@
     <h2>Скріншоти</h2>
 
     <h3><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a> — live flow (30 скрінів)</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin:12px 0">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:12px 0">
       <figure style="margin:0"><img src="/research/screens/ecozagroza_01_home.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">01 Home</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/ecozagroza_02_auth_gate.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">02 Auth gate</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/ecozagroza_03_profile_warning.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">03 Profile warning</figcaption></figure>
@@ -1118,7 +1109,7 @@
     </div>
 
     <h3><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a> — flow</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin:12px 0">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:12px 0">
       <figure style="margin:0"><img src="/research/screens/inaturalist_01_upload.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">01 Upload</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/inaturalist_02_form.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">02 Form</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/inaturalist_08_card_preview.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">08 Card preview</figcaption></figure>
@@ -1126,7 +1117,7 @@
     </div>
 
     <h3><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a> — flow</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin:12px 0">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:12px 0">
       <figure style="margin:0"><img src="/research/screens/saveecobot_01_welcome.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">01 Welcome</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/saveecobot_02_main_menu.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">02 Main menu</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/saveecobot_04_categories.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">04 Categories</figcaption></figure>
@@ -1134,7 +1125,7 @@
     </div>
 
     <h3>FixMyStreet — живий тест (Playwright MCP)</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px;margin:12px 0">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;margin:12px 0">
       <figure style="margin:0"><img src="/research/screens/fms_02_homepage_loggedin.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">FMS — homepage logged in</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/fms_03_map_around.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">FMS — карта EC1A 1BB</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/fms_04_report_form.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">FMS — крок 1: 23 категорії</figcaption></figure>
@@ -1149,7 +1140,7 @@
     </div>
 
     <h3>Десктоп (MCP)</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px;margin:12px 0">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:10px;margin:12px 0">
       <figure style="margin:0"><img src="/research/screens/dt_fixmystreet_01_home.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">FixMyStreet — home</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/dt_fixmystreet_02_map.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">FixMyStreet — map</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/dt_inaturalist_01_home.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">iNaturalist — home</figcaption></figure>
@@ -1158,7 +1149,7 @@
     </div>
 
     <h3>Litterati — живий тест iOS (67 скрінів)</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin:12px 0">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:12px 0">
       <figure style="margin:0"><img src="/research/screens/litterati_01_splash.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">01 Splash</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/litterati_02_onboarding_goal.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">02 Goal picker</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/litterati_03_onboarding_impact_world.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">03 Impact World</figcaption></figure>
@@ -1229,7 +1220,7 @@
     </div>
 
     <h3>Eyesea — живий тест iOS (51 скрін)</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin:12px 0">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:12px 0">
       <figure style="margin:0"><img src="/research/screens/eyesea_01_onboarding_photo.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">01 Onboarding photo</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/eyesea_02_camera.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">02 Camera</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/eyesea_03_form_empty.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">03 Форма: +45 Credits</figcaption></figure>
@@ -1284,7 +1275,7 @@
     </div>
 
     <h3>App Store / Google Play</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin:12px 0">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:12px 0">
       <figure style="margin:0"><img src="/research/screens/ecozagroza_store.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">ЕкоЗагроза — Play</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/ecomap_borysenko_store.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">EcoMap Borysenko</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/eyesea_playstore.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Eyesea — Play</figcaption></figure>
@@ -1347,6 +1338,45 @@
     if (e.key === 'ArrowRight') show(current + 1);
     if (e.key === 'ArrowLeft') show(current - 1);
   });
+
+  // Nav active state
+  const navLinks = document.querySelectorAll('nav a[href^="#"]');
+
+  function setActive(hash) {
+    navLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === hash));
+  }
+
+  // Scroll-based active state via IntersectionObserver
+  const mainSections = document.querySelectorAll('#main-content section[id]');
+  const sectionObserver = new IntersectionObserver(entries => {
+    if (location.hash === '#raw-data') return;
+    entries.forEach(entry => { if (entry.isIntersecting) setActive('#' + entry.target.id); });
+  }, { rootMargin: '-10% 0px -75% 0px' });
+  mainSections.forEach(s => sectionObserver.observe(s));
+
+  // Hash-based raw data toggle
+  const mainContent = document.getElementById('main-content');
+  const rawContent = document.getElementById('raw-content');
+  const rawBack = document.getElementById('raw-back');
+
+  function applyView() {
+    const isRaw = location.hash === '#raw-data';
+    mainContent.style.display = isRaw ? 'none' : '';
+    rawContent.style.display = isRaw ? '' : 'none';
+    if (isRaw) { setActive('#raw-data'); window.scrollTo({ top: 0 }); }
+  }
+
+  rawBack.addEventListener('click', e => {
+    e.preventDefault();
+    history.pushState(null, '', location.pathname);
+    applyView();
+    window.scrollTo({ top: 0 });
+  });
+
+  window.addEventListener('hashchange', applyView);
+  applyView();
 </script>
+</div><!-- /raw-content -->
+</div><!-- /page-body -->
 </body>
 </html>
