@@ -160,7 +160,8 @@
       .page-body { margin-left: 0; padding: 72px 16px 24px; }
     }
     #main-content, #raw-content { background: transparent; border-radius: 0; overflow: visible; border: none; display: flex; flex-direction: column; gap: 56px; }
-    #main-content section, #main-content .hero { background: var(--surface); border-radius: 12px; border: 1px solid var(--border); overflow: hidden; }
+    #main-content section, #main-content .hero,
+    #raw-content section { background: var(--surface); border-radius: 12px; border: 1px solid var(--border); overflow: hidden; }
 
     /* ── HERO ────────────────────────────────────────────── */
     .hero {
@@ -315,6 +316,18 @@
 
     /* ── DETAILS / FLOW SECTION ──────────────────────────── */
     .flow { display: flex; flex-direction: column; margin: 12px 0; }
+    details.product-flow { margin: 0 0 12px; background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+    details.product-flow > summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: 10px; padding: 16px 20px; }
+    details.product-flow > summary::-webkit-details-marker { display: none; }
+    details.product-flow > summary::before { content: '▶'; font-size: 8px; color: var(--text-3); transition: transform .15s; flex-shrink: 0; }
+    details.product-flow[open] > summary::before { transform: rotate(90deg); }
+    details.product-flow > summary h3 { margin: 0; }
+    details.product-flow[open] > summary { border-bottom: 1px solid var(--border); }
+    details.product-flow > *:not(summary) { padding: 0 20px; }
+    details.product-flow > .cards { padding: 0 20px 20px; }
+    details.product-flow > .warn-box { margin: 0 20px 20px; }
+    details.product-flow > .flow { padding: 12px 20px 0; }
+    details.product-flow > div[style] { padding-top: 16px; padding-left: 20px; padding-right: 20px; }
     details.flow-section { margin: 12px 0 6px; }
     details.flow-section summary {
       font-size: 13px;
@@ -517,7 +530,7 @@
     <h3>Прямі конкуренти (Україна)</h3>
     <div class="cards">
       <div class="card">
-        <h4><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a> <span class="tag hard" style="margin:0 0 0 4px;font-size:10px;vertical-align:middle">HARD</span></h4>
+        <h4><a href="https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160" target="_blank">ЕкоЗагроза</a> <span class="tag hard" style="margin:0 0 0 4px;font-size:10px;vertical-align:middle">HARD</span></h4>
         <p>Щоб подати перший звіт, треба увійти через GOV ID і заповнити профіль. Карта показує станції моніторингу повітря, а не скарги від людей.</p>
       </div>
       <div class="card">
@@ -537,27 +550,27 @@
         <p>Фотографуєш — додаток сам визначає вид тварини або рослини. 3 кроки до публікації. Дані йдуть науковцям, тому люди повертаються.</p>
       </div>
       <div class="card">
-        <h4><a href="https://seeclickfix.com" target="_blank">SeeClickFix</a> <span class="tag asp" style="margin:0 0 0 4px;font-size:10px;vertical-align:middle">ASP</span></h4>
+        <h4><a href="https://apps.apple.com/ua/app/seeclickfix/id322000552" target="_blank">SeeClickFix</a> <span class="tag asp" style="margin:0 0 0 4px;font-size:10px;vertical-align:middle">ASP</span></h4>
         <p>Звіт одразу потрапляє до міської служби. Можна відстежити хто і коли відреагував. 4.6 зірки — найкраще налагоджений зворотний зв'язок від влади серед усіх протестованих.</p>
       </div>
       <div class="card">
-        <h4><a href="https://www.eyesea.org" target="_blank">Eyesea</a> <span class="tag asp" style="margin:0 0 0 4px;font-size:10px;vertical-align:middle">ASP</span></h4>
+        <h4><a href="https://apps.apple.com/ua/app/eyesea-reporting/id6758102652" target="_blank">Eyesea</a> <span class="tag asp" style="margin:0 0 0 4px;font-size:10px;vertical-align:middle">ASP</span></h4>
         <p>Фіксує забруднення морів. Коли надсилаєш звіт — одразу бачиш скільки балів заробив. Єдиний серед протестованих де гейміфікація вбудована прямо в момент відправки.</p>
       </div>
     </div>
 
     <h3>3 спільні патерни ринку</h3>
     <ul class="ilist pat">
-      <li><strong>Геолокація — серце продукту.</strong> Всі продукти будують навколо "де" як першого питання. Карта або координати присутні на кожному флоу. Виняток: <a href="https://apps.apple.com/us/app/litterati/id978788776" target="_blank">Litterati</a> — геолокація фонова (EXIF/GPS), карти у продукті немає взагалі.</li>
+      <li><strong>Геолокація — серце продукту.</strong> Всі продукти будують навколо "де" як першого питання. Карта або координати присутні на кожному флоу. Виняток: <a href="https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776" target="_blank">Litterati</a> — геолокація фонова (EXIF/GPS), карти у продукті немає взагалі.</li>
       <li><strong>Фото заохочується, але не блокує.</strong> Жоден продукт не відмовляє в submission без фото. FixMyStreet, iNaturalist, ЕкоЗагроза, Eyesea — всі дають ескейп-хетч. Litterati: фото є головним входом, але tagging — добровільний. Примус до медіа = відмова від звіту.</li>
       <li><strong>Після submit — тиша.</strong> Більшість залишають без feedback. Виняток: FixMyStreet (публічний статус), SeeClickFix (CRM), Eyesea (Credits + картка). Litterati: після upload — AI аналіз і tagging prompt, але без публічного підтвердження куди пішли дані. Постсабміт — найслабше місце ніші.</li>
     </ul>
 
     <h3>3 ключові відмінності</h3>
     <ul class="ilist diff">
-      <li><strong>Кожен продукт вибирає де стояти між зручністю входу і довірою до даних.</strong> SaveEcoBot не вимагає нічого на вході — але збирає ПІБ і GDPR-згоду при фіналізації скарги. ЕкоЗагроза вимагає GOV ID — і мало хто доходить. FixMyStreet, SeeClickFix, Eyesea зупинились на email. <a href="https://apps.apple.com/us/app/litterati/id978788776" target="_blank">Litterati</a> дає завантажити фото без реєстрації і просить акаунт тільки після першого upload. Ніхто не займає місце email + реальне ім'я — там ми.</li>
+      <li><strong>Кожен продукт вибирає де стояти між зручністю входу і довірою до даних.</strong> SaveEcoBot не вимагає нічого на вході — але збирає ПІБ і GDPR-згоду при фіналізації скарги. ЕкоЗагроза вимагає GOV ID — і мало хто доходить. FixMyStreet, SeeClickFix, Eyesea зупинились на email. <a href="https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776" target="_blank">Litterati</a> дає завантажити фото без реєстрації і просить акаунт тільки після першого upload. Ніхто не займає місце email + реальне ім'я — там ми.</li>
       <li><strong>Одержувач звіту визначає весь продукт.</strong> Де є чіткий одержувач — FixMyStreet передає раді, iNaturalist науковцям, SeeClickFix місту — люди повертаються. Де одержувача немає (SaveEcoBot, ЕкоЗагроза, Eyesea, Litterati) — повернення тримається лише на гейміфікації або відсутнє взагалі.</li>
-      <li><strong>Публічність карти як механізм тиску.</strong> Продукти з публікацією одразу (FixMyStreet, iNaturalist, Eyesea) мають кращі метрики. ЕкоЗагроза — єдиний з ручною інституційною модерацією: звіти не потрапляють на публічну карту → <a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">3.7★ при 5k завантажень</a>. Litterati: карти немає взагалі → дані закриті в датасеті партнера. SeeClickFix — гібрид: автоматичний keyword/image фільтр + платна moderations team.</li>
+      <li><strong>Публічність карти як механізм тиску.</strong> Продукти з публікацією одразу (FixMyStreet, iNaturalist, Eyesea) мають кращі метрики. ЕкоЗагроза — єдиний з ручною інституційною модерацією: звіти не потрапляють на публічну карту → <a href="https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160" target="_blank">3.7★ при 5k завантажень</a>. Litterati: карти немає взагалі → дані закриті в датасеті партнера. SeeClickFix — гібрид: автоматичний keyword/image фільтр + платна moderations team.</li>
     </ul>
   </div>
 </section>
@@ -651,7 +664,7 @@
       <li><strong>Якщо перший екран не карта — продукт суперечить своїй ідеї.</strong> District Care про те щоб бачити де і скільки порушень. Карта це не фіча, це і є продукт. Два незалежних докази: (1) Litterati не має карти взагалі, і "Can't see anyone else's picks, just my own" став найчастішим запитом користувачів (11 лайків); (2) FixMyStreet генерує 7.6M звітів без жодної гейміфікації — тільки завдяки публічній карті де кожен бачить результат.</li>
       <li><strong><a href="https://www.fixmystreet.com/reports" target="_blank">FixMyStreet</a> показав що це працює у великому масштабі.</strong> 7.6M звітів і 73% вирішуваність — і жодної гейміфікації. Карта першою — перевірений підхід, не гіпотеза.</li>
       <li><strong>iNaturalist і Eyesea підтвердили: фото першим скорочує флоу.</strong> Обидва відкривають камеру до будь-якої форми і закривають весь процес за 3 кроки. У нашому контексті різниця одна: для них фото — це сам контент, для нас фото — доказ. Тому ми спонукаємо, але не вимагаємо.</li>
-      <li><strong><a href="https://apps.apple.com/us/app/litterati/id978788776" target="_blank">Litterati</a> показав як знімати бар'єр реєстрації.</strong> Людина завантажує фото одразу, без акаунту — і тільки після цього її просять зареєструватись. Але Litterati не має карти взагалі: дані йдуть партнерам закрито. Це підкреслює нашу відмінність — публічна карта є центром, а не технічним фоном.</li>
+      <li><strong><a href="https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776" target="_blank">Litterati</a> показав як знімати бар'єр реєстрації.</strong> Людина завантажує фото одразу, без акаунту — і тільки після цього її просять зареєструватись. Але Litterati не має карти взагалі: дані йдуть партнерам закрито. Це підкреслює нашу відмінність — публічна карта є центром, а не технічним фоном.</li>
       <li><strong>ЕкоЗагроза показала від чого тікати.</strong> Покрокова форма з 4+ обов'язковими полями відчувається як держсервіс. Люди відчувають що "подають заяву", а не "фіксують що бачать".</li>
       <li><strong>Лише два кроки обов'язкові: локація і категорія.</strong> Все інше — фото, опис — додаток заохочує, але не блокує. Неповний звіт краще за жодного.</li>
     </ul>
@@ -684,7 +697,7 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://seeclickfix.com" target="_blank">SeeClickFix</a></td>
+            <td><a href="https://apps.apple.com/ua/app/seeclickfix/id322000552" target="_blank">SeeClickFix</a></td>
             <td>594 <small style="color:var(--gray-400)">(300 GP + 294 AS)</small></td>
             <td>3.45 / 4.60</td>
             <td>Влада ігнорує тикети (~35%)</td>
@@ -705,14 +718,14 @@
             <td><em>"iNat is GOAT app is WOAT"</em></td>
           </tr>
           <tr>
-            <td><a href="https://apps.apple.com/us/app/litterati/id978788776" target="_blank">Litterati</a></td>
+            <td><a href="https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776" target="_blank">Litterati</a></td>
             <td>225 <small style="color:var(--gray-400)">(159 GP + 66 AS)</small></td>
             <td>3.46 / 3.0</td>
             <td>Технічні збої (~38%)</td>
             <td><em>"The thought of photographing and tagging each one is simply not going to happen"</em> (47 лайків)</td>
           </tr>
           <tr>
-            <td><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a></td>
+            <td><a href="https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160" target="_blank">ЕкоЗагроза</a></td>
             <td>3 <small style="color:var(--gray-400)">(3 GP)</small></td>
             <td>3.7 / —</td>
             <td>Вузькі категорії; GPS-залежність</td>
@@ -734,7 +747,7 @@
     <h3>Ключові інсайти по застосунках</h3>
 
     <details class="flow-section">
-      <summary><a href="https://seeclickfix.com" target="_blank">SeeClickFix</a> — 594 відгуки</summary>
+      <summary><a href="https://apps.apple.com/ua/app/seeclickfix/id322000552" target="_blank">SeeClickFix</a> — 594 відгуки</summary>
       <ul class="ilist">
         <li>Notification spam вбиває retention: <em>"I get several emails everyday... have unsubscribed to everything"</em> → одне підтвердження + одне оновлення статусу = максимум</li>
         <li>Категорія "Інше" відсутня → <em>"Where is the 'other' category?"</em> → завжди мати запасний варіант у таксономії</li>
@@ -764,7 +777,7 @@
     </details>
 
     <details class="flow-section">
-      <summary><a href="https://apps.apple.com/us/app/litterati/id978788776" target="_blank">Litterati</a> — 225 відгуків</summary>
+      <summary><a href="https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776" target="_blank">Litterati</a> — 225 відгуків</summary>
       <ul class="ilist">
         <li>Закриті дані = зрада місії: 19 лайків на відгук про перехід до OpenLitterMap → публічна карта не опція для District Care</li>
         <li>Фактично без підтримки з 2024 → активна аудиторія ентузіастів без якісного інструменту; вікно для входу</li>
@@ -774,7 +787,7 @@
     </details>
 
     <details class="flow-section">
-      <summary><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a> — 3 відгуки (мала вибірка)</summary>
+      <summary><a href="https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160" target="_blank">ЕкоЗагроза</a> — 3 відгуки (мала вибірка)</summary>
       <ul class="ilist">
         <li>3 відгуки за 2+ роки → держпродукт не створив community навколо себе; ніша реально вільна</li>
         <li>Категорії для інспекторів ≠ мова громадян: <em>"додати спалювання сміття, підпали"</em> — ★5 відгук-побажання</li>
@@ -824,7 +837,7 @@
     <div class="hypo-block">
       <div class="hypo-row"><span class="hypo-label hl-if">Якщо</span><span class="hypo-text">модерація вручну без альтернативи</span></div>
       <div class="hypo-row"><span class="hypo-label hl-then">То</span><span class="hypo-text">продукт не масштабується</span></div>
-      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">ЕкоЗагроза тримає всі звіти на ручній перевірці до публікації — карта залишається порожньою, і це головна скарга у <a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">3.7★</a>. SeeClickFix іде в протилежний бік і автоматично закриває тикети без реальної дії — звідси ~35% негативних відгуків і прізвисько "See Click Ignore". iNaturalist показує що людська модерація — це сигнал довіри для спільноти: аудиторія відреагувала 1★ навіть на новину про можливий GenAI-грант. Правильна позиція: публікувати одразу зі статусом "Перевіряється" і верифікувати постфактум — як <a href="https://fixmystreet.org/running/admin_manual/" target="_blank">FixMyStreet reactive flagging</a> або iNaturalist "Needs ID".</span></div>
+      <div class="hypo-row"><span class="hypo-label hl-bc">Бо</span><span class="hypo-text">ЕкоЗагроза тримає всі звіти на ручній перевірці до публікації — карта залишається порожньою, і це головна скарга у <a href="https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160" target="_blank">3.7★</a>. SeeClickFix іде в протилежний бік і автоматично закриває тикети без реальної дії — звідси ~35% негативних відгуків і прізвисько "See Click Ignore". iNaturalist показує що людська модерація — це сигнал довіри для спільноти: аудиторія відреагувала 1★ навіть на новину про можливий GenAI-грант. Правильна позиція: публікувати одразу зі статусом "Перевіряється" і верифікувати постфактум — як <a href="https://fixmystreet.org/running/admin_manual/" target="_blank">FixMyStreet reactive flagging</a> або iNaturalist "Needs ID".</span></div>
     </div>
 
     <div class="hypo-block">
@@ -872,13 +885,12 @@
   <div class="container">
     <h2>Competitive Analysis</h2>
     <div class="info-box" style="margin-bottom:0">💡 Ніша майже порожня. ЕкоЗагроза є, але занедбана. Eyesea — єдиний свіжий гравець з правильними UX-патернами, але в іншій ніші (море).</div>
-    <div style="font-size:12px;color:var(--gray-400);margin-bottom:20px;margin-top:16px">HARD · SOFT · ASPIRATIONAL · App Store / Google Play</div>
 
     <h3><span class="tag hard">HARD</span> — той самий продукт, Україна</h3>
     <div class="tw">
       <table>
         <thead>
-          <tr><th></th><th><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a></th><th><a href="https://play.google.com/store/apps/details?id=ee.ut.ecomap" target="_blank">EcoMap</a> (Borysenko)</th><th><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a></th><th><a href="https://kyiv.city" target="_blank">Kyiv Smart City</a></th></tr>
+          <tr><th></th><th><a href="https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160" target="_blank">ЕкоЗагроза</a></th><th><a href="https://play.google.com/store/apps/details?id=ee.ut.ecomap" target="_blank">EcoMap</a> (Borysenko)</th><th><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a></th><th><a href="https://kyiv.city" target="_blank">Kyiv Smart City</a></th></tr>
         </thead>
         <tbody>
           <tr><td>Розробник</td><td>Міндовкілля + Мінцифри</td><td>Студент (Univ. of Tartu)</td><td>SaveEco команда</td><td>Київська міська рада</td></tr>
@@ -895,7 +907,7 @@
       </table>
     </div>
     <div class="cards">
-      <div class="card"><h4><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a> — головний конкурент</h4><p>5k завантажень, 3.7★. GOV ID gate + профіль-гейт = 2 бар'єри. reCAPTCHA на формі. Карта показує станції, а НЕ звіти.</p></div>
+      <div class="card"><h4><a href="https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160" target="_blank">ЕкоЗагроза</a> — головний конкурент</h4><p>5k завантажень, 3.7★. GOV ID gate + профіль-гейт = 2 бар'єри. reCAPTCHA на формі. Карта показує станції, а НЕ звіти.</p></div>
       <div class="card"><h4><a href="https://play.google.com/store/apps/details?id=ee.ut.ecomap" target="_blank">EcoMap</a> (Borysenko)</h4><p>Студентський проект з тією самою ідеєю. 100+ завантажень, покинутий лют. 2023.</p></div>
       <div class="card"><h4><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a> → воєнні злочини</h4><p>Переорієнтувався на фіксацію екозлочинів. Telegram = нульовий бар'єр входу, але реальний флоу — 14+ кроків, а на кроці 14 вимагається повне ПІБ + GDPR-згода.</p></div>
     </div>
@@ -918,7 +930,7 @@
     <div class="tw">
       <table>
         <thead>
-          <tr><th></th><th><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a></th><th><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a></th><th><a href="https://seeclickfix.com" target="_blank">SeeClickFix</a></th><th><a href="https://www.litterati.org" target="_blank">Litterati</a></th><th><a href="https://www.eyesea.org" target="_blank">Eyesea</a></th></tr>
+          <tr><th></th><th><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a></th><th><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a></th><th><a href="https://apps.apple.com/ua/app/seeclickfix/id322000552" target="_blank">SeeClickFix</a></th><th><a href="https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776" target="_blank">Litterati</a></th><th><a href="https://apps.apple.com/ua/app/eyesea-reporting/id6758102652" target="_blank">Eyesea</a></th></tr>
         </thead>
         <tbody>
           <tr><td>Аудиторія</td><td>Мешканці UK + ради</td><td>Натуралісти, науковці</td><td>Міста + мешканці (B2G)</td><td>B2G: міста, НКО</td><td>Моряки, прибережні</td></tr>
@@ -933,10 +945,10 @@
       </table>
     </div>
     <div class="cards">
-      <div class="card"><h4><a href="https://www.eyesea.org" target="_blank">Eyesea</a> — найрелевантніший UX-референс</h4><p>Лют. 2026. On-device AI, офлайн-черга, гейміфікація. UX-рішення 1:1 застосовні.</p></div>
+      <div class="card"><h4><a href="https://apps.apple.com/ua/app/eyesea-reporting/id6758102652" target="_blank">Eyesea</a> — найрелевантніший UX-референс</h4><p>Лют. 2026. On-device AI, офлайн-черга, гейміфікація. UX-рішення 1:1 застосовні.</p></div>
       <div class="card"><h4><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a> — найближчий за механікою</h4><p>7,6 млн звітів, <a href="https://www.fixmystreet.com/reports" target="_blank">73% тижнева вирішуваність</a>. Видимий вплив > геймінг. Публічна карта = соціальний тиск = результат.</p></div>
       <div class="card"><h4><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a> — найкращий UX документації</h4><p>"Needs ID" замість "скарга на розгляді". Фото → auto-fill → 3 кроки. Community verification замість адмін-модерації.</p></div>
-      <div class="card"><h4><a href="https://apps.apple.com/us/app/litterati/id978788776" target="_blank">Litterati</a> — upload-first + AI + Challenges</h4><p>Upload без реєстрації → AI (LitterAI: Category/Object/Material/Brand) → 24.3M pickups. Challenges з географічним радіусом і датами. B2G pivot: преміум тільки через код. Немає карти — дані закриті в датасеті партнера.</p></div>
+      <div class="card"><h4><a href="https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776" target="_blank">Litterati</a> — upload-first + AI + Challenges</h4><p>Upload без реєстрації → AI (LitterAI: Category/Object/Material/Brand) → 24.3M pickups. Challenges з географічним радіусом і датами. B2G pivot: преміум тільки через код. Немає карти — дані закриті в датасеті партнера.</p></div>
     </div>
 
   </div>
@@ -951,7 +963,7 @@
     <div class="tw">
       <table>
         <thead>
-          <tr><th></th><th><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a></th><th><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a></th><th><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a></th><th><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a></th><th><a href="https://seeclickfix.com" target="_blank">SeeClickFix</a></th><th><a href="https://www.eyesea.org" target="_blank">Eyesea</a></th></tr>
+          <tr><th></th><th><a href="https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160" target="_blank">ЕкоЗагроза</a></th><th><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a></th><th><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a></th><th><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a></th><th><a href="https://apps.apple.com/ua/app/seeclickfix/id322000552" target="_blank">SeeClickFix</a></th><th><a href="https://apps.apple.com/ua/app/eyesea-reporting/id6758102652" target="_blank">Eyesea</a></th></tr>
         </thead>
         <tbody>
           <tr><td>Аудиторія</td><td>Громадяни з GOV ID</td><td>Еко-активісти, журналісти</td><td>Мешканці міст UK</td><td>Натуралісти, citizen scientists</td><td>Органи міста + мешканці</td><td>Моряки, дайвери</td></tr>
@@ -1046,7 +1058,8 @@
   <div class="container">
     <h2>Детальний аналіз фловів</h2>
 
-    <h3><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a> — 14+ кроків</h3>
+    <details class="product-flow">
+    <summary><h3><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a> — 14+ кроків</h3></summary>
     <div style="font-size:12px;color:var(--gray-400);margin-bottom:12px">Скріни: saveecobot_01_welcome → saveecobot_17_cancelled · мобільна сесія</div>
     <div class="flow">
       <div class="fstep"><div class="fnum">1</div><div><strong>Welcome splash</strong><em>Опис місії + кнопка START</em></div><img class="fthumb" src="/research/screens/saveecobot_01_welcome.png" alt="01 Welcome" loading="lazy"></div>
@@ -1071,8 +1084,10 @@
       <div class="card"><h4>Ескейп-хетч без тупика</h4><p>"Не знаю забруднювача" — явний вихід на кроці 6. Бот не блокує флоу якщо у користувача немає всіх даних про порушника.</p></div>
       <div class="card"><h4>ПІБ — не анонімно</h4><p>На кроці 14 бот вимагає повне прізвище, ім'я та по батькові (мін. 20 символів) і GDPR-згоду. Ескейп "тільки шаблон" обходить це — але без офіційного сабміту. Telegram-вхід = нульовий бар'єр на вході, friction накопичується в кінці.</p></div>
     </div>
+    </details>
 
-    <h3><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a> — 3 кроки</h3>
+    <details class="product-flow">
+    <summary><h3><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a> — 3 кроки</h3></summary>
     <div class="flow">
       <div class="fstep"><div class="fnum">1</div><div><strong>Фото першим</strong><em>"Drag & drop photos or sounds" — photo-first entry</em></div><img class="fthumb" src="/research/screens/inaturalist_01_upload.png" alt="01 Upload" loading="lazy"></div>
       <div class="fstep"><div class="fnum">2</div><div><strong>Форма з auto-fill</strong><em>Species (пошук), Date (з EXIF), Location (з EXIF)</em></div><img class="fthumb" src="/research/screens/inaturalist_02_form.png" alt="02 Form" loading="lazy"></div>
@@ -1083,8 +1098,10 @@
       <div class="card"><h4>"Needs ID" — елегантний постсабміт</h4><p>Не "скарга на розгляді" — запрошення спільноти ідентифікувати. Публікується одразу.</p></div>
       <div class="card"><h4>Ескейп-хетч</h4><p>"Use X as placeholder" — якщо вид невідомий. Ніколи не тупик.</p></div>
     </div>
+    </details>
 
-    <h3><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a> — 5 кроків (живий тест)</h3>
+    <details class="product-flow">
+    <summary><h3><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a> — 5 кроків (живий тест)</h3></summary>
     <div style="font-size:12px;color:var(--gray-400);margin-bottom:12px">Скріни: fms_01_my_reports → fms_13_report_graffiti · авторизований акаунт</div>
     <div class="flow">
       <div class="fstep"><div class="fnum">0</div><div><strong>Homepage → поштовий індекс</strong><em>Єдине поле, CTA "Go". Live stats: 7.6M звітів</em></div><img class="fthumb" src="/research/screens/fms_02_homepage_loggedin.png" alt="Homepage" loading="lazy"></div>
@@ -1109,8 +1126,10 @@
       <div class="card"><h4>Community resolution</h4><p>Будь-хто може позначити репорт як виправлений. Questionnaire-система відправляє email-запит автору через тижні.</p></div>
     </div>
     <div class="warn-box" style="background:rgba(52,199,89,0.06);border-left-color:#34C759">✅ <strong>Dashboard (2026-06-07):</strong> 7 614 632 звітів · 39% виправлено lifetime · 27 630/тиждень · <strong>73% вирішуваність за тиждень</strong> · Flytipping/Pothole/Graffiti — топ-3 категорії</div>
+    </details>
 
-    <h3><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a> — 7+ кроків (живий тест)</h3>
+    <details class="product-flow">
+    <summary><h3><a href="https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160" target="_blank">ЕкоЗагроза</a> — 7+ кроків (живий тест)</h3></summary>
     <div style="font-size:12px;color:var(--gray-400);margin-bottom:12px">ecozagroza_01_home → ecozagroza_30_events · реальний акаунт GOV ID</div>
 
     <details class="flow-section"><summary>Авторизація (3 бар'єри до першого звіту)</summary>
@@ -1133,8 +1152,10 @@
     </div>
     </details>
     <div class="warn-box">⚠ <strong>Критичні проблеми:</strong> reCAPTCHA на мобілі · Карта = станції моніторингу, НЕ звіти · Success screen не пояснює що буде з звітом · Категорії для інспекторів, не громадян</div>
+    </details>
 
-    <h3><a href="https://apps.apple.com/us/app/litterati/id978788776" target="_blank">Litterati</a> — живий тест, iOS (67 скрінів)</h3>
+    <details class="product-flow">
+    <summary><h3><a href="https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776" target="_blank">Litterati</a> — живий тест, iOS (67 скрінів)</h3></summary>
     <div style="font-size:12px;color:var(--gray-400);margin-bottom:12px">litterati_01_splash → litterati_67_activity_delete_mode · реальний акаунт Nick</div>
 
     <details class="flow-section"><summary>Онбординг (без реєстрації)</summary>
@@ -1231,8 +1252,10 @@
       <div class="card"><h4>Leaderboard: Members + Countries</h4><p>Last 24h / 30 days. Змагальність між спільнотами (Lebanon #1 · 35 714 Pieces) ефективніша ніж між індивідуалами. Goal picker на старті персоналізує досвід.</p></div>
     </div>
     <div class="warn-box">⚠ <strong>Тертя і обмеження:</strong> Немає карти як основного екрану — карта тільки в Challenges. Tagging не інтуїтивний — AI suggestions часто відсутні. B2G pivot: Challenges і Upgrade тільки через код. "Stories of Impact" — Error: Invalid Token під час онбордингу.</div>
+    </details>
 
-    <h3><a href="https://www.eyesea.org" target="_blank">Eyesea</a> — живий тест, iOS (51 скрін)</h3>
+    <details class="product-flow">
+    <summary><h3><a href="https://apps.apple.com/ua/app/eyesea-reporting/id6758102652" target="_blank">Eyesea</a> — живий тест, iOS (51 скрін)</h3></summary>
     <div style="font-size:12px;color:var(--gray-400);margin-bottom:12px">eyesea_20_splash → eyesea_51_feed_world_4 · реальний акаунт Mykola Viedienin</div>
 
     <details class="flow-section"><summary>Онбординг і реєстрація</summary>
@@ -1332,108 +1355,27 @@
       <div class="card"><h4>Leaderboard: Users / Orgs / Ships</h4><p>B2B retention: організації і судна змагаються окремо. Нова механіка, якої немає в жодному іншому продукті ніші.</p></div>
     </div>
     <div class="warn-box">⚠ <strong>Обмеження для District Care:</strong> всі 9 категорій — морське сміття. "At Sea" як дефолт. 5 onboarding-слайдів з системними дозволами. Events — порожні.</div>
+    </details>
   </div>
 </section>
 
 <!-- TAXONOMY -->
-<section id="taxonomy">
-  <div class="container">
-    <h2>Категорії порушень за українським законодавством</h2>
-    <div style="font-size:12px;color:var(--gray-400);margin-bottom:12px">Джерело: ЕкоЗагроза (офіційний застосунок Міндовкілля)</div>
-    <div class="info-box">💡 Для громадян потрібна спрощена цивільна мова — юридична відповідність закривається на беку.</div>
-    <div class="tax-grid">
-      <div class="tax-card">
-        <h5>🌫 Атмосферне повітря</h5>
-        <ul>
-          <li>Горіння нафти / нафтопродуктів / газу</li>
-          <li>Лісові пожежі та інші насадження</li>
-          <li>Загоряння інших об'єктів, відходів</li>
-          <li>Неорганізований викид речовин</li>
-        </ul>
-      </div>
-      <div class="tax-card">
-        <h5>🪨 Земельні ресурси</h5>
-        <ul>
-          <li>Засмічення земель (м²)</li>
-          <li>Забруднення ґрунтів (м²)</li>
-          <li>Самовільне зайняття ділянок (га)</li>
-          <li>Використання не за призначенням (га)</li>
-        </ul>
-      </div>
-      <div class="tax-card">
-        <h5>💧 Водні ресурси</h5>
-        <ul>
-          <li>Забруднення водних об'єктів (тонн)</li>
-          <li>Засмічення водних об'єктів (кг/кв.м)</li>
-          <li>Самовільне користування</li>
-          <li>Втрачена вода (куб.м)</li>
-          <li>Забруднення морських вод (кг)</li>
-        </ul>
-      </div>
-      <div class="tax-card">
-        <h5>🌲 Ліс, Рослинний, Тваринний</h5>
-        <ul>
-          <li>Масова вирубка дерев (га)</li>
-          <li>Знищення дерев і рослин (шт)</li>
-          <li>Пошкодження рослинного світу (га/кв.м)</li>
-          <li>Знищення тварин (особина/екз./кг/т)</li>
-          <li>Незаконне добування тварин</li>
-          <li>Незаконне добування водних біоресурсів</li>
-        </ul>
-      </div>
-      <div class="tax-card">
-        <h5>🏔 ПЗФ (природно-заповідний фонд)</h5>
-        <ul>
-          <li>Всі категорії вищезазначені</li>
-          <li>Побутове засмічення територій</li>
-          <li>Пошкодження об'єктів ПЗФ</li>
-        </ul>
-      </div>
-      <div class="tax-card">
-        <h5>⛏ Надра</h5>
-        <ul>
-          <li>Самовільно видобуті корисні копалини (куб.м/тонн/кг/г/карат)</li>
-          <li>Видобування підземних вод (куб.м)</li>
-        </ul>
-      </div>
-    </div>
-    <div class="warn-box">⚠ Одиниці виміру (м², га, тонн) — для інспекторів. Цивільний інтерфейс потребує іншої мови: "Стихійне звалище", "Вирубка дерев", "Скид у річку".</div>
-  </div>
-</section>
-
 <!-- STATISTICS -->
 <section id="stats">
   <div class="container">
-    <h2>Статистика</h2>
-
-    <h3>FixMyStreet <a href="https://www.fixmystreet.com/reports" target="_blank" style="font-size:13px;font-weight:400;color:var(--gray-400)">(fixmystreet.com/reports, 2026-06-07)</a></h3>
-    <div class="stat-grid">
-      <div class="stat-card"><span class="stat-val">7.6M</span><span class="stat-lbl">Звітів за весь час</span></div>
-      <div class="stat-card"><span class="stat-val">39%</span><span class="stat-lbl">Виправлено (lifetime)</span></div>
-      <div class="stat-card"><span class="stat-val">27 630</span><span class="stat-lbl">Нових за тиждень</span></div>
-      <div class="stat-card"><span class="stat-val">73%</span><span class="stat-lbl">Тижнева вирішуваність</span></div>
-    </div>
-
-    <h3>iNaturalist <a href="https://www.inaturalist.org/stats" target="_blank" style="font-size:13px;font-weight:400;color:var(--gray-400)">(inaturalist.org/stats, 2025)</a></h3>
-    <div class="stat-grid">
-      <div class="stat-card"><span class="stat-val">4M</span><span class="stat-lbl">Observers</span></div>
-      <div class="stat-card"><span class="stat-val">250M+</span><span class="stat-lbl">Спостережень</span></div>
-      <div class="stat-card"><span class="stat-val">5M+</span><span class="stat-lbl">Нових / місяць</span></div>
-      <div class="stat-card"><span class="stat-val">63%</span><span class="stat-lbl">Research Grade</span></div>
-    </div>
-
-    <h3>Civic tech бенчмарки</h3>
+    <h2><span data-tip="Технології що допомагають громадянам взаємодіяти з владою або вирішувати спільні проблеми">Civic tech</span> бенчмарки</h2>
     <div class="tw">
       <table>
         <thead><tr><th>Показник</th><th>Значення</th><th>Джерело</th></tr></thead>
         <tbody>
-          <tr><td>Утримання Day 1 (мобільні)</td><td>~30%</td><td><em>гіпотеза — Appsflyer/Adjust орієнтир, URL не зафіксовано</em></td></tr>
-          <tr><td>Утримання Day 7</td><td>~15%</td><td><em>гіпотеза — те саме</em></td></tr>
-          <tr><td>Утримання Day 30</td><td>7–10%</td><td><em>гіпотеза — те саме</em></td></tr>
+          <tr><td>Утримання Day 1</td><td>~25%</td><td><a href="https://uxcam.com/blog/mobile-app-retention-benchmarks/" target="_blank">UXCam / AppsFlyer State of App Marketing 2025, Q1 2026</a></td></tr>
+          <tr><td>Утримання Day 7</td><td>~8%</td><td><a href="https://uxcam.com/blog/mobile-app-retention-benchmarks/" target="_blank">UXCam / AppsFlyer State of App Marketing 2025, Q1 2026</a></td></tr>
+          <tr><td>Утримання Day 30</td><td>~4%</td><td><a href="https://uxcam.com/blog/mobile-app-retention-benchmarks/" target="_blank">UXCam / AppsFlyer State of App Marketing 2025, Q1 2026</a></td></tr>
           <tr><td>Основний драйвер в citizen science</td><td>"Contributing to science"</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/26445860/" target="_blank">Bonney et al. 2016, PubMed</a> ⚠️ 68% — не верифіковано</td></tr>
         </tbody>
       </table>
     </div>
+    <div style="font-size:12px;color:var(--text-3);margin-top:8px">* Половина застосунків має гірші показники. Ті що роблять все правильно тримають Day 1 ~35%, Day 7 ~12%, Day 30 ~6%.</div>
   </div>
 </section>
 
@@ -1481,41 +1423,13 @@
   </div>
 </section>
 
-<!-- OPEN QUESTIONS -->
-<section id="openq">
-  <div class="container">
-    <h2>Відкриті питання</h2>
-    <div class="oq">
-      <div class="oq-head">Фаза 1 — MVP (громадяни) — пріоритет</div>
-      <ul>
-        <li>Громадяни: вік, мотивація, бар'єри — що заважає фіксувати зараз?</li>
-        <li>Категорії для громадян: спрощена цивільна мова (≠ юридична таксономія)</li>
-        <li>Цикл звіту: хто верифікує, куди передається? Без відповіді на це люди звітують один раз і не повертаються.</li>
-      </ul>
-    </div>
-    <div class="oq">
-      <div class="oq-head">Фаза 2 — Інспектори (відкладено)</div>
-      <ul>
-        <li>Інспектори: хто вони (штатні vs волонтерські), як зараз фіксують, які болі?</li>
-        <li>Інтеграції: формат і протокол передачі даних до держорганів?</li>
-      </ul>
-    </div>
-    <div class="oq">
-      <div class="oq-head">Закрито ✓</div>
-      <ul>
-        <li class="done-q">Типи порушень за законодавством → таксономія ЕкоЗагрози (Міндовкілля)</li>
-        <li class="done-q">Аналоги в Україні та світі → competitive analysis завершено</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
 <!-- SCREENS -->
 <section id="screens-raw">
   <div class="container">
     <h2>Скріншоти</h2>
 
-    <h3><a href="https://play.google.com/store/apps/details?id=ua.gov.ecozagroza" target="_blank">ЕкоЗагроза</a> — live flow (30 скрінів)</h3>
+    <details class="product-flow">
+    <summary><h3><a href="https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160" target="_blank">ЕкоЗагроза</a> — live flow (30 скрінів)</h3></summary>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:12px 0">
       <figure style="margin:0"><img src="/research/screens/ecozagroza_01_home.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">01 Home</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/ecozagroza_02_auth_gate.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">02 Auth gate</figcaption></figure>
@@ -1531,16 +1445,20 @@
       <figure style="margin:0"><img src="/research/screens/ecozagroza_22_success.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">22 Success</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/ecozagroza_25_map_ukraine.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">25 Map Ukraine</figcaption></figure>
     </div>
+    </details>
 
-    <h3><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a> — flow</h3>
+    <details class="product-flow">
+    <summary><h3><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a> — flow</h3></summary>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:12px 0">
       <figure style="margin:0"><img src="/research/screens/inaturalist_01_upload.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">01 Upload</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/inaturalist_02_form.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">02 Form</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/inaturalist_08_card_preview.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">08 Card preview</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/inaturalist_10_needs_id.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">10 Needs ID</figcaption></figure>
     </div>
+    </details>
 
-    <h3><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a> — flow</h3>
+    <details class="product-flow">
+    <summary><h3><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a> — flow</h3></summary>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:12px 0">
       <figure style="margin:0"><img src="/research/screens/saveecobot_01_welcome.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">01 Welcome</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/saveecobot_02_main_menu.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">02 Main menu</figcaption></figure>
@@ -1560,8 +1478,10 @@
       <figure style="margin:0"><img src="/research/screens/saveecobot_16_cancel_confirm.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">16 Cancel confirm</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/saveecobot_17_cancelled.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">17 Cancelled</figcaption></figure>
     </div>
+    </details>
 
-    <h3>FixMyStreet — живий тест (Playwright MCP)</h3>
+    <details class="product-flow">
+    <summary><h3>FixMyStreet — живий тест (Playwright MCP)</h3></summary>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;margin:12px 0">
       <figure style="margin:0"><img src="/research/screens/fms_02_homepage_loggedin.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">FMS — homepage logged in</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/fms_03_map_around.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">FMS — карта EC1A 1BB</figcaption></figure>
@@ -1575,8 +1495,10 @@
       <figure style="margin:0"><img src="/research/screens/fms_12_my_account.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">FMS — акаунт + questionnaire</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/fms_13_report_graffiti.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">FMS — graffiti репорт + update form</figcaption></figure>
     </div>
+    </details>
 
-    <h3>Десктоп (MCP)</h3>
+    <details class="product-flow">
+    <summary><h3>Десктоп (MCP)</h3></summary>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:10px;margin:12px 0">
       <figure style="margin:0"><img src="/research/screens/dt_fixmystreet_01_home.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">FixMyStreet — home</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/dt_fixmystreet_02_map.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">FixMyStreet — map</figcaption></figure>
@@ -1584,8 +1506,10 @@
       <figure style="margin:0"><img src="/research/screens/dt_seeclickfix_01_home.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">SeeClickFix — home</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/dt_litterati_01_home.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Litterati — home</figcaption></figure>
     </div>
+    </details>
 
-    <h3>Litterati — живий тест iOS (67 скрінів)</h3>
+    <details class="product-flow">
+    <summary><h3>Litterati — живий тест iOS (67 скрінів)</h3></summary>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:12px 0">
       <figure style="margin:0"><img src="/research/screens/litterati_01_splash.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">01 Splash</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/litterati_02_onboarding_goal.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">02 Goal picker</figcaption></figure>
@@ -1655,8 +1579,10 @@
       <figure style="margin:0"><img src="/research/screens/litterati_66_tasks_researcher_page3.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">66 Researcher page 3</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/litterati_67_activity_delete_mode.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">67 Activity: delete mode</figcaption></figure>
     </div>
+    </details>
 
-    <h3>Eyesea — живий тест iOS (51 скрін)</h3>
+    <details class="product-flow">
+    <summary><h3>Eyesea — живий тест iOS (51 скрін)</h3></summary>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:12px 0">
       <figure style="margin:0"><img src="/research/screens/eyesea_01_onboarding_photo.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">01 Onboarding photo</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/eyesea_02_camera.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">02 Camera</figcaption></figure>
@@ -1710,20 +1636,105 @@
       <figure style="margin:0"><img src="/research/screens/eyesea_50_feed_world_3.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">50 Feed World 3</figcaption></figure>
       <figure style="margin:0"><img src="/research/screens/eyesea_51_feed_world_4.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">51 Feed World 4</figcaption></figure>
     </div>
+    </details>
 
-    <h3>App Store / Google Play</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:12px 0">
-      <figure style="margin:0"><img src="/research/screens/ecozagroza_store.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">ЕкоЗагроза — Play</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/ecomap_borysenko_store.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">EcoMap Borysenko</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_playstore.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Eyesea — Play</figcaption></figure>
-      <figure style="margin:0"><img src="/research/screens/eyesea_website.png" style="width:100%;border-radius:8px;border:1px solid var(--gray-200)" loading="lazy"><figcaption style="font-size:11px;color:var(--gray-400);margin-top:4px;text-align:center">Eyesea — website</figcaption></figure>
-    </div>
   </div>
 </section>
 
-<div style="background:white;border-top:1px solid var(--gray-200);padding:18px 24px;text-align:center;font-size:12px;color:var(--gray-400)">
-  District Care Research · 2026-06-07 · Аудиторія MVP: Громадяни України · Фаза 1
-</div>
+<!-- TAXONOMY -->
+<section id="taxonomy">
+  <div class="container">
+    <h2>Категорії порушень за українським законодавством</h2>
+    <div style="font-size:12px;color:var(--gray-400);margin-bottom:12px">Джерело: ЕкоЗагроза (офіційний застосунок Міндовкілля)</div>
+    <div class="info-box">💡 Для громадян потрібна спрощена цивільна мова — юридична відповідність закривається на беку.</div>
+    <div class="tax-grid">
+      <div class="tax-card">
+        <h5>🌫 Атмосферне повітря</h5>
+        <ul>
+          <li>Горіння нафти / нафтопродуктів / газу</li>
+          <li>Лісові пожежі та інші насадження</li>
+          <li>Загоряння інших об'єктів, відходів</li>
+          <li>Неорганізований викид речовин</li>
+        </ul>
+      </div>
+      <div class="tax-card">
+        <h5>🪨 Земельні ресурси</h5>
+        <ul>
+          <li>Засмічення земель (м²)</li>
+          <li>Забруднення ґрунтів (м²)</li>
+          <li>Самовільне зайняття ділянок (га)</li>
+          <li>Використання не за призначенням (га)</li>
+        </ul>
+      </div>
+      <div class="tax-card">
+        <h5>💧 Водні ресурси</h5>
+        <ul>
+          <li>Забруднення водних об'єктів (тонн)</li>
+          <li>Засмічення водних об'єктів (кг/кв.м)</li>
+          <li>Самовільне користування</li>
+          <li>Втрачена вода (куб.м)</li>
+          <li>Забруднення морських вод (кг)</li>
+        </ul>
+      </div>
+      <div class="tax-card">
+        <h5>🌲 Ліс, Рослинний, Тваринний</h5>
+        <ul>
+          <li>Масова вирубка дерев (га)</li>
+          <li>Знищення дерев і рослин (шт)</li>
+          <li>Пошкодження рослинного світу (га/кв.м)</li>
+          <li>Знищення тварин (особина/екз./кг/т)</li>
+          <li>Незаконне добування тварин</li>
+          <li>Незаконне добування водних біоресурсів</li>
+        </ul>
+      </div>
+      <div class="tax-card">
+        <h5>🏔 ПЗФ (природно-заповідний фонд)</h5>
+        <ul>
+          <li>Всі категорії вищезазначені</li>
+          <li>Побутове засмічення територій</li>
+          <li>Пошкодження об'єктів ПЗФ</li>
+        </ul>
+      </div>
+      <div class="tax-card">
+        <h5>⛏ Надра</h5>
+        <ul>
+          <li>Самовільно видобуті корисні копалини (куб.м/тонн/кг/г/карат)</li>
+          <li>Видобування підземних вод (куб.м)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="warn-box">⚠ Одиниці виміру (м², га, тонн) — для інспекторів. Цивільний інтерфейс потребує іншої мови: "Стихійне звалище", "Вирубка дерев", "Скид у річку".</div>
+  </div>
+</section>
+
+<!-- OPEN QUESTIONS -->
+<section id="openq">
+  <div class="container">
+    <h2>Відкриті питання</h2>
+    <div class="oq">
+      <div class="oq-head">Фаза 1 — MVP (громадяни) — пріоритет</div>
+      <ul>
+        <li>Громадяни: вік, мотивація, бар'єри — що заважає фіксувати зараз?</li>
+        <li>Категорії для громадян: спрощена цивільна мова (≠ юридична таксономія)</li>
+        <li>Цикл звіту: хто верифікує, куди передається? Без відповіді на це люди звітують один раз і не повертаються.</li>
+      </ul>
+    </div>
+    <div class="oq">
+      <div class="oq-head">Фаза 2 — Інспектори (відкладено)</div>
+      <ul>
+        <li>Інспектори: хто вони (штатні vs волонтерські), як зараз фіксують, які болі?</li>
+        <li>Інтеграції: формат і протокол передачі даних до держорганів?</li>
+      </ul>
+    </div>
+    <div class="oq">
+      <div class="oq-head">Закрито ✓</div>
+      <ul>
+        <li class="done-q">Типи порушень за законодавством → таксономія ЕкоЗагрози (Міндовкілля)</li>
+        <li class="done-q">Аналоги в Україні та світі → competitive analysis завершено</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
 <div id="lightbox">
   <span id="lightbox-close">✕</span>

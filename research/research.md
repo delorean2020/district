@@ -37,7 +37,7 @@ District Care — Місце де небайдужі мешканці перет
 
 ### Матриця: прямі конкуренти (Україна)
 
-| | [ЕкоЗагроза](https://play.google.com/store/apps/details?id=ua.gov.ecozagroza) | [SaveEcoBot](https://t.me/SaveEcoBot) | **District Care** |
+| | [ЕкоЗагроза](https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160) | [SaveEcoBot](https://t.me/SaveEcoBot) | **District Care** |
 |---|---|---|---|
 | **Тип** | HARD — той самий продукт | HARD — той самий продукт | Ціль |
 | **Кроків до відправки** | 7+ | 14+ | **2–3** |
@@ -48,7 +48,7 @@ District Care — Місце де небайдужі мешканці перет
 
 ### Матриця: міжнародні еталони (ASPIRATIONAL)
 
-| | [FixMyStreet](https://www.fixmystreet.com) | [Litterati](https://apps.apple.com/us/app/litterati/id978788776) | [iNaturalist](https://www.inaturalist.org) | [SeeClickFix](https://seeclickfix.com) | [Eyesea](https://www.eyesea.org) |
+| | [FixMyStreet](https://www.fixmystreet.com) | [Litterati](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | [iNaturalist](https://www.inaturalist.org) | [SeeClickFix](https://apps.apple.com/ua/app/seeclickfix/id322000552) | [Eyesea](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) |
 |---|---|---|---|---|---|
 | **Фокус** | Civic infra, UK + global | Litter tagging → дані | Природничі спостереження | Civic reporting, USA | Морське забруднення |
 | **Кроків до відправки** | 4 (веб) | ~2 (upload без реєстрації) | 3 | 3–4 | ~2 (iOS) |
@@ -144,11 +144,11 @@ Streak працює для продуктів з щоденною звичкою
 
 | Застосунок | Відгуків | Рейтинг GP / AS | Топ проблема | Ключова цитата |
 |---|---|---|---|---|
-| [SeeClickFix](https://seeclickfix.com) | 594 (300 GP + 294 AS) | 3.45 / 4.60 | Влада ігнорує тикети (~35%) | *"should be renamed to see click ignore"* |
+| [SeeClickFix](https://apps.apple.com/ua/app/seeclickfix/id322000552) | 594 (300 GP + 294 AS) | 3.45 / 4.60 | Влада ігнорує тикети (~35%) | *"should be renamed to see click ignore"* |
 | [FixMyStreet](https://www.fixmystreet.com) | 413 (298 GP + 115 AS) | 2.81 / 2.88 | Фото не завантажуються (~22%) | *"I have to wait for an email to confirm. Annoying extra step"* (16 лайків) |
 | [iNaturalist](https://www.inaturalist.org) | 520 (300 GP + 220 AS) | 3.81 / 3.94 | Краші та зависання (~42% негат.) | *"iNat is GOAT app is WOAT"* |
-| [Litterati](https://apps.apple.com/us/app/litterati/id978788776) | 225 (159 GP + 66 AS) | 3.46 / 3.0 | Технічні збої (~38%) | *"The thought of photographing and tagging each one is simply not going to happen"* (47 лайків) |
-| [ЕкоЗагроза](https://play.google.com/store/apps/details?id=ua.gov.ecozagroza) | 3 (3 GP) | 3.7 / — | Вузькі категорії; GPS-залежність | *мала вибірка — без статистики* |
+| [Litterati](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | 225 (159 GP + 66 AS) | 3.46 / 3.0 | Технічні збої (~38%) | *"The thought of photographing and tagging each one is simply not going to happen"* (47 лайків) |
+| [ЕкоЗагроза](https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160) | 3 (3 GP) | 3.7 / — | Вузькі категорії; GPS-залежність | *мала вибірка — без статистики* |
 
 ### 5 наскрізних висновків
 
@@ -169,7 +169,7 @@ SeeClickFix: *"can we please get an easy to complete form? every time I have to 
 
 ### Ключові інсайти по застосунках
 
-### [SeeClickFix](https://seeclickfix.com) — [повний звіт](../reviews/SeeClickFix_insights_2026-06-08.md)
+### [SeeClickFix](https://apps.apple.com/ua/app/seeclickfix/id322000552) — [повний звіт](../reviews/SeeClickFix_insights_2026-06-08.md)
 - Notification spam вбиває retention: *"I get several emails everyday... have unsubscribed to everything"* → одне підтвердження + одне оновлення статусу = максимум
 - Категорія "Інше" відсутня → *"Where is the 'other' category?"* → завжди мати запасний варіант у таксономії
 - Рейтингова різниця GP / AS (3.45 vs 4.60) = Android технічно слабший; ризик якщо стартуємо на WebView
@@ -187,13 +187,13 @@ SeeClickFix: *"can we please get an easy to complete form? every time I have to 
 - Відсутність реального імені → тролінг і деградація якості даних; реальна ідентичність підтверджена як правильний вибір
 - Дозволи при першому запуску = точка відмови: запитувати мінімум і тільки в контексті дії
 
-### [Litterati](https://apps.apple.com/us/app/litterati/id978788776) — [повний звіт](../reviews/Litterati_insights_2026-06-08.md)
+### [Litterati](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) — [повний звіт](../reviews/Litterati_insights_2026-06-08.md)
 - Закриті дані = зрада місії: 19 лайків на відгук про перехід до OpenLitterMap → публічна карта не опція для District Care
 - Фактично без підтримки з 2024 → активна аудиторія ентузіастів без якісного інструменту; вікно для входу
 - Підказка про цінність фото ефективніша за примус: показувати після першого вдалого звіту без фото, а не блокувати
 - Гейміфікація мотивує, але не компенсує відсутність публічної карти спільноти
 
-### [ЕкоЗагроза](https://play.google.com/store/apps/details?id=ua.gov.ecozagroza) — [повний звіт](../reviews/ЕкоЗагроза_insights_2026-06-08.md)
+### [ЕкоЗагроза](https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160) — [повний звіт](../reviews/ЕкоЗагроза_insights_2026-06-08.md)
 - 3 відгуки за 2+ роки → держпродукт не створив community навколо себе; ніша реально вільна
 - Категорії для інспекторів ≠ мова громадян: *"додати спалювання сміття, підпали"* — ★5 відгук-побажання
 - GPS як єдиний варіант прив'язки = бар'єр; ручна позначка на карті — рівноцінна альтернатива, не запасний варіант
@@ -283,7 +283,7 @@ SeeClickFix: *"can we please get an easy to complete form? every time I have to 
 
 ### HARD — той самий продукт, Україна
 
-| | **[ЕкоЗагроза](https://play.google.com/store/apps/details?id=ua.gov.ecozagroza)** | **[EcoMap](https://play.google.com/store/apps/details?id=ee.ut.ecomap)** (Borysenko) | **[SaveEcoBot](https://t.me/SaveEcoBot)** | **[Kyiv Smart City](https://kyiv.city)** |
+| | **[ЕкоЗагроза](https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160)** | **[EcoMap](https://play.google.com/store/apps/details?id=ee.ut.ecomap)** (Borysenko) | **[SaveEcoBot](https://t.me/SaveEcoBot)** | **[Kyiv Smart City](https://kyiv.city)** |
 |---|---|---|---|---|
 | **Розробник** | Міндовкілля + Мінцифри | Студент (Univ. of Tartu) | SaveEco команда | Київська міська рада |
 | **Аудиторія** | Громадяни України | Громадяни | Еко-активісти, журналісти | Мешканці Києва |
@@ -328,7 +328,7 @@ SeeClickFix: *"can we please get an easy to complete form? every time I have to 
 
 ### ASPIRATIONAL — міжнародні еталони
 
-| | **[FixMyStreet](https://www.fixmystreet.com)** | **[Litterati](https://www.litterati.org)** | **[iNaturalist](https://www.inaturalist.org)** | **[SeeClickFix](https://seeclickfix.com)** | **[Eyesea](https://www.eyesea.org)** |
+| | **[FixMyStreet](https://www.fixmystreet.com)** | **[Litterati](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776)** | **[iNaturalist](https://www.inaturalist.org)** | **[SeeClickFix](https://apps.apple.com/ua/app/seeclickfix/id322000552)** | **[Eyesea](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652)** |
 |---|---|---|---|---|---|
 | **Аудиторія** | Громадяни UK + ради | Consumer → B2G: міста, НКО | Натуралісти, науковці | Міста + мешканці (B2G) | Моряки, прибережні спільноти |
 | **Основа продукту** | Civic reporting | Дані про сміття → policy | Науковий моніторинг | CRM для міських запитів (311 API) | Фіксація морського забруднення |
@@ -347,7 +347,7 @@ SeeClickFix: *"can we please get an easy to complete form? every time I have to 
 
 ### Зведена матриця
 
-| | **[ЕкоЗагроза](https://play.google.com/store/apps/details?id=ua.gov.ecozagroza)** | **[SaveEcoBot](https://t.me/SaveEcoBot)** | **[FixMyStreet](https://www.fixmystreet.com)** | **[iNaturalist](https://www.inaturalist.org)** | **[SeeClickFix](https://seeclickfix.com)** | **[Eyesea](https://www.eyesea.org)** |
+| | **[ЕкоЗагроза](https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160)** | **[SaveEcoBot](https://t.me/SaveEcoBot)** | **[FixMyStreet](https://www.fixmystreet.com)** | **[iNaturalist](https://www.inaturalist.org)** | **[SeeClickFix](https://apps.apple.com/ua/app/seeclickfix/id322000552)** | **[Eyesea](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652)** |
 |---|---|---|---|---|---|---|
 | **Аудиторія** | Громадяни України з GOV ID | Еко-активісти, журналісти | Мешканці міст UK | Натуралісти, науковці | Органи міста + мешканці | Моряки, дайвери |
 | **Ключовий механізм** | GOV ID → профіль-гейт → фото → категорія → submit | Conversational flow: 14+ кроків | Пін на карті → фото → опис → до ради | Фото → auto-fill з EXIF → "Needs ID" → верифікація | Звіт → workflow міста → трекінг | Фото → on-device AI → offline queue → XP |
@@ -404,7 +404,7 @@ SeeClickFix: *"can we please get an easy to complete form? every time I have to 
 Якщо додати іконку або приклад до кожної категорії, відсоток «Інше» і помилкових категорій знизиться.
 
 **H5 — Без визначеного одержувача retention буде нижчим за benchmark**
-Якщо після подачі звіту нічого не відбувається — retention після 30 днів буде нижчим за загальний benchmark у 7–10%.
+Якщо після подачі звіту нічого не відбувається — retention після 30 днів буде нижчим за загальний benchmark (~4% медіана, 5–8% у 75-го перцентиля). ([UXCam / AppsFlyer State of App Marketing 2025](https://uxcam.com/blog/mobile-app-retention-benchmarks/), Q1 2026)
 
 **H6 — Вимога реального імені відсіє частину, але підвищить якість**
 Реєстрація з ім'ям і прізвищем підвищить відповідальність — менше спаму, детальніші описи. Але знизить конверсію: оцінно 20–40% відмов (гіпотеза).
@@ -510,7 +510,7 @@ SeeClickFix: *"can we please get an easy to complete form? every time I have to 
 - Questionnaire система: email "Чи вирішено?" через кілька тижнів
 - 23 категорії з пошуком — не перевантажує, але гнучко
 
-#### [ЕкоЗагроза](https://play.google.com/store/apps/details?id=ua.gov.ecozagroza) — 7+ кроків
+#### [ЕкоЗагроза](https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160) — 7+ кроків
 
 **Авторизація:**
 
@@ -538,7 +538,7 @@ SeeClickFix: *"can we please get an easy to complete form? every time I have to 
 - Номер звіту без пояснення що буде далі → `ecozagroza_22_success.png`
 - Карта — НЕ про звіти → `ecozagroza_25_map_ukraine.png`
 
-#### [Litterati](https://apps.apple.com/us/app/litterati/id978788776) — живий тест, iOS (67 скрінів)
+#### [Litterati](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) — живий тест, iOS (67 скрінів)
 
 **Скріни:** `litterati_01_splash.png` → `litterati_67_activity_delete_mode.png`
 
@@ -673,7 +673,7 @@ SeeClickFix: *"can we please get an easy to complete form? every time I have to 
 
 ---
 
-#### [Eyesea](https://www.eyesea.org) — живий тест, iOS (51 скрін)
+#### [Eyesea](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) — живий тест, iOS (51 скрін)
 
 **Скріни:** `eyesea_20_splash.png` → `eyesea_51_feed_world_4.png`
 
@@ -777,11 +777,11 @@ SeeClickFix: *"can we please get an easy to complete form? every time I have to 
 
 | Додаток | Платформа | Завант. | Рейтинг | Релевантний | Примітка |
 |---|---|---|---|---|---|
-| **[ЕкоЗагроза](https://play.google.com/store/apps/details?id=ua.gov.ecozagroza)** | Android + iOS | 5k+ / 18 відг. | 3.7★ / 4.2★ | ✅ HARD | Офіційний Міндовкілля |
+| **[ЕкоЗагроза](https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160)** | Android + iOS | 5k+ / 18 відг. | 3.7★ / 4.2★ | ✅ HARD | Офіційний Міндовкілля |
 | **[EcoMap](https://play.google.com/store/apps/details?id=ee.ut.ecomap)** (Borysenko) | Android | 100+ | — | ✅ HARD | Студент, покинутий лют.2023 |
 | **[Eyesea Reporting](https://play.google.com/store/apps/details?id=com.mariussuteu.eyesea.eyeseareporting)** | Android + iOS | 50+ | 0 відг. | ✅ ASPIRATIONAL | Новий (лют.2026), морський фокус |
-| **[SeeClickFix](https://seeclickfix.com)** | iOS | — | 4.6★ / 7,887 відг. | ✅ ASPIRATIONAL | Civic reporting |
-| **[Litterati](https://apps.apple.com/us/app/litterati/id978788776)** | iOS (+ Android) | — | — | ✅ ASPIRATIONAL | Litter AI tagging + Challenges; B2G pivot, v4.2.2 |
+| **[SeeClickFix](https://apps.apple.com/ua/app/seeclickfix/id322000552)** | iOS | — | 4.6★ / 7,887 відг. | ✅ ASPIRATIONAL | Civic reporting |
+| **[Litterati](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776)** | iOS (+ Android) | — | — | ✅ ASPIRATIONAL | Litter AI tagging + Challenges; B2G pivot, v4.2.2 |
 
 **Висновок:** Ніша фіксації екологічних порушень в Україні та глобально — **майже порожня**. ЕкоЗагроза є, але занедбана. Eyesea — єдиний свіжий гравець з правильними UX-патернами, але в іншій ніші (море). Litterati — найбільш розвинений consumer UX для litter picking, але без карти і з B2G pivot.
 
