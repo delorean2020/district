@@ -71,16 +71,16 @@
     /* ── NAV ─────────────────────────────────────────────── */
     nav {
       position: fixed;
-      left: 0; top: 0;
+      left: 24px; top: 0;
       width: 212px;
       height: 100vh;
       background: rgba(10,10,10,.97);
       backdrop-filter: blur(24px);
-      border-right: 1px solid var(--border);
+      border-right: none;
       z-index: 100;
       display: flex;
       flex-direction: column;
-      padding: 0;
+      padding: 32px 0 0;
       overflow-y: auto;
       scrollbar-width: none;
     }
@@ -102,11 +102,12 @@
     nav a:hover { color: var(--text); background: rgba(255,255,255,.04); }
     nav a.active { color: var(--accent); background: var(--accent-dim); }
     nav a:first-child {
-      margin: 0;
-      padding: 18px 20px 16px;
-      border-radius: 0;
-      border-bottom: 1px solid var(--border);
-      margin-bottom: 8px;
+      margin: 1px 8px;
+      padding: 8px 14px;
+      border-radius: 6px;
+      margin-bottom: 0;
+      display: flex;
+      align-items: center;
       font-size: 11px;
       font-weight: 700;
       color: var(--accent);
@@ -117,8 +118,49 @@
     nav hr { border: none; border-top: 1px solid var(--border); margin: 6px 16px; }
 
     /* ── LAYOUT ──────────────────────────────────────────── */
-    .page-body { margin-left: 212px; padding: 0; }
-    #main-content, #raw-content { background: transparent; border-radius: 0; overflow: hidden; box-shadow: none; }
+    .page-body { margin-left: 236px; padding: 24px; }
+
+    /* ── HAMBURGER ───────────────────────────────────────── */
+    .hamburger {
+      display: none;
+      position: fixed;
+      top: 20px; left: 20px;
+      z-index: 200;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      width: 36px; height: 36px;
+      cursor: pointer;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 4px;
+      padding: 0;
+    }
+    .hamburger span {
+      display: block;
+      width: 16px; height: 1.5px;
+      background: var(--text-2);
+      border-radius: 2px;
+      transition: all .2s;
+    }
+    .nav-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.6);
+      z-index: 99;
+    }
+
+    @media (max-width: 48em) {
+      nav { transform: translateX(calc(-100% - 24px)); transition: transform .25s ease; }
+      nav.open { transform: translateX(0); }
+      .nav-overlay.open { display: block; }
+      .hamburger { display: flex; }
+      .page-body { margin-left: 0; padding: 72px 16px 24px; }
+    }
+    #main-content, #raw-content { background: transparent; border-radius: 0; overflow: visible; border: none; display: flex; flex-direction: column; gap: 56px; }
+    #main-content section, #main-content .hero { background: var(--surface); border-radius: 12px; border: 1px solid var(--border); overflow: hidden; }
 
     /* ── HERO ────────────────────────────────────────────── */
     .hero {
@@ -131,7 +173,7 @@
     .hero .sub { font-size: 13px; color: var(--text-3); }
 
     /* ── SECTIONS ────────────────────────────────────────── */
-    .container { max-width: 1160px; margin: 0 auto; padding: 0 32px; }
+    .container { max-width: 85%; margin: 0 auto; padding: 0 32px; }
     section { padding: 60px 0; }
     section + section { border-top: none; }
 
@@ -397,8 +439,14 @@
 </head>
 <body>
 
-<nav>
-  <a href="/">← Головна</a>
+<button class="hamburger" id="hamburger" aria-label="Меню">
+  <span></span><span></span><span></span>
+</button>
+<div class="nav-overlay" id="nav-overlay"></div>
+
+<nav id="main-nav">
+  <a href="/"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 6.5L8 2L14 6.5V14H10V10H6V14H2V6.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></a>
+  <hr>
   <a href="#product">Що будуємо</a>
   <a href="#competitors">Конкуренти</a>
   <a href="#benchmark">Бенчмарк</a>
@@ -1686,6 +1734,18 @@
 </div>
 
 <script>
+  // Hamburger menu
+  const hamburger = document.getElementById('hamburger');
+  const mainNav = document.getElementById('main-nav');
+  const navOverlay = document.getElementById('nav-overlay');
+  function toggleNav(open) {
+    mainNav.classList.toggle('open', open);
+    navOverlay.classList.toggle('open', open);
+  }
+  hamburger.addEventListener('click', () => toggleNav(!mainNav.classList.contains('open')));
+  navOverlay.addEventListener('click', () => toggleNav(false));
+  mainNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => toggleNav(false)));
+
   const lb = document.getElementById('lightbox');
   const lbImg = document.getElementById('lightbox-img');
   const counter = document.getElementById('lb-counter');
