@@ -6,45 +6,77 @@
 <title>District Care</title>
 <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/e-ukraine">
 <style>
+  :root {
+    --bg: #0a0a0a;
+    --surface: #111;
+    --border: #1e1e1e;
+    --border2: #282828;
+    --text: #e2e2e2;
+    --text-2: #888;
+    --text-3: #444;
+    --accent: #c8ff00;
+    --accent-dim: rgba(200,255,0,.07);
+    --mono: 'e-Ukraine', -apple-system, sans-serif;
+  }
+
   * { box-sizing: border-box; margin: 0; padding: 0; }
+
   body {
     font-family: 'e-Ukraine', -apple-system, BlinkMacSystemFont, sans-serif;
-    background: #F6F6F6;
-    color: #1a1a1a;
+    background: var(--bg);
+    color: var(--text);
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 24px;
+    -webkit-font-smoothing: antialiased;
   }
+
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 9999;
+    opacity: .03;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 180px 180px;
+  }
+
   .wrap { width: 50%; }
-  .title { font-size: 22px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px; }
-  .sub { font-size: 13px; color: #888; margin-bottom: 40px; }
+  .title { font-size: 22px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px; color: var(--text); }
+  .sub { font-size: 13px; color: var(--text-2); margin-bottom: 40px; }
+
   .section-label {
+    font-family: var(--mono);
     font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: #bbb;
+    color: var(--text-3);
     font-weight: 600;
     margin-bottom: 8px;
   }
+
   .links { display: flex; flex-direction: column; gap: 8px; margin-bottom: 32px; }
+
   a.card {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #fff;
-    border: 1px solid #e8e8e4;
+    background: var(--surface);
+    border: 1px solid var(--border);
     border-radius: 8px;
     padding: 14px 16px;
     text-decoration: none;
-    color: #1a1a1a;
-    transition: border-color 0.12s;
+    color: var(--text);
+    transition: border-color 0.12s, background 0.12s;
   }
-  a.card:hover { border-color: #aaa; }
-  a.card .name { font-size: 14px; font-weight: 500; }
-  a.card .desc { font-size: 12px; color: #999; margin-top: 6px; }
-  a.card .arrow { color: #ccc; font-size: 16px; }
+  a.card:hover { border-color: var(--border2); background: #141414; }
+  a.card .name { font-size: 14px; font-weight: 500; color: var(--text); }
+  a.card .desc { font-size: 12px; color: var(--text-2); margin-top: 6px; }
+  a.card .arrow { color: var(--text-3); font-size: 16px; transition: color 0.12s; }
+  a.card:hover .arrow { color: var(--text-2); }
 </style>
 </head>
 <body>
