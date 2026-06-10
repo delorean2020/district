@@ -120,44 +120,129 @@
     /* ── LAYOUT ──────────────────────────────────────────── */
     .page-body { margin-left: 236px; padding: 24px; }
 
-    /* ── HAMBURGER ───────────────────────────────────────── */
-    .hamburger {
+    /* ── MOBILE HEADER ───────────────────────────────────── */
+    .mobile-header {
       display: none;
       position: fixed;
-      top: 20px; left: 20px;
+      top: 14px;
+      left: 14px;
+      right: 14px;
       z-index: 200;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      width: 36px; height: 36px;
+      background: rgba(25,25,25,.70);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid var(--border2);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: left .32s cubic-bezier(.4,0,.2,1), right .32s cubic-bezier(.4,0,.2,1);
+    }
+    .mobile-header.open {
+      left: 46px;
+      right: 46px;
+    }
+    .mh-bar {
+      height: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 8px 0 16px;
+    }
+    .mh-logo {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -.01em;
+    }
+    .hamburger {
+      width: 36px;
+      height: 36px;
+      background: none;
+      border: none;
       cursor: pointer;
+      display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-      flex-direction: column;
-      gap: 4px;
+      gap: 5px;
       padding: 0;
+      border-radius: 8px;
+      transition: background .15s;
     }
+    .hamburger:hover { background: rgba(255,255,255,.06); }
     .hamburger span {
       display: block;
-      width: 16px; height: 1.5px;
+      width: 18px;
+      height: 1.5px;
       background: var(--text-2);
       border-radius: 2px;
-      transition: all .2s;
+      transform-origin: center;
+      transition: transform .28s cubic-bezier(.4,0,.2,1),
+                  opacity .28s ease,
+                  width .28s ease,
+                  background .28s ease;
     }
+    .hamburger.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); background: var(--text); }
+    .hamburger.open span:nth-child(2) { opacity: 0; width: 0; }
+    .hamburger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); background: var(--text); }
+
+    .mh-dropdown {
+      display: grid;
+      grid-template-rows: 0fr;
+      transition: grid-template-rows .32s cubic-bezier(.4,0,.2,1);
+    }
+    .mobile-header.open .mh-dropdown { grid-template-rows: 1fr; }
+    .mh-dropdown-inner { overflow: hidden; }
+    .mh-dropdown-body {
+      border-top: 1px solid var(--border);
+      padding: 6px 8px 10px;
+    }
+    .mh-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 9px 10px;
+      border-radius: 8px;
+      font-size: 13px;
+      color: var(--text-2);
+      text-decoration: none;
+      transition: background .12s, color .12s;
+    }
+    .mh-item:hover { background: rgba(255,255,255,.05); color: var(--text); }
+    .mh-item.active { color: var(--accent); }
+    .mh-icon {
+      width: 28px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255,255,255,.04);
+      border-radius: 7px;
+      color: var(--text-3);
+      flex-shrink: 0;
+      transition: color .12s, background .12s;
+    }
+    .mh-item:hover .mh-icon { color: var(--text-2); }
+    .mh-item.active .mh-icon { color: var(--accent); background: var(--accent-dim); }
+    .mh-divider {
+      height: 1px;
+      background: var(--border);
+      margin: 6px 2px;
+    }
+
     .nav-overlay {
       display: none;
       position: fixed;
       inset: 0;
-      background: rgba(0,0,0,.6);
+      background: rgba(0,0,0,.28);
       z-index: 99;
     }
 
     @media (max-width: 48em) {
-      nav { transform: translateX(calc(-100% - 24px)); transition: transform .25s ease; }
-      nav.open { transform: translateX(0); }
+      .mobile-header { display: block; }
+      nav { display: none; }
       .nav-overlay.open { display: block; }
-      .hamburger { display: flex; }
-      .page-body { margin-left: 0; padding: 72px 16px 24px; }
+      .page-body { margin-left: 0; padding: 80px 16px 24px; }
     }
     #main-content, #raw-content { background: transparent; border-radius: 0; overflow: visible; border: none; display: flex; flex-direction: column; gap: 56px; }
     #main-content section, #main-content .hero,
@@ -177,6 +262,10 @@
     .container { max-width: 85%; margin: 0 auto; padding: 0 32px; }
     section { padding: 60px 0; }
     section + section { border-top: none; }
+    @media (max-width: 48em) {
+      .container { max-width: 100%; padding: 0 32px; }
+      section { padding: 32px 0; }
+    }
 
     /* ── TYPOGRAPHY ──────────────────────────────────────── */
     .level-label {
@@ -452,9 +541,54 @@
 </head>
 <body>
 
-<button class="hamburger" id="hamburger" aria-label="Меню">
-  <span></span><span></span><span></span>
-</button>
+<div class="mobile-header" id="mobile-header">
+  <div class="mh-bar">
+    <a href="/" class="mh-logo">District Care</a>
+    <button class="hamburger" id="hamburger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mh-dropdown">
+    <div class="mh-dropdown-inner">
+      <div class="mh-dropdown-body">
+        <a href="/" class="mh-item">
+          <span class="mh-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1.5 5.5L7 1.5L12.5 5.5V13H9V9H5V13H1.5V5.5Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg></span>
+          Головна
+        </a>
+        <div class="mh-divider"></div>
+        <a href="#product" class="mh-item">
+          <span class="mh-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.3"/><circle cx="7" cy="7" r="2" stroke="currentColor" stroke-width="1.3"/></svg></span>
+          Що будуємо
+        </a>
+        <a href="#competitors" class="mh-item">
+          <span class="mh-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="4.5" cy="4" r="2" stroke="currentColor" stroke-width="1.3"/><path d="M1 12c0-1.93 1.57-3.5 3.5-3.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><circle cx="9.5" cy="4" r="2" stroke="currentColor" stroke-width="1.3"/><path d="M13 12c0-1.93-1.57-3.5-3.5-3.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg></span>
+          Конкуренти
+        </a>
+        <a href="#benchmark" class="mh-item">
+          <span class="mh-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 10.5L5 7L7.5 9L12 4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          Бенчмарк
+        </a>
+        <a href="#patterns" class="mh-item">
+          <span class="mh-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><rect x="2" y="2" width="4" height="4" rx="1" stroke="currentColor" stroke-width="1.3"/><rect x="8" y="2" width="4" height="4" rx="1" stroke="currentColor" stroke-width="1.3"/><rect x="2" y="8" width="4" height="4" rx="1" stroke="currentColor" stroke-width="1.3"/><rect x="8" y="8" width="4" height="4" rx="1" stroke="currentColor" stroke-width="1.3"/></svg></span>
+          Патерни
+        </a>
+        <a href="#voc" class="mh-item">
+          <span class="mh-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1.5C4.24 1.5 2 3.24 2 5.4c0 1.42.85 2.67 2.12 3.4L3.5 12l2.3-1.4c.38.07.78.1 1.2.1 2.76 0 5-1.74 5-3.9S9.76 1.5 7 1.5Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg></span>
+          Голос користувача
+        </a>
+        <a href="#synthesis" class="mh-item">
+          <span class="mh-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7.5L5.5 11L12 4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          Висновки
+        </a>
+        <div class="mh-divider"></div>
+        <a href="#raw-data" class="mh-item">
+          <span class="mh-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><ellipse cx="7" cy="4" rx="4" ry="1.5" stroke="currentColor" stroke-width="1.3"/><path d="M3 4v3c0 .83 1.79 1.5 4 1.5S11 7.83 11 7V4" stroke="currentColor" stroke-width="1.3"/><path d="M3 7v3c0 .83 1.79 1.5 4 1.5S11 10.83 11 10V7" stroke="currentColor" stroke-width="1.3"/></svg></span>
+          Сирі дані
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="nav-overlay" id="nav-overlay"></div>
 
 <nav id="main-nav">
@@ -1747,15 +1881,16 @@
 <script>
   // Hamburger menu
   const hamburger = document.getElementById('hamburger');
-  const mainNav = document.getElementById('main-nav');
+  const mobileHeader = document.getElementById('mobile-header');
   const navOverlay = document.getElementById('nav-overlay');
   function toggleNav(open) {
-    mainNav.classList.toggle('open', open);
+    mobileHeader.classList.toggle('open', open);
     navOverlay.classList.toggle('open', open);
+    hamburger.classList.toggle('open', open);
   }
-  hamburger.addEventListener('click', () => toggleNav(!mainNav.classList.contains('open')));
+  hamburger.addEventListener('click', () => toggleNav(!mobileHeader.classList.contains('open')));
   navOverlay.addEventListener('click', () => toggleNav(false));
-  mainNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => toggleNav(false)));
+  mobileHeader.querySelectorAll('.mh-item').forEach(a => a.addEventListener('click', () => toggleNav(false)));
 
   const lb = document.getElementById('lightbox');
   const lbImg = document.getElementById('lightbox-img');
