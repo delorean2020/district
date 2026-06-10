@@ -16,18 +16,25 @@ District Care — Місце де небайдужі мешканці перет
 | **Хто** | Бачить порушення і хоче щось зробити | Штатний або волонтерський | Органи місцевого самоврядування |
 | **Статус знань** | Визначено в брифі — потрібна валідація | Потребує рісерчу | Окремий продукт |
 
-### Сигнали мотивації — з конкурентного аналізу
+### Сигнали мотивації
 
 - **Мотивація є, але тримається на видимому результаті.** FixMyStreet: 7.6M звітів без жодних нагород. Єдиний механізм — публічна карта і відчуття що сигнал дійшов.
 - **Попит є, але ніхто не задовольняє.** ЕкоЗагроза: 5k завантажень і 3.7★. Люди шукають інструмент — і не знаходять.
-- **Retention зламаний без реального одержувача.** SeeClickFix: ~35% відгуків про ігнорування владою. Без підтвердженого одержувача звіту — мотивація повертатись нульова.
+- **Retention зламаний коли одержувач невидимий.** SaveEcoBot передає до Держекоінспекції — але репортер цього не бачить і отримує формальний лист через 30 днів. SeeClickFix: ~35% відгуків про ігнорування владою. Без видимого статусу звіту мотивація повертатись нульова.
+- **Мотивація підтверджена соціологічно.** 64.3% вірять що особисті дії можуть змінити ситуацію — але 68.1% відчувають що не мають інструменту для участі. *([Джерело](https://epl.org.ua/announces/vidpovidalnist-za-zabrudnennya-dovkillya-shho-ukrayintsi-dumayut-pro-tse/))*
+
+### Цикл звіту сьогодні
+
+- **Куди йде скарга.** SaveEcoBot та аналогічні сервіси передають звіти до Держекоінспекції, Мінприроди або регіональних органів — залежно від типу порушення. *([Джерело](https://www.saveecobot.com/en/features/pollution-complaints))*
+- **Що відбувається далі.** Держорган призначає позапланову перевірку — 30 днів за законом. Результат — формальний лист-відповідь. *([Джерело](https://ecolog-ua.com/news/yak-v-ukrayini-povidomyty-pro-ekologichni-zlochyny))*
+- **Де зламано.** Публічного трекінгу немає. Людина не бачить що відбувається після відправки і не повертається. Видимість статусу — ключова точка диференціації District Care.
 
 ### Відкриті питання по аудиторії
 
-- Вік і соціальний профіль активних мешканців — хто фіксує порушення зараз (в чатах, соцмережах)?
-- Що конкретно заважає фіксувати сьогодні — не знають куди, не вірять що допоможе?
-- Чи готові реєструватись з реальним іменем і прізвищем?
-- Які типи порушень бачать найчастіше у своєму районі?
+- **[є дані]** Вік і соціальний профіль активних мешканців — ядро аудиторії: 18–29 (89%) і 30–39 (81%) користуються держсервісами; 70+ — лише 30%. *([Джерело](https://www.undp.org/sites/g/files/zskgke326/files/2024-03/undp_ukraine_-_e-services-usage-omnibus-2023_-_eng.pdf))*
+- **[проксі]** Що конкретно заважає фіксувати сьогодні — для е-сервісів загалом: 27% не мають навичок, 16.5% не довіряють. Прямі бар'єри для еко-звітування потребують первинного рісерчу. *([Джерело](https://www.undp.org/sites/g/files/zskgke326/files/2024-03/undp_ukraine_-_e-services-usage-omnibus-2023_-_eng.pdf))*
+- **[проксі]** Чи готові реєструватись з реальним іменем і прізвищем — захист персональних даних: пріоритет №1 (20%); але 51% вже користуються Дією з реальним ПІБ. Пряма готовність для еко-платформи потребує рісерчу. *([Джерело](https://www.undp.org/sites/g/files/zskgke326/files/2024-03/undp_ukraine_-_e-services-usage-omnibus-2023_-_eng.pdf))*
+- **[є дані]** Які типи порушень бачають найчастіше — побутові відходи (59%), забруднення повітря (44%), неякісна вода (42%). *([Джерело](https://dif.org.ua/article/stavlennya-naselennya-do-pitan-ekologii))*
 
 ---
 
@@ -68,7 +75,7 @@ District Care — Місце де небайдужі мешканці перет
 ### 3 ключові відмінності
 
 1. **Авторизація = компроміс між friction і довірою.** SaveEcoBot — Telegram (нульовий бар'єр входу) + ПІБ при фіналізації на кроці 14 (friction накопичується в кінці). ЕкоЗагроза — GOV ID (висока довіра, великий бар'єр). FixMyStreet, SeeClickFix, Eyesea — email посередині. Litterati: upload без реєстрації → реєстрація після першого фото (найменший бар'єр входу). Ніхто не займає email + реальне ім'я — там ми.
-2. **Одержувач звіту визначає весь продукт.** Там де є чіткий одержувач (FixMyStreet → рада, iNaturalist → наука, SeeClickFix → місто) — є retention. Там де немає (SaveEcoBot, ЕкоЗагроза, Eyesea, Litterati) — retention тримається лише на гейміфікації або нульовий.
+2. **Видимість одержувача визначає весь продукт.** Там де одержувач прозорий (FixMyStreet → рада, iNaturalist → наука, SeeClickFix → місто) — є retention. Там де процес непрозорий (SaveEcoBot передає до Держекоінспекції але репортер цього не бачить; ЕкоЗагроза, Eyesea, Litterati) — retention тримається лише на гейміфікації або нульовий.
 3. **Публічність карти як механізм тиску.** FixMyStreet: публічний звіт одразу → 73% тижнева вирішуваність ([fixmystreet.com/reports](https://www.fixmystreet.com/reports)). Eyesea: Credits + public card → engagement без гарантованого outcome. ЕкоЗагроза: після модерації, карта не про звіти. Litterati: карти немає взагалі → дані закриті в датасеті партнера.
 
 ---
@@ -222,9 +229,9 @@ SeeClickFix: *"can we please get an easy to complete form? every time I have to 
 
 ---
 
-**Якщо** немає визначеного одержувача звіту до запуску  
+**Якщо** одержувач звіту невидимий для репортера  
 **То** retention зламаний з першого дня  
-**Бо** FixMyStreet: ради відмовляються від інтеграції ("local council emails you back: don't use this app"); SeeClickFix: ~35% негативних відгуків — влада закриває тикети без реальної дії, прізвисько "See Click Ignore"; SaveEcoBot: "кудись" передається → нульовий retention
+**Бо** SaveEcoBot передає до Держекоінспекції — але репортер не знає, не бачить статусу, отримує формальний лист через 30 днів; FixMyStreet: ради відмовляються від інтеграції ("local council emails you back: don't use this app"); SeeClickFix: ~35% негативних відгуків — прізвисько "See Click Ignore". Проблема не у відсутності одержувача — а в непрозорості процесу після submit.
 
 ---
 
@@ -341,7 +348,7 @@ SeeClickFix: *"can we please get an easy to complete form? every time I have to 
 | **AI** | ❌ | ✅ LitterAI: Category/Object/Material/Brand з фото | ✅ авто-ідентифікація | ❌ | ✅ on-device |
 | **Гейміфікація** | ❌ | ✅ Challenges + Leaderboard (Members + Countries) | Частково (research grade) | ❌ | ✅ XP · рівні · бейджі · лідерборд |
 | **Статус** | ✅ Зрілий | ✅ B2G pivot (consumer UI залишився) | ✅ Зрілий | ✅ B2G | 🆕 Лютий 2026 |
-| **Скріни** | `dt_fixmystreet_01_home.png` · `dt_fixmystreet_02_map.png` | `litterati_01_splash.png` → `litterati_67_activity_delete_mode.png` (67 скрінів) | `dt_inaturalist_01_home.png` | `dt_seeclickfix_01_home.png` | `eyesea_playstore.png` · `eyesea_website.png` |
+| **Скріни** | — | `litterati_01_splash.png` → `litterati_67_activity_delete_mode.png` (67 скрінів) | — | — | `eyesea_playstore.png` · `eyesea_website.png` |
 
 ---
 
@@ -355,14 +362,14 @@ SeeClickFix: *"can we please get an easy to complete form? every time I have to 
 
 **3 спільні патерни**
 
-1. **Геолокація — серце продукту.** Всі без винятку будують навколо "де" як першого питання. → `ecozagroza_12_map_location_edit.png` · `dt_fixmystreet_02_map.png` · `saveecobot_07_location.png`
-2. **Фото заохочується, але не блокує.** Жоден продукт не відмовляє в submission без фото. FixMyStreet, iNaturalist, ЕкоЗагроза — всі дають ескейп-хетч. → `ecozagroza_08_add_info_sheet.png` · `dt_fixmystreet_01_home.png`
+1. **Геолокація — серце продукту.** Всі без винятку будують навколо "де" як першого питання. → `ecozagroza_12_map_location_edit.png` · `fms_03_map_around.png` · `saveecobot_07_location.png`
+2. **Фото заохочується, але не блокує.** Жоден продукт не відмовляє в submission без фото. FixMyStreet, iNaturalist, ЕкоЗагроза — всі дають ескейп-хетч. → `ecozagroza_08_add_info_sheet.png` · `fms_06_step2_photo_details.png`
 3. **Після submit — тиша.** Майже всі залишають без feedback. Виняток — FixMyStreet (публічний статус) і SeeClickFix (CRM-трекінг). Але навіть SeeClickFix не вирішив проблему якості: ~35% його відгуків — влада закриває тикети без реальної дії. Постсабміт — найслабше місце всієї ніші. → `ecozagroza_22_success.png`
 
 **3 відмінності**
 
 1. **Авторизація = компроміс між friction і довірою.** SaveEcoBot — Telegram + ПІБ при фіналізації. ЕкоЗагроза — GOV ID. Ніхто не займає середину (email + реальне ім'я) — там ми.
-2. **Одержувач звіту визначає весь продукт.** Там де є чіткий одержувач (FixMyStreet → рада) — є retention. Там де немає — retention нульовий.
+2. **Видимість одержувача визначає весь продукт.** Там де одержувач прозорий (FixMyStreet → рада) — є retention. Там де процес непрозорий (SaveEcoBot передає але репортер не бачить) — retention нульовий.
 3. **Публічність карти як механізм тиску.** Продукти з публікацією одразу (FixMyStreet, iNaturalist, Eyesea) мають кращі метрики. ЕкоЗагроза — єдиний з ручною інституційною модерацією: звіти не потрапляють на публічну карту → 3.7★. SeeClickFix — гібрид: автоматичний keyword/image фільтр + платна moderations team.
 
 **4 питання до PM**
@@ -790,9 +797,14 @@ SeeClickFix: *"can we please get an easy to complete form? every time I have to 
 ### Відкриті питання
 
 - **Інспектори:** хто вони (штатні vs волонтерські), як зараз фіксують, які болі?
-- **Цикл звіту:** верифікація → який орган → які статуси?
-- **Громадяни:** вік, мотивація, бар'єри; чи готові реєструватись з реальним іменем?
 - **Інтеграції:** формат і протокол передачі даних до держорганів?
+
+**Закрито ✓**
+- ~~Громадяни: вік, мотивація, бар'єри → дані UNDP/EPL 2022–2023~~
+- ~~Категорії для громадян → побутові відходи, повітря, вода (DIF 2015/2021)~~
+- ~~Цикл звіту → Держекоінспекція → 30 днів → лист-відповідь~~
+- ~~Типи порушень за законодавством → таксономія ЕкоЗагрози (Міндовкілля)~~
+- ~~Аналоги в Україні та світі → competitive analysis завершено~~
 
 ---
 
@@ -800,144 +812,139 @@ SeeClickFix: *"can we please get an easy to complete form? every time I have to 
 
 | Файл | Продукт | Що показує |
 |---|---|---|
-| `litterati_01_splash.png` | Litterati live | Splash: "Welcome to Litterati" · GET STARTED |
-| `litterati_02_onboarding_goal.png` | Litterati live | Goal picker: 6 варіантів мети |
-| `litterati_03_onboarding_impact_world.png` | Litterati live | Impact Your World — глобальна карта |
-| `litterati_04_onboarding_stories_error.png` | Litterati live | Stories of Impact: Error Invalid Token |
-| `litterati_05_onboarding_notifications_prompt.png` | Litterati live | Push pre-prompt ("important things in the app") |
-| `litterati_06_onboarding_notifications_ios.png` | Litterati live | iOS notifications system dialog |
-| `litterati_07_onboarding_photo_tutorial.png` | Litterati live | "Start with a photo" — AI demo |
-| `litterati_08_impact_tab.png` | Litterati live | Impact: 24 276 987 global · monthly graph |
-| `litterati_09_impact_my_activity.png` | Litterati live | Impact: My Stats 0 · Stories |
-| `litterati_10_impact_stories.png` | Litterati live | Impact: Stories of Impact cards |
-| `litterati_11_impact_stories_list.png` | Litterati live | Stories list: SF court case · Lodi · GoClean |
-| `litterati_12_activity_empty.png` | Litterati live | Activity: "No Photos" empty state |
-| `litterati_13_camera_tutorial_ai.png` | Litterati live | AI demo: Red Bull can → energydrink/can/aluminium/redbull |
-| `litterati_14_onboarding_camera_permission.png` | Litterati live | Camera permission pre-prompt |
-| `litterati_15_onboarding_camera_ios.png` | Litterati live | iOS camera permission dialog |
-| `litterati_16_onboarding_location_ios.png` | Litterati live | iOS location permission dialog |
-| `litterati_17_onboarding_good_photo.png` | Litterati live | "What is a good photo?" — 3 правила + 3 фото |
-| `litterati_18_camera_viewfinder.png` | Litterati live | Camera viewfinder — square frame |
-| `litterati_19_activity_analyzing.png` | Litterati live | Activity: "Analyzing Litter 1/1" banner |
-| `litterati_20_upload_done_register_prompt.png` | Litterati live | "Your 1st Upload Is Done!" — Later/Now |
-| `litterati_21_reg_display_name_empty.png` | Litterati live | Реєстрація: public display name (порожнє) |
-| `litterati_22_reg_display_name_filled.png` | Litterati live | Реєстрація: display name "Nick" |
-| `litterati_23_reg_username.png` | Litterati live | Реєстрація: username nick1988 (valid) |
-| `litterati_24_reg_login_details.png` | Litterati live | Реєстрація: email + password |
-| `litterati_25_reg_profile_image.png` | Litterati live | Реєстрація: profile image (optional) |
-| `litterati_26_impact_loggedin.png` | Litterati live | Impact tab після логіну |
-| `litterati_27_profile.png` | Litterati live | Profile: Nick · @nick1988 · Member Since |
-| `litterati_28_profile_bottom.png` | Litterati live | Profile: Notifications · Settings · Log Out |
-| `litterati_29_settings.png` | Litterati live | Settings: LitterAI · Wi-Fi · Location · v4.2.2 |
-| `litterati_30_upgrade_code.png` | Litterati live | Upgrade: код для B2G партнерів |
-| `litterati_31_activity_photo_untagged.png` | Litterati live | Activity: фото без тегу |
-| `litterati_32_tag_form_empty.png` | Litterati live | Tagging: порожня форма (немає AI suggestions) |
-| `litterati_33_tag_search_trash.png` | Litterati live | Tag search "trash" → ackyourtrash/trashbag |
-| `litterati_34_tag_applied.png` | Litterati live | Tag: "trashbag" applied |
-| `litterati_35_activity_tagged.png` | Litterati live | Activity: фото з тегом |
-| `litterati_36_tag_form_with_tag.png` | Litterati live | Tagging: applied tag + пошук |
-| `litterati_37_challenges_participating_empty.png` | Litterati live | Challenges: Participating — empty state |
-| `litterati_38_challenges_join_code.png` | Litterati live | Challenges: Join with code sheet |
-| `litterati_39_challenges_created_empty.png` | Litterati live | Challenges: Created/Active — empty |
-| `litterati_40_challenges_browse.png` | Litterati live | Challenges: Featured + Nearby |
-| `litterati_41_challenges_nearby.png` | Litterati live | Nearby: Lviv, Ukraine — EHS Day Hungary |
-| `litterati_42_challenges_nearby_2.png` | Litterati live | Nearby: "Pick it up" Sofia challenge |
-| `litterati_43_challenge_create_type.png` | Litterati live | Create: Start / Connect to Featured |
-| `litterati_44_challenge_create_customize_empty.png` | Litterati live | Customize: title + 3 themes |
-| `litterati_45_challenge_create_customize_filled.png` | Litterati live | Customize: "test" + theme preview |
-| `litterati_46_challenge_create_details.png` | Litterati live | Details: mission + goal pieces |
-| `litterati_47_challenge_create_map_radius_small.png` | Litterati live | Map radius: 0.1 km |
-| `litterati_48_challenge_create_map_radius_large.png` | Litterati live | Map radius: 9.6 km — Lviv |
-| `litterati_49_challenge_create_location.png` | Litterati live | Location: 9.6 km Radius of Khorvatska Street |
-| `litterati_50_challenge_create_calendar_empty.png` | Litterati live | Calendar: From/To picker (порожній) |
-| `litterati_51_challenge_create_calendar_selected.png` | Litterati live | Calendar: 8 Jun → 12 Jun selected |
-| `litterati_52_challenge_create_duration.png` | Litterati live | Duration: Monday 8 June – Friday 12 June |
-| `litterati_53_challenge_preview_top.png` | Litterati live | Preview: карта + NICK + goal 856 pieces |
-| `litterati_54_challenge_preview_bottom.png` | Litterati live | Preview: дати + учасники + LAUNCH |
-| `litterati_55_challenge_live_notification.png` | Litterati live | "Your Challenge Is Live!" — код 679580 |
-| `litterati_56_challenges_created_active.png` | Litterati live | Created/Active: "test" challenge card |
-| `litterati_57_challenge_card_preview.png` | Litterati live | Challenge card preview (bottom sheet) |
-| `litterati_58_challenge_detail.png` | Litterati live | Challenge detail: map + codes + PARTICIPATING |
-| `litterati_59_leaderboard_24h.png` | Litterati live | Leaderboard 24h Members: Nick #25 |
-| `litterati_60_leaderboard_24h_bottom.png` | Litterati live | Leaderboard 24h: кінець списку |
-| `litterati_61_leaderboard_30d.png` | Litterati live | Leaderboard 30d Members: Nick #131 |
-| `litterati_62_leaderboard_countries.png` | Litterati live | Leaderboard Countries: Lebanon #1, 35k |
-| `litterati_63_tasks_researcher_promo.png` | Litterati live | Tasks: "Apply to become a Litterati Researcher" |
-| `litterati_64_tasks_researcher_page1.png` | Litterati live | Researcher webview: "Conduct Research../" |
-| `litterati_65_tasks_researcher_page2.png` | Litterati live | Researcher: "By becoming a certified researcher" |
-| `litterati_66_tasks_researcher_page3.png` | Litterati live | Researcher: Google login form |
-| `litterati_67_activity_delete_mode.png` | Litterati live | Activity: delete mode — "DELETE 1 PHOTO" |
-| `eyesea_20_splash.png` | Eyesea live | Splash: "Empowering communities" |
-| `eyesea_21_login.png` | Eyesea live | Login: Email + Password |
-| `eyesea_22_signup_volunteer.png` | Eyesea live | Sign Up: Volunteer tab |
-| `eyesea_23_signup_seafarer.png` | Eyesea live | Sign Up: Seafarer tab (Organization required) |
-| `eyesea_24_signup_name_filled.png` | Eyesea live | Sign Up: ім'я заповнено |
-| `eyesea_25_signup_country_picker.png` | Eyesea live | Sign Up: список країн |
-| `eyesea_26_signup_org_picker.png` | Eyesea live | Sign Up: список організацій |
-| `eyesea_27_onboarding_camera.png` | Eyesea live | Онбординг: Camera slide |
-| `eyesea_28_onboarding_camera_permission.png` | Eyesea live | iOS camera permission dialog |
-| `eyesea_29_onboarding_location_permission.png` | Eyesea live | iOS location permission dialog |
-| `eyesea_30_onboarding_location.png` | Eyesea live | Онбординг: Location slide |
-| `eyesea_31_onboarding_photo_ungrant.png` | Eyesea live | Upload from History (не надано) |
-| `eyesea_32_onboarding_photo_granted.png` | Eyesea live | Upload from History (надано) |
-| `eyesea_33_onboarding_notifications.png` | Eyesea live | Онбординг: Notifications slide |
-| `eyesea_34_onboarding_get_started.png` | Eyesea live | Онбординг: Get Started |
-| `eyesea_35_explore_map_empty.png` | Eyesea live | Explore: порожня карта Львова |
-| `eyesea_36_explore_map_world.png` | Eyesea live | Explore: карта world view |
-| `eyesea_37_explore_map_layers.png` | Eyesea live | Explore: layers picker (Hotspots/Oil/MPA/MARPOL) |
-| `eyesea_38_explore_map_filters.png` | Eyesea live | Explore: filter bar |
-| `eyesea_39_explore_filter_reports.png` | Eyesea live | Filter: Reports (All/My) |
-| `eyesea_40_explore_filter_status.png` | Eyesea live | Filter: Status (Active/Recovered) |
-| `eyesea_41_explore_filter_time.png` | Eyesea live | Filter: Час (24h/3d/7d/15d/30d) |
-| `eyesea_42_notifications_empty.png` | Eyesea live | Notifications: порожній стан |
-| `eyesea_43_profile_overview.png` | Eyesea live | Profile: Overview, rank progression bar |
-| `eyesea_44_profile_my_reports.png` | Eyesea live | Profile: My Reports, порожній стан |
-| `eyesea_45_profile_settings_top.png` | Eyesea live | Settings: Theme/Language |
-| `eyesea_46_profile_settings_bottom.png` | Eyesea live | Settings: Expert Mode, Log Out, v1.0.0 |
-| `eyesea_47_events_empty.png` | Eyesea live | Events/Cleanups: порожній стан |
-| `eyesea_48_feed_world_1.png` | Eyesea live | Feed: World tab (1) |
-| `eyesea_49_feed_world_2.png` | Eyesea live | Feed: World tab (2) |
-| `eyesea_50_feed_world_3.png` | Eyesea live | Feed: World tab (3) |
-| `eyesea_01_onboarding_photo.png` | Eyesea live | Онбординг: Upload from History (середина сесії) |
-| `eyesea_02_camera.png` | Eyesea live | Камера: photo-first entry |
-| `eyesea_03_form_empty.png` | Eyesea live | Форма: 9 категорій, +45 Credits |
-| `eyesea_04_form_selected.png` | Eyesea live | Форма: вибрано Plastic/Metal/Cardboard, +58 Credits |
-| `eyesea_05_location_adjust.png` | Eyesea live | Локація: drag pin на Mapbox |
-| `eyesea_06_submit_success.png` | Eyesea live | "Report submitted successfully!" toast |
-| `eyesea_07_sync_credits.png` | Eyesea live | "Report synced! +58 credits" toast |
-| `eyesea_08_report_card_active.png` | Eyesea live | Картка: Active, ~165g, Mark as Recovered |
-| `eyesea_09_mark_recovered_dialog.png` | Eyesea live | Діалог: Mark as Recovered? |
-| `eyesea_10_report_card_recovered.png` | Eyesea live | Картка: Recovered, зелений пін |
-| `eyesea_11_feed_atsea.png` | Eyesea live | Feed: At Sea, Plastic reports |
-| `eyesea_12_feed_nearby.png` | Eyesea live | Feed: Nearby, Recovered reports |
-| `eyesea_13_leaderboard_users.png` | Eyesea live | Leaderboard: Users #24 Mykola |
-| `eyesea_14_leaderboard_orgs.png` | Eyesea live | Leaderboard: Orgs |
-| `eyesea_15_leaderboard_ships_empty.png` | Eyesea live | Leaderboard: Ships (порожній) |
-| `eyesea_16_awards_ships_empty.png` | Eyesea live | Awards: Ships podium (порожній) |
-| `eyesea_17_awards_orgs.png` | Eyesea live | Awards: Top 3 Orgs podium |
-| `eyesea_18_awards_users.png` | Eyesea live | Awards: Top 3 Users podium |
-| `eyesea_19_search.png` | Eyesea live | Search: Lviv suggestions |
-| `dt_fixmystreet_01_home.png` | FixMyStreet | Homepage, 4-крокова інфографіка, CTA |
-| `dt_fixmystreet_02_map.png` | FixMyStreet | Карта звітів |
-| `dt_fixmystreet_03_map_london.png` | FixMyStreet | Карта Лондона з піном |
-| `fms_01_my_reports.png` | FixMyStreet live | Акаунт-сторінка (no reports yet) |
-| `fms_02_homepage_loggedin.png` | FixMyStreet live | Homepage залогіненого + live stats |
-| `fms_03_map_around.png` | FixMyStreet live | Карта після EC1A 1BB |
-| `fms_04_report_form.png` | FixMyStreet live | Крок 1: карта + 23 категорії |
-| `fms_05_category_selected.png` | FixMyStreet live | Graffiti вибрано |
-| `fms_06_step2_photo_details.png` | FixMyStreet live | Крок 2: фото опційне + підказки |
-| `fms_07_step3_details.png` | FixMyStreet live | Крок 3: Title + Description + автороутинг |
-| `fms_08_step4_user.png` | FixMyStreet live | Крок 4: особисті дані, email pre-filled |
-| `fms_09_dashboard.png` | FixMyStreet live | Dashboard: all-time + 7-day stats |
-| `fms_10_report_page.png` | FixMyStreet live | Публічний репорт: статус Fixed + timeline |
-| `fms_11_report_citizen.png` | FixMyStreet live | Репорт Pothole від громадянина |
-| `fms_12_my_account.png` | FixMyStreet live | Акаунт: сповіщення + questionnaire |
-| `fms_13_report_graffiti.png` | FixMyStreet live | Graffiti репорт: фото + update form |
-| `dt_seeclickfix_01_home.png` | SeeClickFix | Homepage — B2G pivot, 311 CRM |
-| `dt_inaturalist_01_home.png` | iNaturalist | Homepage, community framing |
-| `dt_litterati_01_home.png` | Litterati | Homepage — B2G pivot, CONTACT US |
-| `dt_kyivcity_01_home.png` | Kyiv Smart City | Офіційний портал |
-| `ecozagroza_01_home.png` | ЕкоЗагроза | Головний екран, CTA "Повідомити" |
-| `ecozagroza_02_auth_gate.png` | ЕкоЗагроза | GOV ID auth gate |
-| `ecozagroza_22_success.png` | ЕкоЗагроза | SUCCESS: "Дякуємо за ваш вклад" |
-| `ecozagroza_25_map_ukraine.png` | ЕкоЗагроза | Карта України зі станціями (не звітами) |
+| `litterati_01_splash.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Splash: "Welcome to Litterati" · GET STARTED |
+| `litterati_02_onboarding_goal.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Goal picker: 6 варіантів мети |
+| `litterati_03_onboarding_impact_world.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Impact Your World — глобальна карта |
+| `litterati_04_onboarding_stories_error.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Stories of Impact: Error Invalid Token |
+| `litterati_05_onboarding_notifications_prompt.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Push pre-prompt ("important things in the app") |
+| `litterati_06_onboarding_notifications_ios.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | iOS notifications system dialog |
+| `litterati_07_onboarding_photo_tutorial.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | "Start with a photo" — AI demo |
+| `litterati_08_impact_tab.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Impact: 24 276 987 global · monthly graph |
+| `litterati_09_impact_my_activity.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Impact: My Stats 0 · Stories |
+| `litterati_10_impact_stories.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Impact: Stories of Impact cards |
+| `litterati_11_impact_stories_list.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Stories list: SF court case · Lodi · GoClean |
+| `litterati_12_activity_empty.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Activity: "No Photos" empty state |
+| `litterati_13_camera_tutorial_ai.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | AI demo: Red Bull can → energydrink/can/aluminium/redbull |
+| `litterati_14_onboarding_camera_permission.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Camera permission pre-prompt |
+| `litterati_15_onboarding_camera_ios.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | iOS camera permission dialog |
+| `litterati_16_onboarding_location_ios.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | iOS location permission dialog |
+| `litterati_17_onboarding_good_photo.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | "What is a good photo?" — 3 правила + 3 фото |
+| `litterati_18_camera_viewfinder.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Camera viewfinder — square frame |
+| `litterati_19_activity_analyzing.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Activity: "Analyzing Litter 1/1" banner |
+| `litterati_20_upload_done_register_prompt.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | "Your 1st Upload Is Done!" — Later/Now |
+| `litterati_21_reg_display_name_empty.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Реєстрація: public display name (порожнє) |
+| `litterati_22_reg_display_name_filled.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Реєстрація: display name "Nick" |
+| `litterati_23_reg_username.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Реєстрація: username nick1988 (valid) |
+| `litterati_24_reg_login_details.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Реєстрація: email + password |
+| `litterati_25_reg_profile_image.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Реєстрація: profile image (optional) |
+| `litterati_26_impact_loggedin.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Impact tab після логіну |
+| `litterati_27_profile.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Profile: Nick · @nick1988 · Member Since |
+| `litterati_28_profile_bottom.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Profile: Notifications · Settings · Log Out |
+| `litterati_29_settings.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Settings: LitterAI · Wi-Fi · Location · v4.2.2 |
+| `litterati_30_upgrade_code.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Upgrade: код для B2G партнерів |
+| `litterati_31_activity_photo_untagged.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Activity: фото без тегу |
+| `litterati_32_tag_form_empty.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Tagging: порожня форма (немає AI suggestions) |
+| `litterati_33_tag_search_trash.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Tag search "trash" → ackyourtrash/trashbag |
+| `litterati_34_tag_applied.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Tag: "trashbag" applied |
+| `litterati_35_activity_tagged.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Activity: фото з тегом |
+| `litterati_36_tag_form_with_tag.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Tagging: applied tag + пошук |
+| `litterati_37_challenges_participating_empty.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Challenges: Participating — empty state |
+| `litterati_38_challenges_join_code.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Challenges: Join with code sheet |
+| `litterati_39_challenges_created_empty.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Challenges: Created/Active — empty |
+| `litterati_40_challenges_browse.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Challenges: Featured + Nearby |
+| `litterati_41_challenges_nearby.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Nearby: Lviv, Ukraine — EHS Day Hungary |
+| `litterati_42_challenges_nearby_2.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Nearby: "Pick it up" Sofia challenge |
+| `litterati_43_challenge_create_type.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Create: Start / Connect to Featured |
+| `litterati_44_challenge_create_customize_empty.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Customize: title + 3 themes |
+| `litterati_45_challenge_create_customize_filled.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Customize: "test" + theme preview |
+| `litterati_46_challenge_create_details.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Details: mission + goal pieces |
+| `litterati_47_challenge_create_map_radius_small.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Map radius: 0.1 km |
+| `litterati_48_challenge_create_map_radius_large.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Map radius: 9.6 km — Lviv |
+| `litterati_49_challenge_create_location.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Location: 9.6 km Radius of Khorvatska Street |
+| `litterati_50_challenge_create_calendar_empty.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Calendar: From/To picker (порожній) |
+| `litterati_51_challenge_create_calendar_selected.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Calendar: 8 Jun → 12 Jun selected |
+| `litterati_52_challenge_create_duration.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Duration: Monday 8 June – Friday 12 June |
+| `litterati_53_challenge_preview_top.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Preview: карта + NICK + goal 856 pieces |
+| `litterati_54_challenge_preview_bottom.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Preview: дати + учасники + LAUNCH |
+| `litterati_55_challenge_live_notification.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | "Your Challenge Is Live!" — код 679580 |
+| `litterati_56_challenges_created_active.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Created/Active: "test" challenge card |
+| `litterati_57_challenge_card_preview.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Challenge card preview (bottom sheet) |
+| `litterati_58_challenge_detail.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Challenge detail: map + codes + PARTICIPATING |
+| `litterati_59_leaderboard_24h.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Leaderboard 24h Members: Nick #25 |
+| `litterati_60_leaderboard_24h_bottom.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Leaderboard 24h: кінець списку |
+| `litterati_61_leaderboard_30d.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Leaderboard 30d Members: Nick #131 |
+| `litterati_62_leaderboard_countries.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Leaderboard Countries: Lebanon #1, 35k |
+| `litterati_63_tasks_researcher_promo.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Tasks: "Apply to become a Litterati Researcher" |
+| `litterati_64_tasks_researcher_page1.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Researcher webview: "Conduct Research../" |
+| `litterati_65_tasks_researcher_page2.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Researcher: "By becoming a certified researcher" |
+| `litterati_66_tasks_researcher_page3.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Researcher: Google login form |
+| `litterati_67_activity_delete_mode.png` | [Litterati live](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776) | Activity: delete mode — "DELETE 1 PHOTO" |
+| `eyesea_20_splash.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Splash: "Empowering communities" |
+| `eyesea_21_login.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Login: Email + Password |
+| `eyesea_22_signup_volunteer.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Sign Up: Volunteer tab |
+| `eyesea_23_signup_seafarer.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Sign Up: Seafarer tab (Organization required) |
+| `eyesea_24_signup_name_filled.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Sign Up: ім'я заповнено |
+| `eyesea_25_signup_country_picker.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Sign Up: список країн |
+| `eyesea_26_signup_org_picker.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Sign Up: список організацій |
+| `eyesea_27_onboarding_camera.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Онбординг: Camera slide |
+| `eyesea_28_onboarding_camera_permission.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | iOS camera permission dialog |
+| `eyesea_29_onboarding_location_permission.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | iOS location permission dialog |
+| `eyesea_30_onboarding_location.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Онбординг: Location slide |
+| `eyesea_31_onboarding_photo_ungrant.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Upload from History (не надано) |
+| `eyesea_32_onboarding_photo_granted.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Upload from History (надано) |
+| `eyesea_33_onboarding_notifications.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Онбординг: Notifications slide |
+| `eyesea_34_onboarding_get_started.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Онбординг: Get Started |
+| `eyesea_35_explore_map_empty.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Explore: порожня карта Львова |
+| `eyesea_36_explore_map_world.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Explore: карта world view |
+| `eyesea_37_explore_map_layers.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Explore: layers picker (Hotspots/Oil/MPA/MARPOL) |
+| `eyesea_38_explore_map_filters.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Explore: filter bar |
+| `eyesea_39_explore_filter_reports.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Filter: Reports (All/My) |
+| `eyesea_40_explore_filter_status.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Filter: Status (Active/Recovered) |
+| `eyesea_41_explore_filter_time.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Filter: Час (24h/3d/7d/15d/30d) |
+| `eyesea_42_notifications_empty.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Notifications: порожній стан |
+| `eyesea_43_profile_overview.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Profile: Overview, rank progression bar |
+| `eyesea_44_profile_my_reports.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Profile: My Reports, порожній стан |
+| `eyesea_45_profile_settings_top.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Settings: Theme/Language |
+| `eyesea_46_profile_settings_bottom.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Settings: Expert Mode, Log Out, v1.0.0 |
+| `eyesea_47_events_empty.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Events/Cleanups: порожній стан |
+| `eyesea_48_feed_world_1.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Feed: World tab (1) |
+| `eyesea_49_feed_world_2.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Feed: World tab (2) |
+| `eyesea_50_feed_world_3.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Feed: World tab (3) |
+| `eyesea_01_onboarding_photo.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Онбординг: Upload from History (середина сесії) |
+| `eyesea_02_camera.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Камера: photo-first entry |
+| `eyesea_03_form_empty.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Форма: 9 категорій, +45 Credits |
+| `eyesea_04_form_selected.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Форма: вибрано Plastic/Metal/Cardboard, +58 Credits |
+| `eyesea_05_location_adjust.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Локація: drag pin на Mapbox |
+| `eyesea_06_submit_success.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | "Report submitted successfully!" toast |
+| `eyesea_07_sync_credits.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | "Report synced! +58 credits" toast |
+| `eyesea_08_report_card_active.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Картка: Active, ~165g, Mark as Recovered |
+| `eyesea_09_mark_recovered_dialog.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Діалог: Mark as Recovered? |
+| `eyesea_10_report_card_recovered.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Картка: Recovered, зелений пін |
+| `eyesea_11_feed_atsea.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Feed: At Sea, Plastic reports |
+| `eyesea_12_feed_nearby.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Feed: Nearby, Recovered reports |
+| `eyesea_13_leaderboard_users.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Leaderboard: Users #24 Mykola |
+| `eyesea_14_leaderboard_orgs.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Leaderboard: Orgs |
+| `eyesea_15_leaderboard_ships_empty.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Leaderboard: Ships (порожній) |
+| `eyesea_16_awards_ships_empty.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Awards: Ships podium (порожній) |
+| `eyesea_17_awards_orgs.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Awards: Top 3 Orgs podium |
+| `eyesea_18_awards_users.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Awards: Top 3 Users podium |
+| `eyesea_19_search.png` | [Eyesea live](https://apps.apple.com/ua/app/eyesea-reporting/id6758102652) | Search: Lviv suggestions |
+| `dt_fixmystreet_03_map_london.png` | [FixMyStreet](https://www.fixmystreet.com) | Карта Лондона з піном |
+| `fms_01_my_reports.png` | [FixMyStreet live](https://www.fixmystreet.com) | Акаунт-сторінка (no reports yet) |
+| `fms_02_homepage_loggedin.png` | [FixMyStreet live](https://www.fixmystreet.com) | Homepage залогіненого + live stats |
+| `fms_03_map_around.png` | [FixMyStreet live](https://www.fixmystreet.com) | Карта після EC1A 1BB |
+| `fms_04_report_form.png` | [FixMyStreet live](https://www.fixmystreet.com) | Крок 1: карта + 23 категорії |
+| `fms_05_category_selected.png` | [FixMyStreet live](https://www.fixmystreet.com) | Graffiti вибрано |
+| `fms_06_step2_photo_details.png` | [FixMyStreet live](https://www.fixmystreet.com) | Крок 2: фото опційне + підказки |
+| `fms_07_step3_details.png` | [FixMyStreet live](https://www.fixmystreet.com) | Крок 3: Title + Description + автороутинг |
+| `fms_08_step4_user.png` | [FixMyStreet live](https://www.fixmystreet.com) | Крок 4: особисті дані, email pre-filled |
+| `fms_09_dashboard.png` | [FixMyStreet live](https://www.fixmystreet.com) | Dashboard: all-time + 7-day stats |
+| `fms_10_report_page.png` | [FixMyStreet live](https://www.fixmystreet.com) | Публічний репорт: статус Fixed + timeline |
+| `fms_11_report_citizen.png` | [FixMyStreet live](https://www.fixmystreet.com) | Репорт Pothole від громадянина |
+| `fms_12_my_account.png` | [FixMyStreet live](https://www.fixmystreet.com) | Акаунт: сповіщення + questionnaire |
+| `fms_13_report_graffiti.png` | [FixMyStreet live](https://www.fixmystreet.com) | Graffiti репорт: фото + update form |
+| `dt_kyivcity_01_home.png` | [Kyiv Smart City](https://kyiv.city) | Офіційний портал |
+| `ecozagroza_01_home.png` | [ЕкоЗагроза](https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160) | Головний екран, CTA "Повідомити" |
+| `ecozagroza_02_auth_gate.png` | [ЕкоЗагроза](https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160) | GOV ID auth gate |
+| `ecozagroza_22_success.png` | [ЕкоЗагроза](https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160) | SUCCESS: "Дякуємо за ваш вклад" |
+| `ecozagroza_25_map_ukraine.png` | [ЕкоЗагроза](https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160) | Карта України зі станціями (не звітами) |
