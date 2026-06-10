@@ -400,6 +400,7 @@
     .sc5 { background: var(--accent); color: #000; }
     td.c { text-align: center; }
     .total { font-weight: 700; font-size: 15px; font-family: var(--mono); }
+    .row-total td { border-top: 1px solid var(--accent-border) !important; border-bottom: none !important; background: var(--accent-dim); }
 
     /* ── TAGS ────────────────────────────────────────────── */
     .tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 10px; font-family: var(--mono); }
@@ -427,7 +428,7 @@
     details.product-flow[open] > summary { border-bottom: 1px solid var(--border); }
     details.product-flow > *:not(summary) { padding: 16px 20px 0; }
     details.product-flow > .cards { padding: 16px 20px 20px; }
-    details.product-flow > .warn-box { margin: 16px 20px 20px; }
+    details.product-flow > .warn-box { margin: 16px 20px 20px; padding: 11px 15px; }
     details.product-flow > .flow { padding: 12px 20px 0; }
     details.product-flow > div[style] { padding-left: 20px; padding-right: 20px; }
     details.flow-section { margin: 12px 0 6px; }
@@ -510,32 +511,8 @@
     @media (max-width: 680px) { .two-col { grid-template-columns: 1fr; } }
 
     /* ── TOOLTIPS ────────────────────────────────────────── */
-    [data-tip] { position: relative; cursor: help; border-bottom: 1px dashed var(--border2); }
-    [data-tip]::after {
-      content: attr(data-tip);
-      position: absolute;
-      left: 0; bottom: calc(100% + 8px); top: auto;
-      background: var(--surface2);
-      color: var(--text-2);
-      font-size: 12px;
-      font-weight: 400;
-      text-transform: none;
-      letter-spacing: 0;
-      line-height: 1.55;
-      padding: 10px 14px;
-      border-radius: 8px;
-      border: 1px solid var(--border2);
-      width: 300px;
-      max-width: 80vw;
-      z-index: 500;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity .15s;
-      box-shadow: 0 4px 20px rgba(0,0,0,.6);
-      white-space: normal;
-      word-break: normal;
-    }
-    [data-tip]:hover::after { opacity: 1; }
+    [data-tip] { cursor: help; border-bottom: 1px dashed var(--border2); }
+    #js-tooltip { position: fixed; z-index: 9999; pointer-events: none; opacity: 0; transition: opacity .15s; background: var(--surface2); color: var(--text-2); font-size: 12px; font-weight: 400; text-transform: none; letter-spacing: 0; line-height: 1.55; padding: 10px 14px; border-radius: 8px; border: 1px solid var(--border2); width: 300px; max-width: 80vw; box-shadow: 0 4px 20px rgba(0,0,0,.6); white-space: normal; word-break: normal; }
 
     /* ── LIGHTBOX ────────────────────────────────────────── */
     #lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.92); z-index: 1000; align-items: center; justify-content: center; backdrop-filter: blur(8px); }
@@ -694,7 +671,7 @@
 
     <h3>Прямі конкуренти (Україна)</h3>
     <div class="cards">
-      <div class="card">
+      <div class="card" style="border-color:var(--accent);box-shadow:0 0 0 1px var(--accent-border),0 4px 24px rgba(200,255,0,.07);">
         <h4><a href="https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160" target="_blank">ЕкоЗагроза</a> <span class="tag hard" style="margin:0 0 0 4px;font-size:10px;vertical-align:middle">HARD</span></h4>
         <p>Щоб подати перший звіт, треба увійти через GOV ID і заповнити профіль. Карта показує станції моніторингу повітря, а не скарги від людей.</p>
       </div>
@@ -1053,25 +1030,25 @@
     <div class="tw">
       <table>
         <thead>
-          <tr><th></th><th><a href="https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160" target="_blank">ЕкоЗагроза</a></th><th><a href="https://play.google.com/store/apps/details?id=ee.ut.ecomap" target="_blank">EcoMap</a> (Borysenko)</th><th><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a></th><th><a href="https://kyiv.city" target="_blank">Kyiv Smart City</a></th></tr>
+          <tr><th></th><th><a href="https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160" target="_blank">ЕкоЗагроза</a></th><th><a href="https://play.google.com/store/apps/details?id=ee.ut.ecomap" target="_blank">EcoMap</a></th><th><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a></th></tr>
         </thead>
         <tbody>
-          <tr><td>Розробник</td><td>Міндовкілля + Мінцифри</td><td>Студент (Univ. of Tartu)</td><td>SaveEco команда</td><td>Київська міська рада</td></tr>
-          <tr><td>Аудиторія</td><td>Громадяни з GOV ID</td><td>Громадяни</td><td>Еко-активісти, журналісти</td><td>Мешканці Києва</td></tr>
-          <tr><td>Основа</td><td>Фіксація загроз + моніторинг повітря</td><td>Карта порушень</td><td>Telegram-бот</td><td>Міський портал</td></tr>
-          <tr><td>Кроків до submit</td><td><strong>7+</strong></td><td>~4–5</td><td><strong>14+</strong></td><td>—</td></tr>
-          <tr><td>Карта</td><td>Є (станції, не звіти)</td><td>Є</td><td>Немає</td><td>Мінімально</td></tr>
-          <tr><td>Ідентичність</td><td>GOV ID</td><td>Реєстрація</td><td>Telegram + ПІБ при фіналізації</td><td>—</td></tr>
-          <tr><td>Після submit</td><td>Номер без пояснення</td><td>Невідомо</td><td>Нічого</td><td>—</td></tr>
-          <tr><td>Завантажень</td><td><strong>5 000+</strong></td><td>100+</td><td>—</td><td>—</td></tr>
-          <tr><td>Рейтинг</td><td>3.7★ (79 відг.)</td><td>—</td><td>—</td><td>—</td></tr>
-          <tr><td>Статус</td><td>Лип. 2024 ✅</td><td>Лют. 2023 ⚠</td><td>Активний ✅</td><td>Активний ✅</td></tr>
+          <tr><td>Розробник</td><td>Міндовкілля + Мінцифри</td><td>Студент (Univ. of Tartu)</td><td>SaveEco команда</td></tr>
+          <tr><td>Аудиторія</td><td>Громадяни з GOV ID</td><td>Громадяни</td><td>Еко-активісти, журналісти</td></tr>
+          <tr><td>Основа</td><td>Фіксація загроз + моніторинг повітря</td><td>Карта порушень</td><td>Telegram-бот</td></tr>
+          <tr><td>Кроків до submit</td><td><strong>7+</strong></td><td>~4–5</td><td><strong>14+</strong></td></tr>
+          <tr><td>Карта</td><td>Є (станції, не звіти)</td><td>Є</td><td>Немає</td></tr>
+          <tr><td>Ідентичність</td><td>GOV ID</td><td>Реєстрація</td><td>Telegram + ПІБ при фіналізації</td></tr>
+          <tr><td>Після submit</td><td>Номер без пояснення</td><td>Невідомо</td><td>Нічого</td></tr>
+          <tr><td>Завантажень</td><td><strong>5 000+</strong></td><td>100+</td><td>—</td></tr>
+          <tr><td>Рейтинг</td><td>3.7★ (79 відг.)</td><td>—</td><td>—</td></tr>
+          <tr><td>Статус</td><td>Лип. 2024 ✅</td><td>Лют. 2023 ⚠</td><td>Активний ✅</td></tr>
         </tbody>
       </table>
     </div>
     <div class="cards">
       <div class="card"><h4><a href="https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160" target="_blank">ЕкоЗагроза</a> — головний конкурент</h4><p>5k завантажень, 3.7★. GOV ID gate + профіль-гейт = 2 бар'єри. reCAPTCHA на формі. Карта показує станції, а НЕ звіти.</p></div>
-      <div class="card"><h4><a href="https://play.google.com/store/apps/details?id=ee.ut.ecomap" target="_blank">EcoMap</a> (Borysenko)</h4><p>Студентський проект з тією самою ідеєю. 100+ завантажень, покинутий лют. 2023.</p></div>
+      <div class="card"><h4><a href="https://play.google.com/store/apps/details?id=ee.ut.ecomap" target="_blank">EcoMap</a></h4><p>Студентський проект з тією самою ідеєю. 100+ завантажень, покинутий лют. 2023.</p></div>
       <div class="card"><h4><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a></h4><p>Розширився на фіксацію воєнних екозбитків поруч зі звичайними скаргами. Telegram = нульовий бар'єр входу, але реальний флоу — 14+ кроків, а на кроці 14 вимагається повне ПІБ + GDPR-згода.</p></div>
     </div>
     <div class="info-box" style="margin-top:16px;margin-bottom:0">💡 Ніша майже порожня. ЕкоЗагроза є, але занедбана. Eyesea — єдиний свіжий гравець з правильними UX-патернами, але в іншій ніші (море).</div>
@@ -1189,7 +1166,7 @@
           <tr><td data-tip="Наскільки легко зробити перший крок — реєстрація, навчання, перша дія. Оцінка зворотня: 5 = бар'єр мінімальний, 1 = бар'єр критичний.">Бар'єр першого внеску</td><td class="c"><span class="sc sc5">5</span></td><td class="c"><span class="sc sc4">4</span></td><td class="c"><span class="sc sc5">5</span></td><td class="c"><span class="sc sc4">4</span></td><td class="c"><span class="sc sc5">5</span></td></tr>
           <tr><td data-tip="Чи є конкретна причина повернутись після першої дії — нотифікація про статус звіту, оновлення від влади, відповідь спільноти.">Петля повернення</td><td class="c"><span class="sc sc5">5</span></td><td class="c"><span class="sc sc4">4</span></td><td class="c"><span class="sc sc5">5</span></td><td class="c"><span class="sc sc3">3</span></td><td class="c"><span class="sc sc4">4</span></td></tr>
           <tr><td data-tip="Відчуття що ти частина чогось більшого — спільноти, наукового проєкту, зміни міста. Довгостроковий мотиватор що тримає без зовнішніх нагород.">Відчуття причетності</td><td class="c"><span class="sc sc4">4</span></td><td class="c"><span class="sc sc5">5</span></td><td class="c"><span class="sc sc2">2</span></td><td class="c"><span class="sc sc3">3</span></td><td class="c"><span class="sc sc2">2</span></td></tr>
-          <tr style="background:var(--gray-50)"><td><strong>Сума</strong></td><td class="c"><span class="total">36</span></td><td class="c"><span class="total">33</span></td><td class="c"><span class="total">31</span></td><td class="c"><span class="total">26</span></td><td class="c"><span class="total">30</span></td></tr>
+          <tr class="row-total"><td><strong>Сума</strong></td><td class="c"><span class="total">36</span></td><td class="c"><span class="total">33</span></td><td class="c"><span class="total">31</span></td><td class="c"><span class="total">26</span></td><td class="c"><span class="total">30</span></td></tr>
         </tbody>
       </table>
     </div>
@@ -1247,6 +1224,14 @@
     <details class="product-flow">
     <summary><h3><a href="https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160" target="_blank">ЕкоЗагроза</a></h3></summary>
 
+    <div class="cards">
+      <div class="card"><h4>GOV ID — реальна верифікація ціною масового доступу</h4><p>Єдиний продукт ніші де авторизація прив'язана до паспорта. Звіт гарантовано від реальної особи — максимальна довіра до даних. Зворотній бік: більшість не доходить до першого звіту.</p></div>
+      <div class="card"><h4>Офіційний одержувач з повноваженнями</h4><p>Єдиний застосунок де звіти йдуть напряму до Міндовкілля — органу з реальними повноваженнями реагувати. Одержувач зрозумілий, але невидимий після submit — статус звіту не показується.</p></div>
+      <div class="card"><h4>Ескейп-хетч без фото</h4><p>Bottom sheet при старті: "Додати без фото" — явна альтернатива, не тупик. Фото стимулюється але не блокує подачу.</p></div>
+      <div class="card"><h4>Google Maps picker для локації</h4><p>Повна карта з піном і "Зберегти 📍" — ручне коригування координат, не лише GPS. Але GPS-залежність на вході залишається бар'єром (підтверджено відгуками).</p></div>
+    </div>
+    <div class="warn-box">⚠ reCAPTCHA з'являється прямо у формі — на мобільному це незручно і відлякує. Карта показує станції моніторингу повітря, а не звіти людей: після подачі звіт там не з'являється. Успішна відправка підтверджується числом, але без пояснення що відбудеться далі. Категорії написані мовою інспектора — мешканець не знає що вибрати.</div>
+
     <details class="flow-section"><summary>Авторизація (3 бар'єри до першого звіту)</summary>
     <div class="flow">
       <div class="fstep"><div class="fnum warn">!</div><div><strong>GOV ID gate</strong><em>"Недоступно — Увійдіть через GOV ID" — тільки GOV ID, немає email/пароль</em></div><img class="fthumb" src="/research/screens/ecozagroza_02_auth_gate.png" alt="02 Auth gate" loading="lazy"></div>
@@ -1266,25 +1251,30 @@
       <div class="fstep"><div class="fnum">7</div><div><strong>SUCCESS: "Дякуємо за ваш вклад у перемогу!"</strong><em>Ілюстрація солдата + номер #007446 — без пояснення що далі</em></div><img class="fthumb" src="/research/screens/ecozagroza_22_success.png" alt="22 Success" loading="lazy"></div>
     </div>
     </details>
-    <div class="warn-box">⚠ <strong>Критичні проблеми:</strong> reCAPTCHA на мобілі · Карта = станції моніторингу, НЕ звіти · Success screen не пояснює що буде з звітом · Категорії для інспекторів, не громадян</div>
     </details>
 
     <details class="product-flow">
     <summary><h3><a href="https://www.inaturalist.org" target="_blank">iNaturalist</a></h3></summary>
-    <div class="flow">
-      <div class="fstep"><div class="fnum">1</div><div><strong>Фото першим</strong><em>"Drag & drop photos or sounds" — photo-first entry</em></div><img class="fthumb" src="/research/screens/inaturalist_01_upload.png" alt="01 Upload" loading="lazy"></div>
-      <div class="fstep"><div class="fnum">2</div><div><strong>Форма з auto-fill</strong><em>Species (пошук), Date (з EXIF), Location (з EXIF)</em></div><img class="fthumb" src="/research/screens/inaturalist_02_form.png" alt="02 Form" loading="lazy"></div>
-      <div class="fstep"><div class="fnum">3</div><div><strong>"Submit 1 observation"</strong><em>Persistent CTA → "Needs ID" → на карті одразу</em></div><img class="fthumb" src="/research/screens/inaturalist_08_card_preview.png" alt="08 Card preview" loading="lazy"></div>
-    </div>
     <div class="cards">
       <div class="card"><h4>Auto-fill з EXIF</h4><p>Дата і локація витягуються з метаданих фото. Нічого зайвого вводити.</p></div>
       <div class="card"><h4>"Needs ID" — елегантний постсабміт</h4><p>Не "скарга на розгляді" — запрошення спільноти ідентифікувати. Публікується одразу.</p></div>
       <div class="card"><h4>Ескейп-хетч</h4><p>"Use X as placeholder" — якщо вид невідомий. Ніколи не тупик.</p></div>
     </div>
+    <div class="flow">
+      <div class="fstep"><div class="fnum">1</div><div><strong>Фото першим</strong><em>"Drag & drop photos or sounds" — photo-first entry</em></div><img class="fthumb" src="/research/screens/inaturalist_01_upload.png" alt="01 Upload" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">2</div><div><strong>Форма з auto-fill</strong><em>Species (пошук), Date (з EXIF), Location (з EXIF)</em></div><img class="fthumb" src="/research/screens/inaturalist_02_form.png" alt="02 Form" loading="lazy"></div>
+      <div class="fstep"><div class="fnum">3</div><div><strong>"Submit 1 observation"</strong><em>Persistent CTA → "Needs ID" → на карті одразу</em></div><img class="fthumb" src="/research/screens/inaturalist_08_card_preview.png" alt="08 Card preview" loading="lazy"></div>
+    </div>
     </details>
 
     <details class="product-flow">
     <summary><h3><a href="https://t.me/SaveEcoBot" target="_blank">SaveEcoBot</a></h3></summary>
+    <div class="cards">
+      <div class="card"><h4>Освітній контент по категорії</h4><p>Кожна категорія відкривається фото-ілюстрацією і поясненням чому цей тип забруднення шкідливий — до того як бот щось питає. Навчає і мотивує одночасно, але додає крок.</p></div>
+      <div class="card"><h4>Чернетка при скасуванні</h4><p>Якщо флоу перервати, бот пропонує зберегти скаргу як чернетку і завершити пізніше. Невеликий ретенційний механізм без нав'язливих сповіщень.</p></div>
+      <div class="card"><h4>Ескейп-хетч без тупика</h4><p>"Не знаю забруднювача" — явний вихід на кроці 6. Бот не блокує флоу якщо у користувача немає всіх даних про порушника.</p></div>
+      <div class="card"><h4>ПІБ — не анонімно</h4><p>На кроці 14 бот вимагає повне прізвище, ім'я та по батькові (мін. 20 символів) і GDPR-згоду. Ескейп "тільки шаблон" обходить це — але без офіційного сабміту. Telegram-вхід = нульовий бар'єр на вході, friction накопичується в кінці.</p></div>
+    </div>
     <div class="flow">
       <div class="fstep"><div class="fnum">1</div><div><strong>Welcome splash</strong><em>Опис місії + кнопка START</em></div><img class="fthumb" src="/research/screens/saveecobot_01_welcome.png" alt="01 Welcome" loading="lazy"></div>
       <div class="fstep"><div class="fnum">2</div><div><strong>Головне меню</strong><em>Якість повітря / Поскаржитись / Функції / Налаштування — quick-reply кнопки</em></div><img class="fthumb" src="/research/screens/saveecobot_02_main_menu.png" alt="02 Main menu" loading="lazy"></div>
@@ -1301,17 +1291,16 @@
       <div class="fstep"><div class="fnum">13</div><div><strong>GDPR-згода</strong><em>Privacy policy → "✅ Так, я згоден"</em></div><img class="fthumb" src="/research/screens/saveecobot_14_consent.png" alt="14 Consent" loading="lazy"></div>
       <div class="fstep"><div class="fnum">14</div><div><strong>ПІБ (прізвище + ім'я + по батькові)</strong><em>Мін. 20 символів; ескейп: "Бажаю тільки шаблон скарги"</em></div><img class="fthumb" src="/research/screens/saveecobot_15_identity.png" alt="15 Identity" loading="lazy"></div>
     </div>
-
-    <div class="cards">
-      <div class="card"><h4>Освітній контент по категорії</h4><p>Кожна категорія відкривається фото-ілюстрацією і поясненням чому цей тип забруднення шкідливий — до того як бот щось питає. Навчає і мотивує одночасно, але додає крок.</p></div>
-      <div class="card"><h4>Чернетка при скасуванні</h4><p>Якщо флоу перервати, бот пропонує зберегти скаргу як чернетку і завершити пізніше. Невеликий ретенційний механізм без нав'язливих сповіщень.</p></div>
-      <div class="card"><h4>Ескейп-хетч без тупика</h4><p>"Не знаю забруднювача" — явний вихід на кроці 6. Бот не блокує флоу якщо у користувача немає всіх даних про порушника.</p></div>
-      <div class="card"><h4>ПІБ — не анонімно</h4><p>На кроці 14 бот вимагає повне прізвище, ім'я та по батькові (мін. 20 символів) і GDPR-згоду. Ескейп "тільки шаблон" обходить це — але без офіційного сабміту. Telegram-вхід = нульовий бар'єр на вході, friction накопичується в кінці.</p></div>
-    </div>
     </details>
 
     <details class="product-flow">
     <summary><h3><a href="https://www.fixmystreet.com" target="_blank">FixMyStreet</a></h3></summary>
+    <div class="cards">
+      <div class="card"><h4>Автороутинг — core mechanic</h4><p>Ради підключені заздалегідь. Звіт потрапляє до відповідального автоматично, без дій від користувача. &lt;1 хвилини.</p></div>
+      <div class="card"><h4>Transparency default</h4><p>"Show name publicly" ввімкнено за замовчуванням. Підвищує довіру до звіту і зменшує спам.</p></div>
+      <div class="card"><h4>Community resolution</h4><p>Будь-хто може позначити репорт як виправлений. Questionnaire-система відправляє email-запит автору через тижні.</p></div>
+    </div>
+    <div class="warn-box" style="background:rgba(52,199,89,0.06);border-color:rgba(52,199,89,0.3);color:var(--green)">✅ Станом на 7 червня 2026: понад 7,6 мільйона звітів на платформі, 39% з усіх колись поданих уже вирішені. Щотижня надходить близько 27 630 нових звітів — і <strong>73% з них закриваються за той самий тиждень</strong>. Найпопулярніші категорії: незаконне смітникування, ями на дорогах і графіті.</div>
     <div class="flow">
       <div class="fstep"><div class="fnum">0</div><div><strong>Homepage → поштовий індекс</strong><em>Єдине поле, CTA "Go". Live stats: 7.6M звітів</em></div><img class="fthumb" src="/research/screens/fms_02_homepage_loggedin.png" alt="Homepage" loading="lazy"></div>
       <div class="fstep"><div class="fnum">1</div><div><strong>Карта → пін + категорія</strong><em>23 категорії з пошуковим рядком. Click to place — Graffiti selected</em></div><img class="fthumb" src="/research/screens/fms_05_category_selected.png" alt="Category" loading="lazy"></div>
@@ -1328,17 +1317,18 @@
       <div class="fstep"><div class="fnum">✓</div><div><strong>Timeline статусів</strong><em>"State changed to: In progress" → "State changed to: Fixed" — ким і коли</em></div><img class="fthumb" src="/research/screens/fms_10_report_page.png" alt="Timeline" loading="lazy"></div>
     </div>
     </details>
-
-    <div class="cards">
-      <div class="card"><h4>Автороутинг — core mechanic</h4><p>Ради підключені заздалегідь. Звіт потрапляє до відповідального автоматично, без дій від користувача. &lt;1 хвилини.</p></div>
-      <div class="card"><h4>Transparency default</h4><p>"Show name publicly" ввімкнено за замовчуванням. Підвищує довіру до звіту і зменшує спам.</p></div>
-      <div class="card"><h4>Community resolution</h4><p>Будь-хто може позначити репорт як виправлений. Questionnaire-система відправляє email-запит автору через тижні.</p></div>
-    </div>
-    <div class="warn-box" style="background:rgba(52,199,89,0.06);border-left-color:#34C759">✅ <strong>Dashboard (2026-06-07):</strong> 7 614 632 звітів · 39% виправлено lifetime · 27 630/тиждень · <strong>73% вирішуваність за тиждень</strong> · Flytipping/Pothole/Graffiti — топ-3 категорії</div>
     </details>
 
     <details class="product-flow">
     <summary><h3><a href="https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776" target="_blank">Litterati</a></h3></summary>
+
+    <div class="cards">
+      <div class="card"><h4>Upload-first без реєстрації</h4><p>Фото → AI аналіз → "Your 1st Upload Is Done!" → лише потім "Register Now". Найнижчий бар'єр входу серед усіх продуктів ніші.</p></div>
+      <div class="card"><h4>LitterAI: Category / Object / Material / Brand</h4><p>Автоматично з фото. Пошук тегів з саджестами. Але AI suggestions часто порожні — людина мусить шукати самостійно.</p></div>
+      <div class="card"><h4>Challenge system з географічним радіусом</h4><p>Організації і муніципалітети створюють cleanup-події: назва → тема → мета → радіус (0.1–9.6 km) → дата → код запрошення. Реальний результат (pieces picked up), не абстрактні бали.</p></div>
+      <div class="card"><h4>Leaderboard: Members + Countries</h4><p>Last 24h / 30 days. Змагальність між спільнотами (Lebanon #1 · 35 714 Pieces) ефективніша ніж між індивідуалами. Goal picker на старті персоналізує досвід.</p></div>
+    </div>
+    <div class="warn-box">⚠ Карти як окремого екрану немає — побачити де зібрано сміття поруч можна лише всередині якогось Challenge. Теги для фото не інтуїтивні: AI часто не пропонує жодного варіанту і доводиться шукати самостійно. Challenges і функція Upgrade доступні тільки через запрошувальний код — для звичайного користувача це закрито. Під час онбордингу розділ «Stories of Impact» показує помилку Invalid Token.</div>
 
     <details class="flow-section"><summary>Онбординг (без реєстрації)</summary>
     <div class="flow">
@@ -1426,18 +1416,17 @@
       <div class="fstep"><div class="fnum">P</div><div><strong>Upgrade (B2G gate)</strong><em>"Enter or paste code to upgrade account" — закритий для звичайних користувачів</em></div><img class="fthumb" src="/research/screens/litterati_30_upgrade_code.png" alt="Upgrade" loading="lazy"></div>
     </div>
     </details>
-
-    <div class="cards">
-      <div class="card"><h4>Upload-first без реєстрації</h4><p>Фото → AI аналіз → "Your 1st Upload Is Done!" → лише потім "Register Now". Найнижчий бар'єр входу серед усіх продуктів ніші.</p></div>
-      <div class="card"><h4>LitterAI: Category / Object / Material / Brand</h4><p>Автоматично з фото. Пошук тегів з саджестами. Але AI suggestions часто порожні — людина мусить шукати самостійно.</p></div>
-      <div class="card"><h4>Challenge system з географічним радіусом</h4><p>Організації і муніципалітети створюють cleanup-події: назва → тема → мета → радіус (0.1–9.6 km) → дата → код запрошення. Реальний результат (pieces picked up), не абстрактні бали.</p></div>
-      <div class="card"><h4>Leaderboard: Members + Countries</h4><p>Last 24h / 30 days. Змагальність між спільнотами (Lebanon #1 · 35 714 Pieces) ефективніша ніж між індивідуалами. Goal picker на старті персоналізує досвід.</p></div>
-    </div>
-    <div class="warn-box">⚠ <strong>Тертя і обмеження:</strong> Немає карти як основного екрану — карта тільки в Challenges. Tagging не інтуїтивний — AI suggestions часто відсутні. B2G pivot: Challenges і Upgrade тільки через код. "Stories of Impact" — Error: Invalid Token під час онбордингу.</div>
     </details>
 
     <details class="product-flow">
     <summary><h3><a href="https://apps.apple.com/ua/app/eyesea-reporting/id6758102652" target="_blank">Eyesea</a></h3></summary>
+
+    <div class="cards">
+      <div class="card"><h4>Credits instant feedback</h4><p>Кількість credits видна на кнопці Submit і зростає при виборі кожної категорії. Instant reward без необхідності завершити подачу.</p></div>
+      <div class="card"><h4>Offline-first архітектура</h4><p>Два окремих тости: "submitted" (локально) → "synced" (сервер). Чесний UX — не бреше про стан мережі.</p></div>
+      <div class="card"><h4>AI weight estimation</h4><p>~165g — оцінка ваги сміття автоматично з фото, без введення. Expert Mode — AI bounding boxes у камері.</p></div>
+      <div class="card"><h4>Leaderboard: Users / Orgs / Ships</h4><p>B2B retention: організації і судна змагаються окремо. Нова механіка, якої немає в жодному іншому продукті ніші.</p></div>
+    </div>
 
     <details class="flow-section"><summary>Онбординг і реєстрація</summary>
     <div class="flow">
@@ -1528,14 +1517,6 @@
       <div class="fstep"><div class="fnum">P</div><div><strong>Events / Cleanups</strong><em>"No upcoming events · Check back later"</em></div><img class="fthumb" src="/research/screens/eyesea_47_events_empty.png" alt="Events" loading="lazy"></div>
     </div>
     </details>
-
-    <div class="cards">
-      <div class="card"><h4>Credits instant feedback</h4><p>Кількість credits видна на кнопці Submit і зростає при виборі кожної категорії. Instant reward без необхідності завершити подачу.</p></div>
-      <div class="card"><h4>Offline-first архітектура</h4><p>Два окремих тости: "submitted" (локально) → "synced" (сервер). Чесний UX — не бреше про стан мережі.</p></div>
-      <div class="card"><h4>AI weight estimation</h4><p>~165g — оцінка ваги сміття автоматично з фото, без введення. Expert Mode — AI bounding boxes у камері.</p></div>
-      <div class="card"><h4>Leaderboard: Users / Orgs / Ships</h4><p>B2B retention: організації і судна змагаються окремо. Нова механіка, якої немає в жодному іншому продукті ніші.</p></div>
-    </div>
-    <div class="warn-box">⚠ <strong>Обмеження для District Care:</strong> всі 9 категорій — морське сміття. "At Sea" як дефолт. 5 onboarding-слайдів з системними дозволами. Events — порожні.</div>
     </details>
   </div>
 </section>
@@ -2008,6 +1989,23 @@
 
   window.addEventListener('hashchange', applyView);
   applyView();
+
+  // Cursor-following tooltip
+  const jsTip = document.createElement('div');
+  jsTip.id = 'js-tooltip';
+  document.body.appendChild(jsTip);
+  function positionTip(e) {
+    const pad = 14, tw = 300, th = jsTip.offsetHeight;
+    const x = e.clientX + pad;
+    const y = e.clientY + pad;
+    jsTip.style.left = (x + tw > window.innerWidth  ? e.clientX - tw - pad : x) + 'px';
+    jsTip.style.top  = (y + th > window.innerHeight ? e.clientY - th - pad : y) + 'px';
+  }
+  document.querySelectorAll('[data-tip]').forEach(el => {
+    el.addEventListener('mouseenter', e => { jsTip.textContent = el.dataset.tip; jsTip.style.opacity = '1'; positionTip(e); });
+    el.addEventListener('mousemove', positionTip);
+    el.addEventListener('mouseleave', () => { jsTip.style.opacity = '0'; });
+  });
 </script>
 </div><!-- /raw-content -->
 </div><!-- /page-body -->

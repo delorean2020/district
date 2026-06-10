@@ -290,7 +290,7 @@ SeeClickFix: *"can we please get an easy to complete form? every time I have to 
 
 ### HARD — той самий продукт, Україна
 
-| | **[ЕкоЗагроза](https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160)** | **[EcoMap](https://play.google.com/store/apps/details?id=ee.ut.ecomap)** (Borysenko) | **[SaveEcoBot](https://t.me/SaveEcoBot)** | **[Kyiv Smart City](https://kyiv.city)** |
+| | **[ЕкоЗагроза](https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160)** | **[EcoMap](https://play.google.com/store/apps/details?id=ee.ut.ecomap)** | **[SaveEcoBot](https://t.me/SaveEcoBot)** | **[Kyiv Smart City](https://kyiv.city)** |
 |---|---|---|---|---|
 | **Розробник** | Міндовкілля + Мінцифри | Студент (Univ. of Tartu) | SaveEco команда | Київська міська рада |
 | **Аудиторія** | Громадяни України | Громадяни | Еко-активісти, журналісти | Мешканці Києва |
@@ -303,11 +303,11 @@ SeeClickFix: *"can we please get an easy to complete form? every time I have to 
 | **Завантажень** | **5,000+** | 100+ | — | — |
 | **Рейтинг** | 3.7★ (79 відгуків) | — | — | — |
 | **Останнє оновлення** | Лип. 2024 ✅ | Лют. 2023 ⚠️ | Активний ✅ | Активний ✅ |
-| **Скріни** | `ecozagroza_store.png` | `ecomap_borysenko_store.png` | `saveecobot_01_welcome.png` | `dt_kyivcity_01_home.png` |
+| **Скріни** | `ecozagroza_store.png` | — | `saveecobot_01_welcome.png` | `dt_kyivcity_01_home.png` |
 
 **Спостереження:**
 - **ЕкоЗагроза** — наш головний прямий конкурент. Офіційний державний додаток з тою самою ідеєю. 5k завантажень і рейтинг 3.7★ — люди встановлюють, але не задоволені. Авторизація тільки через GOV ID (не email/пароль) + обов'язкове заповнення профілю до першого звіту = 2 бар'єри до взаємодії з продуктом. reCAPTCHA на формі. Карта показує станції моніторингу якості повітря, **а не звіти користувачів** — користувач не бачить своїх сабмішенів на карті. → `ecozagroza_store.png` · `ecozagroza_02_auth_gate.png` · `ecozagroza_25_map_ukraine.png`
-- **[EcoMap (Borysenko)](https://play.google.com/store/apps/details?id=ee.ut.ecomap)** — студентський проект з тою самою ідеєю що і District Care. 100+ завантажень за роки, покинутий. Питання: чому не злетів? Відсутність аудиторії, маркетингу, або продукт був поганий? → `ecomap_borysenko_store.png`
+- **[EcoMap](https://play.google.com/store/apps/details?id=ee.ut.ecomap)** — студентський проект з тою самою ідеєю що і District Care. 100+ завантажень за роки, покинутий. Питання: чому не злетів? Відсутність аудиторії, маркетингу, або продукт був поганий?
 - **SaveEcoBot** — переорієнтувався на воєнні злочини проти довкілля. Не прямий конкурент, але бореться за ту саму еко-аудиторію. Telegram = нульовий бар'єр входу, але реальний флоу — 14+ кроків, а на кроці 14 вимагається повне ПІБ + GDPR-згода. → `saveecobot_01_welcome.png` · `saveecobot_02_main_menu.png` · `saveecobot_15_identity.png`
 
 ---
@@ -785,7 +785,7 @@ SeeClickFix: *"can we please get an easy to complete form? every time I have to 
 | Додаток | Платформа | Завант. | Рейтинг | Релевантний | Примітка |
 |---|---|---|---|---|---|
 | **[ЕкоЗагроза](https://apps.apple.com/ua/app/%D0%B5%D0%BA%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D0%BE%D0%B7%D0%B0/id1621296160)** | Android + iOS | 5k+ / 18 відг. | 3.7★ / 4.2★ | ✅ HARD | Офіційний Міндовкілля |
-| **[EcoMap](https://play.google.com/store/apps/details?id=ee.ut.ecomap)** (Borysenko) | Android | 100+ | — | ✅ HARD | Студент, покинутий лют.2023 |
+| **[EcoMap](https://play.google.com/store/apps/details?id=ee.ut.ecomap)** | Android | 100+ | — | ✅ HARD | Студент, покинутий лют.2023 |
 | **[Eyesea Reporting](https://play.google.com/store/apps/details?id=com.mariussuteu.eyesea.eyeseareporting)** | Android + iOS | 50+ | 0 відг. | ✅ ASPIRATIONAL | Новий (лют.2026), морський фокус |
 | **[SeeClickFix](https://apps.apple.com/ua/app/seeclickfix/id322000552)** | iOS | — | 4.6★ / 7,887 відг. | ✅ ASPIRATIONAL | Civic reporting |
 | **[Litterati](https://apps.apple.com/ua/app/litterati-cleaning-the-earth/id982782776)** | iOS (+ Android) | — | — | ✅ ASPIRATIONAL | Litter AI tagging + Challenges; B2G pivot, v4.2.2 |
